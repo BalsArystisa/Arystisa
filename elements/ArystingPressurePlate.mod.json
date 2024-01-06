@@ -2,20 +2,21 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "arysting_log_top",
-    "textureTop": "arysting_log_top",
-    "textureLeft": "arysting_log",
-    "textureFront": "arysting_log",
-    "textureRight": "arysting_log",
-    "textureBack": "arysting_log",
-    "renderType": 10,
-    "customModelName": "Normal",
-    "rotationMode": 5,
+    "texture": "arysting_planks",
+    "textureTop": "arysting_planks",
+    "textureLeft": "arysting_planks",
+    "textureFront": "arysting_planks",
+    "textureRight": "arysting_planks",
+    "textureBack": "arysting_planks",
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "PressurePlate",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -33,7 +34,7 @@
         "subtract": false
       }
     ],
-    "name": "Arysting Log",
+    "name": "Arysting PressurePlate",
     "specialInformation": {
       "fixedValue": []
     },
@@ -121,7 +122,11 @@
     "fluidRestrictions": [],
     "generateFeature": false,
     "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "blocksToReplace": [
+      {
+        "value": "TAG:stone_ore_replaceables"
+      }
+    ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,

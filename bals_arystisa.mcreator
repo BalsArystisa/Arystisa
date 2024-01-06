@@ -164,6 +164,34 @@
       "path": "~/Hog536"
     },
     {
+      "name": "HogiritearmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hogiritearmor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/hogiritearmor_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Hog536"
+    },
+    {
+      "name": "HogiritearmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hogiritearmor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/hogiritearmor_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Hog536"
+    },
+    {
       "name": "Hogiriteingot",
       "type": "item",
       "sortid": 10,
@@ -179,8 +207,37 @@
       "path": "~/Hog536"
     },
     {
+      "name": "HogiritearmorArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hogiritearmor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/hogiritearmor_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Hog536"
+    },
+    {
+      "name": "HogiritearmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hogiritearmor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/hogiritearmor_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Hog536"
+    },
+    {
       "name": "HogiritearmorArmor",
       "type": "armor",
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogiritearmor_armor",
@@ -196,56 +253,152 @@
       "path": "~/Hog536"
     },
     {
-      "name": "HogiritearmorArmorHelmetRecipe",
-      "type": "recipe",
+      "name": "ArystingWood",
+      "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hogiritearmor_armor_helmet_recipe",
+      "registry_name": "arysting_wood",
       "metadata": {
         "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogiritearmor_armor_helmet_recipe.json"
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_wood.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingWoodBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_wood.json",
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_wood.json"
         ]
       },
-      "path": "~/Hog536"
+      "path": "~/BAL1SEUR"
     },
     {
-      "name": "HogiritearmorArmorChestplateRecipe",
-      "type": "recipe",
+      "name": "ArystingPlanks",
+      "type": "block",
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hogiritearmor_armor_chestplate_recipe",
+      "registry_name": "arysting_planks",
       "metadata": {
         "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogiritearmor_armor_chestplate_recipe.json"
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_planks.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_planks.json",
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_planks.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingPlanksBlock.java"
         ]
       },
-      "path": "~/Hog536"
+      "path": "~/BAL1SEUR"
     },
     {
-      "name": "HogiritearmorArmorLeggingsRecipe",
-      "type": "recipe",
+      "name": "ArystingButton",
+      "type": "block",
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hogiritearmor_armor_leggings_recipe",
+      "registry_name": "arysting_button",
       "metadata": {
         "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogiritearmor_armor_leggings_recipe.json"
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_button.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingButtonBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_button.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_button_pressed.json",
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_button.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_button_inventory.json"
         ]
       },
-      "path": "~/Hog536"
+      "path": "~/BAL1SEUR"
     },
     {
-      "name": "HogiritearmorArmorBootsRecipe",
-      "type": "recipe",
+      "name": "ArystingSlab",
+      "type": "block",
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hogiritearmor_armor_boots_recipe",
+      "registry_name": "arysting_slab",
       "metadata": {
         "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogiritearmor_armor_boots_recipe.json"
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_slab.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_slab_top.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_slab.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingSlabBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_slab_full.json",
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_slab.json"
         ]
       },
-      "path": "~/Hog536"
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "ArystingFence",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arysting_fence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingFenceBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_fence.json",
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_fence.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_post.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_fence.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_inventory.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "ArystingFenceGate",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arysting_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_fence_gate.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingFenceGateBlock.java",
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_fence_gate.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_gate.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_gate_wall_open.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_gate_open.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_gate_wall.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "ArystingStairs",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arysting_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_stairs.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_stairs_outer.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingStairsBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_stairs.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_stairs_inner.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_stairs.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "ArystingPressurePlate",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arysting_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_pressure_plate.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_pressure_plate_down.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_pressure_plate.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_pressure_plate.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingPressurePlateBlock.java"
+        ]
+      },
+      "path": "~/BAL1SEUR"
     }
   ],
   "variable_elements": [],
@@ -277,21 +430,16 @@
   ],
   "language_map": {
     "en_us": {
-      "block.bals_arystisa.hogirite": "Hogirite",
-      "subtitles.launch_spawner_wave": "",
-      "subtitles.end_spawner_wave": "",
-      "item.bals_arystisa.hogiriteingot": "Hogiriteingot",
-      "item.bals_arystisa.hogiritearmor_armor_helmet": "Hogiritearmor Helmet",
       "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
-      "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
       "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
-      "block.bals_arystisa.arysting_log": "Arysting Log",
-      "item.bals_arystisa.hogiritearmor_armor_chestplate": "Hogiritearmor Chestplate",
-      "item.bals_arystisa.hogiritearmor_armor_boots": "Hogiritearmor Boots",
       "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
       "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
       "item_group.bals_arystisa.arystisa": "Arystisa",
-      "item.bals_arystisa.hogiritearmor_armor_leggings": "Hogiritearmor Leggings",
+      "block.bals_arystisa.hogirite": "Hogirite",
+      "subtitles.launch_spawner_wave": "",
+      "subtitles.end_spawner_wave": "",
+      "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
+      "block.bals_arystisa.arysting_log": "Arysting Log",
       "subtitles.next_spawner_wave": ""
     }
   },
@@ -299,19 +447,19 @@
     "name": "~",
     "children": [
       {
-        "name": "BAL1SEUR",
-        "children": []
-      },
-      {
         "name": "Azerty384445",
         "children": []
       },
       {
-        "name": "Jos3",
+        "name": "BAL1SEUR",
         "children": []
       },
       {
         "name": "Hog536",
+        "children": []
+      },
+      {
+        "name": "Jos3",
         "children": []
       }
     ]
