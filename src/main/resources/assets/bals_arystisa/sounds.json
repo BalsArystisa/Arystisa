@@ -1,0 +1,26 @@
+{
+  "next_spawner_wave": {
+    "sounds": [
+      {
+        "name": "bals_arystisa:bereal",
+        "stream": false
+      }
+    ]
+  },
+  "launch_spawner_wave": {
+    "sounds": [
+      {
+        "name": "bals_arystisa:gaster-vanish",
+        "stream": false
+      }
+    ]
+  },
+  "end_spawner_wave": {
+    "sounds": [
+      {
+        "name": "bals_arystisa:ffxiv_level_up",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.balsarystisa.init.BalsArystisaModTabs;
+import net.mcreator.balsarystisa.init.BalsArystisaModSounds;
 import net.mcreator.balsarystisa.init.BalsArystisaModItems;
 import net.mcreator.balsarystisa.init.BalsArystisaModBlocks;
 
@@ -50,7 +51,7 @@ public class BalsArystisaMod {
 	public BalsArystisaMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		BalsArystisaModSounds.REGISTRY.register(bus);
 		BalsArystisaModBlocks.REGISTRY.register(bus);
 
 		BalsArystisaModItems.REGISTRY.register(bus);

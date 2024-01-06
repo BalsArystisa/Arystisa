@@ -2,15 +2,15 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "runned_stone_bricks",
-    "textureTop": "runned_stone_bricks",
-    "textureLeft": "runned_stone_bricks",
-    "textureFront": "runned_stone_bricks",
-    "textureRight": "runned_stone_bricks",
-    "textureBack": "runned_stone_bricks",
+    "texture": "arysting_log_top",
+    "textureTop": "arysting_log_top",
+    "textureLeft": "amber_in_arysting_log",
+    "textureFront": "amber_in_arysting_log",
+    "textureRight": "amber_in_arysting_log",
+    "textureBack": "amber_in_arysting_log",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 0,
+    "rotationMode": 5,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -33,24 +33,24 @@
         "subtract": false
       }
     ],
-    "name": "Runned Stone Bricks",
+    "name": "Amber Ore Arysting Log",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.5,
-    "resistance": 6.0,
+    "hardness": 2.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Arystisa"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "axe",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
@@ -81,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "WOOD"
     },
     "breakSound": {
       "value": ""
@@ -100,7 +100,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 0,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

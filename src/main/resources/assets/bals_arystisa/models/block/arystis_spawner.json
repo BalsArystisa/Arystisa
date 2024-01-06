@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bals_arystisa:block/arystis_spawner",
+    "up": "bals_arystisa:block/arystis_spawner",
+    "north": "bals_arystisa:block/arystis_spawner",
+    "east": "bals_arystisa:block/arystis_spawner",
+    "south": "bals_arystisa:block/arystis_spawner",
+    "west": "bals_arystisa:block/arystis_spawner",
+    "particle": "bals_arystisa:block/arystis_spawner"
+  },
+  "render_type": "cutout"
+}

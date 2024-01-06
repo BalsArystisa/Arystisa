@@ -3,7 +3,7 @@
     {
       "name": "Arystisa",
       "type": "tab",
-      "sortid": 2,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystisa",
@@ -14,7 +14,7 @@
     {
       "name": "ArystingLog",
       "type": "block",
-      "sortid": 1,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_log",
@@ -30,7 +30,7 @@
     {
       "name": "RunnedStoneBricks",
       "type": "block",
-      "sortid": 3,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runned_stone_bricks",
@@ -42,15 +42,125 @@
           "src/main/resources/assets/bals_arystisa/blockstates/runned_stone_bricks.json"
         ]
       }
+    },
+    {
+      "name": "AmberOreArystingLog",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_ore_arysting_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/AmberOreArystingLogBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/amber_ore_arysting_log.json",
+          "src/main/resources/assets/bals_arystisa/models/item/amber_ore_arysting_log.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/amber_ore_arysting_log.json"
+        ]
+      }
+    },
+    {
+      "name": "ArystisSpawner",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arystis_spawner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/blockstates/arystis_spawner.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arystis_spawner.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystisSpawnerBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/arystis_spawner.json"
+        ]
+      }
+    },
+    {
+      "name": "ArystisSpawnerNoActiveted",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arystis_spawner_no_activeted",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/ArystisSpawnerNoActivetedBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/arystis_spawner_no_activeted.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arystis_spawner_no_activeted.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/arystis_spawner_no_activeted.json"
+        ]
+      }
+    },
+    {
+      "name": "ArystisSpawnerProced",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arystis_spawner_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/ArystisSpawnerProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "next_spawner_wave",
+      "files": [
+        "bereal"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "launch_spawner_wave",
+      "files": [
+        "gaster-vanish"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "end_spawner_wave",
+      "files": [
+        "ffxiv_level_up"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
       "block.bals_arystisa.arysting_log": "Arysting Log",
+      "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
+      "subtitles.launch_spawner_wave": "",
+      "subtitles.end_spawner_wave": "",
       "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
-      "item_group.bals_arystisa.arystisa": "Arystisa"
+      "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
+      "item_group.bals_arystisa.arystisa": "Arystisa",
+      "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
+      "subtitles.next_spawner_wave": ""
     }
   },
   "foldersRoot": {
