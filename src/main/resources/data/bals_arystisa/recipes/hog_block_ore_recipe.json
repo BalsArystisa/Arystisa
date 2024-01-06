@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bals_arystisa:hog_block"
+    }
+  ],
+  "result": {
+    "item": "bals_arystisa:hog",
+    "count": 9
+  }
+}

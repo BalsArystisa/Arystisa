@@ -12,6 +12,8 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.balsarystisa.block.RunnedStoneBricksBlock;
 import net.mcreator.balsarystisa.block.HogiriteBlock;
+import net.mcreator.balsarystisa.block.HogOreBlock;
+import net.mcreator.balsarystisa.block.HogBlockBlock;
 import net.mcreator.balsarystisa.block.ArystisSpawnerNoActivetedBlock;
 import net.mcreator.balsarystisa.block.ArystisSpawnerBlock;
 import net.mcreator.balsarystisa.block.ArystingWoodBlock;
@@ -44,4 +46,6 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> ARYSTING_FENCE_GATE = REGISTRY.register("arysting_fence_gate", () -> new ArystingFenceGateBlock());
 	public static final RegistryObject<Block> ARYSTING_PRESSURE_PLATE = REGISTRY.register("arysting_pressure_plate", () -> new ArystingPressurePlateBlock());
 	public static final RegistryObject<Block> ARYSTING_BUTTON = REGISTRY.register("arysting_button", () -> new ArystingButtonBlock());
+	public static final RegistryObject<Block> HOG_ORE = REGISTRY.register("hog_ore", () -> new HogOreBlock());
+	public static final RegistryObject<Block> HOG_BLOCK = REGISTRY.register("hog_block", () -> new HogBlockBlock());
 }

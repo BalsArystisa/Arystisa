@@ -44,11 +44,28 @@ public class BalsArystisaModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
+		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(BalsArystisaModBlocks.HOG_ORE.get().asItem());
+			tabData.accept(BalsArystisaModBlocks.HOG_BLOCK.get().asItem());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-			tabData.accept(BalsArystisaModItems.HOGIRITEARMOR_ARMOR_HELMET.get());
-			tabData.accept(BalsArystisaModItems.HOGIRITEARMOR_ARMOR_CHESTPLATE.get());
-			tabData.accept(BalsArystisaModItems.HOGIRITEARMOR_ARMOR_LEGGINGS.get());
-			tabData.accept(BalsArystisaModItems.HOGIRITEARMOR_ARMOR_BOOTS.get());
+			tabData.accept(BalsArystisaModItems.HOG_SWORD.get());
+			tabData.accept(BalsArystisaModItems.HOG_ARMOR_HELMET.get());
+			tabData.accept(BalsArystisaModItems.HOG_ARMOR_CHESTPLATE.get());
+			tabData.accept(BalsArystisaModItems.HOG_ARMOR_LEGGINGS.get());
+			tabData.accept(BalsArystisaModItems.HOG_ARMOR_BOOTS.get());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(BalsArystisaModItems.HOG.get());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(BalsArystisaModItems.HOG_AXE.get());
+			tabData.accept(BalsArystisaModItems.HOG_PICKAXE.get());
+			tabData.accept(BalsArystisaModItems.HOG_SHOVEL.get());
+			tabData.accept(BalsArystisaModItems.HOG_HOE.get());
 		}
 	}
 }
