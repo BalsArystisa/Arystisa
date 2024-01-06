@@ -162,6 +162,63 @@
         ]
       },
       "path": "~/Hog536"
+    },
+    {
+      "name": "Baguette",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/baguette.json",
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteItem.java"
+        ]
+      },
+      "path": "~/Jos3"
+    },
+    {
+      "name": "BaguetteRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/baguette_recipe.json"
+        ]
+      },
+      "path": "~/Jos3"
+    },
+    {
+      "name": "BaguetteRecipe1",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/baguette_recipe_1.json"
+        ]
+      },
+      "path": "~/Jos3"
+    },
+    {
+      "name": "BaguetteRecipe2",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/baguette_recipe_2.json"
+        ]
+      },
+      "path": "~/Jos3"
     }
   ],
   "variable_elements": [],
@@ -194,15 +251,16 @@
   "language_map": {
     "en_us": {
       "block.bals_arystisa.hogirite": "Hogirite",
-      "block.bals_arystisa.arysting_log": "Arysting Log",
-      "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
       "subtitles.launch_spawner_wave": "",
       "subtitles.end_spawner_wave": "",
+      "item.bals_arystisa.baguette": "Baguette",
+      "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
+      "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
+      "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
+      "block.bals_arystisa.arysting_log": "Arysting Log",
       "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
       "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
       "item_group.bals_arystisa.arystisa": "Arystisa",
-      "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
-      "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
       "subtitles.next_spawner_wave": ""
     }
   },
