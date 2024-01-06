@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "bals_arystisa:arysting_planks"
+    }
+  },
+  "result": {
+    "item": "bals_arystisa:arysting_fence_gate",
+    "count": 1
+  }
+}
