@@ -45,6 +45,5 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.HOGIRIT_ARMOR_CHESTPLATE.get());
 				tabData.accept(BalsArystisaModItems.HOGIRIT_ARMOR_LEGGINGS.get());
 				tabData.accept(BalsArystisaModItems.HOGIRIT_ARMOR_BOOTS.get());
-				tabData.accept(BalsArystisaModBlocks.FORMER_GRAVEL.get().asItem());
 			}).withSearchBar().build());
 }
