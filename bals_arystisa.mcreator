@@ -3,7 +3,7 @@
     {
       "name": "Arystisa",
       "type": "tab",
-      "sortid": 9,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystisa",
@@ -15,7 +15,7 @@
     {
       "name": "ArystingLog",
       "type": "block",
-      "sortid": 3,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_log",
@@ -49,7 +49,7 @@
     {
       "name": "AmberOreArystingLog",
       "type": "block",
-      "sortid": 4,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amber_ore_arysting_log",
@@ -66,7 +66,7 @@
     {
       "name": "ArystisSpawner",
       "type": "block",
-      "sortid": 6,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystis_spawner",
@@ -83,7 +83,7 @@
     {
       "name": "ArystisSpawnerNoActiveted",
       "type": "block",
-      "sortid": 7,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystis_spawner_no_activeted",
@@ -100,7 +100,7 @@
     {
       "name": "ArystisSpawnerProced",
       "type": "procedure",
-      "sortid": 10,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystis_spawner_proced",
@@ -132,7 +132,7 @@
     {
       "name": "ArystingLeaves",
       "type": "block",
-      "sortid": 5,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_leaves",
@@ -149,7 +149,7 @@
     {
       "name": "Hogirite",
       "type": "block",
-      "sortid": 8,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirite",
@@ -166,7 +166,7 @@
     {
       "name": "ArystingWood",
       "type": "block",
-      "sortid": 2,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_wood",
@@ -183,7 +183,7 @@
     {
       "name": "ArystingPlanks",
       "type": "block",
-      "sortid": 11,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_planks",
@@ -200,7 +200,7 @@
     {
       "name": "ArystingStairs",
       "type": "block",
-      "sortid": 12,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_stairs",
@@ -219,7 +219,7 @@
     {
       "name": "ArystingSlab",
       "type": "block",
-      "sortid": 13,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_slab",
@@ -238,7 +238,7 @@
     {
       "name": "ArystingFence",
       "type": "block",
-      "sortid": 14,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_fence",
@@ -257,7 +257,7 @@
     {
       "name": "ArystingFenceGate",
       "type": "block",
-      "sortid": 15,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_fence_gate",
@@ -277,7 +277,7 @@
     {
       "name": "ArystingPressurePlate",
       "type": "block",
-      "sortid": 16,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_pressure_plate",
@@ -295,7 +295,7 @@
     {
       "name": "ArystingButton",
       "type": "block",
-      "sortid": 17,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_button",
@@ -341,11 +341,11 @@
   ],
   "language_map": {
     "en_us": {
-      "block.bals_arystisa.hogirite": "Hogirite",
-      "block.bals_arystisa.arysting_fence": "Arysting Fence",
       "block.bals_arystisa.arysting_button": "Arysting Button",
-      "subtitles.launch_spawner_wave": "",
+      "block.bals_arystisa.arysting_fence": "Arysting Fence",
+      "block.bals_arystisa.hogirite": "Hogirite",
       "block.bals_arystisa.arysting_wood": "Arysting Wood",
+      "subtitles.launch_spawner_wave": "",
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "subtitles.end_spawner_wave": "",
       "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
