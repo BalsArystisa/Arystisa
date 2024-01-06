@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.balsarystisa.block.RunnedStoneBricksBlock;
+import net.mcreator.balsarystisa.block.HogiriteBlock;
 import net.mcreator.balsarystisa.block.ArystisSpawnerNoActivetedBlock;
 import net.mcreator.balsarystisa.block.ArystisSpawnerBlock;
 import net.mcreator.balsarystisa.block.ArystingLogBlock;
@@ -26,4 +27,5 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> ARYSTING_LEAVES = REGISTRY.register("arysting_leaves", () -> new ArystingLeavesBlock());
 	public static final RegistryObject<Block> ARYSTIS_SPAWNER = REGISTRY.register("arystis_spawner", () -> new ArystisSpawnerBlock());
 	public static final RegistryObject<Block> ARYSTIS_SPAWNER_NO_ACTIVETED = REGISTRY.register("arystis_spawner_no_activeted", () -> new ArystisSpawnerNoActivetedBlock());
+	public static final RegistryObject<Block> HOGIRITE = REGISTRY.register("hogirite", () -> new HogiriteBlock());
 }

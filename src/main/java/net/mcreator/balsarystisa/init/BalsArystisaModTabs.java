@@ -24,5 +24,6 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_LEAVES.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTIS_SPAWNER.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTIS_SPAWNER_NO_ACTIVETED.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.HOGIRITE.get().asItem());
 			}).withSearchBar().build());
 }

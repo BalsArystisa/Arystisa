@@ -145,6 +145,23 @@
         ]
       },
       "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "Hogirite",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hogirite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/hogirite.json",
+          "src/main/resources/assets/bals_arystisa/models/item/hogirite.json",
+          "src/main/java/net/mcreator/balsarystisa/block/HogiriteBlock.java",
+          "src/main/resources/assets/bals_arystisa/blockstates/hogirite.json"
+        ]
+      },
+      "path": "~/Hog536"
     }
   ],
   "variable_elements": [],
@@ -176,6 +193,7 @@
   ],
   "language_map": {
     "en_us": {
+      "block.bals_arystisa.hogirite": "Hogirite",
       "block.bals_arystisa.arysting_log": "Arysting Log",
       "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
       "subtitles.launch_spawner_wave": "",
