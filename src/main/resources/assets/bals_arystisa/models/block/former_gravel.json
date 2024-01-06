@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bals_arystisa:block/former_gravel",
+    "up": "bals_arystisa:block/former_gravel",
+    "north": "bals_arystisa:block/former_gravel",
+    "east": "bals_arystisa:block/former_gravel",
+    "south": "bals_arystisa:block/former_gravel",
+    "west": "bals_arystisa:block/former_gravel",
+    "particle": "bals_arystisa:block/former_gravel"
+  },
+  "render_type": "solid"
+}

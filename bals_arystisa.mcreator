@@ -819,6 +819,37 @@
       "path": "~/BAL1SEUR"
     },
     {
+      "name": "FormerGravel",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "former_gravel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/former_gravel.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/former_gravel.json",
+          "src/main/resources/assets/bals_arystisa/models/block/former_gravel.json",
+          "src/main/java/net/mcreator/balsarystisa/block/FormerGravelBlock.java"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "FormerGravelLootTable",
+      "type": "loottable",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "former_gravel_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/loot_tables/blocks/former_gravel.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
       "name": "GUICyberwareGeneral",
       "type": "gui",
       "sortid": 70,
@@ -827,8 +858,8 @@
       "registry_name": "gui_cyberware_general",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/client/gui/GUICyberwareGeneralScreen.java",
-          "src/main/java/net/mcreator/balsarystisa/world/inventory/GUICyberwareGeneralMenu.java"
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/GUICyberwareGeneralMenu.java",
+          "src/main/java/net/mcreator/balsarystisa/client/gui/GUICyberwareGeneralScreen.java"
         ]
       },
       "path": "~/SirRacaillou/GUI_Cyberware"
@@ -929,6 +960,7 @@
       "item.bals_arystisa.hogirit_armor_leggings": "Hogirit Leggings",
       "item.bals_arystisa.hogirit_armor_boots": "Hogirit Boots",
       "item.bals_arystisa.hogirit_hoe": "Hogirit Hoe",
+      "block.bals_arystisa.former_gravel": "Former Gravel",
       "subtitles.next_spawner_wave": ""
     }
   },
@@ -959,11 +991,11 @@
         "name": "SirRacaillou",
         "children": [
           {
-            "name": "GUI_Cyberware",
+            "name": "Procedure_Write",
             "children": []
           },
           {
-            "name": "Procedure_Write",
+            "name": "GUI_Cyberware",
             "children": []
           }
         ]

@@ -51,6 +51,7 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> HOGIRIT_ARMOR_CHESTPLATE = REGISTRY.register("hogirit_armor_chestplate", () -> new HogiritArmorItem.Chestplate());
 	public static final RegistryObject<Item> HOGIRIT_ARMOR_LEGGINGS = REGISTRY.register("hogirit_armor_leggings", () -> new HogiritArmorItem.Leggings());
 	public static final RegistryObject<Item> HOGIRIT_ARMOR_BOOTS = REGISTRY.register("hogirit_armor_boots", () -> new HogiritArmorItem.Boots());
+	public static final RegistryObject<Item> FORMER_GRAVEL = block(BalsArystisaModBlocks.FORMER_GRAVEL);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
