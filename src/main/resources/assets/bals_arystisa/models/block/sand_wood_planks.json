@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "bals_arystisa:block/sand_wood_planks",
-    "particle": "bals_arystisa:block/sand_wood_planks"
-  },
-  "render_type": "solid"
-}
