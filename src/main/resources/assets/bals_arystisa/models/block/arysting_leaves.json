@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bals_arystisa:block/arysting_leaves",
+    "up": "bals_arystisa:block/arysting_leaves",
+    "north": "bals_arystisa:block/arysting_leaves",
+    "east": "bals_arystisa:block/arysting_leaves",
+    "south": "bals_arystisa:block/arysting_leaves",
+    "west": "bals_arystisa:block/arysting_leaves",
+    "particle": "bals_arystisa:block/arysting_leaves"
+  },
+  "render_type": "cutout"
+}

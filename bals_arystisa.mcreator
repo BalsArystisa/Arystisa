@@ -3,7 +3,7 @@
     {
       "name": "Arystisa",
       "type": "tab",
-      "sortid": 4,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystisa",
@@ -94,7 +94,7 @@
     {
       "name": "ArystisSpawnerProced",
       "type": "procedure",
-      "sortid": 7,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystis_spawner_proced",
@@ -119,6 +119,22 @@
             "name": "world",
             "type": "world"
           }
+        ]
+      }
+    },
+    {
+      "name": "ArystingLeaves",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arysting_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_leaves.json",
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_leaves.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_leaves.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingLeavesBlock.java"
         ]
       }
     }
@@ -159,13 +175,31 @@
       "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
       "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
       "item_group.bals_arystisa.arystisa": "Arystisa",
+      "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
       "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
       "subtitles.next_spawner_wave": ""
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "BAL1SEUR",
+        "children": []
+      },
+      {
+        "name": "Azerty384445",
+        "children": []
+      },
+      {
+        "name": "Jos3",
+        "children": []
+      },
+      {
+        "name": "Hog536",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "bals_arystisa",

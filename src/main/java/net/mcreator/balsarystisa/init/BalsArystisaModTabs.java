@@ -21,6 +21,7 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.RUNNED_STONE_BRICKS.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_LOG.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.AMBER_ORE_ARYSTING_LOG.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.ARYSTING_LEAVES.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTIS_SPAWNER.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTIS_SPAWNER_NO_ACTIVETED.get().asItem());
 			}).withSearchBar().build());
