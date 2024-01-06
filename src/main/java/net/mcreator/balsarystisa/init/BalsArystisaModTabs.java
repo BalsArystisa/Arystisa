@@ -19,13 +19,15 @@ public class BalsArystisaModTabs {
 	public static final RegistryObject<CreativeModeTab> ARYSTISA = REGISTRY.register("arystisa",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.bals_arystisa.arystisa")).icon(() -> new ItemStack(BalsArystisaModBlocks.RUNNED_STONE_BRICKS.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(BalsArystisaModBlocks.RUNNED_STONE_BRICKS.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.ARYSTIS_SPAWNER.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.ARYSTIS_SPAWNER_NO_ACTIVETED.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.FORMER_GRAVEL.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.HOGIRIT_ORE.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.HOGIRIT_BLOCK.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.ARYSTING_LEAVES.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_WOOD.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_LOG.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.AMBER_ORE_ARYSTING_LOG.get().asItem());
-				tabData.accept(BalsArystisaModBlocks.ARYSTING_LEAVES.get().asItem());
-				tabData.accept(BalsArystisaModBlocks.ARYSTIS_SPAWNER.get().asItem());
-				tabData.accept(BalsArystisaModBlocks.ARYSTIS_SPAWNER_NO_ACTIVETED.get().asItem());
-				tabData.accept(BalsArystisaModItems.BAGUETTE.get());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_PLANKS.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_STAIRS.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_SLAB.get().asItem());
@@ -33,18 +35,16 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_FENCE_GATE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_PRESSURE_PLATE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_BUTTON.get().asItem());
-				tabData.accept(BalsArystisaModBlocks.HOGIRIT_ORE.get().asItem());
-				tabData.accept(BalsArystisaModBlocks.HOGIRIT_BLOCK.get().asItem());
-				tabData.accept(BalsArystisaModItems.HOGIRIT_AXE.get());
-				tabData.accept(BalsArystisaModItems.HOGIRIT_PICKAXE.get());
+				tabData.accept(BalsArystisaModItems.BAGUETTE.get());
 				tabData.accept(BalsArystisaModItems.HOGIRIT_SWORD.get());
+				tabData.accept(BalsArystisaModItems.HOGIRIT_PICKAXE.get());
+				tabData.accept(BalsArystisaModItems.HOGIRIT_AXE.get());
 				tabData.accept(BalsArystisaModItems.HOGIRIT_SHOVEL.get());
 				tabData.accept(BalsArystisaModItems.HOGIRIT_HOE.get());
-				tabData.accept(BalsArystisaModItems.HOGIRIT_INGOT.get());
 				tabData.accept(BalsArystisaModItems.HOGIRIT_ARMOR_HELMET.get());
 				tabData.accept(BalsArystisaModItems.HOGIRIT_ARMOR_CHESTPLATE.get());
 				tabData.accept(BalsArystisaModItems.HOGIRIT_ARMOR_LEGGINGS.get());
 				tabData.accept(BalsArystisaModItems.HOGIRIT_ARMOR_BOOTS.get());
-				tabData.accept(BalsArystisaModBlocks.FORMER_GRAVEL.get().asItem());
+				tabData.accept(BalsArystisaModItems.HOGIRIT_INGOT.get());
 			}).withSearchBar().build());
 }
