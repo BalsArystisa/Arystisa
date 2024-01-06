@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bals_arystisa:block/sand_wood_log_side",
+    "particle": "bals_arystisa:block/sand_wood_log_side"
+  },
+  "render_type": "solid"
+}

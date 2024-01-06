@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate",
+  "textures": {
+    "texture": "bals_arystisa:block/sand_wood_planks"
+  },
+  "render_type": "solid"
+}

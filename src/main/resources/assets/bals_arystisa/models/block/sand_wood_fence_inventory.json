@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "bals_arystisa:block/sand_wood_planks",
+    "particle": "bals_arystisa:block/sand_wood_planks"
+  },
+  "render_type": "solid"
+}
