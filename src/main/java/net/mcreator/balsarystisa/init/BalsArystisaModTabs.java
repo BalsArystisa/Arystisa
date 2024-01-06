@@ -30,6 +30,7 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_LEAVES.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTIS_SPAWNER.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTIS_SPAWNER_NO_ACTIVETED.get().asItem());
+				tabData.accept(BalsArystisaModItems.BAGUETTE.get());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_PLANKS.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_STAIRS.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_SLAB.get().asItem());

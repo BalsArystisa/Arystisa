@@ -930,20 +930,6 @@
       "path": "~/Hog536"
     },
     {
-      "name": "CraftingTableArystingPlanks",
-      "type": "recipe",
-      "sortid": 59,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crafting_table_arysting_planks",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/crafting_table_arysting_planks.json"
-        ]
-      },
-      "path": "~/BAL1SEUR"
-    },
-    {
       "name": "ArystisaPlanks",
       "type": "recipe",
       "sortid": 60,
@@ -958,15 +944,29 @@
       "path": "~/BAL1SEUR"
     },
     {
-      "name": "ArystisaWoodCraft",
+      "name": "CraftingTableArystingPlanks",
       "type": "recipe",
-      "sortid": 61,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "arystisa_wood_craft",
+      "registry_name": "crafting_table_arysting_planks",
       "metadata": {
         "files": [
-          "src/main/resources/data/bals_arystisa/recipes/arystisa_wood_craft.json"
+          "src/main/resources/data/bals_arystisa/recipes/crafting_table_arysting_planks.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "ArystingButtonCraft",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arysting_button_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/arysting_button_craft.json"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -1000,18 +1000,75 @@
       "path": "~/BAL1SEUR"
     },
     {
-      "name": "ArystingButtonCraft",
+      "name": "ArystisaWoodCraft",
       "type": "recipe",
-      "sortid": 64,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "arysting_button_craft",
+      "registry_name": "arystisa_wood_craft",
       "metadata": {
         "files": [
-          "src/main/resources/data/bals_arystisa/recipes/arysting_button_craft.json"
+          "src/main/resources/data/bals_arystisa/recipes/arystisa_wood_craft.json"
         ]
       },
       "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "Baguette",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/baguette.json"
+        ]
+      },
+      "path": "~/Jos3"
+    },
+    {
+      "name": "BaguetteRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/baguette_recipe.json"
+        ]
+      },
+      "path": "~/Jos3"
+    },
+    {
+      "name": "BaguetteRecipe1",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/baguette_recipe_1.json"
+        ]
+      },
+      "path": "~/Jos3"
+    },
+    {
+      "name": "BaguetteRecipe2",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/baguette_recipe_2.json"
+        ]
+      },
+      "path": "~/Jos3"
     }
   ],
   "variable_elements": [],
