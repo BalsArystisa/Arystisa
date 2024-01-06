@@ -41,16 +41,6 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> ARYSTING_BUTTON = block(BalsArystisaModBlocks.ARYSTING_BUTTON);
 	public static final RegistryObject<Item> HOGIRIT_ORE = block(BalsArystisaModBlocks.HOGIRIT_ORE);
 	public static final RegistryObject<Item> HOGIRIT_BLOCK = block(BalsArystisaModBlocks.HOGIRIT_BLOCK);
-	public static final RegistryObject<Item> SAND_WOOD_WOOD = block(BalsArystisaModBlocks.SAND_WOOD_WOOD);
-	public static final RegistryObject<Item> SAND_WOOD_LOG = block(BalsArystisaModBlocks.SAND_WOOD_LOG);
-	public static final RegistryObject<Item> SAND_WOOD_PLANKS = block(BalsArystisaModBlocks.SAND_WOOD_PLANKS);
-	public static final RegistryObject<Item> SAND_WOOD_LEAVES = block(BalsArystisaModBlocks.SAND_WOOD_LEAVES);
-	public static final RegistryObject<Item> SAND_WOOD_STAIRS = block(BalsArystisaModBlocks.SAND_WOOD_STAIRS);
-	public static final RegistryObject<Item> SAND_WOOD_SLAB = block(BalsArystisaModBlocks.SAND_WOOD_SLAB);
-	public static final RegistryObject<Item> SAND_WOOD_FENCE = block(BalsArystisaModBlocks.SAND_WOOD_FENCE);
-	public static final RegistryObject<Item> SAND_WOOD_FENCE_GATE = block(BalsArystisaModBlocks.SAND_WOOD_FENCE_GATE);
-	public static final RegistryObject<Item> SAND_WOOD_PRESSURE_PLATE = block(BalsArystisaModBlocks.SAND_WOOD_PRESSURE_PLATE);
-	public static final RegistryObject<Item> SAND_WOOD_BUTTON = block(BalsArystisaModBlocks.SAND_WOOD_BUTTON);
 	public static final RegistryObject<Item> HOGIRIT_AXE = REGISTRY.register("hogirit_axe", () -> new HogiritAxeItem());
 	public static final RegistryObject<Item> HOGIRIT_PICKAXE = REGISTRY.register("hogirit_pickaxe", () -> new HogiritPickaxeItem());
 	public static final RegistryObject<Item> HOGIRIT_SWORD = REGISTRY.register("hogirit_sword", () -> new HogiritSwordItem());

@@ -10,16 +10,6 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.balsarystisa.block.Sand_woodWoodBlock;
-import net.mcreator.balsarystisa.block.Sand_woodStairsBlock;
-import net.mcreator.balsarystisa.block.Sand_woodSlabBlock;
-import net.mcreator.balsarystisa.block.Sand_woodPressurePlateBlock;
-import net.mcreator.balsarystisa.block.Sand_woodPlanksBlock;
-import net.mcreator.balsarystisa.block.Sand_woodLogBlock;
-import net.mcreator.balsarystisa.block.Sand_woodLeavesBlock;
-import net.mcreator.balsarystisa.block.Sand_woodFenceGateBlock;
-import net.mcreator.balsarystisa.block.Sand_woodFenceBlock;
-import net.mcreator.balsarystisa.block.Sand_woodButtonBlock;
 import net.mcreator.balsarystisa.block.RunnedStoneBricksBlock;
 import net.mcreator.balsarystisa.block.HogiritOreBlock;
 import net.mcreator.balsarystisa.block.HogiritBlockBlock;
@@ -56,14 +46,4 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> ARYSTING_BUTTON = REGISTRY.register("arysting_button", () -> new ArystingButtonBlock());
 	public static final RegistryObject<Block> HOGIRIT_ORE = REGISTRY.register("hogirit_ore", () -> new HogiritOreBlock());
 	public static final RegistryObject<Block> HOGIRIT_BLOCK = REGISTRY.register("hogirit_block", () -> new HogiritBlockBlock());
-	public static final RegistryObject<Block> SAND_WOOD_WOOD = REGISTRY.register("sand_wood_wood", () -> new Sand_woodWoodBlock());
-	public static final RegistryObject<Block> SAND_WOOD_LOG = REGISTRY.register("sand_wood_log", () -> new Sand_woodLogBlock());
-	public static final RegistryObject<Block> SAND_WOOD_PLANKS = REGISTRY.register("sand_wood_planks", () -> new Sand_woodPlanksBlock());
-	public static final RegistryObject<Block> SAND_WOOD_LEAVES = REGISTRY.register("sand_wood_leaves", () -> new Sand_woodLeavesBlock());
-	public static final RegistryObject<Block> SAND_WOOD_STAIRS = REGISTRY.register("sand_wood_stairs", () -> new Sand_woodStairsBlock());
-	public static final RegistryObject<Block> SAND_WOOD_SLAB = REGISTRY.register("sand_wood_slab", () -> new Sand_woodSlabBlock());
-	public static final RegistryObject<Block> SAND_WOOD_FENCE = REGISTRY.register("sand_wood_fence", () -> new Sand_woodFenceBlock());
-	public static final RegistryObject<Block> SAND_WOOD_FENCE_GATE = REGISTRY.register("sand_wood_fence_gate", () -> new Sand_woodFenceGateBlock());
-	public static final RegistryObject<Block> SAND_WOOD_PRESSURE_PLATE = REGISTRY.register("sand_wood_pressure_plate", () -> new Sand_woodPressurePlateBlock());
-	public static final RegistryObject<Block> SAND_WOOD_BUTTON = REGISTRY.register("sand_wood_button", () -> new Sand_woodButtonBlock());
 }

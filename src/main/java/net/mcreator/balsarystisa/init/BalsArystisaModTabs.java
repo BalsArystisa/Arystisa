@@ -46,15 +46,6 @@ public class BalsArystisaModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(BalsArystisaModBlocks.HOGIRIT_ORE.get().asItem());
 			tabData.accept(BalsArystisaModBlocks.HOGIRIT_BLOCK.get().asItem());
-			tabData.accept(BalsArystisaModBlocks.SAND_WOOD_WOOD.get().asItem());
-			tabData.accept(BalsArystisaModBlocks.SAND_WOOD_LOG.get().asItem());
-			tabData.accept(BalsArystisaModBlocks.SAND_WOOD_PLANKS.get().asItem());
-			tabData.accept(BalsArystisaModBlocks.SAND_WOOD_STAIRS.get().asItem());
-			tabData.accept(BalsArystisaModBlocks.SAND_WOOD_SLAB.get().asItem());
-			tabData.accept(BalsArystisaModBlocks.SAND_WOOD_FENCE.get().asItem());
-			tabData.accept(BalsArystisaModBlocks.SAND_WOOD_FENCE_GATE.get().asItem());
-			tabData.accept(BalsArystisaModBlocks.SAND_WOOD_PRESSURE_PLATE.get().asItem());
-			tabData.accept(BalsArystisaModBlocks.SAND_WOOD_BUTTON.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
@@ -67,10 +58,6 @@ public class BalsArystisaModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(BalsArystisaModItems.HOGIRIT_INGOT.get());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-			tabData.accept(BalsArystisaModBlocks.SAND_WOOD_LEAVES.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

@@ -5,7 +5,7 @@
     "toolType": "Axe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "hogirit_axe",
+    "texture": "hogirite_axe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Hogirit Axe",

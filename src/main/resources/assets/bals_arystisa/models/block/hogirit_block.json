@@ -1,8 +1,13 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "bals_arystisa:block/hogirit_ore_block",
-    "particle": "bals_arystisa:block/hogirit_ore_block"
+    "down": "bals_arystisa:block/hoggirite_block",
+    "up": "bals_arystisa:block/hoggirite_block",
+    "north": "bals_arystisa:block/hoggirite_block",
+    "east": "bals_arystisa:block/hoggirite_block",
+    "south": "bals_arystisa:block/hoggirite_block",
+    "west": "bals_arystisa:block/hoggirite_block",
+    "particle": "bals_arystisa:block/hoggirite_block"
   },
   "render_type": "solid"
 }
