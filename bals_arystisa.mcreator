@@ -9,7 +9,8 @@
       "registry_name": "arystisa",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystingLog",
@@ -25,7 +26,8 @@
           "src/main/resources/assets/bals_arystisa/models/block/arysting_log.json",
           "src/main/resources/assets/bals_arystisa/blockstates/arysting_log.json"
         ]
-      }
+      },
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "RunnedStoneBricks",
@@ -41,7 +43,8 @@
           "src/main/resources/assets/bals_arystisa/models/block/runned_stone_bricks.json",
           "src/main/resources/assets/bals_arystisa/blockstates/runned_stone_bricks.json"
         ]
-      }
+      },
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "AmberOreArystingLog",
@@ -57,7 +60,8 @@
           "src/main/resources/assets/bals_arystisa/models/item/amber_ore_arysting_log.json",
           "src/main/resources/assets/bals_arystisa/blockstates/amber_ore_arysting_log.json"
         ]
-      }
+      },
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystisSpawner",
@@ -73,7 +77,8 @@
           "src/main/java/net/mcreator/balsarystisa/block/ArystisSpawnerBlock.java",
           "src/main/resources/assets/bals_arystisa/models/item/arystis_spawner.json"
         ]
-      }
+      },
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystisSpawnerNoActiveted",
@@ -89,7 +94,8 @@
           "src/main/resources/assets/bals_arystisa/models/block/arystis_spawner_no_activeted.json",
           "src/main/resources/assets/bals_arystisa/blockstates/arystis_spawner_no_activeted.json"
         ]
-      }
+      },
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystisSpawnerProced",
@@ -120,7 +126,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystingLeaves",
@@ -136,7 +143,8 @@
           "src/main/resources/assets/bals_arystisa/blockstates/arysting_leaves.json",
           "src/main/java/net/mcreator/balsarystisa/block/ArystingLeavesBlock.java"
         ]
-      }
+      },
+      "path": "~/BAL1SEUR"
     }
   ],
   "variable_elements": [],
