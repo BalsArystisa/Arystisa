@@ -12,6 +12,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.balsarystisa.item.HogiriteingotItem;
+import net.mcreator.balsarystisa.item.HogiritearmorArmorItem;
 import net.mcreator.balsarystisa.BalsArystisaMod;
 
 public class BalsArystisaModItems {
@@ -23,6 +25,11 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> ARYSTIS_SPAWNER = block(BalsArystisaModBlocks.ARYSTIS_SPAWNER);
 	public static final RegistryObject<Item> ARYSTIS_SPAWNER_NO_ACTIVETED = block(BalsArystisaModBlocks.ARYSTIS_SPAWNER_NO_ACTIVETED);
 	public static final RegistryObject<Item> HOGIRITE = block(BalsArystisaModBlocks.HOGIRITE);
+	public static final RegistryObject<Item> HOGIRITEINGOT = REGISTRY.register("hogiriteingot", () -> new HogiriteingotItem());
+	public static final RegistryObject<Item> HOGIRITEARMOR_ARMOR_HELMET = REGISTRY.register("hogiritearmor_armor_helmet", () -> new HogiritearmorArmorItem.Helmet());
+	public static final RegistryObject<Item> HOGIRITEARMOR_ARMOR_CHESTPLATE = REGISTRY.register("hogiritearmor_armor_chestplate", () -> new HogiritearmorArmorItem.Chestplate());
+	public static final RegistryObject<Item> HOGIRITEARMOR_ARMOR_LEGGINGS = REGISTRY.register("hogiritearmor_armor_leggings", () -> new HogiritearmorArmorItem.Leggings());
+	public static final RegistryObject<Item> HOGIRITEARMOR_ARMOR_BOOTS = REGISTRY.register("hogiritearmor_armor_boots", () -> new HogiritearmorArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

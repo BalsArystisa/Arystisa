@@ -162,6 +162,90 @@
         ]
       },
       "path": "~/Hog536"
+    },
+    {
+      "name": "Hogiriteingot",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hogiriteingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/hogiriteingot.json",
+          "src/main/java/net/mcreator/balsarystisa/item/HogiriteingotItem.java"
+        ]
+      },
+      "path": "~/Hog536"
+    },
+    {
+      "name": "HogiritearmorArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hogiritearmor_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/hogiritearmor_armor_helmet.json",
+          "src/main/resources/assets/bals_arystisa/models/item/hogiritearmor_armor_chestplate.json",
+          "src/main/resources/assets/bals_arystisa/models/item/hogiritearmor_armor_boots.json",
+          "src/main/resources/assets/bals_arystisa/models/item/hogiritearmor_armor_leggings.json",
+          "src/main/java/net/mcreator/balsarystisa/item/HogiritearmorArmorItem.java"
+        ]
+      },
+      "path": "~/Hog536"
+    },
+    {
+      "name": "HogiritearmorArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hogiritearmor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/hogiritearmor_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Hog536"
+    },
+    {
+      "name": "HogiritearmorArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hogiritearmor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/hogiritearmor_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Hog536"
+    },
+    {
+      "name": "HogiritearmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hogiritearmor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/hogiritearmor_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Hog536"
+    },
+    {
+      "name": "HogiritearmorArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hogiritearmor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/hogiritearmor_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Hog536"
     }
   ],
   "variable_elements": [],
@@ -194,15 +278,20 @@
   "language_map": {
     "en_us": {
       "block.bals_arystisa.hogirite": "Hogirite",
-      "block.bals_arystisa.arysting_log": "Arysting Log",
-      "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
       "subtitles.launch_spawner_wave": "",
       "subtitles.end_spawner_wave": "",
+      "item.bals_arystisa.hogiriteingot": "Hogiriteingot",
+      "item.bals_arystisa.hogiritearmor_armor_helmet": "Hogiritearmor Helmet",
+      "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
+      "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
+      "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
+      "block.bals_arystisa.arysting_log": "Arysting Log",
+      "item.bals_arystisa.hogiritearmor_armor_chestplate": "Hogiritearmor Chestplate",
+      "item.bals_arystisa.hogiritearmor_armor_boots": "Hogiritearmor Boots",
       "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
       "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
       "item_group.bals_arystisa.arystisa": "Arystisa",
-      "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
-      "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
+      "item.bals_arystisa.hogiritearmor_armor_leggings": "Hogiritearmor Leggings",
       "subtitles.next_spawner_wave": ""
     }
   },

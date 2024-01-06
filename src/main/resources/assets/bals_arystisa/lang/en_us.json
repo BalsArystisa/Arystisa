@@ -1,13 +1,18 @@
 {
   "block.bals_arystisa.hogirite": "Hogirite",
-  "block.bals_arystisa.arysting_log": "Arysting Log",
-  "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
   "subtitles.launch_spawner_wave": "",
   "subtitles.end_spawner_wave": "",
+  "item.bals_arystisa.hogiriteingot": "Hogiriteingot",
+  "item.bals_arystisa.hogiritearmor_armor_helmet": "Hogiritearmor Helmet",
+  "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
+  "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
+  "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
+  "block.bals_arystisa.arysting_log": "Arysting Log",
+  "item.bals_arystisa.hogiritearmor_armor_chestplate": "Hogiritearmor Chestplate",
+  "item.bals_arystisa.hogiritearmor_armor_boots": "Hogiritearmor Boots",
   "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
   "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
   "item_group.bals_arystisa.arystisa": "Arystisa",
-  "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
-  "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
+  "item.bals_arystisa.hogiritearmor_armor_leggings": "Hogiritearmor Leggings",
   "subtitles.next_spawner_wave": ""
 }
