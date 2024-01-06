@@ -8,11 +8,11 @@
   ],
   "key": {
     "a": {
-      "item": "bals_arystisa:deleted_mod_element"
+      "item": "bals_arystisa:hogirit_ingot"
     }
   },
   "result": {
-    "item": "bals_arystisa:deleted_mod_element_leggings",
+    "item": "bals_arystisa:hogirit_armor_leggings",
     "count": 1
   }
 }

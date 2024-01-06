@@ -21,10 +21,10 @@
       "registry_name": "arysting_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/arysting_log.json",
           "src/main/java/net/mcreator/balsarystisa/block/ArystingLogBlock.java",
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_log.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/arysting_log.json"
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_log.json",
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_log.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_log.json"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -38,9 +38,9 @@
       "registry_name": "runned_stone_bricks",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/block/RunnedStoneBricksBlock.java",
           "src/main/resources/assets/bals_arystisa/models/item/runned_stone_bricks.json",
           "src/main/resources/assets/bals_arystisa/models/block/runned_stone_bricks.json",
+          "src/main/java/net/mcreator/balsarystisa/block/RunnedStoneBricksBlock.java",
           "src/main/resources/assets/bals_arystisa/blockstates/runned_stone_bricks.json"
         ]
       },
@@ -55,10 +55,10 @@
       "registry_name": "amber_ore_arysting_log",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/block/AmberOreArystingLogBlock.java",
-          "src/main/resources/assets/bals_arystisa/models/block/amber_ore_arysting_log.json",
           "src/main/resources/assets/bals_arystisa/models/item/amber_ore_arysting_log.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/amber_ore_arysting_log.json"
+          "src/main/resources/assets/bals_arystisa/blockstates/amber_ore_arysting_log.json",
+          "src/main/resources/assets/bals_arystisa/models/block/amber_ore_arysting_log.json",
+          "src/main/java/net/mcreator/balsarystisa/block/AmberOreArystingLogBlock.java"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -72,9 +72,9 @@
       "registry_name": "arystis_spawner",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/ArystisSpawnerBlock.java",
           "src/main/resources/assets/bals_arystisa/blockstates/arystis_spawner.json",
           "src/main/resources/assets/bals_arystisa/models/block/arystis_spawner.json",
-          "src/main/java/net/mcreator/balsarystisa/block/ArystisSpawnerBlock.java",
           "src/main/resources/assets/bals_arystisa/models/item/arystis_spawner.json"
         ]
       },
@@ -89,10 +89,10 @@
       "registry_name": "arystis_spawner_no_activeted",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/block/ArystisSpawnerNoActivetedBlock.java",
+          "src/main/resources/assets/bals_arystisa/blockstates/arystis_spawner_no_activeted.json",
           "src/main/resources/assets/bals_arystisa/models/item/arystis_spawner_no_activeted.json",
           "src/main/resources/assets/bals_arystisa/models/block/arystis_spawner_no_activeted.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/arystis_spawner_no_activeted.json"
+          "src/main/java/net/mcreator/balsarystisa/block/ArystisSpawnerNoActivetedBlock.java"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -138,30 +138,13 @@
       "registry_name": "arysting_leaves",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingLeavesBlock.java",
           "src/main/resources/assets/bals_arystisa/models/block/arysting_leaves.json",
-          "src/main/resources/assets/bals_arystisa/models/item/arysting_leaves.json",
           "src/main/resources/assets/bals_arystisa/blockstates/arysting_leaves.json",
-          "src/main/java/net/mcreator/balsarystisa/block/ArystingLeavesBlock.java"
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_leaves.json"
         ]
       },
       "path": "~/BAL1SEUR"
-    },
-    {
-      "name": "Hogirite",
-      "type": "block",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirite",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bals_arystisa/models/block/hogirite.json",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirite.json",
-          "src/main/java/net/mcreator/balsarystisa/block/HogiriteBlock.java",
-          "src/main/resources/assets/bals_arystisa/blockstates/hogirite.json"
-        ]
-      },
-      "path": "~/Hog536"
     },
     {
       "name": "Baguette",
@@ -1033,16 +1016,47 @@
   ],
   "language_map": {
     "en_us": {
+      "block.bals_arystisa.arysting_button": "Arysting Button",
+      "block.bals_arystisa.sand_wood_fence_gate": "Sand_wood Fence Gate",
+      "block.bals_arystisa.arysting_planks": "Arysting Planks",
+      "block.bals_arystisa.sand_wood_leaves": "Sand_wood Leaves",
+      "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
+      "block.bals_arystisa.sand_wood_log": "Sand_wood Log",
       "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
       "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
-      "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
+      "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
+      "item.bals_arystisa.hogirit_sword": "Hogirit Sword",
+      "block.bals_arystisa.hogirit_ore": "Hogirit Ore",
       "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
+      "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
+      "block.bals_arystisa.sand_wood_planks": "Sand_wood Planks",
+      "block.bals_arystisa.sand_wood_button": "Sand_wood Button",
       "item_group.bals_arystisa.arystisa": "Arystisa",
+      "block.bals_arystisa.sand_wood_fence": "Sand_wood Fence",
+      "block.bals_arystisa.sand_wood_stairs": "Sand_wood Stairs",
+      "block.bals_arystisa.arysting_pressure_plate": "Arysting PressurePlate",
+      "block.bals_arystisa.arysting_fence": "Arysting Fence",
       "subtitles.launch_spawner_wave": "",
+      "block.bals_arystisa.arysting_wood": "Arysting Wood",
+      "item.bals_arystisa.hogirit_pickaxe": "Hogirit Pickaxe",
+      "block.bals_arystisa.sand_wood_wood": "Sand_wood Wood",
       "subtitles.end_spawner_wave": "",
+      "item.bals_arystisa.baguette": "Baguette",
+      "block.bals_arystisa.hogirit_block": "Block of Hogirit",
+      "item.bals_arystisa.hogirit_armor_chestplate": "Hogirit Chestplate",
       "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
+      "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
+      "item.bals_arystisa.hogirit_ingot": "Hogirit",
+      "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
+      "block.bals_arystisa.arysting_slab": "Arysting Slab",
+      "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",
       "block.bals_arystisa.arysting_log": "Arysting Log",
-      "subtitles.next_spawner_wave": ""
+      "item.bals_arystisa.hogirit_armor_leggings": "Hogirit Leggings",
+      "block.bals_arystisa.sand_wood_pressure_plate": "Sand_wood Pressure Plate",
+      "item.bals_arystisa.hogirit_armor_boots": "Hogirit Boots",
+      "item.bals_arystisa.hogirit_hoe": "Hogirit Hoe",
+      "subtitles.next_spawner_wave": "",
+      "block.bals_arystisa.sand_wood_slab": "Sand_wood Slab"
     }
   },
   "foldersRoot": {
