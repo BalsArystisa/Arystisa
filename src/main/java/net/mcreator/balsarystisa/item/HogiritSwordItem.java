@@ -26,7 +26,7 @@ public class HogiritSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 1f;
+				return 98f;
 			}
 
 			public int getLevel() {
@@ -40,7 +40,7 @@ public class HogiritSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(BalsArystisaModItems.HOGIRIT_INGOT.get()));
 			}
-		}, 3, -3f, new Item.Properties());
+		}, 3, 1f, new Item.Properties());
 	}
 
 	@Override
