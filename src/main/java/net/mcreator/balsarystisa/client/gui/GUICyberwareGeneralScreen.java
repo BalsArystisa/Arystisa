@@ -27,8 +27,8 @@ public class GUICyberwareGeneralScreen extends AbstractContainerScreen<GUICyberw
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 176;
-		this.imageHeight = 166;
+		this.imageWidth = 320;
+		this.imageHeight = 200;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("bals_arystisa:textures/screens/gui_cyberware_general.png");
