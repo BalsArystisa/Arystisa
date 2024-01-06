@@ -858,8 +858,8 @@
       "registry_name": "gui_cyberware_general",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/client/gui/GUICyberwareGeneralScreen.java",
-          "src/main/java/net/mcreator/balsarystisa/world/inventory/GUICyberwareGeneralMenu.java"
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/GUICyberwareGeneralMenu.java",
+          "src/main/java/net/mcreator/balsarystisa/client/gui/GUICyberwareGeneralScreen.java"
         ]
       },
       "path": "~/SirRacaillou/GUI_Cyberware"
@@ -913,6 +913,76 @@
         ]
       },
       "path": "~/SirRacaillou/GUI_Cyberware"
+    },
+    {
+      "name": "ArystisaWorld",
+      "type": "dimension",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arystisa_world",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/ArystisaWorldPortalBlock.java",
+          "src/main/resources/data/bals_arystisa/dimension_type/arystisa_world.json",
+          "src/main/java/net/mcreator/balsarystisa/world/teleporter/ArystisaWorldTeleporter.java",
+          "src/main/java/net/mcreator/balsarystisa/world/teleporter/ArystisaWorldPortalShape.java",
+          "src/main/resources/data/bals_arystisa/dimension/arystisa_world.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/arystisa_world_portal.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arystisa_world_portal_ns.json",
+          "src/main/java/net/mcreator/balsarystisa/item/ArystisaWorldItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/arystisa_world.json",
+          "src/main/java/net/mcreator/balsarystisa/world/dimension/ArystisaWorldDimension.java",
+          "src/main/resources/assets/bals_arystisa/models/block/arystisa_world_portal_ew.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "DiamondFlint",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_flint",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/DiamondFlintItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/diamond_flint.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "ArystingForest",
+      "type": "biome",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arysting_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/worldgen/biome/arysting_forest.json",
+          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/arysting_forest_tree.json",
+          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/arysting_forest_tree.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "RunnedPortalParticle",
+      "type": "particle",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runned_portal_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/client/particle/RunnedPortalParticleParticle.java",
+          "src/main/resources/assets/bals_arystisa/particles/runned_portal_particle.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
     }
   ],
   "variable_elements": [],
@@ -944,7 +1014,6 @@
   ],
   "language_map": {
     "en_us": {
-      "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
       "block.bals_arystisa.arysting_button": "Arysting Button",
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "item.bals_arystisa.hogirit_axe": "Hogirit Axe",

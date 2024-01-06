@@ -14,6 +14,7 @@ import net.mcreator.balsarystisa.block.RunnedStoneBricksBlock;
 import net.mcreator.balsarystisa.block.HogiritOreBlock;
 import net.mcreator.balsarystisa.block.HogiritBlockBlock;
 import net.mcreator.balsarystisa.block.FormerGravelBlock;
+import net.mcreator.balsarystisa.block.ArystisaWorldPortalBlock;
 import net.mcreator.balsarystisa.block.ArystisSpawnerNoActivetedBlock;
 import net.mcreator.balsarystisa.block.ArystisSpawnerBlock;
 import net.mcreator.balsarystisa.block.ArystingWoodBlock;
@@ -48,4 +49,5 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> ARYSTING_FENCE_GATE = REGISTRY.register("arysting_fence_gate", () -> new ArystingFenceGateBlock());
 	public static final RegistryObject<Block> ARYSTING_PRESSURE_PLATE = REGISTRY.register("arysting_pressure_plate", () -> new ArystingPressurePlateBlock());
 	public static final RegistryObject<Block> ARYSTING_BUTTON = REGISTRY.register("arysting_button", () -> new ArystingButtonBlock());
+	public static final RegistryObject<Block> ARYSTISA_WORLD_PORTAL = REGISTRY.register("arystisa_world_portal", () -> new ArystisaWorldPortalBlock());
 }

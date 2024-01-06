@@ -1,19 +1,11 @@
 
 package net.mcreator.balsarystisa.network;
 
-import net.minecraftforge.network.NetworkEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-
-import net.minecraft.network.FriendlyByteBuf;
-
 import net.mcreator.balsarystisa.BalsArystisaMod;
-
-import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class TriggerCyberwareGUIMessage {
+
 	int type, pressedms;
 
 	public TriggerCyberwareGUIMessage(int type, int pressedms) {
@@ -42,4 +34,5 @@ public class TriggerCyberwareGUIMessage {
 	public static void registerMessage(FMLCommonSetupEvent event) {
 		BalsArystisaMod.addNetworkMessage(TriggerCyberwareGUIMessage.class, TriggerCyberwareGUIMessage::buffer, TriggerCyberwareGUIMessage::new, TriggerCyberwareGUIMessage::handler);
 	}
+
 }

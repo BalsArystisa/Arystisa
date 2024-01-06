@@ -19,7 +19,9 @@ import net.mcreator.balsarystisa.item.HogiritIngotItem;
 import net.mcreator.balsarystisa.item.HogiritHoeItem;
 import net.mcreator.balsarystisa.item.HogiritAxeItem;
 import net.mcreator.balsarystisa.item.HogiritArmorItem;
+import net.mcreator.balsarystisa.item.DiamondFlintItem;
 import net.mcreator.balsarystisa.item.BaguetteItem;
+import net.mcreator.balsarystisa.item.ArystisaWorldItem;
 import net.mcreator.balsarystisa.BalsArystisaMod;
 
 public class BalsArystisaModItems {
@@ -52,6 +54,8 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> HOGIRIT_ARMOR_LEGGINGS = REGISTRY.register("hogirit_armor_leggings", () -> new HogiritArmorItem.Leggings());
 	public static final RegistryObject<Item> HOGIRIT_ARMOR_BOOTS = REGISTRY.register("hogirit_armor_boots", () -> new HogiritArmorItem.Boots());
 	public static final RegistryObject<Item> HOGIRIT_INGOT = REGISTRY.register("hogirit_ingot", () -> new HogiritIngotItem());
+	public static final RegistryObject<Item> DIAMOND_FLINT = REGISTRY.register("diamond_flint", () -> new DiamondFlintItem());
+	public static final RegistryObject<Item> ARYSTISA_WORLD = REGISTRY.register("arystisa_world", () -> new ArystisaWorldItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

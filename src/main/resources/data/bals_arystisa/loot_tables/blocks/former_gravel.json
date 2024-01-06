@@ -20,7 +20,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:flint",
+          "name": "bals_arystisa:diamond_flint",
           "weight": 1,
           "functions": [
             {
