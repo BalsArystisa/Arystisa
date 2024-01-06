@@ -28,7 +28,7 @@
           {
             "type": "item",
             "item": {
-              "value": "Items.FLINT"
+              "value": "CUSTOM:DiamondFlint"
             },
             "weight": 1,
             "minCount": 1,

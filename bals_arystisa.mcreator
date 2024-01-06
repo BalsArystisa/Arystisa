@@ -899,6 +899,76 @@
         ]
       },
       "path": "~/SirRacaillou/GUI_Cyberware"
+    },
+    {
+      "name": "DiamondFlint",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_flint",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/diamond_flint.json",
+          "src/main/java/net/mcreator/balsarystisa/item/DiamondFlintItem.java"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "ArystingForest",
+      "type": "biome",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arysting_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/arysting_forest_tree.json",
+          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/arysting_forest_tree.json",
+          "src/main/resources/data/bals_arystisa/worldgen/biome/arysting_forest.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "ArystisaWorld",
+      "type": "dimension",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arystisa_world",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/world/dimension/ArystisaWorldDimension.java",
+          "src/main/java/net/mcreator/balsarystisa/world/teleporter/ArystisaWorldPortalShape.java",
+          "src/main/java/net/mcreator/balsarystisa/item/ArystisaWorldItem.java",
+          "src/main/resources/assets/bals_arystisa/models/block/arystisa_world_portal_ns.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystisaWorldPortalBlock.java",
+          "src/main/resources/data/bals_arystisa/dimension/arystisa_world.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/arystisa_world_portal.json",
+          "src/main/resources/data/bals_arystisa/dimension_type/arystisa_world.json",
+          "src/main/java/net/mcreator/balsarystisa/world/teleporter/ArystisaWorldTeleporter.java",
+          "src/main/resources/assets/bals_arystisa/models/block/arystisa_world_portal_ew.json",
+          "src/main/resources/assets/bals_arystisa/models/item/arystisa_world.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "RunnedPortalParticle",
+      "type": "particle",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runned_portal_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/particles/runned_portal_particle.json",
+          "src/main/java/net/mcreator/balsarystisa/client/particle/RunnedPortalParticleParticle.java"
+        ]
+      },
+      "path": "~/BAL1SEUR"
     }
   ],
   "variable_elements": [],
@@ -935,9 +1005,11 @@
       "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
       "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
       "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
+      "biome.bals_arystisa.arysting_forest": "Arysting Forest",
       "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
       "item.bals_arystisa.hogirit_sword": "Hogirit Sword",
       "block.bals_arystisa.hogirit_ore": "Hogirit Ore",
+      "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
       "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
       "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
       "item_group.bals_arystisa.arystisa": "Arystisa",
@@ -951,6 +1023,7 @@
       "block.bals_arystisa.hogirit_block": "Block of Hogirit",
       "item.bals_arystisa.hogirit_armor_chestplate": "Hogirit Chestplate",
       "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
+      "item.bals_arystisa.diamond_flint": "Diamond Flint",
       "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
       "item.bals_arystisa.hogirit_ingot": "Hogirit",
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",

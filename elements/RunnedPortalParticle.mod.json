@@ -1,0 +1,21 @@
+{
+  "_fv": 57,
+  "_type": "particle",
+  "definition": {
+    "texture": "runned_particle_texture.png",
+    "animate": true,
+    "frameDuration": 20,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": 0.6,
+    "speedFactor": 1.0,
+    "gravity": -0.6,
+    "maxAge": 7,
+    "maxAgeDiff": 0,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": true,
+    "alwaysShow": false,
+    "renderType": "TRANSLUCENT"
+  }
+}
