@@ -1069,6 +1069,76 @@
         ]
       },
       "path": "~/Jos3"
+    },
+    {
+      "name": "ArystingStairsCraft",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arysting_stairs_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/arysting_stairs_craft.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "ArystingSlabCraft",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arysting_slab_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/arysting_slab_craft.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "ArystingFenceCraft",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arysting_fence_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/arysting_fence_craft.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "ArystingFenceGateCraft",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arysting_fence_gate_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/arysting_fence_gate_craft.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "ArystingPressurePlateCraft",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arysting_pressure_plate_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/arysting_pressure_plate_craft.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
     }
   ],
   "variable_elements": [],
@@ -1125,6 +1195,7 @@
       "item.bals_arystisa.hogirit_pickaxe": "Hogirit Pickaxe",
       "block.bals_arystisa.sand_wood_wood": "Sand_wood Wood",
       "subtitles.end_spawner_wave": "",
+      "item.bals_arystisa.baguette": "Baguette",
       "block.bals_arystisa.hogirit_block": "Block of Hogirit",
       "item.bals_arystisa.hogirit_armor_chestplate": "Hogirit Chestplate",
       "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
@@ -1159,6 +1230,10 @@
       },
       {
         "name": "Jos3",
+        "children": []
+      },
+      {
+        "name": "Thekiller9088",
         "children": []
       }
     ]
