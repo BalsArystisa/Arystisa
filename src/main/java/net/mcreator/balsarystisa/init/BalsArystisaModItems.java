@@ -19,6 +19,7 @@ import net.mcreator.balsarystisa.item.HogiritIngotItem;
 import net.mcreator.balsarystisa.item.HogiritHoeItem;
 import net.mcreator.balsarystisa.item.HogiritAxeItem;
 import net.mcreator.balsarystisa.item.HogiritArmorItem;
+import net.mcreator.balsarystisa.item.BaguetteItem;
 import net.mcreator.balsarystisa.BalsArystisaMod;
 
 public class BalsArystisaModItems {
@@ -30,6 +31,7 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> ARYSTING_LEAVES = block(BalsArystisaModBlocks.ARYSTING_LEAVES);
 	public static final RegistryObject<Item> ARYSTIS_SPAWNER = block(BalsArystisaModBlocks.ARYSTIS_SPAWNER);
 	public static final RegistryObject<Item> ARYSTIS_SPAWNER_NO_ACTIVETED = block(BalsArystisaModBlocks.ARYSTIS_SPAWNER_NO_ACTIVETED);
+	public static final RegistryObject<Item> BAGUETTE = REGISTRY.register("baguette", () -> new BaguetteItem());
 	public static final RegistryObject<Item> ARYSTING_PLANKS = block(BalsArystisaModBlocks.ARYSTING_PLANKS);
 	public static final RegistryObject<Item> ARYSTING_STAIRS = block(BalsArystisaModBlocks.ARYSTING_STAIRS);
 	public static final RegistryObject<Item> ARYSTING_SLAB = block(BalsArystisaModBlocks.ARYSTING_SLAB);

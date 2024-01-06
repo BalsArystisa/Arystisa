@@ -9,5 +9,5 @@
     "west": "bals_arystisa:block/arysting_leaves",
     "particle": "bals_arystisa:block/arysting_leaves"
   },
-  "render_type": "cutout"
+  "render_type": "translucent"
 }
