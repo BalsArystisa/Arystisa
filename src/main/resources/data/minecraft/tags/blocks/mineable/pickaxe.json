@@ -2,8 +2,7 @@
   "replace": false,
   "values": [
     "bals_arystisa:runned_stone_bricks",
-    "bals_arystisa:hogirite",
-    "bals_arystisa:hog_ore",
-    "bals_arystisa:hog_block"
+    "bals_arystisa:hogirit_ore",
+    "bals_arystisa:hogirit_block"
   ]
 }

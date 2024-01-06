@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "bals_arystisa:block/hog_ore",
-    "particle": "bals_arystisa:block/hog_ore"
-  },
-  "render_type": "solid"
-}

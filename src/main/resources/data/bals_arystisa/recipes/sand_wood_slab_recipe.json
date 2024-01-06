@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "bals_arystisa:sand_wood_planks"
+    }
+  },
+  "result": {
+    "item": "bals_arystisa:sand_wood_slab",
+    "count": 6
+  }
+}
