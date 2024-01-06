@@ -1,7 +1,15 @@
 {
   "replace": false,
   "values": [
+    "bals_arystisa:arysting_wood",
     "bals_arystisa:arysting_log",
-    "bals_arystisa:amber_ore_arysting_log"
+    "bals_arystisa:amber_ore_arysting_log",
+    "bals_arystisa:arysting_planks",
+    "bals_arystisa:arysting_stairs",
+    "bals_arystisa:arysting_slab",
+    "bals_arystisa:arysting_fence",
+    "bals_arystisa:arysting_fence_gate",
+    "bals_arystisa:arysting_pressure_plate",
+    "bals_arystisa:arysting_button"
   ]
 }

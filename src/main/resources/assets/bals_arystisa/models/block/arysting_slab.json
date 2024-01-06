@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "bals_arystisa:block/arysting_planks",
+    "top": "bals_arystisa:block/arysting_planks",
+    "side": "bals_arystisa:block/arysting_planks"
+  },
+  "render_type": "solid"
+}

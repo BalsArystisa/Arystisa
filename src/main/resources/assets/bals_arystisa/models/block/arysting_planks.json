@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bals_arystisa:block/arysting_planks",
+    "up": "bals_arystisa:block/arysting_planks",
+    "north": "bals_arystisa:block/arysting_planks",
+    "east": "bals_arystisa:block/arysting_planks",
+    "south": "bals_arystisa:block/arysting_planks",
+    "west": "bals_arystisa:block/arysting_planks",
+    "particle": "bals_arystisa:block/arysting_planks"
+  },
+  "render_type": "solid"
+}

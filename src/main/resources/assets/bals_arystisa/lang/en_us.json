@@ -1,13 +1,21 @@
 {
   "block.bals_arystisa.hogirite": "Hogirite",
-  "block.bals_arystisa.arysting_log": "Arysting Log",
-  "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
+  "block.bals_arystisa.arysting_fence": "Arysting Fence",
+  "block.bals_arystisa.arysting_button": "Arysting Button",
   "subtitles.launch_spawner_wave": "",
+  "block.bals_arystisa.arysting_wood": "Arysting Wood",
+  "block.bals_arystisa.arysting_planks": "Arysting Planks",
   "subtitles.end_spawner_wave": "",
+  "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
+  "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
+  "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
+  "block.bals_arystisa.arysting_slab": "Arysting Slab",
+  "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
+  "block.bals_arystisa.arysting_log": "Arysting Log",
+  "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
   "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
   "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
   "item_group.bals_arystisa.arystisa": "Arystisa",
-  "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
-  "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
-  "subtitles.next_spawner_wave": ""
+  "subtitles.next_spawner_wave": "",
+  "block.bals_arystisa.arysting_pressure_plate": "Arysting PressurePlate"
 }

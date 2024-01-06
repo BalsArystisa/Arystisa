@@ -2,8 +2,8 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "arysting_log_top",
-    "textureTop": "arysting_log_top",
+    "texture": "arysting_log",
+    "textureTop": "arysting_log",
     "textureLeft": "arysting_log",
     "textureFront": "arysting_log",
     "textureRight": "arysting_log",
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Arysting Log",
+    "name": "Arysting Wood",
     "specialInformation": {
       "fixedValue": []
     },
