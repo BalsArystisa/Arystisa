@@ -7,11 +7,11 @@
   ],
   "key": {
     "a": {
-      "item": "bals_arystisa:deleted_mod_element"
+      "item": "bals_arystisa:sand_wood_planks"
     }
   },
   "result": {
-    "item": "bals_arystisa:deleted_mod_element",
+    "item": "bals_arystisa:sand_wood_slab",
     "count": 6
   }
 }
