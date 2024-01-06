@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bals_arystisa:block/runned_stone_bricks",
+    "up": "bals_arystisa:block/runned_stone_bricks",
+    "north": "bals_arystisa:block/runned_stone_bricks",
+    "east": "bals_arystisa:block/runned_stone_bricks",
+    "south": "bals_arystisa:block/runned_stone_bricks",
+    "west": "bals_arystisa:block/runned_stone_bricks",
+    "particle": "bals_arystisa:block/runned_stone_bricks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,78 @@
+{
+  "mod_elements": [
+    {
+      "name": "Arystisa",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arystisa",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ArystingLog",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arysting_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_log.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingLogBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_log.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_log.json"
+        ]
+      }
+    },
+    {
+      "name": "RunnedStoneBricks",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "runned_stone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/RunnedStoneBricksBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/runned_stone_bricks.json",
+          "src/main/resources/assets/bals_arystisa/models/block/runned_stone_bricks.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/runned_stone_bricks.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.bals_arystisa.arysting_log": "Arysting Log",
+      "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
+      "item_group.bals_arystisa.arystisa": "Arystisa"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "bals_arystisa",
+    "modName": "Bal\u0027s Arystisa",
+    "version": "1.0.0",
+    "author": "BAL1SEUR, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.balsarystisa",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
