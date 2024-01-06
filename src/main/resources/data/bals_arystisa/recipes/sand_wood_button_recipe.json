@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "bals_arystisa:sand_wood_planks"
+    }
+  ],
+  "result": {
+    "item": "bals_arystisa:deleted_mod_element",
+    "count": 1
+  }
+}

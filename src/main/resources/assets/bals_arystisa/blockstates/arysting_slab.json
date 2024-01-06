@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "bals_arystisa:block/arysting_slab"
+    },
+    "type=top": {
+      "model": "bals_arystisa:block/arysting_slab_top"
+    },
+    "type=double": {
+      "model": "bals_arystisa:block/arysting_slab_full"
+    }
+  }
+}

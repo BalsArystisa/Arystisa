@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "bals_arystisa:sand_wood_wood"
+    }
+  ],
+  "result": {
+    "item": "bals_arystisa:sand_wood_planks",
+    "count": 4
+  }
+}

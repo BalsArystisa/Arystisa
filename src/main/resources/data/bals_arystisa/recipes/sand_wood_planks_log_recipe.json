@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "bals_arystisa:deleted_mod_element"
+    }
+  ],
+  "result": {
+    "item": "bals_arystisa:deleted_mod_element",
+    "count": 4
+  }
+}

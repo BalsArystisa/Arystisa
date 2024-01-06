@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "bals_arystisa:block/arysting_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "bals_arystisa:block/arysting_wood"
+    },
+    "axis=z": {
+      "model": "bals_arystisa:block/arysting_wood",
+      "x": 90
+    }
+  }
+}
