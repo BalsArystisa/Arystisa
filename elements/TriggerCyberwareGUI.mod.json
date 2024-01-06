@@ -1,0 +1,9 @@
+{
+  "_fv": 57,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "NUMPAD0",
+    "keyBindingName": "Trigger Cyberware GUI",
+    "keyBindingCategoryKey": "arystisia"
+  }
+}

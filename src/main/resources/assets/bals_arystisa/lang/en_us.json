@@ -1,4 +1,5 @@
 {
+  "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
   "block.bals_arystisa.arysting_button": "Arysting Button",
   "block.bals_arystisa.arysting_planks": "Arysting Planks",
   "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
@@ -27,6 +28,7 @@
   "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",
   "block.bals_arystisa.arysting_log": "Arysting Log",
   "item.bals_arystisa.hogirit_armor_leggings": "Hogirit Leggings",
+  "key.categories.arystisia": "Arystitsia",
   "item.bals_arystisa.hogirit_armor_boots": "Hogirit Boots",
   "item.bals_arystisa.hogirit_hoe": "Hogirit Hoe",
   "block.bals_arystisa.former_gravel": "Former Gravel",
