@@ -1083,6 +1083,44 @@
         ]
       },
       "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "InvisibleCamoUse",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_camo_use",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/InvisibleCamoUseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "SelectionUse",
+      "type": "keybind",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "selection_use",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/network/SelectionUseMessage.java"
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
     }
   ],
   "variable_elements": [
@@ -1121,8 +1159,8 @@
   ],
   "language_map": {
     "en_us": {
-      "block.bals_arystisa.arysting_button": "Arysting Button",
       "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
+      "block.bals_arystisa.arysting_button": "Arysting Button",
       "item.bals_arystisa.invisible_camo_cyberware": "Invisible Camo Cyberware",
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "item.bals_arystisa.sap_bottle": "Sap Bottle",
@@ -1130,6 +1168,7 @@
       "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
       "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
+      "key.bals_arystisa.selection_use": "Selection Use",
       "biome.bals_arystisa.arysting_forest": "Arysting Forest",
       "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
       "item.bals_arystisa.hogirit_sword": "Hogirit Sword",
