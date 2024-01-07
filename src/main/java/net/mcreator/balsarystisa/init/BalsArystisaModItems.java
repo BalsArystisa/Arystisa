@@ -43,15 +43,15 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> HOGIRIT_ORE = block(BalsArystisaModBlocks.HOGIRIT_ORE);
 	public static final RegistryObject<Item> HOGIRIT_BLOCK = block(BalsArystisaModBlocks.HOGIRIT_BLOCK);
 	public static final RegistryObject<Item> ARYSTING_LEAVES = block(BalsArystisaModBlocks.ARYSTING_LEAVES);
-	public static final RegistryObject<Item> ENCHANT_LEAVES = block(BalsArystisaModBlocks.ENCHANT_LEAVES);
 	public static final RegistryObject<Item> ARYSTING_WOOD = block(BalsArystisaModBlocks.ARYSTING_WOOD);
-	public static final RegistryObject<Item> ENCHANT_WOOD = block(BalsArystisaModBlocks.ENCHANT_WOOD);
+	public static final RegistryObject<Item> ENCHANT_LEAVES = block(BalsArystisaModBlocks.ENCHANT_LEAVES);
 	public static final RegistryObject<Item> ARYSTING_LOG = block(BalsArystisaModBlocks.ARYSTING_LOG);
 	public static final RegistryObject<Item> AMBER_ORE_ARYSTING_LOG = block(BalsArystisaModBlocks.AMBER_ORE_ARYSTING_LOG);
-	public static final RegistryObject<Item> ENCHANT_LOG = block(BalsArystisaModBlocks.ENCHANT_LOG);
+	public static final RegistryObject<Item> ENCHANT_WOOD = block(BalsArystisaModBlocks.ENCHANT_WOOD);
 	public static final RegistryObject<Item> ARYSTING_PLANKS = block(BalsArystisaModBlocks.ARYSTING_PLANKS);
 	public static final RegistryObject<Item> ARYSTING_STAIRS = block(BalsArystisaModBlocks.ARYSTING_STAIRS);
 	public static final RegistryObject<Item> ARYSTING_SLAB = block(BalsArystisaModBlocks.ARYSTING_SLAB);
+	public static final RegistryObject<Item> ENCHANT_LOG = block(BalsArystisaModBlocks.ENCHANT_LOG);
 	public static final RegistryObject<Item> ARYSTING_FENCE = block(BalsArystisaModBlocks.ARYSTING_FENCE);
 	public static final RegistryObject<Item> ARYSTING_FENCE_GATE = block(BalsArystisaModBlocks.ARYSTING_FENCE_GATE);
 	public static final RegistryObject<Item> ARYSTING_PRESSURE_PLATE = block(BalsArystisaModBlocks.ARYSTING_PRESSURE_PLATE);
@@ -82,6 +82,7 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> BAGUETTE_PICKAXE = REGISTRY.register("baguette_pickaxe", () -> new BaguettePickaxeItem());
 	public static final RegistryObject<Item> BAGUETTE_SHOVEL = REGISTRY.register("baguette_shovel", () -> new BaguetteShovelItem());
 	public static final RegistryObject<Item> BAGUETTE_HOE = REGISTRY.register("baguette_hoe", () -> new BaguetteHoeItem());
+	public static final RegistryObject<Item> COBALTORE = block(BalsArystisaModBlocks.COBALTORE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

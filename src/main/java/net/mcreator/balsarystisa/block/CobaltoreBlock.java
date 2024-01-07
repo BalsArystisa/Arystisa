@@ -4,9 +4,9 @@ package net.mcreator.balsarystisa.block;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
-public class EnchantLeavesBlock extends Block {
-	public EnchantLeavesBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().sound(SoundType.GRASS).strength(0.2f, 0.5f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+public class CobaltoreBlock extends Block {
+	public CobaltoreBlock() {
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f));
 	}
 
 	@Override
@@ -15,18 +15,8 @@ public class EnchantLeavesBlock extends Block {
 	}
 
 	@Override
-	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
-		return true;
-	}
-
-	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 0;
-	}
-
-	@Override
-	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return Shapes.empty();
+		return 15;
 	}
 
 	@Override
