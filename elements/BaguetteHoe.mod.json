@@ -2,13 +2,13 @@
   "_fv": 57,
   "_type": "tool",
   "definition": {
-    "toolType": "Sword",
+    "toolType": "Hoe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "baguette_sword",
+    "texture": "baguette_hoe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Baguette Sword",
+    "name": "Baguette Hoe",
     "specialInformation": {
       "fixedValue": []
     },
@@ -17,9 +17,9 @@
     },
     "harvestLevel": 1,
     "efficiency": 2.0,
-    "attackSpeed": 1.6,
+    "attackSpeed": 1.0,
     "enchantability": 15,
-    "damageVsEntity": 4.0,
+    "damageVsEntity": 1.0,
     "usageCount": 59,
     "blocksAffected": [],
     "glowCondition": {

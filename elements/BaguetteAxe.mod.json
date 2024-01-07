@@ -2,13 +2,13 @@
   "_fv": 57,
   "_type": "tool",
   "definition": {
-    "toolType": "Sword",
+    "toolType": "Axe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "baguette_sword",
+    "texture": "baguette_axe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Baguette Sword",
+    "name": "Baguette Axe",
     "specialInformation": {
       "fixedValue": []
     },
@@ -17,7 +17,7 @@
     },
     "harvestLevel": 1,
     "efficiency": 2.0,
-    "attackSpeed": 1.6,
+    "attackSpeed": 1.0,
     "enchantability": 15,
     "damageVsEntity": 4.0,
     "usageCount": 59,
@@ -27,7 +27,7 @@
     },
     "repairItems": [],
     "immuneToFire": false,
-    "stayInGridWhenCrafting": true,
+    "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }
 }
