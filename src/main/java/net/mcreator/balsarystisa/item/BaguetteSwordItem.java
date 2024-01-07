@@ -32,7 +32,7 @@ public class BaguetteSwordItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 1;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {

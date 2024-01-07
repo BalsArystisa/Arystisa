@@ -25,7 +25,11 @@ import net.mcreator.balsarystisa.item.HogiritAxeItem;
 import net.mcreator.balsarystisa.item.HogiritArmorItem;
 import net.mcreator.balsarystisa.item.DiamondFlintItem;
 import net.mcreator.balsarystisa.item.BaguetteSwordItem;
+import net.mcreator.balsarystisa.item.BaguetteShovelItem;
+import net.mcreator.balsarystisa.item.BaguettePickaxeItem;
 import net.mcreator.balsarystisa.item.BaguetteItem;
+import net.mcreator.balsarystisa.item.BaguetteHoeItem;
+import net.mcreator.balsarystisa.item.BaguetteAxeItem;
 import net.mcreator.balsarystisa.item.ArystisaWorldItem;
 import net.mcreator.balsarystisa.item.AmberItem;
 import net.mcreator.balsarystisa.BalsArystisaMod;
@@ -70,6 +74,11 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> ARYSTING_COW_SPAWN_EGG = REGISTRY.register("arysting_cow_spawn_egg", () -> new ForgeSpawnEggItem(BalsArystisaModEntities.ARYSTING_COW, -16764109, -16737895, new Item.Properties()));
 	public static final RegistryObject<Item> TUGSTIUM = REGISTRY.register("tugstium", () -> new TugstiumItem());
 	public static final RegistryObject<Item> TUGSTIUMORE = block(BalsArystisaModBlocks.TUGSTIUMORE);
+	public static final RegistryObject<Item> BLOCTUGSTIUM = block(BalsArystisaModBlocks.BLOCTUGSTIUM);
+	public static final RegistryObject<Item> BAGUETTE_AXE = REGISTRY.register("baguette_axe", () -> new BaguetteAxeItem());
+	public static final RegistryObject<Item> BAGUETTE_PICKAXE = REGISTRY.register("baguette_pickaxe", () -> new BaguettePickaxeItem());
+	public static final RegistryObject<Item> BAGUETTE_SHOVEL = REGISTRY.register("baguette_shovel", () -> new BaguetteShovelItem());
+	public static final RegistryObject<Item> BAGUETTE_HOE = REGISTRY.register("baguette_hoe", () -> new BaguetteHoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bals_arystisa:block/block_tugstium",
+    "up": "bals_arystisa:block/block_tugstium",
+    "north": "bals_arystisa:block/block_tugstium",
+    "east": "bals_arystisa:block/block_tugstium",
+    "south": "bals_arystisa:block/block_tugstium",
+    "west": "bals_arystisa:block/block_tugstium",
+    "particle": "bals_arystisa:block/block_tugstium"
+  },
+  "render_type": "solid"
+}

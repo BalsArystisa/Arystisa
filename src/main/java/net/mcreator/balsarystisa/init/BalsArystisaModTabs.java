@@ -56,5 +56,10 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.ARYSTING_COW_SPAWN_EGG.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM.get());
 				tabData.accept(BalsArystisaModBlocks.TUGSTIUMORE.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.BLOCTUGSTIUM.get().asItem());
+				tabData.accept(BalsArystisaModItems.BAGUETTE_AXE.get());
+				tabData.accept(BalsArystisaModItems.BAGUETTE_PICKAXE.get());
+				tabData.accept(BalsArystisaModItems.BAGUETTE_SHOVEL.get());
+				tabData.accept(BalsArystisaModItems.BAGUETTE_HOE.get());
 			}).withSearchBar().build());
 }
