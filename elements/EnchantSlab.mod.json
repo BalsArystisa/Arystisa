@@ -2,20 +2,21 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "combinateur_cote",
-    "textureTop": "combinateur_haut",
-    "textureLeft": "combinateur_cote",
-    "textureFront": "combinateur_cote",
-    "textureRight": "combinateur_cote",
-    "textureBack": "combinateur_cote",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "enchant_planks",
+    "textureTop": "enchant_planks",
+    "textureLeft": "arysting_planks",
+    "textureFront": "enchant_planks",
+    "textureRight": "arysting_planks",
+    "textureBack": "arysting_planks",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Slab",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -33,18 +34,18 @@
         "subtract": false
       }
     ],
-    "name": "D",
+    "name": "Enchant Slab",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
+    "hardness": 2.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Arystisa"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "axe",
     "customDrop": {
       "value": ""
     },
@@ -56,10 +57,10 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "ROCK"
+      "value": "WOOD"
     },
     "tickRate": 0,
-    "tickRandomly": true,
+    "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -81,7 +82,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "WOOD"
     },
     "breakSound": {
       "value": ""
@@ -100,22 +101,17 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 0,
     "isBonemealable": false,
     "hasInventory": false,
-    "guiBoundTo": "Combinateur",
-    "openGUIOnRightClick": true,
-    "inventorySize": 3,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
-    "inventoryOutSlotIDs": [
-      2
-    ],
-    "inventoryInSlotIDs": [
-      0,
-      1
-    ],
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
     "energyInitial": 0,
     "energyCapacity": 400000,

@@ -2,20 +2,21 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "ignisium_block",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "enchant_planks",
+    "textureTop": "arysting_planks",
+    "textureLeft": "arysting_planks",
+    "textureFront": "arysting_planks",
+    "textureRight": "arysting_planks",
+    "textureBack": "arysting_planks",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
+    "blockBase": "Fence",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -33,18 +34,18 @@
         "subtract": false
       }
     ],
-    "name": "Ignisium Block",
+    "name": "Enchant Fence",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
+    "hardness": 2.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Arystisa"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "axe",
     "customDrop": {
       "value": ""
     },
@@ -56,7 +57,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "WOOD"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -81,7 +82,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "WOOD"
     },
     "breakSound": {
       "value": ""
@@ -100,7 +101,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 0,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
