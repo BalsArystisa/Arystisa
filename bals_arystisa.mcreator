@@ -1388,6 +1388,66 @@
         ]
       },
       "path": "~/Jos3/Baguette"
+    },
+    {
+      "name": "IgnisiumOre",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/ignisium_ore.json",
+          "src/main/resources/assets/bals_arystisa/models/block/ignisium_ore.json",
+          "src/main/java/net/mcreator/balsarystisa/block/IgnisiumOreBlock.java",
+          "src/main/resources/assets/bals_arystisa/blockstates/ignisium_ore.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
+    },
+    {
+      "name": "IgnisiumIngot",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/IgnisiumIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/ignisium_ingot.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
+    },
+    {
+      "name": "IgnisiumIngotRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/ignisium_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
+    },
+    {
+      "name": "IgnisiumIngotRecipe1",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_ingot_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/ignisium_ingot_recipe_1.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
     }
   ],
   "variable_elements": [
@@ -1457,6 +1517,7 @@
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
       "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",
+      "block.bals_arystisa.ignisium_ore": "Ignisium Ore",
       "item.bals_arystisa.hogirit_armor_leggings": "Hogirit Leggings",
       "key.categories.arystisia": "Arystitsia",
       "block.bals_arystisa.tugstiumore": "Tugstiumore",
@@ -1483,6 +1544,7 @@
       "entity.bals_arystisa.arysting_cow": "Arysting Cow",
       "item.bals_arystisa.hogirit_hoe": "Hogirit Hoe",
       "block.bals_arystisa.former_gravel": "Former Gravel",
+      "item.bals_arystisa.ignisium_ingot": "Ignisium Ingot",
       "subtitles.next_spawner_wave": ""
     }
   },
@@ -1506,6 +1568,10 @@
         "children": [
           {
             "name": "Baguette",
+            "children": []
+          },
+          {
+            "name": "Ignisium",
             "children": []
           }
         ]

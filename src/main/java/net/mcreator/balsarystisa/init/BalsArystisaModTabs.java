@@ -61,5 +61,7 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.BAGUETTE_PICKAXE.get());
 				tabData.accept(BalsArystisaModItems.BAGUETTE_SHOVEL.get());
 				tabData.accept(BalsArystisaModItems.BAGUETTE_HOE.get());
+				tabData.accept(BalsArystisaModBlocks.IGNISIUM_ORE.get().asItem());
+				tabData.accept(BalsArystisaModItems.IGNISIUM_INGOT.get());
 			}).withSearchBar().build());
 }
