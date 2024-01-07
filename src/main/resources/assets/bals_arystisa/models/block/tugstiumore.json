@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "bals_arystisa:block/tugstium_ore",
-    "up": "bals_arystisa:block/tugstium_ore",
-    "north": "bals_arystisa:block/tugstium_ore",
-    "east": "bals_arystisa:block/tugstium_ore",
-    "south": "bals_arystisa:block/tugstium_ore",
-    "west": "bals_arystisa:block/tugstium_ore",
-    "particle": "bals_arystisa:block/tugstium_ore"
+    "down": "bals_arystisa:block/tugstium_ore_texture",
+    "up": "bals_arystisa:block/tugstium_ore_texture",
+    "north": "bals_arystisa:block/tugstium_ore_texture",
+    "east": "bals_arystisa:block/tugstium_ore_texture",
+    "south": "bals_arystisa:block/tugstium_ore_texture",
+    "west": "bals_arystisa:block/tugstium_ore_texture",
+    "particle": "bals_arystisa:block/tugstium_ore_texture"
   },
   "render_type": "solid"
 }
