@@ -1,13 +1,12 @@
 {
-  "parent": "block/cube",
+  "parent": "bals_arystisa:custom/workstation_mode",
   "textures": {
-    "down": "bals_arystisa:block/arysting_log",
-    "up": "bals_arystisa:block/arysting_log",
-    "north": "bals_arystisa:block/arysting_log",
-    "east": "bals_arystisa:block/arysting_log",
-    "south": "bals_arystisa:block/arysting_log",
-    "west": "bals_arystisa:block/arysting_log",
-    "particle": "bals_arystisa:block/arysting_log"
+    "all": "bals_arystisa:block/workstation_0",
+    "particle": "bals_arystisa:block/workstation_0",
+    "0": "bals_arystisa:block/workstation_0",
+    "1": "bals_arystisa:block/workstation_1",
+    "2": "bals_arystisa:block/workstation_2",
+    "3": "bals_arystisa:block/workstation_3"
   },
   "render_type": "solid"
 }

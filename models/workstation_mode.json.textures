@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "workstation_0",
+        "1": "workstation_1",
+        "2": "workstation_2",
+        "3": "workstation_3"
+      },
+      "name": "default"
+    }
+  }
+}
