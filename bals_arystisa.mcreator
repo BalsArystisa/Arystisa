@@ -16,7 +16,7 @@
       "name": "ArystingLog",
       "type": "block",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "arysting_log",
       "metadata": {
@@ -50,7 +50,7 @@
       "name": "AmberOreArystingLog",
       "type": "block",
       "sortid": 4,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "amber_ore_arysting_log",
       "metadata": {
@@ -136,7 +136,7 @@
       "name": "ArystingLeaves",
       "type": "block",
       "sortid": 5,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "arysting_leaves",
       "metadata": {
@@ -225,7 +225,7 @@
       "name": "ArystingFence",
       "type": "block",
       "sortid": 14,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "arysting_fence",
       "metadata": {
@@ -244,7 +244,7 @@
       "name": "ArystingFenceGate",
       "type": "block",
       "sortid": 15,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "arysting_fence_gate",
       "metadata": {
@@ -282,7 +282,7 @@
       "name": "ArystingButton",
       "type": "block",
       "sortid": 17,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "arysting_button",
       "metadata": {
@@ -1292,6 +1292,265 @@
         ]
       },
       "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI/Work_Station_Craft"
+    },
+    {
+      "name": "BaguetteAxeRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/baguette_axe_recipe.json"
+        ]
+      },
+      "path": "~/Jos3/Baguette"
+    },
+    {
+      "name": "BaguettePickaxe",
+      "type": "tool",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/BaguettePickaxeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/baguette_pickaxe.json"
+        ]
+      },
+      "path": "~/Jos3/Baguette"
+    },
+    {
+      "name": "Basondubataillondexploration",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blasondubataillondexploration",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/BasondubataillondexplorationItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/blasondubataillondexploration.json"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "BaguetteHoe",
+      "type": "tool",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/baguette_hoe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteHoeItem.java"
+        ]
+      },
+      "path": "~/Jos3/Baguette"
+    },
+    {
+      "name": "IgnisiumIngot",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/IgnisiumIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/ignisium_ingot.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
+    },
+    {
+      "name": "IgnisiumIngotRecipe1",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_ingot_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/ignisium_ingot_recipe_1.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
+    },
+    {
+      "name": "EnchantWood",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_wood.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_wood.json",
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantWoodBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_wood.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "EnchantLeaves",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_leaves.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_leaves.json",
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantLeavesBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_leaves.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "BaguetteShovel",
+      "type": "tool",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteShovelItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/baguette_shovel.json"
+        ]
+      },
+      "path": "~/Jos3/Baguette"
+    },
+    {
+      "name": "EnchantLog",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_log.json",
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantLogBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_log.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_log.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "BaguetteShovelRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/baguette_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Jos3/Baguette"
+    },
+    {
+      "name": "Cobaltore",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/CobaltoreBlock.java",
+          "src/main/resources/assets/bals_arystisa/blockstates/cobaltore.json",
+          "src/main/resources/assets/bals_arystisa/models/item/cobaltore.json",
+          "src/main/resources/assets/bals_arystisa/models/block/cobaltore.json"
+        ]
+      },
+      "path": "~/Hog536/cobalt"
+    },
+    {
+      "name": "BaguetteAxe",
+      "type": "tool",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/baguette_axe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteAxeItem.java"
+        ]
+      },
+      "path": "~/Jos3/Baguette"
+    },
+    {
+      "name": "IgnisiumOre",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/IgnisiumOreBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/ignisium_ore.json",
+          "src/main/resources/assets/bals_arystisa/models/item/ignisium_ore.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/ignisium_ore.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
+    },
+    {
+      "name": "IgnisiumIngotRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/ignisium_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
+    },
+    {
+      "name": "BaguettePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/baguette_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Jos3/Baguette"
+    },
+    {
+      "name": "BaguetteHoeRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/baguette_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Jos3/Baguette"
     }
   ],
   "variable_elements": [
@@ -1390,6 +1649,10 @@
     "name": "~",
     "children": [
       {
+        "name": "MisterPongiste",
+        "children": []
+      },
+      {
         "name": "Azerty384445",
         "children": []
       },
@@ -1399,11 +1662,20 @@
       },
       {
         "name": "Hog536",
-        "children": []
+        "children": [
+          {
+            "name": "cobalt",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Jos3",
         "children": [
+          {
+            "name": "Ignisium",
+            "children": []
+          },
           {
             "name": "Baguette",
             "children": []
