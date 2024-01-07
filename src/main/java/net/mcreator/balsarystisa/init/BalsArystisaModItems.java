@@ -77,15 +77,11 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> TUGSTIUM_ARMOR_ARMOR_BOOTS = REGISTRY.register("tugstium_armor_armor_boots", () -> new TugstiumArmorArmorItem.Boots());
 	public static final RegistryObject<Item> BAGUETTE = REGISTRY.register("baguette", () -> new BaguetteItem());
 	public static final RegistryObject<Item> BAGUETTE_SWORD = REGISTRY.register("baguette_sword", () -> new BaguetteSwordItem());
-	public static final RegistryObject<Item> TUGSTIUM_1_SWORD = REGISTRY.register("tugstium_1_sword", () -> new Tugstium_1SwordItem());
 	public static final RegistryObject<Item> BAGUETTE_PICKAXE = REGISTRY.register("baguette_pickaxe", () -> new BaguettePickaxeItem());
 	public static final RegistryObject<Item> TUGSTIUM_1_PICKAXE = REGISTRY.register("tugstium_1_pickaxe", () -> new Tugstium_1PickaxeItem());
 	public static final RegistryObject<Item> BAGUETTE_AXE = REGISTRY.register("baguette_axe", () -> new BaguetteAxeItem());
-	public static final RegistryObject<Item> TUGSTIUM_1_AXE = REGISTRY.register("tugstium_1_axe", () -> new Tugstium_1AxeItem());
 	public static final RegistryObject<Item> BAGUETTE_SHOVEL = REGISTRY.register("baguette_shovel", () -> new BaguetteShovelItem());
-	public static final RegistryObject<Item> TUGSTIUM_1_SHOVEL = REGISTRY.register("tugstium_1_shovel", () -> new Tugstium_1ShovelItem());
 	public static final RegistryObject<Item> BAGUETTE_HOE = REGISTRY.register("baguette_hoe", () -> new BaguetteHoeItem());
-	public static final RegistryObject<Item> TUGSTIUM_1_HOE = REGISTRY.register("tugstium_1_hoe", () -> new Tugstium_1HoeItem());
 	public static final RegistryObject<Item> INVISIBLE_CAMO_CYBERWARE = REGISTRY.register("invisible_camo_cyberware", () -> new InvisibleCamoCyberwareItem());
 	public static final RegistryObject<Item> INVISIBLE_CAMOTIERS_2 = REGISTRY.register("invisible_camotiers_2", () -> new InvisibleCamotiers2Item());
 	public static final RegistryObject<Item> INVISIBLE_CAMOTIERS_3 = REGISTRY.register("invisible_camotiers_3", () -> new InvisibleCamotiers3Item());
@@ -95,6 +91,10 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> ARYSTISA_WORLD = REGISTRY.register("arystisa_world", () -> new ArystisaWorldItem());
 	public static final RegistryObject<Item> ARYSTING_COW_SPAWN_EGG = REGISTRY.register("arysting_cow_spawn_egg", () -> new ForgeSpawnEggItem(BalsArystisaModEntities.ARYSTING_COW, -16764109, -16737895, new Item.Properties()));
 	public static final RegistryObject<Item> BLASONDUBATAILLONDEXPLORATION = REGISTRY.register("blasondubataillondexploration", () -> new BasondubataillondexplorationItem());
+	public static final RegistryObject<Item> TUGSTIUM_1_AXE = REGISTRY.register("tugstium_1_axe", () -> new Tugstium_1AxeItem());
+	public static final RegistryObject<Item> TUGSTIUM_1_SHOVEL = REGISTRY.register("tugstium_1_shovel", () -> new Tugstium_1ShovelItem());
+	public static final RegistryObject<Item> TUGSTIUM_1_HOE = REGISTRY.register("tugstium_1_hoe", () -> new Tugstium_1HoeItem());
+	public static final RegistryObject<Item> TUGSTIUM_1_SWORD = REGISTRY.register("tugstium_1_sword", () -> new Tugstium_1SwordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
