@@ -2229,20 +2229,6 @@
         ]
       },
       "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI"
-    },
-    {
-      "name": "Tet",
-      "type": "procedure",
-      "sortid": 139,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tet",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/procedures/TetProcedure.java"
-        ],
-        "dependencies": []
-      }
     }
   ],
   "variable_elements": [
