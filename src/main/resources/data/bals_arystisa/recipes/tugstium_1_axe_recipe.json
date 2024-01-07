@@ -8,14 +8,14 @@
   ],
   "key": {
     "a": {
-      "item": "bals_arystisa:deleted_mod_element_helmet"
+      "item": "bals_arystisa:tugstium"
     },
     "b": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "bals_arystisa:deleted_mod_element",
+    "item": "bals_arystisa:tugstium_1_axe",
     "count": 1
   }
 }

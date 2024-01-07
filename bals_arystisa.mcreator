@@ -834,7 +834,7 @@
           "src/main/resources/assets/bals_arystisa/models/item/tugstium.json"
         ]
       },
-      "path": "~/Thekiller9088"
+      "path": "~/Thekiller9088/tugstium"
     },
     {
       "name": "Tugstiumore",
@@ -851,7 +851,7 @@
           "src/main/resources/assets/bals_arystisa/blockstates/tugstiumore.json"
         ]
       },
-      "path": "~/Thekiller9088"
+      "path": "~/Thekiller9088/tugstium"
     },
     {
       "name": "ArystisaWorld",
@@ -1586,7 +1586,7 @@
       "name": "D",
       "type": "block",
       "sortid": 95,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "d",
       "metadata": {
@@ -1714,7 +1714,7 @@
       "name": "EnchantLog",
       "type": "block",
       "sortid": 13,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "enchant_log",
       "metadata": {
@@ -1861,7 +1861,7 @@
       "name": "EnchantWood",
       "type": "block",
       "sortid": 10,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "enchant_wood",
       "metadata": {
@@ -1893,7 +1893,7 @@
       "name": "EnchantLeaves",
       "type": "block",
       "sortid": 8,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "enchant_leaves",
       "metadata": {
@@ -1960,7 +1960,7 @@
       "name": "Cobaltore",
       "type": "block",
       "sortid": 7,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cobaltore",
       "metadata": {
