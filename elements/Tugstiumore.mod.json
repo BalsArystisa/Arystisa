@@ -2,12 +2,12 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "tugstium_ore",
-    "textureTop": "tugstium_ore",
-    "textureLeft": "tugstium_ore",
-    "textureFront": "tugstium_ore",
-    "textureRight": "tugstium_ore",
-    "textureBack": "tugstium_ore",
+    "texture": "tugstium_ore_texture",
+    "textureTop": "tugstium_ore_texture",
+    "textureLeft": "tugstium_ore_texture",
+    "textureFront": "tugstium_ore_texture",
+    "textureRight": "tugstium_ore_texture",
+    "textureBack": "tugstium_ore_texture",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Tugstiumore",
+    "name": "Tugstium Ore",
     "specialInformation": {
       "fixedValue": []
     },

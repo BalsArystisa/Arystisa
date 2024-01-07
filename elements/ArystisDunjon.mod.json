@@ -19,7 +19,7 @@
         "value": "CUSTOM:EnchantForest"
       }
     ],
-    "surfaceDetectionType": "MOTION_BLOCKING",
+    "surfaceDetectionType": "WORLD_SURFACE",
     "terrainAdaptation": "bury",
     "generationStep": "UNDERGROUND_STRUCTURES"
   }

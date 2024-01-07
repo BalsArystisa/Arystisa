@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "bals_arystisa:tugstium"
+    }
+  },
+  "result": {
+    "item": "bals_arystisa:tugstium_armor_armor_helmet",
+    "count": 1
+  }
+}
