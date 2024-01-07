@@ -69,6 +69,7 @@ public class BalsArystisaModVariables {
 			clone.Invisible_Camo = original.Invisible_Camo;
 			clone.Invisible_Camo_Cooldown = original.Invisible_Camo_Cooldown;
 			clone.Cubdoc = original.Cubdoc;
+			clone.Invisible_Camo_Tiers = original.Invisible_Camo_Tiers;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -108,6 +109,7 @@ public class BalsArystisaModVariables {
 		public boolean Invisible_Camo = false;
 		public boolean Invisible_Camo_Cooldown = false;
 		public boolean Cubdoc = false;
+		public double Invisible_Camo_Tiers = 0.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -119,6 +121,7 @@ public class BalsArystisaModVariables {
 			nbt.putBoolean("Invisible_Camo", Invisible_Camo);
 			nbt.putBoolean("Invisible_Camo_Cooldown", Invisible_Camo_Cooldown);
 			nbt.putBoolean("Cubdoc", Cubdoc);
+			nbt.putDouble("Invisible_Camo_Tiers", Invisible_Camo_Tiers);
 			return nbt;
 		}
 
@@ -127,6 +130,7 @@ public class BalsArystisaModVariables {
 			Invisible_Camo = nbt.getBoolean("Invisible_Camo");
 			Invisible_Camo_Cooldown = nbt.getBoolean("Invisible_Camo_Cooldown");
 			Cubdoc = nbt.getBoolean("Cubdoc");
+			Invisible_Camo_Tiers = nbt.getDouble("Invisible_Camo_Tiers");
 		}
 	}
 
@@ -154,6 +158,7 @@ public class BalsArystisaModVariables {
 					variables.Invisible_Camo = message.data.Invisible_Camo;
 					variables.Invisible_Camo_Cooldown = message.data.Invisible_Camo_Cooldown;
 					variables.Cubdoc = message.data.Cubdoc;
+					variables.Invisible_Camo_Tiers = message.data.Invisible_Camo_Tiers;
 				}
 			});
 			context.setPacketHandled(true);

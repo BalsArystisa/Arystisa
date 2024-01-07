@@ -27,7 +27,7 @@
           "src/main/resources/assets/bals_arystisa/models/item/arysting_log.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "RunnedStoneBricks",
@@ -44,7 +44,7 @@
           "src/main/resources/assets/bals_arystisa/models/item/runned_stone_bricks.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "AmberOreArystingLog",
@@ -64,7 +64,7 @@
           "src/main/resources/data/bals_arystisa/worldgen/configured_feature/amber_ore_arysting_log.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystisSpawner",
@@ -81,7 +81,7 @@
           "src/main/resources/assets/bals_arystisa/models/block/arystis_spawner.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystisSpawnerNoActiveted",
@@ -98,7 +98,7 @@
           "src/main/resources/assets/bals_arystisa/blockstates/arystis_spawner_no_activeted.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystisSpawnerProced",
@@ -130,7 +130,7 @@
           }
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystingLeaves",
@@ -147,7 +147,7 @@
           "src/main/java/net/mcreator/balsarystisa/block/ArystingLeavesBlock.java"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystingWood",
@@ -164,7 +164,7 @@
           "src/main/resources/assets/bals_arystisa/blockstates/arysting_wood.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystingPlanks",
@@ -181,7 +181,7 @@
           "src/main/java/net/mcreator/balsarystisa/block/ArystingPlanksBlock.java"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystingStairs",
@@ -200,7 +200,7 @@
           "src/main/resources/assets/bals_arystisa/models/block/arysting_stairs.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystingSlab",
@@ -219,7 +219,7 @@
           "src/main/resources/assets/bals_arystisa/models/item/arysting_slab.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystingFence",
@@ -238,7 +238,7 @@
           "src/main/resources/assets/bals_arystisa/blockstates/arysting_fence.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystingFenceGate",
@@ -258,7 +258,7 @@
           "src/main/java/net/mcreator/balsarystisa/block/ArystingFenceGateBlock.java"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystingPressurePlate",
@@ -276,7 +276,7 @@
           "src/main/resources/assets/bals_arystisa/models/block/arysting_pressure_plate_down.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystingButton",
@@ -295,7 +295,7 @@
           "src/main/resources/assets/bals_arystisa/models/block/arysting_button_inventory.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystisaPlanks",
@@ -309,7 +309,7 @@
           "src/main/resources/data/bals_arystisa/recipes/arystisa_planks.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "CraftingTableArystingPlanks",
@@ -323,7 +323,7 @@
           "src/main/resources/data/bals_arystisa/recipes/crafting_table_arysting_planks.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystingButtonCraft",
@@ -337,7 +337,7 @@
           "src/main/resources/data/bals_arystisa/recipes/arysting_button_craft.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystisaStickCraft",
@@ -351,7 +351,7 @@
           "src/main/resources/data/bals_arystisa/recipes/arystisa_stick_craft.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystisaForgeTableCraft",
@@ -365,7 +365,7 @@
           "src/main/resources/data/bals_arystisa/recipes/arystisa_forge_table_craft.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystisaWoodCraft",
@@ -379,7 +379,7 @@
           "src/main/resources/data/bals_arystisa/recipes/arystisa_wood_craft.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "Baguette",
@@ -450,7 +450,7 @@
           "src/main/resources/data/bals_arystisa/recipes/arysting_pressure_plate_craft.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystingFenceGateCraft",
@@ -464,7 +464,7 @@
           "src/main/resources/data/bals_arystisa/recipes/arysting_fence_gate_craft.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystingSlabCraft",
@@ -478,7 +478,7 @@
           "src/main/resources/data/bals_arystisa/recipes/arysting_slab_craft.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystingStairsCraft",
@@ -492,7 +492,7 @@
           "src/main/resources/data/bals_arystisa/recipes/arysting_stairs_craft.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystingFenceCraft",
@@ -506,7 +506,7 @@
           "src/main/resources/data/bals_arystisa/recipes/arysting_fence_craft.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "FormerGravel",
@@ -523,7 +523,7 @@
           "src/main/resources/assets/bals_arystisa/blockstates/former_gravel.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "FormerGravelLootTable",
@@ -537,7 +537,7 @@
           "src/main/resources/data/bals_arystisa/loot_tables/blocks/former_gravel.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "GUICyberwareGeneral",
@@ -626,7 +626,7 @@
           "src/main/java/net/mcreator/balsarystisa/world/dimension/ArystisaWorldDimension.java"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "DiamondFlint",
@@ -641,7 +641,7 @@
           "src/main/java/net/mcreator/balsarystisa/item/DiamondFlintItem.java"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "ArystingForest",
@@ -659,7 +659,7 @@
           "src/main/resources/data/bals_arystisa/worldgen/configured_feature/arysting_forest_tree.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "RunnedPortalParticle",
@@ -674,7 +674,7 @@
           "src/main/resources/assets/bals_arystisa/particles/runned_portal_particle.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "InvisibleCamoCyberware",
@@ -704,7 +704,7 @@
           "src/main/java/net/mcreator/balsarystisa/item/AmberItem.java"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "SapBottle",
@@ -719,7 +719,7 @@
           "src/main/resources/assets/bals_arystisa/models/item/sap_bottle.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "SapAmberCraft",
@@ -733,7 +733,7 @@
           "src/main/resources/data/bals_arystisa/recipes/sap_amber_craft.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "AmberLogSapBottleProced",
@@ -769,7 +769,7 @@
           }
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "InvisibleCamoUse",
@@ -912,7 +912,7 @@
           "src/main/resources/assets/bals_arystisa/models/item/arysting_cow_spawn_egg.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "BaguetteSword",
@@ -1091,7 +1091,7 @@
           "src/main/resources/assets/bals_arystisa/blockstates/enchant_log.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "EnchantWood",
@@ -1108,7 +1108,7 @@
           "src/main/java/net/mcreator/balsarystisa/block/EnchantWoodBlock.java"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "EnchantLeaves",
@@ -1125,7 +1125,7 @@
           "src/main/resources/assets/bals_arystisa/models/block/enchant_leaves.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "Cobaltore",
@@ -1158,7 +1158,7 @@
           "src/main/resources/data/bals_arystisa/worldgen/structure/arystis_dunjon.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "EnchantForest",
@@ -1176,7 +1176,7 @@
           "src/main/java/net/mcreator/balsarystisa/world/features/treedecorators/EnchantForestLeaveDecorator.java"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "Basondubataillondexploration",
@@ -1509,7 +1509,7 @@
           "src/main/resources/assets/bals_arystisa/blockstates/enchant_stairs.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "EnchantPlanks",
@@ -1526,7 +1526,7 @@
           "src/main/resources/assets/bals_arystisa/models/block/enchant_planks.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "EnchantSlab",
@@ -1545,7 +1545,7 @@
           "src/main/resources/assets/bals_arystisa/models/block/enchant_slab.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "EnchantFenceGate",
@@ -1565,7 +1565,7 @@
           "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_gate_open.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "EnchantPressurePlate",
@@ -1583,7 +1583,7 @@
           "src/main/resources/assets/bals_arystisa/models/item/enchant_pressure_plate.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "EnchantFence",
@@ -1602,7 +1602,7 @@
           "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_post.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "EnchantButton",
@@ -1621,7 +1621,7 @@
           "src/main/resources/assets/bals_arystisa/models/block/enchant_button.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR"
     },
     {
       "name": "InvisibleCamotiers2",
@@ -1678,21 +1678,6 @@
       "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI"
     },
     {
-      "name": "ArystisaEmotesGUI",
-      "type": "gui",
-      "sortid": 102,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arystisa_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/world/inventory/ArystisaEmotesGUIMenu.java",
-          "src/main/java/net/mcreator/balsarystisa/client/gui/ArystisaEmotesGUIScreen.java"
-        ]
-      },
-      "path": "~/BAL1SEUR/Arystisa Emotes"
-    },
-    {
       "name": "OpenArystisaEmotesGUI",
       "type": "procedure",
       "sortid": 103,
@@ -1729,6 +1714,21 @@
       "path": "~/BAL1SEUR/Arystisa Emotes"
     },
     {
+      "name": "ArystisaEmotesGUI",
+      "type": "gui",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arystisa_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/ArystisaEmotesGUIMenu.java",
+          "src/main/java/net/mcreator/balsarystisa/client/gui/ArystisaEmotesGUIScreen.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
       "name": "OpenArystisaEmotesKeyBind",
       "type": "keybind",
       "sortid": 104,
@@ -1741,6 +1741,20 @@
         ]
       },
       "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "Cyberwareinstallkey",
+      "type": "keybind",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyberwareinstallkey",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/network/CyberwareinstallkeyMessage.java"
+        ]
+      },
+      "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI"
     }
   ],
   "variable_elements": [
@@ -1761,6 +1775,12 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "Invisible_Camo_Tiers",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
     }
   ],
   "sound_elements": [
@@ -1810,7 +1830,6 @@
       "block.bals_arystisa.d": "D",
       "item.bals_arystisa.cobalt_sword": "Cobalt Sword",
       "item.bals_arystisa.tugstium_1_axe": "Tugstium Axe",
-      "gui.bals_arystisa.arystisa_gui.label_arystisa_emotes": "Arystisa",
       "block.bals_arystisa.arysting_pressure_plate": "Arysting PressurePlate",
       "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "item.bals_arystisa.tugstium_armor_armor_helmet": "Tugstium Helmet",
@@ -1822,7 +1841,6 @@
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
       "block.bals_arystisa.ignisium_ore": "Ignisium Ore",
-      "key.categories.arystisia": "Arystitsia",
       "block.bals_arystisa.tugstiumore": "Tugstium Ore",
       "block.bals_arystisa.arysting_button": "Arysting Button",
       "biome.bals_arystisa.enchant_forest": "Enchant Forest",
@@ -1850,7 +1868,6 @@
       "item.bals_arystisa.baguette": "Baguette",
       "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
       "item.bals_arystisa.diamond_flint": "Diamond Flint",
-      "key.bals_arystisa.open_arystisa_emotes_key_bind": "Open Arystisa Emotes",
       "block.bals_arystisa.work_station": "Work Station",
       "block.bals_arystisa.enchant_fence_gate": "Enchant FenceGate",
       "block.bals_arystisa.cobaltore": "Cobalt ore",
@@ -1885,11 +1902,11 @@
         "name": "BAL1SEUR",
         "children": [
           {
-            "name": "Dimension Arystisa",
+            "name": "Arystisa Emotes",
             "children": []
           },
           {
-            "name": "Arystisa Emotes",
+            "name": "Dimension Arystisa",
             "children": []
           }
         ]

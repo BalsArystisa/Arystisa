@@ -4,26 +4,26 @@ package net.mcreator.balsarystisa.network;
 import net.mcreator.balsarystisa.BalsArystisaMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-public class OpenArystisaEmotesKeyBindMessage {
+public class CyberwareinstallkeyMessage {
 
 	int type, pressedms;
 
-	public OpenArystisaEmotesKeyBindMessage(int type, int pressedms) {
+	public CyberwareinstallkeyMessage(int type, int pressedms) {
 		this.type = type;
 		this.pressedms = pressedms;
 	}
 
-	public OpenArystisaEmotesKeyBindMessage(FriendlyByteBuf buffer) {
+	public CyberwareinstallkeyMessage(FriendlyByteBuf buffer) {
 		this.type = buffer.readInt();
 		this.pressedms = buffer.readInt();
 	}
 
-	public static void buffer(OpenArystisaEmotesKeyBindMessage message, FriendlyByteBuf buffer) {
+	public static void buffer(CyberwareinstallkeyMessage message, FriendlyByteBuf buffer) {
 		buffer.writeInt(message.type);
 		buffer.writeInt(message.pressedms);
 	}
 
-	public static void handler(OpenArystisaEmotesKeyBindMessage message, Supplier<NetworkEvent.Context> contextSupplier) {
+	public static void handler(CyberwareinstallkeyMessage message, Supplier<NetworkEvent.Context> contextSupplier) {
 		NetworkEvent.Context context = contextSupplier.get();
 		context.enqueueWork(() -> {
 			pressAction(context.getSender(), message.type, message.pressedms);
@@ -43,14 +43,14 @@ public class OpenArystisaEmotesKeyBindMessage {
 
 		if (type == 0) {
 
-			OpenArystisaEmotesGUIProcedure.execute(world, x, y, z, entity);
+			CyberwareinstallProcedure.execute(world, entity);
 		}
 
 	}
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		BalsArystisaMod.addNetworkMessage(OpenArystisaEmotesKeyBindMessage.class, OpenArystisaEmotesKeyBindMessage::buffer, OpenArystisaEmotesKeyBindMessage::new, OpenArystisaEmotesKeyBindMessage::handler);
+		BalsArystisaMod.addNetworkMessage(CyberwareinstallkeyMessage.class, CyberwareinstallkeyMessage::buffer, CyberwareinstallkeyMessage::new, CyberwareinstallkeyMessage::handler);
 	}
 
 }
