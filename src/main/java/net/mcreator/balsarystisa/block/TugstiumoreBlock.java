@@ -4,9 +4,9 @@ package net.mcreator.balsarystisa.block;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
-public class WorkStationBlock extends Block {
-	public WorkStationBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1f, 10f));
+public class TugstiumoreBlock extends Block {
+	public TugstiumoreBlock() {
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f));
 	}
 
 	@Override

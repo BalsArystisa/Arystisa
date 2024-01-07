@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.balsarystisa.item.TugstiumItem;
 import net.mcreator.balsarystisa.item.SapBottleItem;
 import net.mcreator.balsarystisa.item.InvisibleCamoCyberwareItem;
 import net.mcreator.balsarystisa.item.HogiritSwordItem;
@@ -63,6 +64,8 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> SAP_BOTTLE = REGISTRY.register("sap_bottle", () -> new SapBottleItem());
 	public static final RegistryObject<Item> AMBER = REGISTRY.register("amber", () -> new AmberItem());
 	public static final RegistryObject<Item> WORK_STATION = block(BalsArystisaModBlocks.WORK_STATION);
+	public static final RegistryObject<Item> TUGSTIUM = REGISTRY.register("tugstium", () -> new TugstiumItem());
+	public static final RegistryObject<Item> TUGSTIUMORE = block(BalsArystisaModBlocks.TUGSTIUMORE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

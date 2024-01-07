@@ -1147,6 +1147,21 @@
       "path": "~/SirRacaillou/Cyberware"
     },
     {
+      "name": "WorkStationGUI",
+      "type": "gui",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "work_station_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/client/gui/WorkStationGUIScreen.java",
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/WorkStationGUIMenu.java"
+        ]
+      },
+      "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI"
+    },
+    {
       "name": "WorkStation",
       "type": "block",
       "sortid": 68,
@@ -1164,19 +1179,36 @@
       "path": "~/SirRacaillou/Functional_Block"
     },
     {
-      "name": "WorkStationGUI",
-      "type": "gui",
-      "sortid": 69,
+      "name": "Tugstium",
+      "type": "item",
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "work_station_gui",
+      "registry_name": "tugstium",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/client/gui/WorkStationGUIScreen.java",
-          "src/main/java/net/mcreator/balsarystisa/world/inventory/WorkStationGUIMenu.java"
+          "src/main/java/net/mcreator/balsarystisa/item/TugstiumItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium.json"
         ]
       },
-      "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI"
+      "path": "~/Thekiller9088"
+    },
+    {
+      "name": "Tugstiumore",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstiumore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/TugstiumoreBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstiumore.json",
+          "src/main/resources/assets/bals_arystisa/models/block/tugstiumore.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/tugstiumore.json"
+        ]
+      },
+      "path": "~/Thekiller9088"
     }
   ],
   "variable_elements": [
@@ -1222,20 +1254,13 @@
   "language_map": {
     "en_us": {
       "block.bals_arystisa.arysting_button": "Arysting Button",
-      "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
-      "item.bals_arystisa.invisible_camo_cyberware": "Invisible Camo Cyberware",
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
-      "item.bals_arystisa.sap_bottle": "Sap Bottle",
       "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
       "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
-      "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
-      "key.bals_arystisa.selection_use": "Selection Use",
-      "biome.bals_arystisa.arysting_forest": "Arysting Forest",
       "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
       "item.bals_arystisa.hogirit_sword": "Hogirit Sword",
       "block.bals_arystisa.hogirit_ore": "Hogirit Ore",
-      "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
       "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
       "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
       "item_group.bals_arystisa.arystisa": "Arystisa",
@@ -1249,10 +1274,8 @@
       "block.bals_arystisa.hogirit_block": "Block of Hogirit",
       "item.bals_arystisa.hogirit_armor_chestplate": "Hogirit Chestplate",
       "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
-      "item.bals_arystisa.diamond_flint": "Diamond Flint",
       "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
       "item.bals_arystisa.hogirit_ingot": "Hogirit",
-      "block.bals_arystisa.work_station": "Work Station",
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
       "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",
@@ -1261,7 +1284,6 @@
       "key.categories.arystisia": "Arystitsia",
       "item.bals_arystisa.hogirit_armor_boots": "Hogirit Boots",
       "item.bals_arystisa.hogirit_hoe": "Hogirit Hoe",
-      "block.bals_arystisa.former_gravel": "Former Gravel",
       "subtitles.next_spawner_wave": ""
     }
   },
@@ -1292,6 +1314,15 @@
         "name": "SirRacaillou",
         "children": [
           {
+            "name": "Functional_Block",
+            "children": [
+              {
+                "name": "WorkStation_GUI",
+                "children": []
+              }
+            ]
+          },
+          {
             "name": "Procedure_Write",
             "children": []
           },
@@ -1302,15 +1333,6 @@
           {
             "name": "GUI_Cyberware",
             "children": []
-          },
-          {
-            "name": "Functional_Block",
-            "children": [
-              {
-                "name": "WorkStation_GUI",
-                "children": []
-              }
-            ]
           }
         ]
       }

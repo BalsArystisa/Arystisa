@@ -4,9 +4,9 @@ package net.mcreator.balsarystisa.item;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import javax.annotation.Nullable;
 
-public class InvisibleCamoCyberwareItem extends Item {
-	public InvisibleCamoCyberwareItem() {
-		super(new Item.Properties().stacksTo(1).rarity(Rarity.COMMON));
+public class TugstiumItem extends Item {
+	public TugstiumItem() {
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.EPIC));
 	}
 
 	@Override
