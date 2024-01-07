@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "bals_arystisa:block/work_station"
+    },
+    "facing=east": {
+      "model": "bals_arystisa:block/work_station",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "bals_arystisa:block/work_station",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "bals_arystisa:block/work_station",
+      "y": 270
     }
   }
 }

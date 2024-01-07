@@ -10,9 +10,6 @@
     "absolute": 0
   },
   "project_start_to_heightmap": "MOTION_BLOCKING",
-  "biomes": [
-    "bals_arystisa:arysting_forest",
-    "bals_arystisa:enchant_forest"
-  ],
+  "biomes": "bals_arystisa:arysting_forest",
   "use_expansion_hack": false
 }

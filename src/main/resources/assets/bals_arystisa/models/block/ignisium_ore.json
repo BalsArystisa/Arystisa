@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bals_arystisa:block/ignisium_ore",
+    "up": "bals_arystisa:block/ignisium_ore",
+    "north": "bals_arystisa:block/ignisium_ore",
+    "east": "bals_arystisa:block/ignisium_ore",
+    "south": "bals_arystisa:block/ignisium_ore",
+    "west": "bals_arystisa:block/ignisium_ore",
+    "particle": "bals_arystisa:block/ignisium_ore"
+  },
+  "render_type": "solid"
+}
