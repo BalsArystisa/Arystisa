@@ -1,7 +1,33 @@
 
 package net.mcreator.balsarystisa.world.inventory;
 
-import net.mcreator.balsarystisa.BalsArystisaMod;
+import net.minecraftforge.items.SlotItemHandler;
+import net.minecraftforge.items.ItemStackHandler;
+import net.minecraftforge.items.IItemHandler;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
+
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.inventory.Slot;
+import net.minecraft.world.inventory.ContainerLevelAccess;
+import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.balsarystisa.procedures.InvisibleCamoCraftTiers1Procedure;
+import net.mcreator.balsarystisa.init.BalsArystisaModMenus;
+
+import java.util.function.Supplier;
+import java.util.Map;
+import java.util.HashMap;
 
 @Mod.EventBusSubscriber
 public class WorkStationGUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
@@ -21,7 +47,7 @@ public class WorkStationGUIMenu extends AbstractContainerMenu implements Supplie
 		super(BalsArystisaModMenus.WORK_STATION_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStackHandler(5);
+		this.internal = new ItemStackHandler(6);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -56,25 +82,28 @@ public class WorkStationGUIMenu extends AbstractContainerMenu implements Supplie
 					});
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 33, 16) {
-			private final int slot = 0;
-		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 60, 16) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 48, 98) {
 			private final int slot = 1;
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 33, 38) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 67, 80) {
 			private final int slot = 2;
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 60, 38) {
-			private final int slot = 3;
-		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 90, 27) {
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 147, 26) {
 			private final int slot = 4;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
+		}));
+		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, -125, -36) {
+			private final int slot = 5;
+		}));
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 48, 80) {
+			private final int slot = 0;
+		}));
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 68, 98) {
+			private final int slot = 3;
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
@@ -103,16 +132,16 @@ public class WorkStationGUIMenu extends AbstractContainerMenu implements Supplie
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 5) {
-				if (!this.moveItemStackTo(itemstack1, 5, this.slots.size(), true))
+			if (index < 6) {
+				if (!this.moveItemStackTo(itemstack1, 6, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 5, false)) {
-				if (index < 5 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 5 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 6, false)) {
+				if (index < 6 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 6 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 5, 5 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 6, 6 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;
@@ -128,7 +157,82 @@ public class WorkStationGUIMenu extends AbstractContainerMenu implements Supplie
 		return itemstack;
 	}
 
-	@Override /* failed to load code for net.minecraft.world.inventory.AbstractContainerMenu */
+	@Override
+	protected boolean moveItemStackTo(ItemStack p_38904_, int p_38905_, int p_38906_, boolean p_38907_) {
+		boolean flag = false;
+		int i = p_38905_;
+		if (p_38907_) {
+			i = p_38906_ - 1;
+		}
+		if (p_38904_.isStackable()) {
+			while (!p_38904_.isEmpty()) {
+				if (p_38907_) {
+					if (i < p_38905_) {
+						break;
+					}
+				} else if (i >= p_38906_) {
+					break;
+				}
+				Slot slot = this.slots.get(i);
+				ItemStack itemstack = slot.getItem();
+				if (slot.mayPlace(itemstack) && !itemstack.isEmpty() && ItemStack.isSameItemSameTags(p_38904_, itemstack)) {
+					int j = itemstack.getCount() + p_38904_.getCount();
+					int maxSize = Math.min(slot.getMaxStackSize(), p_38904_.getMaxStackSize());
+					if (j <= maxSize) {
+						p_38904_.setCount(0);
+						itemstack.setCount(j);
+						slot.set(itemstack);
+						flag = true;
+					} else if (itemstack.getCount() < maxSize) {
+						p_38904_.shrink(maxSize - itemstack.getCount());
+						itemstack.setCount(maxSize);
+						slot.set(itemstack);
+						flag = true;
+					}
+				}
+				if (p_38907_) {
+					--i;
+				} else {
+					++i;
+				}
+			}
+		}
+		if (!p_38904_.isEmpty()) {
+			if (p_38907_) {
+				i = p_38906_ - 1;
+			} else {
+				i = p_38905_;
+			}
+			while (true) {
+				if (p_38907_) {
+					if (i < p_38905_) {
+						break;
+					}
+				} else if (i >= p_38906_) {
+					break;
+				}
+				Slot slot1 = this.slots.get(i);
+				ItemStack itemstack1 = slot1.getItem();
+				if (itemstack1.isEmpty() && slot1.mayPlace(p_38904_)) {
+					if (p_38904_.getCount() > slot1.getMaxStackSize()) {
+						slot1.setByPlayer(p_38904_.split(slot1.getMaxStackSize()));
+					} else {
+						slot1.setByPlayer(p_38904_.split(p_38904_.getCount()));
+					}
+					slot1.setChanged();
+					flag = true;
+					break;
+				}
+				if (p_38907_) {
+					--i;
+				} else {
+					++i;
+				}
+			}
+		}
+		return flag;
+	}
+
 	@Override
 	public void removed(Player playerIn) {
 		super.removed(playerIn);
