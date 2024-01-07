@@ -1676,6 +1676,20 @@
         ]
       },
       "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI"
+    },
+    {
+      "name": "Cyberwareinstallkey",
+      "type": "keybind",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyberwareinstallkey",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/network/CyberwareinstallkeyMessage.java"
+        ]
+      },
+      "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI"
     }
   ],
   "variable_elements": [
@@ -1696,6 +1710,12 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "Invisible_Camo_Tiers",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
     }
   ],
   "sound_elements": [
@@ -1740,8 +1760,8 @@
       "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
       "item.bals_arystisa.blasondubataillondexploration": "Basondubataillondexploration",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
-      "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
       "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
+      "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
       "block.bals_arystisa.d": "D",
       "item.bals_arystisa.cobalt_sword": "Cobalt Sword",
       "item.bals_arystisa.tugstium_1_axe": "Tugstium_1 Axe",
@@ -1784,6 +1804,7 @@
       "item.bals_arystisa.baguette": "Baguette",
       "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
       "item.bals_arystisa.diamond_flint": "Diamond Flint",
+      "key.bals_arystisa.cyberwareinstallkey": "Cyberwareinstallkey",
       "block.bals_arystisa.work_station": "Work Station",
       "block.bals_arystisa.enchant_fence_gate": "Enchant FenceGate",
       "block.bals_arystisa.cobaltore": "Cobalt ore",

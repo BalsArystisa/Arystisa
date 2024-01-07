@@ -17,6 +17,7 @@ import net.minecraft.client.KeyMapping;
 
 import net.mcreator.balsarystisa.network.TriggerCyberwareGUIMessage;
 import net.mcreator.balsarystisa.network.SelectionUseMessage;
+import net.mcreator.balsarystisa.network.CyberwareinstallkeyMessage;
 import net.mcreator.balsarystisa.BalsArystisaMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
@@ -47,11 +48,25 @@ public class BalsArystisaModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
+	public static final KeyMapping CYBERWAREINSTALLKEY = new KeyMapping("key.bals_arystisa.cyberwareinstallkey", GLFW.GLFW_KEY_KP_5, "key.categories.arystisia") {
+		private boolean isDownOld = false;
+
+		@Override
+		public void setDown(boolean isDown) {
+			super.setDown(isDown);
+			if (isDownOld != isDown && isDown) {
+				BalsArystisaMod.PACKET_HANDLER.sendToServer(new CyberwareinstallkeyMessage(0, 0));
+				CyberwareinstallkeyMessage.pressAction(Minecraft.getInstance().player, 0, 0);
+			}
+			isDownOld = isDown;
+		}
+	};
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
 		event.register(TRIGGER_CYBERWARE_GUI);
 		event.register(SELECTION_USE);
+		event.register(CYBERWAREINSTALLKEY);
 	}
 
 	@Mod.EventBusSubscriber({Dist.CLIENT})
@@ -61,6 +76,7 @@ public class BalsArystisaModKeyMappings {
 			if (Minecraft.getInstance().screen == null) {
 				TRIGGER_CYBERWARE_GUI.consumeClick();
 				SELECTION_USE.consumeClick();
+				CYBERWAREINSTALLKEY.consumeClick();
 			}
 		}
 	}
