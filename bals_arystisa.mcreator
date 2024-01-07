@@ -707,7 +707,7 @@
           "src/main/java/net/mcreator/balsarystisa/item/BaguetteItem.java"
         ]
       },
-      "path": "~/Jos3"
+      "path": "~/Jos3/Baguette"
     },
     {
       "name": "BaguetteRecipe",
@@ -721,7 +721,7 @@
           "src/main/resources/data/bals_arystisa/recipes/baguette_recipe.json"
         ]
       },
-      "path": "~/Jos3"
+      "path": "~/Jos3/Baguette"
     },
     {
       "name": "BaguetteRecipe1",
@@ -735,7 +735,7 @@
           "src/main/resources/data/bals_arystisa/recipes/baguette_recipe_1.json"
         ]
       },
-      "path": "~/Jos3"
+      "path": "~/Jos3/Baguette"
     },
     {
       "name": "BaguetteRecipe2",
@@ -749,7 +749,7 @@
           "src/main/resources/data/bals_arystisa/recipes/baguette_recipe_2.json"
         ]
       },
-      "path": "~/Jos3"
+      "path": "~/Jos3/Baguette"
     },
     {
       "name": "ArystingPressurePlateCraft",
