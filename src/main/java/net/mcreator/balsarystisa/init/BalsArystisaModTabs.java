@@ -48,7 +48,6 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.HOGIRIT_INGOT.get());
 				tabData.accept(BalsArystisaModItems.DIAMOND_FLINT.get());
 				tabData.accept(BalsArystisaModItems.ARYSTISA_WORLD.get());
-				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_CYBERWARE.get());
 				tabData.accept(BalsArystisaModItems.SAP_BOTTLE.get());
 				tabData.accept(BalsArystisaModItems.AMBER.get());
 			}).withSearchBar().build());
