@@ -3,7 +3,7 @@
     {
       "name": "Arystisa",
       "type": "tab",
-      "sortid": 26,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystisa",
@@ -15,15 +15,15 @@
     {
       "name": "ArystingLog",
       "type": "block",
-      "sortid": 9,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_log",
       "metadata": {
         "files": [
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_log.json",
           "src/main/java/net/mcreator/balsarystisa/block/ArystingLogBlock.java",
           "src/main/resources/assets/bals_arystisa/models/item/arysting_log.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/arysting_log.json",
           "src/main/resources/assets/bals_arystisa/models/block/arysting_log.json"
         ]
       },
@@ -38,10 +38,10 @@
       "registry_name": "runned_stone_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/blockstates/runned_stone_bricks.json",
           "src/main/resources/assets/bals_arystisa/models/item/runned_stone_bricks.json",
-          "src/main/java/net/mcreator/balsarystisa/block/RunnedStoneBricksBlock.java",
-          "src/main/resources/assets/bals_arystisa/models/block/runned_stone_bricks.json"
+          "src/main/resources/assets/bals_arystisa/models/block/runned_stone_bricks.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/runned_stone_bricks.json",
+          "src/main/java/net/mcreator/balsarystisa/block/RunnedStoneBricksBlock.java"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -49,18 +49,18 @@
     {
       "name": "AmberOreArystingLog",
       "type": "block",
-      "sortid": 10,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amber_ore_arysting_log",
       "metadata": {
         "files": [
-          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/amber_ore_arysting_log.json",
-          "src/main/java/net/mcreator/balsarystisa/block/AmberOreArystingLogBlock.java",
           "src/main/resources/data/bals_arystisa/forge/biome_modifier/amber_ore_arysting_log_biome_modifier.json",
+          "src/main/java/net/mcreator/balsarystisa/block/AmberOreArystingLogBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/amber_ore_arysting_log.json",
           "src/main/resources/data/bals_arystisa/worldgen/configured_feature/amber_ore_arysting_log.json",
           "src/main/resources/assets/bals_arystisa/blockstates/amber_ore_arysting_log.json",
-          "src/main/resources/assets/bals_arystisa/models/item/amber_ore_arysting_log.json",
+          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/amber_ore_arysting_log.json",
           "src/main/resources/assets/bals_arystisa/models/block/amber_ore_arysting_log.json"
         ]
       },
@@ -69,16 +69,16 @@
     {
       "name": "ArystisSpawner",
       "type": "block",
-      "sortid": 2,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystis_spawner",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/block/arystis_spawner.json",
-          "src/main/java/net/mcreator/balsarystisa/block/ArystisSpawnerBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/arystis_spawner.json",
           "src/main/resources/assets/bals_arystisa/blockstates/arystis_spawner.json",
-          "src/main/resources/assets/bals_arystisa/models/item/arystis_spawner.json"
+          "src/main/resources/assets/bals_arystisa/models/block/arystis_spawner.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystisSpawnerBlock.java"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -86,16 +86,16 @@
     {
       "name": "ArystisSpawnerNoActiveted",
       "type": "block",
-      "sortid": 3,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystis_spawner_no_activeted",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/ArystisSpawnerNoActivetedBlock.java",
           "src/main/resources/assets/bals_arystisa/models/block/arystis_spawner_no_activeted.json",
           "src/main/resources/assets/bals_arystisa/models/item/arystis_spawner_no_activeted.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/arystis_spawner_no_activeted.json",
-          "src/main/java/net/mcreator/balsarystisa/block/ArystisSpawnerNoActivetedBlock.java"
+          "src/main/resources/assets/bals_arystisa/blockstates/arystis_spawner_no_activeted.json"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -103,7 +103,7 @@
     {
       "name": "ArystisSpawnerProced",
       "type": "procedure",
-      "sortid": 27,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystis_spawner_proced",
@@ -135,16 +135,16 @@
     {
       "name": "ArystingLeaves",
       "type": "block",
-      "sortid": 7,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_leaves",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/blockstates/arysting_leaves.json",
           "src/main/resources/assets/bals_arystisa/models/block/arysting_leaves.json",
-          "src/main/java/net/mcreator/balsarystisa/block/ArystingLeavesBlock.java",
-          "src/main/resources/assets/bals_arystisa/models/item/arysting_leaves.json"
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_leaves.json",
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_leaves.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingLeavesBlock.java"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -152,16 +152,16 @@
     {
       "name": "ArystingWood",
       "type": "block",
-      "sortid": 8,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_wood",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/block/ArystingWoodBlock.java",
           "src/main/resources/assets/bals_arystisa/blockstates/arysting_wood.json",
           "src/main/resources/assets/bals_arystisa/models/block/arysting_wood.json",
-          "src/main/resources/assets/bals_arystisa/models/item/arysting_wood.json"
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_wood.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingWoodBlock.java"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -175,10 +175,10 @@
       "registry_name": "arysting_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_planks.json",
-          "src/main/resources/assets/bals_arystisa/models/item/arysting_planks.json",
           "src/main/java/net/mcreator/balsarystisa/block/ArystingPlanksBlock.java",
-          "src/main/resources/assets/bals_arystisa/blockstates/arysting_planks.json"
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_planks.json",
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_planks.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_planks.json"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -193,10 +193,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/bals_arystisa/blockstates/arysting_stairs.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_stairs.json",
           "src/main/resources/assets/bals_arystisa/models/block/arysting_stairs_outer.json",
           "src/main/resources/assets/bals_arystisa/models/item/arysting_stairs.json",
           "src/main/resources/assets/bals_arystisa/models/block/arysting_stairs_inner.json",
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_stairs.json",
           "src/main/java/net/mcreator/balsarystisa/block/ArystingStairsBlock.java"
         ]
       },
@@ -211,12 +211,12 @@
       "registry_name": "arysting_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_slab.json",
           "src/main/resources/assets/bals_arystisa/blockstates/arysting_slab.json",
-          "src/main/resources/assets/bals_arystisa/models/item/arysting_slab.json",
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_slab_full.json",
           "src/main/java/net/mcreator/balsarystisa/block/ArystingSlabBlock.java",
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_slab_top.json"
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_slab.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_slab.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_slab_top.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_slab_full.json"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -230,12 +230,12 @@
       "registry_name": "arysting_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_inventory.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/arysting_fence.json",
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_post.json",
           "src/main/java/net/mcreator/balsarystisa/block/ArystingFenceBlock.java",
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_fence.json",
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_fence.json",
           "src/main/resources/assets/bals_arystisa/models/block/arysting_fence.json",
-          "src/main/resources/assets/bals_arystisa/models/item/arysting_fence.json"
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_post.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_inventory.json"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -250,12 +250,12 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_gate_wall_open.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingFenceGateBlock.java",
           "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_gate_open.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_fence_gate.json",
           "src/main/resources/assets/bals_arystisa/models/item/arysting_fence_gate.json",
           "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_gate.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/arysting_fence_gate.json",
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_gate_wall.json",
-          "src/main/java/net/mcreator/balsarystisa/block/ArystingFenceGateBlock.java"
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_gate_wall.json"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -269,11 +269,11 @@
       "registry_name": "arysting_pressure_plate",
       "metadata": {
         "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_pressure_plate.json",
           "src/main/resources/assets/bals_arystisa/models/block/arysting_pressure_plate_down.json",
-          "src/main/resources/assets/bals_arystisa/models/item/arysting_pressure_plate.json",
-          "src/main/java/net/mcreator/balsarystisa/block/ArystingPressurePlateBlock.java",
           "src/main/resources/assets/bals_arystisa/blockstates/arysting_pressure_plate.json",
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_pressure_plate.json"
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_pressure_plate.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingPressurePlateBlock.java"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -287,12 +287,12 @@
       "registry_name": "arysting_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/arysting_button.json",
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_button.json",
-          "src/main/java/net/mcreator/balsarystisa/block/ArystingButtonBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_button_pressed.json",
           "src/main/resources/assets/bals_arystisa/models/block/arysting_button_inventory.json",
           "src/main/resources/assets/bals_arystisa/blockstates/arysting_button.json",
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_button_pressed.json"
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_button.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingButtonBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_button.json"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -300,7 +300,7 @@
     {
       "name": "HogiritBlock",
       "type": "block",
-      "sortid": 6,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_block",
@@ -317,14 +317,14 @@
     {
       "name": "HogiritSword",
       "type": "tool",
-      "sortid": 19,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_sword.json",
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritSwordItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/HogiritSwordItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/hogirit_sword.json"
         ]
       },
       "path": "~/Hog536"
@@ -332,7 +332,7 @@
     {
       "name": "HogiritPickaxeRecipe",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_pickaxe_recipe",
@@ -346,16 +346,16 @@
     {
       "name": "HogiritArmor",
       "type": "armor",
-      "sortid": 24,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_armor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritArmorItem.java",
           "src/main/resources/assets/bals_arystisa/models/item/hogirit_armor_leggings.json",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_armor_boots.json",
           "src/main/resources/assets/bals_arystisa/models/item/hogirit_armor_helmet.json",
+          "src/main/java/net/mcreator/balsarystisa/item/HogiritArmorItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/hogirit_armor_boots.json",
           "src/main/resources/assets/bals_arystisa/models/item/hogirit_armor_chestplate.json"
         ]
       },
@@ -364,7 +364,7 @@
     {
       "name": "HogiritShovelRecipe",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_shovel_recipe",
@@ -378,7 +378,7 @@
     {
       "name": "HogiritHoe",
       "type": "tool",
-      "sortid": 23,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_hoe",
@@ -393,7 +393,7 @@
     {
       "name": "HogiritArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_armor_leggings_recipe",
@@ -407,14 +407,14 @@
     {
       "name": "HogiritShovel",
       "type": "tool",
-      "sortid": 22,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritShovelItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_shovel.json"
+          "src/main/resources/assets/bals_arystisa/models/item/hogirit_shovel.json",
+          "src/main/java/net/mcreator/balsarystisa/item/HogiritShovelItem.java"
         ]
       },
       "path": "~/Hog536"
@@ -422,7 +422,7 @@
     {
       "name": "HogiritArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 31,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_armor_helmet_recipe",
@@ -436,7 +436,7 @@
     {
       "name": "HogiritAxe",
       "type": "tool",
-      "sortid": 21,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_axe",
@@ -451,7 +451,7 @@
     {
       "name": "HogiritSwordRecipe",
       "type": "recipe",
-      "sortid": 32,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_sword_recipe",
@@ -465,7 +465,7 @@
     {
       "name": "HogiritAxeRecipe",
       "type": "recipe",
-      "sortid": 33,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_axe_recipe",
@@ -479,7 +479,7 @@
     {
       "name": "HogiritBlockOreRecipe",
       "type": "recipe",
-      "sortid": 34,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_block_ore_recipe",
@@ -493,7 +493,7 @@
     {
       "name": "HogiritHoeRecipe",
       "type": "recipe",
-      "sortid": 35,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_hoe_recipe",
@@ -507,7 +507,7 @@
     {
       "name": "HogiritIngot",
       "type": "item",
-      "sortid": 25,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_ingot",
@@ -522,18 +522,18 @@
     {
       "name": "HogiritOre",
       "type": "block",
-      "sortid": 5,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/hogirit_ore.json",
-          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/hogirit_ore.json",
           "src/main/resources/assets/bals_arystisa/models/block/hogirit_ore.json",
-          "src/main/java/net/mcreator/balsarystisa/block/HogiritOreBlock.java",
-          "src/main/resources/data/bals_arystisa/forge/biome_modifier/hogirit_ore_biome_modifier.json",
           "src/main/resources/assets/bals_arystisa/models/item/hogirit_ore.json",
+          "src/main/resources/data/bals_arystisa/forge/biome_modifier/hogirit_ore_biome_modifier.json",
+          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/hogirit_ore.json",
+          "src/main/java/net/mcreator/balsarystisa/block/HogiritOreBlock.java",
+          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/hogirit_ore.json",
           "src/main/resources/assets/bals_arystisa/blockstates/hogirit_ore.json"
         ]
       },
@@ -542,7 +542,7 @@
     {
       "name": "HogiritOreSmelting",
       "type": "recipe",
-      "sortid": 36,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_ore_smelting",
@@ -556,7 +556,7 @@
     {
       "name": "HogiritPickaxe",
       "type": "tool",
-      "sortid": 20,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_pickaxe",
@@ -571,7 +571,7 @@
     {
       "name": "HogiritArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_armor_chestplate_recipe",
@@ -585,7 +585,7 @@
     {
       "name": "HogiritArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 38,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_armor_boots_recipe",
@@ -599,7 +599,7 @@
     {
       "name": "HogiritOreBlockRecipe",
       "type": "recipe",
-      "sortid": 39,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_ore_block_recipe",
@@ -613,7 +613,7 @@
     {
       "name": "ArystisaPlanks",
       "type": "recipe",
-      "sortid": 40,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystisa_planks",
@@ -627,7 +627,7 @@
     {
       "name": "CraftingTableArystingPlanks",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crafting_table_arysting_planks",
@@ -641,7 +641,7 @@
     {
       "name": "ArystingButtonCraft",
       "type": "recipe",
-      "sortid": 42,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_button_craft",
@@ -655,7 +655,7 @@
     {
       "name": "ArystisaStickCraft",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystisa_stick_craft",
@@ -669,7 +669,7 @@
     {
       "name": "ArystisaForgeTableCraft",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystisa_forge_table_craft",
@@ -683,7 +683,7 @@
     {
       "name": "ArystisaWoodCraft",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystisa_wood_craft",
@@ -697,22 +697,22 @@
     {
       "name": "Baguette",
       "type": "item",
-      "sortid": 18,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/baguette.json",
-          "src/main/java/net/mcreator/balsarystisa/item/BaguetteItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/baguette.json"
         ]
       },
-      "path": "~/Jos3"
+      "path": "~/Jos3/Baguette"
     },
     {
       "name": "BaguetteRecipe",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette_recipe",
@@ -721,12 +721,12 @@
           "src/main/resources/data/bals_arystisa/recipes/baguette_recipe.json"
         ]
       },
-      "path": "~/Jos3"
+      "path": "~/Jos3/Baguette"
     },
     {
       "name": "BaguetteRecipe1",
       "type": "recipe",
-      "sortid": 47,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette_recipe_1",
@@ -735,12 +735,12 @@
           "src/main/resources/data/bals_arystisa/recipes/baguette_recipe_1.json"
         ]
       },
-      "path": "~/Jos3"
+      "path": "~/Jos3/Baguette"
     },
     {
       "name": "BaguetteRecipe2",
       "type": "recipe",
-      "sortid": 48,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette_recipe_2",
@@ -749,12 +749,12 @@
           "src/main/resources/data/bals_arystisa/recipes/baguette_recipe_2.json"
         ]
       },
-      "path": "~/Jos3"
+      "path": "~/Jos3/Baguette"
     },
     {
       "name": "ArystingPressurePlateCraft",
       "type": "recipe",
-      "sortid": 49,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_pressure_plate_craft",
@@ -768,7 +768,7 @@
     {
       "name": "ArystingFenceGateCraft",
       "type": "recipe",
-      "sortid": 50,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_fence_gate_craft",
@@ -782,7 +782,7 @@
     {
       "name": "ArystingSlabCraft",
       "type": "recipe",
-      "sortid": 51,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_slab_craft",
@@ -796,7 +796,7 @@
     {
       "name": "ArystingStairsCraft",
       "type": "recipe",
-      "sortid": 52,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_stairs_craft",
@@ -810,7 +810,7 @@
     {
       "name": "ArystingFenceCraft",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_fence_craft",
@@ -822,100 +822,36 @@
       "path": "~/BAL1SEUR"
     },
     {
-      "name": "FormerGravel",
+      "name": "Tugstium",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/TugstiumItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium.json"
+        ]
+      },
+      "path": "~/Thekiller9088"
+    },
+    {
+      "name": "Tugstiumore",
       "type": "block",
-      "sortid": 4,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "former_gravel",
+      "registry_name": "tugstiumore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/block/FormerGravelBlock.java",
-          "src/main/resources/assets/bals_arystisa/models/block/former_gravel.json",
-          "src/main/resources/assets/bals_arystisa/models/item/former_gravel.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/former_gravel.json"
+          "src/main/resources/assets/bals_arystisa/models/item/tugstiumore.json",
+          "src/main/java/net/mcreator/balsarystisa/block/TugstiumoreBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/tugstiumore.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/tugstiumore.json"
         ]
       },
-      "path": "~/BAL1SEUR"
-    },
-    {
-      "name": "FormerGravelLootTable",
-      "type": "loottable",
-      "sortid": 54,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "former_gravel_loot_table",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/loot_tables/blocks/former_gravel.json"
-        ]
-      },
-      "path": "~/BAL1SEUR"
-    },
-    {
-      "name": "GUICyberwareGeneral",
-      "type": "gui",
-      "sortid": 55,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gui_cyberware_general",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/client/gui/GUICyberwareGeneralScreen.java",
-          "src/main/java/net/mcreator/balsarystisa/world/inventory/GUICyberwareGeneralMenu.java"
-        ]
-      },
-      "path": "~/SirRacaillou/GUI_Cyberware"
-    },
-    {
-      "name": "GUICyberwareGeneralTrigger",
-      "type": "procedure",
-      "sortid": 56,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gui_cyberware_general_trigger",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/procedures/GUICyberwareGeneralTriggerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/SirRacaillou/GUI_Cyberware"
-    },
-    {
-      "name": "TriggerCyberwareGUI",
-      "type": "keybind",
-      "sortid": 57,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "trigger_cyberware_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/network/TriggerCyberwareGUIMessage.java"
-        ]
-      },
-      "path": "~/SirRacaillou/GUI_Cyberware"
+      "path": "~/Thekiller9088"
     },
     {
       "name": "ArystisaWorld",
@@ -926,17 +862,17 @@
       "registry_name": "arystisa_world",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/block/ArystisaWorldPortalBlock.java",
-          "src/main/resources/data/bals_arystisa/dimension_type/arystisa_world.json",
-          "src/main/java/net/mcreator/balsarystisa/world/teleporter/ArystisaWorldTeleporter.java",
-          "src/main/java/net/mcreator/balsarystisa/world/teleporter/ArystisaWorldPortalShape.java",
-          "src/main/resources/data/bals_arystisa/dimension/arystisa_world.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arystisa_world_portal_ew.json",
           "src/main/resources/assets/bals_arystisa/blockstates/arystisa_world_portal.json",
-          "src/main/resources/assets/bals_arystisa/models/block/arystisa_world_portal_ns.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystisaWorldPortalBlock.java",
           "src/main/java/net/mcreator/balsarystisa/item/ArystisaWorldItem.java",
+          "src/main/java/net/mcreator/balsarystisa/world/teleporter/ArystisaWorldPortalShape.java",
+          "src/main/resources/assets/bals_arystisa/models/block/arystisa_world_portal_ns.json",
+          "src/main/java/net/mcreator/balsarystisa/world/teleporter/ArystisaWorldTeleporter.java",
+          "src/main/resources/data/bals_arystisa/dimension/arystisa_world.json",
           "src/main/resources/assets/bals_arystisa/models/item/arystisa_world.json",
           "src/main/java/net/mcreator/balsarystisa/world/dimension/ArystisaWorldDimension.java",
-          "src/main/resources/assets/bals_arystisa/models/block/arystisa_world_portal_ew.json"
+          "src/main/resources/data/bals_arystisa/dimension_type/arystisa_world.json"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -955,54 +891,6 @@
         ]
       },
       "path": "~/BAL1SEUR"
-    },
-    {
-      "name": "ArystingForest",
-      "type": "biome",
-      "sortid": 58,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arysting_forest",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/world/features/treedecorators/ArystingForestLeaveDecorator.java",
-          "src/main/java/net/mcreator/balsarystisa/world/features/treedecorators/ArystingForestTrunkDecorator.java",
-          "src/main/resources/data/bals_arystisa/worldgen/biome/arysting_forest.json",
-          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/arysting_forest_tree.json",
-          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/arysting_forest_tree.json"
-        ]
-      },
-      "path": "~/BAL1SEUR"
-    },
-    {
-      "name": "RunnedPortalParticle",
-      "type": "particle",
-      "sortid": 60,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "runned_portal_particle",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/client/particle/RunnedPortalParticleParticle.java",
-          "src/main/resources/assets/bals_arystisa/particles/runned_portal_particle.json"
-        ]
-      },
-      "path": "~/BAL1SEUR"
-    },
-    {
-      "name": "InvisibleCamoCyberware",
-      "type": "item",
-      "sortid": 61,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "invisible_camo_cyberware",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/invisible_camo_cyberware.json",
-          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamoCyberwareItem.java"
-        ]
-      },
-      "path": "~/SirRacaillou/Cyberware"
     },
     {
       "name": "Amber",
@@ -1047,6 +935,158 @@
         ]
       },
       "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "SelectionUse",
+      "type": "keybind",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "selection_use",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/network/SelectionUseMessage.java"
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "TriggerCyberwareGUI",
+      "type": "keybind",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trigger_cyberware_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/network/TriggerCyberwareGUIMessage.java"
+        ]
+      },
+      "path": "~/SirRacaillou/GUI_Cyberware"
+    },
+    {
+      "name": "ArystingForest",
+      "type": "biome",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arysting_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/worldgen/biome/arysting_forest.json",
+          "src/main/java/net/mcreator/balsarystisa/world/features/treedecorators/ArystingForestLeaveDecorator.java",
+          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/arysting_forest_tree.json",
+          "src/main/java/net/mcreator/balsarystisa/world/features/treedecorators/ArystingForestTrunkDecorator.java",
+          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/arysting_forest_tree.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "GUICyberwareGeneral",
+      "type": "gui",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_cyberware_general",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/client/gui/GUICyberwareGeneralScreen.java",
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/GUICyberwareGeneralMenu.java"
+        ]
+      },
+      "path": "~/SirRacaillou/GUI_Cyberware"
+    },
+    {
+      "name": "FormerGravel",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "former_gravel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/former_gravel.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/former_gravel.json",
+          "src/main/java/net/mcreator/balsarystisa/block/FormerGravelBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/former_gravel.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "FormerGravelLootTable",
+      "type": "loottable",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "former_gravel_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/loot_tables/blocks/former_gravel.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "GUICyberwareGeneralTrigger",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_cyberware_general_trigger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/GUICyberwareGeneralTriggerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SirRacaillou/GUI_Cyberware"
+    },
+    {
+      "name": "InvisibleCamoCooldown",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_camo_cooldown",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/InvisibleCamoCooldownProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
     },
     {
       "name": "AmberLogSapBottleProced",
@@ -1109,106 +1149,51 @@
       "path": "~/SirRacaillou/Cyberware"
     },
     {
-      "name": "SelectionUse",
-      "type": "keybind",
-      "sortid": 66,
+      "name": "RunnedPortalParticle",
+      "type": "particle",
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "selection_use",
+      "registry_name": "runned_portal_particle",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/network/SelectionUseMessage.java"
+          "src/main/java/net/mcreator/balsarystisa/client/particle/RunnedPortalParticleParticle.java",
+          "src/main/resources/assets/bals_arystisa/particles/runned_portal_particle.json"
         ]
       },
-      "path": "~/SirRacaillou/Cyberware"
+      "path": "~/BAL1SEUR"
     },
     {
-      "name": "InvisibleCamoCooldown",
-      "type": "procedure",
-      "sortid": 67,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "invisible_camo_cooldown",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/procedures/InvisibleCamoCooldownProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/SirRacaillou/Cyberware"
-    },
-    {
-      "name": "WorkStationGUI",
-      "type": "gui",
-      "sortid": 69,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "work_station_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/client/gui/WorkStationGUIScreen.java",
-          "src/main/java/net/mcreator/balsarystisa/world/inventory/WorkStationGUIMenu.java"
-        ]
-      },
-      "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI"
-    },
-    {
-      "name": "WorkStation",
-      "type": "block",
-      "sortid": 68,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "work_station",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bals_arystisa/models/block/work_station.json",
-          "src/main/resources/assets/bals_arystisa/models/item/work_station.json",
-          "src/main/java/net/mcreator/balsarystisa/block/WorkStationBlock.java",
-          "src/main/resources/assets/bals_arystisa/blockstates/work_station.json"
-        ]
-      },
-      "path": "~/SirRacaillou/Functional_Block"
-    },
-    {
-      "name": "Tugstium",
+      "name": "InvisibleCamoCyberware",
       "type": "item",
-      "sortid": 70,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tugstium",
+      "registry_name": "invisible_camo_cyberware",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/TugstiumItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium.json"
+          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamoCyberwareItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/invisible_camo_cyberware.json"
         ]
       },
-      "path": "~/Thekiller9088"
+      "path": "~/SirRacaillou/Cyberware"
     },
     {
-      "name": "Tugstiumore",
+      "name": "Bloctugstium",
       "type": "block",
-      "sortid": 71,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tugstiumore",
+      "registry_name": "bloctugstium",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/block/TugstiumoreBlock.java",
-          "src/main/resources/assets/bals_arystisa/models/item/tugstiumore.json",
-          "src/main/resources/assets/bals_arystisa/models/block/tugstiumore.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/tugstiumore.json"
+          "src/main/resources/assets/bals_arystisa/models/block/bloctugstium.json",
+          "src/main/resources/assets/bals_arystisa/models/item/bloctugstium.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/bloctugstium.json",
+          "src/main/java/net/mcreator/balsarystisa/block/BloctugstiumBlock.java"
         ]
       },
-      "path": "~/Thekiller9088"
+      "path": "~/Thekiller9088/tugstium"
     },
     {
       "name": "ArystingCow",
@@ -1220,9 +1205,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/balsarystisa/client/renderer/ArystingCowRenderer.java",
+          "src/main/java/net/mcreator/balsarystisa/entity/ArystingCowEntity.java",
           "src/main/resources/assets/bals_arystisa/models/item/arysting_cow_spawn_egg.json",
-          "src/main/resources/data/bals_arystisa/forge/biome_modifier/arysting_cow_biome_modifier.json",
-          "src/main/java/net/mcreator/balsarystisa/entity/ArystingCowEntity.java"
+          "src/main/resources/data/bals_arystisa/forge/biome_modifier/arysting_cow_biome_modifier.json"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -1243,6 +1228,21 @@
       "path": "~/Jos3/Baguette"
     },
     {
+      "name": "WorkStationGUI",
+      "type": "gui",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "work_station_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/client/gui/WorkStationGUIScreen.java",
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/WorkStationGUIMenu.java"
+        ]
+      },
+      "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI"
+    },
+    {
       "name": "BaguetteSwordRecipe",
       "type": "recipe",
       "sortid": 60,
@@ -1255,6 +1255,23 @@
         ]
       },
       "path": "~/Jos3/Baguette"
+    },
+    {
+      "name": "WorkStation",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "work_station",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/blockstates/work_station.json",
+          "src/main/java/net/mcreator/balsarystisa/block/WorkStationBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/work_station.json",
+          "src/main/resources/assets/bals_arystisa/models/item/work_station.json"
+        ]
+      },
+      "path": "~/SirRacaillou/Functional_Block"
     }
   ],
   "variable_elements": [
@@ -1299,8 +1316,8 @@
   ],
   "language_map": {
     "en_us": {
-      "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
       "block.bals_arystisa.arysting_button": "Arysting Button",
+      "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
       "item.bals_arystisa.invisible_camo_cyberware": "Invisible Camo Cyberware",
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "item.bals_arystisa.sap_bottle": "Sap Bottle",
@@ -1310,17 +1327,16 @@
       "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
       "key.bals_arystisa.selection_use": "Selection Use",
       "biome.bals_arystisa.arysting_forest": "Arysting Forest",
+      "block.bals_arystisa.bloctugstium": "Bloctugstium",
       "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
       "item.bals_arystisa.hogirit_sword": "Hogirit Sword",
       "block.bals_arystisa.hogirit_ore": "Hogirit Ore",
-      "item.bals_arystisa.arysting_cow_spawn_egg": "Arysting Cow Spawn Egg",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
       "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
       "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
       "item.bals_arystisa.tugstium": "Tugstium",
       "item_group.bals_arystisa.arystisa": "Arystisa",
       "block.bals_arystisa.arysting_pressure_plate": "Arysting PressurePlate",
-      "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "block.bals_arystisa.arysting_fence": "Arysting Fence",
       "block.bals_arystisa.arysting_wood": "Arysting Wood",
       "subtitles.launch_spawner_wave": "",
@@ -1333,7 +1349,6 @@
       "item.bals_arystisa.diamond_flint": "Diamond Flint",
       "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
       "item.bals_arystisa.hogirit_ingot": "Hogirit",
-      "block.bals_arystisa.work_station": "Work Station",
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
       "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",
@@ -1342,7 +1357,6 @@
       "key.categories.arystisia": "Arystitsia",
       "item.bals_arystisa.hogirit_armor_boots": "Hogirit Boots",
       "block.bals_arystisa.tugstiumore": "Tugstiumore",
-      "entity.bals_arystisa.arysting_cow": "Arysting Cow",
       "item.bals_arystisa.hogirit_hoe": "Hogirit Hoe",
       "block.bals_arystisa.former_gravel": "Former Gravel",
       "subtitles.next_spawner_wave": ""
@@ -1374,7 +1388,12 @@
       },
       {
         "name": "Thekiller9088",
-        "children": []
+        "children": [
+          {
+            "name": "tugstium",
+            "children": []
+          }
+        ]
       },
       {
         "name": "SirRacaillou",
