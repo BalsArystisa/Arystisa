@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 100,
+  "cookingtime": 72000,
+  "ingredient": {
+    "item": "bals_arystisa:sap_bottle"
+  },
+  "result": "bals_arystisa:amber"
+}

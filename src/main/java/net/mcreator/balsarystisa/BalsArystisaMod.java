@@ -31,6 +31,8 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.balsarystisa.init.BalsArystisaModTabs;
 import net.mcreator.balsarystisa.init.BalsArystisaModSounds;
+import net.mcreator.balsarystisa.init.BalsArystisaModParticleTypes;
+import net.mcreator.balsarystisa.init.BalsArystisaModMenus;
 import net.mcreator.balsarystisa.init.BalsArystisaModItems;
 import net.mcreator.balsarystisa.init.BalsArystisaModBlocks;
 
@@ -58,6 +60,9 @@ public class BalsArystisaMod {
 
 		BalsArystisaModTabs.REGISTRY.register(bus);
 
+		BalsArystisaModParticleTypes.REGISTRY.register(bus);
+
+		BalsArystisaModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

@@ -56,7 +56,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "WOOD"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -123,9 +123,9 @@
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 2,
+    "frequencyOnChunk": 1,
+    "minGenerateHeight": 60,
+    "maxGenerateHeight": 80
   }
 }
