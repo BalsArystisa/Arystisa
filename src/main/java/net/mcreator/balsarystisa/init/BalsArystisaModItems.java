@@ -21,6 +21,8 @@ import net.mcreator.balsarystisa.item.Tugstium_1AxeItem;
 import net.mcreator.balsarystisa.item.TugstiumItem;
 import net.mcreator.balsarystisa.item.TugstiumArmorArmorItem;
 import net.mcreator.balsarystisa.item.SapBottleItem;
+import net.mcreator.balsarystisa.item.InvisibleCamotiers3Item;
+import net.mcreator.balsarystisa.item.InvisibleCamotiers2Item;
 import net.mcreator.balsarystisa.item.InvisibleCamoCyberwareItem;
 import net.mcreator.balsarystisa.item.IgnisiumIngotItem;
 import net.mcreator.balsarystisa.item.HogiritSwordItem;
@@ -86,6 +88,8 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> DIAMOND_FLINT = REGISTRY.register("diamond_flint", () -> new DiamondFlintItem());
 	public static final RegistryObject<Item> ARYSTISA_WORLD = REGISTRY.register("arystisa_world", () -> new ArystisaWorldItem());
 	public static final RegistryObject<Item> INVISIBLE_CAMO_CYBERWARE = REGISTRY.register("invisible_camo_cyberware", () -> new InvisibleCamoCyberwareItem());
+	public static final RegistryObject<Item> INVISIBLE_CAMOTIERS_2 = REGISTRY.register("invisible_camotiers_2", () -> new InvisibleCamotiers2Item());
+	public static final RegistryObject<Item> INVISIBLE_CAMOTIERS_3 = REGISTRY.register("invisible_camotiers_3", () -> new InvisibleCamotiers3Item());
 	public static final RegistryObject<Item> SAP_BOTTLE = REGISTRY.register("sap_bottle", () -> new SapBottleItem());
 	public static final RegistryObject<Item> BAGUETTE_SWORD = REGISTRY.register("baguette_sword", () -> new BaguetteSwordItem());
 	public static final RegistryObject<Item> AMBER = REGISTRY.register("amber", () -> new AmberItem());
@@ -107,11 +111,7 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> IGNISIUM_INGOT = REGISTRY.register("ignisium_ingot", () -> new IgnisiumIngotItem());
 	public static final RegistryObject<Item> COBALTINGOT = REGISTRY.register("cobaltingot", () -> new CobaltingotItem());
 	public static final RegistryObject<Item> TUGSTIUM_1_PICKAXE = REGISTRY.register("tugstium_1_pickaxe", () -> new Tugstium_1PickaxeItem());
-	public static final RegistryObject<Item> TUGSTIUM_1_AXE = REGISTRY.register("tugstium_1_axe", () -> new Tugstium_1AxeItem());
 	public static final RegistryObject<Item> IGNISIUM_BLOCK = block(BalsArystisaModBlocks.IGNISIUM_BLOCK);
-	public static final RegistryObject<Item> TUGSTIUM_1_SWORD = REGISTRY.register("tugstium_1_sword", () -> new Tugstium_1SwordItem());
-	public static final RegistryObject<Item> TUGSTIUM_1_SHOVEL = REGISTRY.register("tugstium_1_shovel", () -> new Tugstium_1ShovelItem());
-	public static final RegistryObject<Item> TUGSTIUM_1_HOE = REGISTRY.register("tugstium_1_hoe", () -> new Tugstium_1HoeItem());
 	public static final RegistryObject<Item> COBALT_PICKAXE = REGISTRY.register("cobalt_pickaxe", () -> new CobaltPickaxeItem());
 	public static final RegistryObject<Item> COBALT_AXE = REGISTRY.register("cobalt_axe", () -> new CobaltAxeItem());
 	public static final RegistryObject<Item> COBALT_SWORD = REGISTRY.register("cobalt_sword", () -> new CobaltSwordItem());
@@ -119,6 +119,10 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> COBALT_HOE = REGISTRY.register("cobalt_hoe", () -> new CobaltHoeItem());
 	public static final RegistryObject<Item> D = block(BalsArystisaModBlocks.D);
 	public static final RegistryObject<Item> COMBINEDSWORD = REGISTRY.register("combinedsword", () -> new CombinedswordItem());
+	public static final RegistryObject<Item> TUGSTIUM_1_AXE = REGISTRY.register("tugstium_1_axe", () -> new Tugstium_1AxeItem());
+	public static final RegistryObject<Item> TUGSTIUM_1_SHOVEL = REGISTRY.register("tugstium_1_shovel", () -> new Tugstium_1ShovelItem());
+	public static final RegistryObject<Item> TUGSTIUM_1_HOE = REGISTRY.register("tugstium_1_hoe", () -> new Tugstium_1HoeItem());
+	public static final RegistryObject<Item> TUGSTIUM_1_SWORD = REGISTRY.register("tugstium_1_sword", () -> new Tugstium_1SwordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
