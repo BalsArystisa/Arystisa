@@ -13,7 +13,6 @@ import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.balsarystisa.client.gui.WorkStationGUIScreen;
 import net.mcreator.balsarystisa.client.gui.GUICyberwareGeneralScreen;
-import net.mcreator.balsarystisa.client.gui.ArystisaEmotesGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class BalsArystisaModScreens {
@@ -22,7 +21,6 @@ public class BalsArystisaModScreens {
 		event.enqueueWork(() -> {
 			MenuScreens.register(BalsArystisaModMenus.GUI_CYBERWARE_GENERAL.get(), GUICyberwareGeneralScreen::new);
 			MenuScreens.register(BalsArystisaModMenus.WORK_STATION_GUI.get(), WorkStationGUIScreen::new);
-			MenuScreens.register(BalsArystisaModMenus.ARYSTISA_GUI.get(), ArystisaEmotesGUIScreen::new);
 		});
 	}
 }

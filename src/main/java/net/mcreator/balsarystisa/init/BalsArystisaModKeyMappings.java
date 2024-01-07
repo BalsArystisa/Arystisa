@@ -17,7 +17,6 @@ import net.minecraft.client.KeyMapping;
 
 import net.mcreator.balsarystisa.network.TriggerCyberwareGUIMessage;
 import net.mcreator.balsarystisa.network.SelectionUseMessage;
-import net.mcreator.balsarystisa.network.OpenArystisaEmotesKeyBindMessage;
 import net.mcreator.balsarystisa.network.CyberwareinstallkeyMessage;
 import net.mcreator.balsarystisa.BalsArystisaMod;
 
@@ -62,26 +61,12 @@ public class BalsArystisaModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
-	public static final KeyMapping OPEN_ARYSTISA_EMOTES_KEY_BIND = new KeyMapping("key.bals_arystisa.open_arystisa_emotes_key_bind", GLFW.GLFW_KEY_8, "key.categories.arystisa") {
-		private boolean isDownOld = false;
-
-		@Override
-		public void setDown(boolean isDown) {
-			super.setDown(isDown);
-			if (isDownOld != isDown && isDown) {
-				BalsArystisaMod.PACKET_HANDLER.sendToServer(new OpenArystisaEmotesKeyBindMessage(0, 0));
-				OpenArystisaEmotesKeyBindMessage.pressAction(Minecraft.getInstance().player, 0, 0);
-			}
-			isDownOld = isDown;
-		}
-	};
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
 		event.register(TRIGGER_CYBERWARE_GUI);
 		event.register(SELECTION_USE);
 		event.register(CYBERWAREINSTALLKEY);
-		event.register(OPEN_ARYSTISA_EMOTES_KEY_BIND);
 	}
 
 	@Mod.EventBusSubscriber({Dist.CLIENT})
@@ -92,7 +77,6 @@ public class BalsArystisaModKeyMappings {
 				TRIGGER_CYBERWARE_GUI.consumeClick();
 				SELECTION_USE.consumeClick();
 				CYBERWAREINSTALLKEY.consumeClick();
-				OPEN_ARYSTISA_EMOTES_KEY_BIND.consumeClick();
 			}
 		}
 	}
