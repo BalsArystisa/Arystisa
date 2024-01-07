@@ -31,6 +31,7 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.HOGIRIT_BLOCK.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_LEAVES.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.COBALTORE.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.IGNISIUM_BLOCK.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_WOOD.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ENCHANT_LEAVES.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_LOG.get().asItem());
@@ -79,7 +80,6 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.IGNISIUM_INGOT.get());
 				tabData.accept(BalsArystisaModItems.COBALTINGOT.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_1_PICKAXE.get());
-				tabData.accept(BalsArystisaModBlocks.IGNISIUM_BLOCK.get().asItem());
 				tabData.accept(BalsArystisaModItems.COBALT_PICKAXE.get());
 				tabData.accept(BalsArystisaModItems.COBALT_AXE.get());
 				tabData.accept(BalsArystisaModItems.COBALT_SWORD.get());
