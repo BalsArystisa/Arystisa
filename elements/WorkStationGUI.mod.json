@@ -37,8 +37,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 173,
-          "y": 134
+          "x": 132,
+          "y": 75
         }
       },
       {
@@ -59,8 +59,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 192,
-          "y": 116
+          "x": 164,
+          "y": 75
         }
       },
       {
@@ -115,8 +115,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 173,
-          "y": 116
+          "x": 132,
+          "y": 49
         }
       },
       {
@@ -137,8 +137,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 193,
-          "y": 134
+          "x": 164,
+          "y": 49
         }
       }
     ],
