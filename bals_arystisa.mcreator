@@ -55,7 +55,10 @@
       "registry_name": "amber_ore_arysting_log",
       "metadata": {
         "files": [
+          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/amber_ore_arysting_log.json",
           "src/main/java/net/mcreator/balsarystisa/block/AmberOreArystingLogBlock.java",
+          "src/main/resources/data/bals_arystisa/forge/biome_modifier/amber_ore_arysting_log_biome_modifier.json",
+          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/amber_ore_arysting_log.json",
           "src/main/resources/assets/bals_arystisa/blockstates/amber_ore_arysting_log.json",
           "src/main/resources/assets/bals_arystisa/models/item/amber_ore_arysting_log.json",
           "src/main/resources/assets/bals_arystisa/models/block/amber_ore_arysting_log.json"
@@ -962,6 +965,8 @@
       "registry_name": "arysting_forest",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/balsarystisa/world/features/treedecorators/ArystingForestLeaveDecorator.java",
+          "src/main/java/net/mcreator/balsarystisa/world/features/treedecorators/ArystingForestTrunkDecorator.java",
           "src/main/resources/data/bals_arystisa/worldgen/biome/arysting_forest.json",
           "src/main/resources/data/bals_arystisa/worldgen/placed_feature/arysting_forest_tree.json",
           "src/main/resources/data/bals_arystisa/worldgen/configured_feature/arysting_forest_tree.json"
@@ -1117,9 +1122,13 @@
   "language_map": {
     "en_us": {
       "block.bals_arystisa.arysting_button": "Arysting Button",
+      "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
+      "item.bals_arystisa.invisible_camo_cyberware": "Invisible Camo Cyberware",
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
+      "item.bals_arystisa.sap_bottle": "Sap Bottle",
       "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
       "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
+      "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
       "biome.bals_arystisa.arysting_forest": "Arysting Forest",
       "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
