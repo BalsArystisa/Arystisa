@@ -4,7 +4,7 @@
   "definition": {
     "triggerKey": "NUMPAD5",
     "keyBindingName": "Cyberwareinstallkey",
-    "keyBindingCategoryKey": "arystisia",
+    "keyBindingCategoryKey": "arystisa",
     "onKeyPressed": {
       "name": "Cyberwareinstall"
     }

@@ -35,7 +35,7 @@ public class BalsArystisaModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
-	public static final KeyMapping SELECTION_USE = new KeyMapping("key.bals_arystisa.selection_use", GLFW.GLFW_KEY_KP_2, "key.categories.arystisia") {
+	public static final KeyMapping SELECTION_USE = new KeyMapping("key.bals_arystisa.selection_use", GLFW.GLFW_KEY_KP_2, "key.categories.arystisa") {
 		private boolean isDownOld = false;
 
 		@Override
@@ -48,7 +48,7 @@ public class BalsArystisaModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
-	public static final KeyMapping CYBERWAREINSTALLKEY = new KeyMapping("key.bals_arystisa.cyberwareinstallkey", GLFW.GLFW_KEY_KP_5, "key.categories.arystisia") {
+	public static final KeyMapping CYBERWAREINSTALLKEY = new KeyMapping("key.bals_arystisa.cyberwareinstallkey", GLFW.GLFW_KEY_KP_5, "key.categories.arystisa") {
 		private boolean isDownOld = false;
 
 		@Override
