@@ -26,10 +26,13 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_LEAVES.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTIS_SPAWNER.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTIS_SPAWNER_NO_ACTIVETED.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.ENCHANT_LEAVES.get().asItem());
 				tabData.accept(BalsArystisaModItems.BAGUETTE.get());
+				tabData.accept(BalsArystisaModBlocks.ENCHANT_WOOD.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_PLANKS.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_STAIRS.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_SLAB.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.ENCHANT_LOG.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_FENCE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_FENCE_GATE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_PRESSURE_PLATE.get().asItem());
@@ -62,6 +65,8 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.BAGUETTE_SHOVEL.get());
 				tabData.accept(BalsArystisaModItems.BAGUETTE_HOE.get());
 				tabData.accept(BalsArystisaModBlocks.IGNISIUM_ORE.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.COBALTORE.get().asItem());
 				tabData.accept(BalsArystisaModItems.IGNISIUM_INGOT.get());
+				tabData.accept(BalsArystisaModItems.BLASONDUBATAILLONDEXPLORATION.get());
 			}).withSearchBar().build());
 }

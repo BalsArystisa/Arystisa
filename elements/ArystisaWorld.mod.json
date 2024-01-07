@@ -8,6 +8,9 @@
       },
       {
         "value": "warm_ocean"
+      },
+      {
+        "value": "river"
       }
     ],
     "worldGenType": "Normal world gen",

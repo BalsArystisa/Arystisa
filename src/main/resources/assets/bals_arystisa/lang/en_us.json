@@ -24,7 +24,6 @@
   "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
   "block.bals_arystisa.arysting_slab": "Arysting Slab",
   "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",
-  "block.bals_arystisa.ignisium_ore": "Ignisium Ore",
   "item.bals_arystisa.hogirit_armor_leggings": "Hogirit Leggings",
   "key.categories.arystisia": "Arystitsia",
   "block.bals_arystisa.tugstiumore": "Tugstiumore",
@@ -51,6 +50,5 @@
   "entity.bals_arystisa.arysting_cow": "Arysting Cow",
   "item.bals_arystisa.hogirit_hoe": "Hogirit Hoe",
   "block.bals_arystisa.former_gravel": "Former Gravel",
-  "item.bals_arystisa.ignisium_ingot": "Ignisium Ingot",
   "subtitles.next_spawner_wave": ""
 }

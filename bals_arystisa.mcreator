@@ -1390,6 +1390,35 @@
       "path": "~/Jos3/Baguette"
     },
     {
+      "name": "IgnisiumIngot",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/IgnisiumIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/ignisium_ingot.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
+    },
+    {
+      "name": "IgnisiumIngotRecipe1",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_ingot_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/ignisium_ingot_recipe_1.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
+    },
+    {
       "name": "IgnisiumOre",
       "type": "block",
       "sortid": 81,
@@ -1402,21 +1431,6 @@
           "src/main/resources/assets/bals_arystisa/models/block/ignisium_ore.json",
           "src/main/java/net/mcreator/balsarystisa/block/IgnisiumOreBlock.java",
           "src/main/resources/assets/bals_arystisa/blockstates/ignisium_ore.json"
-        ]
-      },
-      "path": "~/Jos3/Ignisium"
-    },
-    {
-      "name": "IgnisiumIngot",
-      "type": "item",
-      "sortid": 82,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ignisium_ingot",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/IgnisiumIngotItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/ignisium_ingot.json"
         ]
       },
       "path": "~/Jos3/Ignisium"
@@ -1436,18 +1450,87 @@
       "path": "~/Jos3/Ignisium"
     },
     {
-      "name": "IgnisiumIngotRecipe1",
-      "type": "recipe",
-      "sortid": 84,
+      "name": "EnchantLog",
+      "type": "block",
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ignisium_ingot_recipe_1",
+      "registry_name": "enchant_log",
       "metadata": {
         "files": [
-          "src/main/resources/data/bals_arystisa/recipes/ignisium_ingot_recipe_1.json"
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_log.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_log.json",
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantLogBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_log.json"
         ]
       },
-      "path": "~/Jos3/Ignisium"
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "Cobaltore",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/cobaltore.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/cobaltore.json",
+          "src/main/resources/assets/bals_arystisa/models/item/cobaltore.json",
+          "src/main/java/net/mcreator/balsarystisa/block/CobaltoreBlock.java"
+        ]
+      },
+      "path": "~/Hog536/cobalt"
+    },
+    {
+      "name": "Basondubataillondexploration",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blasondubataillondexploration",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/blasondubataillondexploration.json",
+          "src/main/java/net/mcreator/balsarystisa/item/BasondubataillondexplorationItem.java"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "EnchantWood",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantWoodBlock.java",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_wood.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_wood.json",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_wood.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "EnchantLeaves",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantLeavesBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_leaves.json",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_leaves.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_leaves.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
     }
   ],
   "variable_elements": [
@@ -1512,12 +1595,11 @@
       "subtitles.end_spawner_wave": "",
       "block.bals_arystisa.hogirit_block": "Block of Hogirit",
       "item.bals_arystisa.hogirit_armor_chestplate": "Hogirit Chestplate",
-      "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
       "item.bals_arystisa.hogirit_ingot": "Hogirit",
+      "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
       "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",
-      "block.bals_arystisa.ignisium_ore": "Ignisium Ore",
       "item.bals_arystisa.hogirit_armor_leggings": "Hogirit Leggings",
       "key.categories.arystisia": "Arystitsia",
       "block.bals_arystisa.tugstiumore": "Tugstiumore",
@@ -1544,13 +1626,16 @@
       "entity.bals_arystisa.arysting_cow": "Arysting Cow",
       "item.bals_arystisa.hogirit_hoe": "Hogirit Hoe",
       "block.bals_arystisa.former_gravel": "Former Gravel",
-      "item.bals_arystisa.ignisium_ingot": "Ignisium Ingot",
       "subtitles.next_spawner_wave": ""
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
+      {
+        "name": "MisterPongiste",
+        "children": []
+      },
       {
         "name": "Azerty384445",
         "children": []
@@ -1561,17 +1646,22 @@
       },
       {
         "name": "Hog536",
-        "children": []
+        "children": [
+          {
+            "name": "cobalt",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Jos3",
         "children": [
           {
-            "name": "Baguette",
+            "name": "Ignisium",
             "children": []
           },
           {
-            "name": "Ignisium",
+            "name": "Baguette",
             "children": []
           }
         ]

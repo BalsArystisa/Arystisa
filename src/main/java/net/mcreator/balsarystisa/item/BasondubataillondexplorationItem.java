@@ -4,8 +4,8 @@ package net.mcreator.balsarystisa.item;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import javax.annotation.Nullable;
 
-public class IgnisiumIngotItem extends Item {
-	public IgnisiumIngotItem() {
+public class BasondubataillondexplorationItem extends Item {
+	public BasondubataillondexplorationItem() {
 		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 
