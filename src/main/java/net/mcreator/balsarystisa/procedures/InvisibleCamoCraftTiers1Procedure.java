@@ -41,6 +41,7 @@ public class InvisibleCamoCraftTiers1Procedure {
 				((Slot) _slots.get(4)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
 			}
+			new ItemStack(BalsArystisaModItems.INVISIBLE_CAMO_CYBERWARE.get()).getOrCreateTag().putDouble("tiers", 4);
 		}
 	}
 }
