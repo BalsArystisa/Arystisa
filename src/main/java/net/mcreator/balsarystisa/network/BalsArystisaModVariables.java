@@ -108,7 +108,7 @@ public class BalsArystisaModVariables {
 	public static class PlayerVariables {
 		public boolean Invisible_Camo = false;
 		public boolean Invisible_Camo_Cooldown = false;
-		public boolean Cubdoc = true;
+		public boolean Cubdoc = false;
 		public double Invisible_Camo_Tiers = 0.0;
 
 		public void syncPlayerVariables(Entity entity) {
