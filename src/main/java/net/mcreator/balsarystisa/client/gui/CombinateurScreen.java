@@ -47,9 +47,9 @@ public class CombinateurScreen extends AbstractContainerScreen<CombinateurMenu> 
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/hog_sword.png"), this.leftPos + 19, this.topPos + 15, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/hog_sword.png"), this.leftPos + 36, this.topPos + 47, 0, 0, 16, 16, 16, 16);
 
-		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/cobalt_sword.png"), this.leftPos + 19, this.topPos + 47, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/cobalt_sword.png"), this.leftPos + 36, this.topPos + 16, 0, 0, 16, 16, 16, 16);
 
 		RenderSystem.disableBlend();
 	}

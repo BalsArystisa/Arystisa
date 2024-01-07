@@ -63,8 +63,8 @@
         "data": {
           "image": "hog_sword.png",
           "use1Xscale": false,
-          "x": 143,
-          "y": 53
+          "x": 160,
+          "y": 85
         }
       },
       {
@@ -72,8 +72,8 @@
         "data": {
           "image": "cobalt_sword.png",
           "use1Xscale": false,
-          "x": 143,
-          "y": 85
+          "x": 160,
+          "y": 54
         }
       }
     ],

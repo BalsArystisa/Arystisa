@@ -34,7 +34,7 @@ import io.netty.buffer.Unpooled;
 
 public class DBlock extends Block {
 	public DBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f).randomTicks());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.METAL).strength(1f, 10f).randomTicks());
 	}
 
 	@Override

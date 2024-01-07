@@ -26,7 +26,7 @@ public class CombinateuruseProcedure {
 				_player.containerMenu.broadcastChanges();
 			}
 			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-				ItemStack _setstack = new ItemStack(BalsArystisaModItems.HOGIRIT_INGOT.get());
+				ItemStack _setstack = new ItemStack(BalsArystisaModItems.COMBINEDSWORD.get());
 				_setstack.setCount(1);
 				((Slot) _slots.get(2)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
