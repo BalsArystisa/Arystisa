@@ -68,6 +68,7 @@ public class BalsArystisaModVariables {
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			clone.Invisible_Camo = original.Invisible_Camo;
 			clone.Invisible_Camo_Cooldown = original.Invisible_Camo_Cooldown;
+			clone.Cubdoc = original.Cubdoc;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -106,6 +107,7 @@ public class BalsArystisaModVariables {
 	public static class PlayerVariables {
 		public boolean Invisible_Camo = false;
 		public boolean Invisible_Camo_Cooldown = false;
+		public boolean Cubdoc = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -116,6 +118,7 @@ public class BalsArystisaModVariables {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putBoolean("Invisible_Camo", Invisible_Camo);
 			nbt.putBoolean("Invisible_Camo_Cooldown", Invisible_Camo_Cooldown);
+			nbt.putBoolean("Cubdoc", Cubdoc);
 			return nbt;
 		}
 
@@ -123,6 +126,7 @@ public class BalsArystisaModVariables {
 			CompoundTag nbt = (CompoundTag) Tag;
 			Invisible_Camo = nbt.getBoolean("Invisible_Camo");
 			Invisible_Camo_Cooldown = nbt.getBoolean("Invisible_Camo_Cooldown");
+			Cubdoc = nbt.getBoolean("Cubdoc");
 		}
 	}
 
@@ -149,6 +153,7 @@ public class BalsArystisaModVariables {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 					variables.Invisible_Camo = message.data.Invisible_Camo;
 					variables.Invisible_Camo_Cooldown = message.data.Invisible_Camo_Cooldown;
+					variables.Cubdoc = message.data.Cubdoc;
 				}
 			});
 			context.setPacketHandled(true);
