@@ -85,7 +85,8 @@
       "PlainsTallGrass",
       "JungleGrass",
       "SwampVegetation",
-      "ForestFlowers"
+      "ForestFlowers",
+      "TaigaLargeFerns"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": true,
@@ -107,6 +108,25 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityAllay"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:ArystingCow"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
   }
 }
