@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "bals_arystisa:arystis_dunjon",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 15,
+    "separation": 7,
+    "salt": 1396988837
+  }
+}

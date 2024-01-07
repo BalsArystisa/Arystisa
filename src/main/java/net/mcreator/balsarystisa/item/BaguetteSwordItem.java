@@ -1,7 +1,16 @@
 
 package net.mcreator.balsarystisa.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.network.chat.Component;
+
+import java.util.List;
 
 public class BaguetteSwordItem extends SwordItem {
 	public BaguetteSwordItem() {
@@ -23,7 +32,7 @@ public class BaguetteSwordItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 1;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {

@@ -31,10 +31,14 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_LEAVES.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTIS_SPAWNER.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTIS_SPAWNER_NO_ACTIVETED.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.COBALTORE.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.ENCHANT_LEAVES.get().asItem());
 				tabData.accept(BalsArystisaModItems.BAGUETTE.get());
+				tabData.accept(BalsArystisaModBlocks.ENCHANT_WOOD.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_PLANKS.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_STAIRS.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_SLAB.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.ENCHANT_LOG.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_FENCE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_FENCE_GATE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_PRESSURE_PLATE.get().asItem());
@@ -66,7 +70,23 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_ARMOR_ARMOR_CHESTPLATE.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_ARMOR_ARMOR_LEGGINGS.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_ARMOR_ARMOR_BOOTS.get());
+				tabData.accept(BalsArystisaModItems.BAGUETTE_AXE.get());
+				tabData.accept(BalsArystisaModItems.BAGUETTE_PICKAXE.get());
+				tabData.accept(BalsArystisaModItems.BAGUETTE_SHOVEL.get());
+				tabData.accept(BalsArystisaModItems.BAGUETTE_HOE.get());
+				tabData.accept(BalsArystisaModBlocks.IGNISIUM_ORE.get().asItem());
+				tabData.accept(BalsArystisaModItems.COBALTINGOT.get());
+				tabData.accept(BalsArystisaModItems.BLASONDUBATAILLONDEXPLORATION.get());
+				tabData.accept(BalsArystisaModItems.IGNISIUM_INGOT.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_1_PICKAXE.get());
+				tabData.accept(BalsArystisaModBlocks.IGNISIUM_BLOCK.get().asItem());
+				tabData.accept(BalsArystisaModItems.COBALT_PICKAXE.get());
+				tabData.accept(BalsArystisaModItems.COBALT_AXE.get());
+				tabData.accept(BalsArystisaModItems.COBALT_SWORD.get());
+				tabData.accept(BalsArystisaModItems.COBALT_SHOVEL.get());
+				tabData.accept(BalsArystisaModItems.COBALT_HOE.get());
+				tabData.accept(BalsArystisaModBlocks.D.get().asItem());
+				tabData.accept(BalsArystisaModItems.COMBINEDSWORD.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

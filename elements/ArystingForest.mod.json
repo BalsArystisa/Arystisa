@@ -113,19 +113,10 @@
         "entity": {
           "value": "EntityAllay"
         },
-        "minGroup": 2,
-        "maxGroup": 4,
-        "weight": 20,
-        "spawnType": "ambient"
-      },
-      {
-        "entity": {
-          "value": "CUSTOM:ArystingCow"
-        },
-        "minGroup": 4,
-        "maxGroup": 4,
-        "weight": 20,
-        "spawnType": "monster"
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 1,
+        "spawnType": "creature"
       }
     ]
   }

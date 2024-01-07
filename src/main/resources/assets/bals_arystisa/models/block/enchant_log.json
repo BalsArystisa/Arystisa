@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bals_arystisa:block/enchant_log_top",
+    "up": "bals_arystisa:block/enchant_log_top",
+    "north": "bals_arystisa:block/enchant_log",
+    "east": "bals_arystisa:block/enchant_log",
+    "south": "bals_arystisa:block/enchant_log",
+    "west": "bals_arystisa:block/enchant_log",
+    "particle": "bals_arystisa:block/enchant_log_top"
+  },
+  "render_type": "solid"
+}

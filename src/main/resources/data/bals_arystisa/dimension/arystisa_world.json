@@ -33,27 +33,27 @@
           }
         },
         {
-          "biome": "warm_ocean",
+          "biome": "bals_arystisa:enchant_forest",
           "parameters": {
             "temperature": [
-              0.55,
-              1
+              -0.6,
+              0.5
             ],
             "humidity": [
-              -1,
-              1
+              -0.5,
+              0.5
             ],
             "continentalness": [
-              -1.05,
-              -0.455
-            ],
-            "erosion": [
-              -1,
+              0.3,
               1
             ],
             "weirdness": [
               -1,
               1
+            ],
+            "erosion": [
+              -0.5,
+              0.5
             ],
             "depth": 0,
             "offset": 0
@@ -72,10 +72,7 @@
         "Name": "minecraft:stone"
       },
       "default_fluid": {
-        "Name": "minecraft:water",
-        "Properties": {
-          "level": "0"
-        }
+        "Name": "minecraft:air"
       },
       "spawn_target": [],
       "noise": {
@@ -500,7 +497,7 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "warm_ocean"
+                "bals_arystisa:enchant_forest"
               ]
             },
             "then_run": {
@@ -544,7 +541,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "minecraft:gravel"
+                            "Name": "minecraft:cave_air"
                           }
                         }
                       ]
