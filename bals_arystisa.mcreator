@@ -16,7 +16,7 @@
       "name": "ArystingLog",
       "type": "block",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "arysting_log",
       "metadata": {
@@ -50,7 +50,7 @@
       "name": "AmberOreArystingLog",
       "type": "block",
       "sortid": 4,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "amber_ore_arysting_log",
       "metadata": {
@@ -136,7 +136,7 @@
       "name": "ArystingLeaves",
       "type": "block",
       "sortid": 5,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "arysting_leaves",
       "metadata": {
@@ -225,7 +225,7 @@
       "name": "ArystingFence",
       "type": "block",
       "sortid": 14,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "arysting_fence",
       "metadata": {
@@ -244,7 +244,7 @@
       "name": "ArystingFenceGate",
       "type": "block",
       "sortid": 15,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "arysting_fence_gate",
       "metadata": {
@@ -282,7 +282,7 @@
       "name": "ArystingButton",
       "type": "block",
       "sortid": 17,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "arysting_button",
       "metadata": {
@@ -1316,8 +1316,8 @@
   ],
   "language_map": {
     "en_us": {
-      "block.bals_arystisa.arysting_button": "Arysting Button",
       "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
+      "block.bals_arystisa.arysting_button": "Arysting Button",
       "item.bals_arystisa.invisible_camo_cyberware": "Invisible Camo Cyberware",
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "item.bals_arystisa.sap_bottle": "Sap Bottle",
