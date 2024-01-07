@@ -13,7 +13,6 @@ import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.balsarystisa.client.gui.WorkStationGUIScreen;
 import net.mcreator.balsarystisa.client.gui.GUICyberwareGeneralScreen;
-import net.mcreator.balsarystisa.client.gui.ArystisaEmotesGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class BalsArystisaModScreens {

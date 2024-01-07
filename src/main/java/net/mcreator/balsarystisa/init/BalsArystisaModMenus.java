@@ -13,7 +13,6 @@ import net.minecraft.world.inventory.MenuType;
 
 import net.mcreator.balsarystisa.world.inventory.WorkStationGUIMenu;
 import net.mcreator.balsarystisa.world.inventory.GUICyberwareGeneralMenu;
-import net.mcreator.balsarystisa.world.inventory.ArystisaEmotesGUIMenu;
 import net.mcreator.balsarystisa.BalsArystisaMod;
 
 public class BalsArystisaModMenus {

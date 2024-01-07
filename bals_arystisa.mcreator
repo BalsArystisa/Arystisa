@@ -1714,21 +1714,6 @@
       "path": "~/BAL1SEUR/Arystisa Emotes"
     },
     {
-      "name": "ArystisaEmotesGUI",
-      "type": "gui",
-      "sortid": 102,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "arystisa_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/world/inventory/ArystisaEmotesGUIMenu.java",
-          "src/main/java/net/mcreator/balsarystisa/client/gui/ArystisaEmotesGUIScreen.java"
-        ]
-      },
-      "path": "~/BAL1SEUR/Arystisa Emotes"
-    },
-    {
       "name": "OpenArystisaEmotesKeyBind",
       "type": "keybind",
       "sortid": 104,
@@ -1755,6 +1740,21 @@
         ]
       },
       "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI"
+    },
+    {
+      "name": "ArystisiaGUI",
+      "type": "gui",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arystisia_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/ArystisiaGUIMenu.java",
+          "src/main/java/net/mcreator/balsarystisa/client/gui/ArystisiaGUIScreen.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
     }
   ],
   "variable_elements": [
@@ -1826,12 +1826,11 @@
       "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
       "item.bals_arystisa.blasondubataillondexploration": "Basondubataillondexploration",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
-      "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
       "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
+      "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
       "block.bals_arystisa.d": "D",
       "item.bals_arystisa.cobalt_sword": "Cobalt Sword",
       "item.bals_arystisa.tugstium_1_axe": "Tugstium Axe",
-      "gui.bals_arystisa.arystisa_gui.label_arystisa_emotes": "Arystisa",
       "block.bals_arystisa.arysting_pressure_plate": "Arysting PressurePlate",
       "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "item.bals_arystisa.tugstium_armor_armor_helmet": "Tugstium Helmet",

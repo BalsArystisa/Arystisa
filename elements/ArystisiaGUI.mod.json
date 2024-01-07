@@ -2,9 +2,9 @@
   "_fv": 57,
   "_type": "gui",
   "definition": {
-    "type": 0,
-    "width": 0,
-    "height": 0,
+    "type": 1,
+    "width": 350,
+    "height": 170,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
@@ -17,21 +17,6 @@
           "use1Xscale": false,
           "x": 39,
           "y": 35
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_arystisa_emotes",
-          "text": {
-            "fixedValue": "Arystisa"
-          },
-          "color": {
-            "value": -1,
-            "falpha": 0.0
-          },
-          "x": 52,
-          "y": 41
         }
       }
     ],
