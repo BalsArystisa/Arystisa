@@ -1,0 +1,46 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "arystisa_emotes_gui.png",
+          "use1Xscale": false,
+          "x": 39,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_arystisa_emotes",
+          "text": {
+            "fixedValue": "Arystisa"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 52,
+          "y": 41
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
