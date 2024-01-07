@@ -926,17 +926,17 @@
       "registry_name": "arystisa_world",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/block/ArystisaWorldPortalBlock.java",
-          "src/main/resources/data/bals_arystisa/dimension_type/arystisa_world.json",
-          "src/main/java/net/mcreator/balsarystisa/world/teleporter/ArystisaWorldTeleporter.java",
+          "src/main/java/net/mcreator/balsarystisa/world/dimension/ArystisaWorldDimension.java",
           "src/main/java/net/mcreator/balsarystisa/world/teleporter/ArystisaWorldPortalShape.java",
+          "src/main/java/net/mcreator/balsarystisa/item/ArystisaWorldItem.java",
+          "src/main/resources/assets/bals_arystisa/models/block/arystisa_world_portal_ns.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystisaWorldPortalBlock.java",
           "src/main/resources/data/bals_arystisa/dimension/arystisa_world.json",
           "src/main/resources/assets/bals_arystisa/blockstates/arystisa_world_portal.json",
-          "src/main/resources/assets/bals_arystisa/models/block/arystisa_world_portal_ns.json",
-          "src/main/java/net/mcreator/balsarystisa/item/ArystisaWorldItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/arystisa_world.json",
-          "src/main/java/net/mcreator/balsarystisa/world/dimension/ArystisaWorldDimension.java",
-          "src/main/resources/assets/bals_arystisa/models/block/arystisa_world_portal_ew.json"
+          "src/main/resources/data/bals_arystisa/dimension_type/arystisa_world.json",
+          "src/main/java/net/mcreator/balsarystisa/world/teleporter/ArystisaWorldTeleporter.java",
+          "src/main/resources/assets/bals_arystisa/models/block/arystisa_world_portal_ew.json",
+          "src/main/resources/assets/bals_arystisa/models/item/arystisa_world.json"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -966,10 +966,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/balsarystisa/world/features/treedecorators/ArystingForestLeaveDecorator.java",
-          "src/main/java/net/mcreator/balsarystisa/world/features/treedecorators/ArystingForestTrunkDecorator.java",
-          "src/main/resources/data/bals_arystisa/worldgen/biome/arysting_forest.json",
           "src/main/resources/data/bals_arystisa/worldgen/placed_feature/arysting_forest_tree.json",
-          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/arysting_forest_tree.json"
+          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/arysting_forest_tree.json",
+          "src/main/resources/data/bals_arystisa/worldgen/biome/arysting_forest.json",
+          "src/main/java/net/mcreator/balsarystisa/world/features/treedecorators/ArystingForestTrunkDecorator.java"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -1145,6 +1145,23 @@
         ]
       },
       "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "ArystingCow",
+      "type": "livingentity",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arysting_cow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_cow_spawn_egg.json",
+          "src/main/java/net/mcreator/balsarystisa/client/renderer/ArystingCowRenderer.java",
+          "src/main/java/net/mcreator/balsarystisa/entity/ArystingCowEntity.java",
+          "src/main/resources/data/bals_arystisa/forge/biome_modifier/arysting_cow_biome_modifier.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
     }
   ],
   "variable_elements": [
@@ -1203,6 +1220,7 @@
       "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
       "item.bals_arystisa.hogirit_sword": "Hogirit Sword",
       "block.bals_arystisa.hogirit_ore": "Hogirit Ore",
+      "item.bals_arystisa.arysting_cow_spawn_egg": "Arysting Cow Spawn Egg",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
       "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
       "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
@@ -1227,6 +1245,7 @@
       "item.bals_arystisa.hogirit_armor_leggings": "Hogirit Leggings",
       "key.categories.arystisia": "Arystitsia",
       "item.bals_arystisa.hogirit_armor_boots": "Hogirit Boots",
+      "entity.bals_arystisa.arysting_cow": "Arysting Cow",
       "item.bals_arystisa.hogirit_hoe": "Hogirit Hoe",
       "block.bals_arystisa.former_gravel": "Former Gravel",
       "subtitles.next_spawner_wave": ""

@@ -7,12 +7,14 @@ package net.mcreator.balsarystisa.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.balsarystisa.item.SapBottleItem;
+import net.mcreator.balsarystisa.item.InvisibleCamoCyberwareItem;
 import net.mcreator.balsarystisa.item.HogiritSwordItem;
 import net.mcreator.balsarystisa.item.HogiritShovelItem;
 import net.mcreator.balsarystisa.item.HogiritPickaxeItem;
@@ -58,8 +60,10 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> HOGIRIT_INGOT = REGISTRY.register("hogirit_ingot", () -> new HogiritIngotItem());
 	public static final RegistryObject<Item> DIAMOND_FLINT = REGISTRY.register("diamond_flint", () -> new DiamondFlintItem());
 	public static final RegistryObject<Item> ARYSTISA_WORLD = REGISTRY.register("arystisa_world", () -> new ArystisaWorldItem());
+	public static final RegistryObject<Item> INVISIBLE_CAMO_CYBERWARE = REGISTRY.register("invisible_camo_cyberware", () -> new InvisibleCamoCyberwareItem());
 	public static final RegistryObject<Item> SAP_BOTTLE = REGISTRY.register("sap_bottle", () -> new SapBottleItem());
 	public static final RegistryObject<Item> AMBER = REGISTRY.register("amber", () -> new AmberItem());
+	public static final RegistryObject<Item> ARYSTING_COW_SPAWN_EGG = REGISTRY.register("arysting_cow_spawn_egg", () -> new ForgeSpawnEggItem(BalsArystisaModEntities.ARYSTING_COW, -16764109, -16737895, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

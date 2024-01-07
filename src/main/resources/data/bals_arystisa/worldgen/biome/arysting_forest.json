@@ -11,9 +11,23 @@
     "water_fog_color": 329011
   },
   "spawners": {
-    "monster": [],
+    "monster": [
+      {
+        "type": "bals_arystisa:arysting_cow",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
     "creature": [],
-    "ambient": [],
+    "ambient": [
+      {
+        "type": "allay",
+        "weight": 20,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ],
     "axolotls": [],
     "underground_water_creature": [],
     "water_creature": [],
@@ -60,6 +74,7 @@
     [
       "bals_arystisa:arysting_forest_tree",
       "minecraft:forest_flowers",
+      "minecraft:patch_large_fern",
       "minecraft:patch_tall_grass",
       "minecraft:trees_swamp",
       "minecraft:flower_swamp",
