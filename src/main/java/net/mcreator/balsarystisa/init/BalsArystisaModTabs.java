@@ -61,5 +61,6 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.BAGUETTE_PICKAXE.get());
 				tabData.accept(BalsArystisaModItems.BAGUETTE_SHOVEL.get());
 				tabData.accept(BalsArystisaModItems.BAGUETTE_HOE.get());
+				tabData.accept(BalsArystisaModBlocks.COBALTORE.get().asItem());
 			}).withSearchBar().build());
 }

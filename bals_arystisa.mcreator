@@ -1388,6 +1388,23 @@
         ]
       },
       "path": "~/Thekiller9088/tugstium"
+    },
+    {
+      "name": "Cobaltore",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/CobaltoreBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/cobaltore.json",
+          "src/main/resources/assets/bals_arystisa/models/block/cobaltore.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/cobaltore.json"
+        ]
+      },
+      "path": "~/Hog536/cobalt"
     }
   ],
   "variable_elements": [
@@ -1452,8 +1469,8 @@
       "subtitles.end_spawner_wave": "",
       "block.bals_arystisa.hogirit_block": "Block of Hogirit",
       "item.bals_arystisa.hogirit_armor_chestplate": "Hogirit Chestplate",
-      "item.bals_arystisa.hogirit_ingot": "Hogirit",
       "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
+      "item.bals_arystisa.hogirit_ingot": "Hogirit",
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
       "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",
@@ -1478,6 +1495,7 @@
       "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
       "item.bals_arystisa.diamond_flint": "Diamond Flint",
       "block.bals_arystisa.work_station": "Work Station",
+      "block.bals_arystisa.cobaltore": "Cobaltore",
       "block.bals_arystisa.arysting_log": "Arysting Log",
       "item.bals_arystisa.hogirit_armor_boots": "Hogirit Boots",
       "entity.bals_arystisa.arysting_cow": "Arysting Cow",
@@ -1503,7 +1521,12 @@
       },
       {
         "name": "Hog536",
-        "children": []
+        "children": [
+          {
+            "name": "cobalt",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Jos3",
