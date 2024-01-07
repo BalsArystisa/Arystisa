@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "bals_arystisa:block/enchant_leaves",
-    "up": "bals_arystisa:block/enchant_leaves",
-    "north": "bals_arystisa:block/enchant_leaves",
-    "east": "bals_arystisa:block/enchant_leaves",
-    "south": "bals_arystisa:block/enchant_leaves",
-    "west": "bals_arystisa:block/enchant_leaves",
-    "particle": "bals_arystisa:block/enchant_leaves"
+    "down": "bals_arystisa:block/enchant_leaves_3",
+    "up": "bals_arystisa:block/enchant_leaves_3",
+    "north": "bals_arystisa:block/enchant_leaves_3",
+    "east": "bals_arystisa:block/enchant_leaves_3",
+    "south": "bals_arystisa:block/enchant_leaves_3",
+    "west": "bals_arystisa:block/enchant_leaves_3",
+    "particle": "bals_arystisa:block/enchant_leaves_3"
   },
   "render_type": "translucent"
 }

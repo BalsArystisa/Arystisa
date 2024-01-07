@@ -27,7 +27,7 @@ public class CobaltAxeItem extends AxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(BalsArystisaModItems.DELETED_MOD_ELEMENT.get()));
+				return Ingredient.of(new ItemStack(BalsArystisaModItems.COBALTINGOT.get()));
 			}
 		}, 1, -3f, new Item.Properties());
 	}

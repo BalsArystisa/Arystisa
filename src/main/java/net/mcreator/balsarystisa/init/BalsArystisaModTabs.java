@@ -6,14 +6,19 @@ package net.mcreator.balsarystisa.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.balsarystisa.BalsArystisaMod;
 
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class BalsArystisaModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, BalsArystisaMod.MODID);
 	public static final RegistryObject<CreativeModeTab> ARYSTISA = REGISTRY.register("arystisa",
@@ -39,7 +44,14 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_BUTTON.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.HOGIRIT_ORE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.HOGIRIT_BLOCK.get().asItem());
+				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMOTIERS_2.get());
+				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMOTIERS_3.get());
+				tabData.accept(BalsArystisaModItems.TUGSTIUM_ARMOR_ARMOR_HELMET.get());
+				tabData.accept(BalsArystisaModItems.TUGSTIUM_ARMOR_ARMOR_CHESTPLATE.get());
+				tabData.accept(BalsArystisaModItems.TUGSTIUM_ARMOR_ARMOR_LEGGINGS.get());
+				tabData.accept(BalsArystisaModItems.TUGSTIUM_ARMOR_ARMOR_BOOTS.get());
 				tabData.accept(BalsArystisaModItems.HOGIRIT_AXE.get());
+				tabData.accept(BalsArystisaModItems.TUGSTIUM_1_PICKAXE.get());
 				tabData.accept(BalsArystisaModItems.HOGIRIT_PICKAXE.get());
 				tabData.accept(BalsArystisaModItems.HOGIRIT_SWORD.get());
 				tabData.accept(BalsArystisaModItems.HOGIRIT_SHOVEL.get());
@@ -64,9 +76,23 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.BAGUETTE_PICKAXE.get());
 				tabData.accept(BalsArystisaModItems.BAGUETTE_SHOVEL.get());
 				tabData.accept(BalsArystisaModItems.BAGUETTE_HOE.get());
-				tabData.accept(BalsArystisaModBlocks.IGNISIUM_ORE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.COBALTORE.get().asItem());
-				tabData.accept(BalsArystisaModItems.IGNISIUM_INGOT.get());
+				tabData.accept(BalsArystisaModBlocks.IGNISIUM_ORE.get().asItem());
 				tabData.accept(BalsArystisaModItems.BLASONDUBATAILLONDEXPLORATION.get());
+				tabData.accept(BalsArystisaModItems.IGNISIUM_INGOT.get());
 			}).withSearchBar().build());
+
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+
+		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(BalsArystisaModItems.TUGSTIUM_1_SWORD.get());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(BalsArystisaModItems.TUGSTIUM_1_AXE.get());
+			tabData.accept(BalsArystisaModItems.TUGSTIUM_1_SHOVEL.get());
+			tabData.accept(BalsArystisaModItems.TUGSTIUM_1_HOE.get());
+		}
+	}
 }

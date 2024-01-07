@@ -27,7 +27,7 @@ public class CombinedswordItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(BalsArystisaModItems.COBALTINGOT.get()), new ItemStack(BalsArystisaModItems.HOGIRIT_INGOT.get()));
+				return Ingredient.of(new ItemStack(BalsArystisaModItems.DELETED_MOD_ELEMENT.get()), new ItemStack(BalsArystisaModItems.HOGIRIT_INGOT.get()));
 			}
 		}, 3, 5.5f, new Item.Properties().fireResistant());
 	}

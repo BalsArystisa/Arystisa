@@ -151,7 +151,7 @@ public class CombinateurMenu extends AbstractContainerMenu implements Supplier<M
 			double x = entity.getX();
 			double y = entity.getY();
 			double z = entity.getZ();
-			CombinateuruseProcedure.execute(entity);
+			CombinateuruseProcedure.execute();
 		}
 	}
 }
