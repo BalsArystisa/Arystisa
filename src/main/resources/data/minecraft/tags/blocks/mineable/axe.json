@@ -12,6 +12,13 @@
     "bals_arystisa:arysting_fence",
     "bals_arystisa:arysting_fence_gate",
     "bals_arystisa:arysting_pressure_plate",
-    "bals_arystisa:arysting_button"
+    "bals_arystisa:arysting_button",
+    "bals_arystisa:enchant_planks",
+    "bals_arystisa:enchant_stairs",
+    "bals_arystisa:enchant_slab",
+    "bals_arystisa:enchant_fence",
+    "bals_arystisa:enchant_fence_gate",
+    "bals_arystisa:enchant_pressure_plate",
+    "bals_arystisa:enchant_button"
   ]
 }

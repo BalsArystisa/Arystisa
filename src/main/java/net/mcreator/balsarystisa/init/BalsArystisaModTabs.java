@@ -55,11 +55,18 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.HOGIRIT_ARMOR_LEGGINGS.get());
 				tabData.accept(BalsArystisaModItems.HOGIRIT_ARMOR_BOOTS.get());
 				tabData.accept(BalsArystisaModItems.HOGIRIT_INGOT.get());
+				tabData.accept(BalsArystisaModBlocks.ENCHANT_PLANKS.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.ENCHANT_STAIRS.get().asItem());
+				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMOTIERS_2.get());
+				tabData.accept(BalsArystisaModBlocks.ENCHANT_SLAB.get().asItem());
+				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMOTIERS_3.get());
+				tabData.accept(BalsArystisaModBlocks.ENCHANT_FENCE.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.ENCHANT_FENCE_GATE.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.ENCHANT_PRESSURE_PLATE.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.ENCHANT_BUTTON.get().asItem());
 				tabData.accept(BalsArystisaModItems.DIAMOND_FLINT.get());
 				tabData.accept(BalsArystisaModItems.ARYSTISA_WORLD.get());
 				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_CYBERWARE.get());
-				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMOTIERS_2.get());
-				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMOTIERS_3.get());
 				tabData.accept(BalsArystisaModItems.SAP_BOTTLE.get());
 				tabData.accept(BalsArystisaModItems.BAGUETTE_SWORD.get());
 				tabData.accept(BalsArystisaModItems.AMBER.get());
@@ -79,16 +86,7 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.IGNISIUM_ORE.get().asItem());
 				tabData.accept(BalsArystisaModItems.BLASONDUBATAILLONDEXPLORATION.get());
 				tabData.accept(BalsArystisaModItems.IGNISIUM_INGOT.get());
-				tabData.accept(BalsArystisaModItems.COBALTINGOT.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_1_PICKAXE.get());
-				tabData.accept(BalsArystisaModBlocks.IGNISIUM_BLOCK.get().asItem());
-				tabData.accept(BalsArystisaModItems.COBALT_PICKAXE.get());
-				tabData.accept(BalsArystisaModItems.COBALT_AXE.get());
-				tabData.accept(BalsArystisaModItems.COBALT_SWORD.get());
-				tabData.accept(BalsArystisaModItems.COBALT_SHOVEL.get());
-				tabData.accept(BalsArystisaModItems.COBALT_HOE.get());
-				tabData.accept(BalsArystisaModBlocks.D.get().asItem());
-				tabData.accept(BalsArystisaModItems.COMBINEDSWORD.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
