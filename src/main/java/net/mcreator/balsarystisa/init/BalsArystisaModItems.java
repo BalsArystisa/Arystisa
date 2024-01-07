@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.balsarystisa.item.SapBottleItem;
+import net.mcreator.balsarystisa.item.InvisibleCamoCyberwareItem;
 import net.mcreator.balsarystisa.item.HogiritSwordItem;
 import net.mcreator.balsarystisa.item.HogiritShovelItem;
 import net.mcreator.balsarystisa.item.HogiritPickaxeItem;
@@ -58,6 +59,7 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> HOGIRIT_INGOT = REGISTRY.register("hogirit_ingot", () -> new HogiritIngotItem());
 	public static final RegistryObject<Item> DIAMOND_FLINT = REGISTRY.register("diamond_flint", () -> new DiamondFlintItem());
 	public static final RegistryObject<Item> ARYSTISA_WORLD = REGISTRY.register("arystisa_world", () -> new ArystisaWorldItem());
+	public static final RegistryObject<Item> INVISIBLE_CAMO_CYBERWARE = REGISTRY.register("invisible_camo_cyberware", () -> new InvisibleCamoCyberwareItem());
 	public static final RegistryObject<Item> SAP_BOTTLE = REGISTRY.register("sap_bottle", () -> new SapBottleItem());
 	public static final RegistryObject<Item> AMBER = REGISTRY.register("amber", () -> new AmberItem());
 
