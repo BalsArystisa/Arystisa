@@ -3,33 +3,48 @@ package net.mcreator.balsarystisa.item;
 
 import net.minecraft.world.entity.ai.attributes.Attributes;
 
-public class HogiritHoeItem extends HoeItem {
-	public HogiritHoeItem() {
+public class BaguetteSwordItem extends SwordItem {
+	public BaguetteSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 441;
+				return 59;
 			}
 
 			public float getSpeed() {
-				return 8f;
+				return 2f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 1f;
+				return 2f;
 			}
 
 			public int getLevel() {
-				return 3;
+				return 1;
 			}
 
 			public int getEnchantmentValue() {
-				return 21;
+				return 1;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(BalsArystisaModItems.HOGIRIT_INGOT.get()));
+				return Ingredient.of();
 			}
-		}, 0, -3f, new Item.Properties());
+		}, 3, -2.4f, new Item.Properties());
+	}
+
+	@Override
+	public boolean hasCraftingRemainingItem(ItemStack stack) {
+		return true;
+	}
+
+	@Override
+	public ItemStack getCraftingRemainingItem(ItemStack itemstack) {
+		return new ItemStack(this);
+	}
+
+	@Override
+	public boolean isRepairable(ItemStack itemstack) {
+		return false;
 	}
 
 	@Override

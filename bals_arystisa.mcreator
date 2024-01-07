@@ -834,7 +834,7 @@
           "src/main/resources/assets/bals_arystisa/models/item/tugstium.json"
         ]
       },
-      "path": "~/Thekiller9088/tugstium"
+      "path": "~/Thekiller9088"
     },
     {
       "name": "Tugstiumore",
@@ -851,7 +851,7 @@
           "src/main/resources/assets/bals_arystisa/blockstates/tugstiumore.json"
         ]
       },
-      "path": "~/Thekiller9088/tugstium"
+      "path": "~/Thekiller9088"
     },
     {
       "name": "ArystisaWorld",
@@ -1194,6 +1194,84 @@
         ]
       },
       "path": "~/Thekiller9088/tugstium"
+    },
+    {
+      "name": "ArystingCow",
+      "type": "livingentity",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arysting_cow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/client/renderer/ArystingCowRenderer.java",
+          "src/main/java/net/mcreator/balsarystisa/entity/ArystingCowEntity.java",
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_cow_spawn_egg.json",
+          "src/main/resources/data/bals_arystisa/forge/biome_modifier/arysting_cow_biome_modifier.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "BaguetteSword",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/baguette_sword.json",
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteSwordItem.java"
+        ]
+      },
+      "path": "~/Jos3/Baguette"
+    },
+    {
+      "name": "WorkStationGUI",
+      "type": "gui",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "work_station_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/client/gui/WorkStationGUIScreen.java",
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/WorkStationGUIMenu.java"
+        ]
+      },
+      "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI"
+    },
+    {
+      "name": "BaguetteSwordRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/baguette_sword_recipe.json"
+        ]
+      },
+      "path": "~/Jos3/Baguette"
+    },
+    {
+      "name": "WorkStation",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "work_station",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/blockstates/work_station.json",
+          "src/main/java/net/mcreator/balsarystisa/block/WorkStationBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/work_station.json",
+          "src/main/resources/assets/bals_arystisa/models/item/work_station.json"
+        ]
+      },
+      "path": "~/SirRacaillou/Functional_Block"
     }
   ],
   "variable_elements": [
@@ -1301,7 +1379,12 @@
       },
       {
         "name": "Jos3",
-        "children": []
+        "children": [
+          {
+            "name": "Baguette",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Thekiller9088",
@@ -1315,6 +1398,15 @@
       {
         "name": "SirRacaillou",
         "children": [
+          {
+            "name": "Functional_Block",
+            "children": [
+              {
+                "name": "WorkStation_GUI",
+                "children": []
+              }
+            ]
+          },
           {
             "name": "Procedure_Write",
             "children": []

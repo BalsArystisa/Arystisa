@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.balsarystisa.client.gui.WorkStationGUIScreen;
 import net.mcreator.balsarystisa.client.gui.GUICyberwareGeneralScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -19,6 +20,7 @@ public class BalsArystisaModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(BalsArystisaModMenus.GUI_CYBERWARE_GENERAL.get(), GUICyberwareGeneralScreen::new);
+			MenuScreens.register(BalsArystisaModMenus.WORK_STATION_GUI.get(), WorkStationGUIScreen::new);
 		});
 	}
 }
