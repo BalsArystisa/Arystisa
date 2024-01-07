@@ -82,10 +82,10 @@ public class WorkStationGUIMenu extends AbstractContainerMenu implements Supplie
 					});
 			}
 		}
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 48, 98) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 7, 39) {
 			private final int slot = 1;
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 67, 80) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 39, 39) {
 			private final int slot = 2;
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 147, 26) {
@@ -99,10 +99,10 @@ public class WorkStationGUIMenu extends AbstractContainerMenu implements Supplie
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, -125, -36) {
 			private final int slot = 5;
 		}));
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 48, 80) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 13) {
 			private final int slot = 0;
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 68, 98) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 39, 13) {
 			private final int slot = 3;
 		}));
 		for (int si = 0; si < 3; ++si)
