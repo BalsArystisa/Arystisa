@@ -27,7 +27,7 @@
     },
     "repairItems": [
       {
-        "value": "CUSTOM:TugstiumArmorArmor.helmet"
+        "value": "CUSTOM:Tugstium"
       }
     ],
     "immuneToFire": false,

@@ -13,7 +13,7 @@
       "fixedValue": []
     },
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Arystisa"
     },
     "harvestLevel": 2,
     "efficiency": 6.0,
@@ -27,7 +27,7 @@
     },
     "repairItems": [
       {
-        "value": "CUSTOM:TugstiumArmorArmor.helmet"
+        "value": "CUSTOM:Tugstium"
       }
     ],
     "immuneToFire": false,
