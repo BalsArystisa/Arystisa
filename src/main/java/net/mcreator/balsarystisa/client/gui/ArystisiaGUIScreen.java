@@ -47,7 +47,7 @@ public class ArystisiaGUIScreen extends AbstractContainerScreen<ArystisiaGUIMenu
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/arystisa_emotes_gui.png"), this.leftPos + 0, this.topPos + 0, 0, 0, 350, 170, 350, 170);
+		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/arystisa_emotes_first_gui.png"), this.leftPos + 0, this.topPos + 0, 0, 0, 350, 170, 350, 170);
 
 		RenderSystem.disableBlend();
 	}
@@ -68,6 +68,7 @@ public class ArystisiaGUIScreen extends AbstractContainerScreen<ArystisiaGUIMenu
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.drawString(this.font, Component.translatable("gui.bals_arystisa.arystisia_gui.label_arystisa"), 10, 7, -1, false);
 	}
 
 	@Override

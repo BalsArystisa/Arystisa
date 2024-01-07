@@ -23,7 +23,7 @@ import net.mcreator.balsarystisa.BalsArystisaMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class BalsArystisaModKeyMappings {
-	public static final KeyMapping TRIGGER_CYBERWARE_GUI = new KeyMapping("key.bals_arystisa.trigger_cyberware_gui", GLFW.GLFW_KEY_KP_0, "key.categories.arystisia") {
+	public static final KeyMapping TRIGGER_CYBERWARE_GUI = new KeyMapping("key.bals_arystisa.trigger_cyberware_gui", GLFW.GLFW_KEY_KP_0, "key.categories.arystisa") {
 		private boolean isDownOld = false;
 
 		@Override
