@@ -1,7 +1,18 @@
 
 package net.mcreator.balsarystisa.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.ShovelItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.network.chat.Component;
+
+import net.mcreator.balsarystisa.init.BalsArystisaModItems;
+
+import java.util.List;
 
 public class CobaltShovelItem extends ShovelItem {
 	public CobaltShovelItem() {
@@ -27,7 +38,7 @@ public class CobaltShovelItem extends ShovelItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(BalsArystisaModItems.DELETED_MOD_ELEMENT.get()));
+				return Ingredient.of(new ItemStack(BalsArystisaModItems.COBALTINGOT.get()));
 			}
 		}, 1, -3f, new Item.Properties());
 	}
