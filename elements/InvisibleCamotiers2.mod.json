@@ -3,16 +3,16 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "cobalt_ingot",
+    "texture": "invisible_camo_2",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Cobalt ingot",
+    "name": "Invisible Camo Cyberware",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Arystisa"
     },
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,

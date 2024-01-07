@@ -1,15 +1,8 @@
 package net.mcreator.balsarystisa.procedures;
 
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.inventory.Slot;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.Entity;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.mcreator.balsarystisa.init.BalsArystisaModItems;
-
-import java.util.function.Supplier;
-import java.util.Map;
+import javax.annotation.Nullable;
 
 public class InvisibleCamoCraftTiers1Procedure {
 	public static void execute(Entity entity) {
@@ -41,6 +34,7 @@ public class InvisibleCamoCraftTiers1Procedure {
 				((Slot) _slots.get(4)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
 			}
+			new ItemStack(BalsArystisaModItems.INVISIBLE_CAMO_CYBERWARE.get()).getOrCreateTag().putDouble("tiers", 4);
 		}
 	}
 }
