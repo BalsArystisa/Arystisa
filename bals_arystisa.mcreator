@@ -1162,6 +1162,99 @@
         ]
       },
       "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "Tugstium",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/TugstiumItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium.json"
+        ]
+      },
+      "path": "~/Thekiller9088"
+    },
+    {
+      "name": "Tugstiumore",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstiumore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/TugstiumoreBlock.java",
+          "src/main/resources/assets/bals_arystisa/blockstates/tugstiumore.json",
+          "src/main/resources/assets/bals_arystisa/models/block/tugstiumore.json",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstiumore.json"
+        ]
+      },
+      "path": "~/Thekiller9088"
+    },
+    {
+      "name": "BaguetteSword",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/baguette_sword.json",
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteSwordItem.java"
+        ]
+      },
+      "path": "~/Jos3/Baguette"
+    },
+    {
+      "name": "BaguetteSwordRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/baguette_sword_recipe.json"
+        ]
+      },
+      "path": "~/Jos3/Baguette"
+    },
+    {
+      "name": "WorkStationGUI",
+      "type": "gui",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "work_station_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/WorkStationGUIMenu.java",
+          "src/main/java/net/mcreator/balsarystisa/client/gui/WorkStationGUIScreen.java"
+        ]
+      },
+      "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI"
+    },
+    {
+      "name": "WorkStation",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "work_station",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/work_station.json",
+          "src/main/resources/assets/bals_arystisa/models/block/work_station.json",
+          "src/main/java/net/mcreator/balsarystisa/block/WorkStationBlock.java",
+          "src/main/resources/assets/bals_arystisa/blockstates/work_station.json"
+        ]
+      },
+      "path": "~/SirRacaillou/Functional_Block"
     }
   ],
   "variable_elements": [
@@ -1206,8 +1299,8 @@
   ],
   "language_map": {
     "en_us": {
-      "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
       "block.bals_arystisa.arysting_button": "Arysting Button",
+      "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
       "item.bals_arystisa.invisible_camo_cyberware": "Invisible Camo Cyberware",
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "item.bals_arystisa.sap_bottle": "Sap Bottle",
@@ -1220,7 +1313,6 @@
       "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
       "item.bals_arystisa.hogirit_sword": "Hogirit Sword",
       "block.bals_arystisa.hogirit_ore": "Hogirit Ore",
-      "item.bals_arystisa.arysting_cow_spawn_egg": "Arysting Cow Spawn Egg",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
       "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
       "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
@@ -1245,7 +1337,6 @@
       "item.bals_arystisa.hogirit_armor_leggings": "Hogirit Leggings",
       "key.categories.arystisia": "Arystitsia",
       "item.bals_arystisa.hogirit_armor_boots": "Hogirit Boots",
-      "entity.bals_arystisa.arysting_cow": "Arysting Cow",
       "item.bals_arystisa.hogirit_hoe": "Hogirit Hoe",
       "block.bals_arystisa.former_gravel": "Former Gravel",
       "subtitles.next_spawner_wave": ""
@@ -1268,7 +1359,12 @@
       },
       {
         "name": "Jos3",
-        "children": []
+        "children": [
+          {
+            "name": "Baguette",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Thekiller9088",
@@ -1277,6 +1373,15 @@
       {
         "name": "SirRacaillou",
         "children": [
+          {
+            "name": "Functional_Block",
+            "children": [
+              {
+                "name": "WorkStation_GUI",
+                "children": []
+              }
+            ]
+          },
           {
             "name": "Procedure_Write",
             "children": []

@@ -10,6 +10,8 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.balsarystisa.block.WorkStationBlock;
+import net.mcreator.balsarystisa.block.TugstiumoreBlock;
 import net.mcreator.balsarystisa.block.RunnedStoneBricksBlock;
 import net.mcreator.balsarystisa.block.HogiritOreBlock;
 import net.mcreator.balsarystisa.block.HogiritBlockBlock;
@@ -50,4 +52,6 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> ARYSTING_PRESSURE_PLATE = REGISTRY.register("arysting_pressure_plate", () -> new ArystingPressurePlateBlock());
 	public static final RegistryObject<Block> ARYSTING_BUTTON = REGISTRY.register("arysting_button", () -> new ArystingButtonBlock());
 	public static final RegistryObject<Block> ARYSTISA_WORLD_PORTAL = REGISTRY.register("arystisa_world_portal", () -> new ArystisaWorldPortalBlock());
+	public static final RegistryObject<Block> WORK_STATION = REGISTRY.register("work_station", () -> new WorkStationBlock());
+	public static final RegistryObject<Block> TUGSTIUMORE = REGISTRY.register("tugstiumore", () -> new TugstiumoreBlock());
 }

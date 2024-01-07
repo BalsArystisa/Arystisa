@@ -50,7 +50,11 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.ARYSTISA_WORLD.get());
 				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_CYBERWARE.get());
 				tabData.accept(BalsArystisaModItems.SAP_BOTTLE.get());
+				tabData.accept(BalsArystisaModItems.BAGUETTE_SWORD.get());
 				tabData.accept(BalsArystisaModItems.AMBER.get());
 				tabData.accept(BalsArystisaModItems.ARYSTING_COW_SPAWN_EGG.get());
+				tabData.accept(BalsArystisaModBlocks.WORK_STATION.get().asItem());
+				tabData.accept(BalsArystisaModItems.TUGSTIUM.get());
+				tabData.accept(BalsArystisaModBlocks.TUGSTIUMORE.get().asItem());
 			}).withSearchBar().build());
 }
