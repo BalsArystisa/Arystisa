@@ -1,0 +1,26 @@
+{
+  "_fv": 57,
+  "_type": "structure",
+  "definition": {
+    "structure": "arystisdunjon2",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 15,
+    "separation": 7,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:ArystingForest"
+      },
+      {
+        "value": "CUSTOM:EnchantForest"
+      }
+    ],
+    "surfaceDetectionType": "MOTION_BLOCKING",
+    "terrainAdaptation": "bury",
+    "generationStep": "UNDERGROUND_STRUCTURES"
+  }
+}
