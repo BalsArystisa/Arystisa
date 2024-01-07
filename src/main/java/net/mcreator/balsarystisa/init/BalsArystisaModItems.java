@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.balsarystisa.item.InvisibleCamoCyberwareItem;
 import net.mcreator.balsarystisa.item.HogiritSwordItem;
 import net.mcreator.balsarystisa.item.HogiritShovelItem;
 import net.mcreator.balsarystisa.item.HogiritPickaxeItem;
@@ -56,6 +57,7 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> HOGIRIT_INGOT = REGISTRY.register("hogirit_ingot", () -> new HogiritIngotItem());
 	public static final RegistryObject<Item> DIAMOND_FLINT = REGISTRY.register("diamond_flint", () -> new DiamondFlintItem());
 	public static final RegistryObject<Item> ARYSTISA_WORLD = REGISTRY.register("arystisa_world", () -> new ArystisaWorldItem());
+	public static final RegistryObject<Item> INVISIBLE_CAMO_CYBERWARE = REGISTRY.register("invisible_camo_cyberware", () -> new InvisibleCamoCyberwareItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

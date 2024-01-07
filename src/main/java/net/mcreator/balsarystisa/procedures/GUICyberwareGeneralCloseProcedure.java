@@ -17,7 +17,7 @@ import net.mcreator.balsarystisa.world.inventory.GUICyberwareGeneralMenu;
 
 import io.netty.buffer.Unpooled;
 
-public class GUICyberwareGeneralTriggerProcedure {
+public class GUICyberwareGeneralCloseProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;

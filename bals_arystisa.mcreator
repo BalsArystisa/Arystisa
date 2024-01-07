@@ -983,9 +983,31 @@
         ]
       },
       "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "InvisibleCamoCyberware",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_camo_cyberware",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/invisible_camo_cyberware.json",
+          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamoCyberwareItem.java"
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "Invisible_Camo",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
   "sound_elements": [
     {
       "name": "next_spawner_wave",
@@ -1016,6 +1038,7 @@
     "en_us": {
       "block.bals_arystisa.arysting_button": "Arysting Button",
       "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
+      "item.bals_arystisa.invisible_camo_cyberware": "Invisible Camo Cyberware",
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
       "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
@@ -1085,6 +1108,10 @@
           },
           {
             "name": "GUI_Cyberware",
+            "children": []
+          },
+          {
+            "name": "Cyberware",
             "children": []
           }
         ]
