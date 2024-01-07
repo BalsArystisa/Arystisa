@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class TugstiumoreBlock extends Block {
 	public TugstiumoreBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(1f, 10f));
 	}
 
 	@Override
