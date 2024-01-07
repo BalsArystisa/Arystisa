@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Tugstium"
+      },
+      {
+        "value": "CUSTOM:Tugstium"
+      },
+      {
+        "value": "CUSTOM:Tugstium"
+      },
+      {
+        "value": "CUSTOM:Tugstium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Tugstium"
+      },
+      {
+        "value": "CUSTOM:Tugstium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Tugstium"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TugstiumArmorArmor.legs"
+    },
+    "name": "tugstium_armor_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

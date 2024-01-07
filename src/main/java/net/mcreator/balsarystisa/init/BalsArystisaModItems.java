@@ -13,7 +13,13 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.balsarystisa.item.Tugstium_1SwordItem;
+import net.mcreator.balsarystisa.item.Tugstium_1ShovelItem;
+import net.mcreator.balsarystisa.item.Tugstium_1PickaxeItem;
+import net.mcreator.balsarystisa.item.Tugstium_1HoeItem;
+import net.mcreator.balsarystisa.item.Tugstium_1AxeItem;
 import net.mcreator.balsarystisa.item.TugstiumItem;
+import net.mcreator.balsarystisa.item.TugstiumArmorArmorItem;
 import net.mcreator.balsarystisa.item.SapBottleItem;
 import net.mcreator.balsarystisa.item.InvisibleCamoCyberwareItem;
 import net.mcreator.balsarystisa.item.HogiritSwordItem;
@@ -71,6 +77,15 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> TUGSTIUM = REGISTRY.register("tugstium", () -> new TugstiumItem());
 	public static final RegistryObject<Item> TUGSTIUMORE = block(BalsArystisaModBlocks.TUGSTIUMORE);
 	public static final RegistryObject<Item> BLOCTUGSTIUM = block(BalsArystisaModBlocks.BLOCTUGSTIUM);
+	public static final RegistryObject<Item> TUGSTIUM_ARMOR_ARMOR_HELMET = REGISTRY.register("tugstium_armor_armor_helmet", () -> new TugstiumArmorArmorItem.Helmet());
+	public static final RegistryObject<Item> TUGSTIUM_ARMOR_ARMOR_CHESTPLATE = REGISTRY.register("tugstium_armor_armor_chestplate", () -> new TugstiumArmorArmorItem.Chestplate());
+	public static final RegistryObject<Item> TUGSTIUM_ARMOR_ARMOR_LEGGINGS = REGISTRY.register("tugstium_armor_armor_leggings", () -> new TugstiumArmorArmorItem.Leggings());
+	public static final RegistryObject<Item> TUGSTIUM_ARMOR_ARMOR_BOOTS = REGISTRY.register("tugstium_armor_armor_boots", () -> new TugstiumArmorArmorItem.Boots());
+	public static final RegistryObject<Item> TUGSTIUM_1_PICKAXE = REGISTRY.register("tugstium_1_pickaxe", () -> new Tugstium_1PickaxeItem());
+	public static final RegistryObject<Item> TUGSTIUM_1_AXE = REGISTRY.register("tugstium_1_axe", () -> new Tugstium_1AxeItem());
+	public static final RegistryObject<Item> TUGSTIUM_1_SWORD = REGISTRY.register("tugstium_1_sword", () -> new Tugstium_1SwordItem());
+	public static final RegistryObject<Item> TUGSTIUM_1_SHOVEL = REGISTRY.register("tugstium_1_shovel", () -> new Tugstium_1ShovelItem());
+	public static final RegistryObject<Item> TUGSTIUM_1_HOE = REGISTRY.register("tugstium_1_hoe", () -> new Tugstium_1HoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
