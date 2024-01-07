@@ -88,24 +88,6 @@
           "disablePlacement": {
             "fixedValue": false
           },
-          "id": 5,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 0,
-          "y": 0
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": ""
-          },
-          "disablePlacement": {
-            "fixedValue": false
-          },
           "color": {
             "value": -16776961,
             "falpha": 0.0
