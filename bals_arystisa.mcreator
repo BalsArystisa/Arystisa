@@ -685,8 +685,8 @@
       "registry_name": "invisible_camo_cyberware",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamoCyberwareItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/invisible_camo_cyberware.json"
+          "src/main/resources/assets/bals_arystisa/models/item/invisible_camo_cyberware.json",
+          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamoCyberwareItem.java"
         ]
       },
       "path": "~/SirRacaillou/Cyberware"
@@ -1632,8 +1632,8 @@
       "registry_name": "invisible_camotiers_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamotiers2Item.java",
-          "src/main/resources/assets/bals_arystisa/models/item/invisible_camotiers_2.json"
+          "src/main/resources/assets/bals_arystisa/models/item/invisible_camotiers_2.json",
+          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamotiers2Item.java"
         ]
       },
       "path": "~/SirRacaillou/Cyberware"
@@ -1774,7 +1774,7 @@
       "name": "Cubdoc",
       "type": "logic",
       "scope": "player_persistent",
-      "value": "false"
+      "value": "true"
     },
     {
       "name": "Invisible_Camo_Tiers",
@@ -1812,7 +1812,7 @@
   "language_map": {
     "en_us": {
       "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
-      "item.bals_arystisa.invisible_camo_cyberware": "Invisible Camo Cyberware",
+      "item.bals_arystisa.invisible_camo_cyberware": "Invisible Camo Cyberware tier 1",
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "item.bals_arystisa.baguette_axe": "Baguette Axe",
       "key.categories.arystisa": "Arystisa",
@@ -1851,9 +1851,9 @@
       "block.bals_arystisa.enchant_planks": "Enchant Planks",
       "item.bals_arystisa.tugstium_1_hoe": "Tugstium_1 Hoe",
       "item.bals_arystisa.combinedsword": "Combined sword",
-      "item.bals_arystisa.invisible_camotiers_3": "Invisible Camo Cyberware",
+      "item.bals_arystisa.invisible_camotiers_3": "Invisible Camo Cyberware tier 3",
       "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
-      "item.bals_arystisa.invisible_camotiers_2": "Invisible Camo Cyberware",
+      "item.bals_arystisa.invisible_camotiers_2": "Invisible Camo Cyberware tier 2",
       "item.bals_arystisa.cobaltingot": "Cobalt ingot",
       "block.bals_arystisa.bloctugstium": "Tugstium Block",
       "item.bals_arystisa.baguette_hoe": "Baguette Hoe",
