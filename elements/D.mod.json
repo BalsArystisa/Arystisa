@@ -2,14 +2,14 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "cobalt_ore",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "combinateur_cote",
+    "textureTop": "combinateur_haut",
+    "textureLeft": "combinateur_cote",
+    "textureFront": "combinateur_cote",
+    "textureRight": "combinateur_cote",
+    "textureBack": "combinateur_cote",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Cobalt ore",
+    "name": "D",
     "specialInformation": {
       "fixedValue": []
     },
@@ -46,7 +46,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Cobaltore"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -59,7 +59,7 @@
       "value": "ROCK"
     },
     "tickRate": 0,
-    "tickRandomly": false,
+    "tickRandomly": true,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -81,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "METAL"
     },
     "breakSound": {
       "value": ""
@@ -103,14 +103,19 @@
     "breakHarvestLevel": 1,
     "isBonemealable": false,
     "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
-    "inventorySize": 9,
+    "guiBoundTo": "Combinateur",
+    "openGUIOnRightClick": true,
+    "inventorySize": 3,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
-    "inventoryOutSlotIDs": [],
-    "inventoryInSlotIDs": [],
+    "inventoryOutSlotIDs": [
+      2
+    ],
+    "inventoryInSlotIDs": [
+      0,
+      1
+    ],
     "hasEnergyStorage": false,
     "energyInitial": 0,
     "energyCapacity": 400000,

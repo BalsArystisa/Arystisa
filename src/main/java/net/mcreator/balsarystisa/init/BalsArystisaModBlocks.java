@@ -21,6 +21,7 @@ import net.mcreator.balsarystisa.block.FormerGravelBlock;
 import net.mcreator.balsarystisa.block.EnchantWoodBlock;
 import net.mcreator.balsarystisa.block.EnchantLogBlock;
 import net.mcreator.balsarystisa.block.EnchantLeavesBlock;
+import net.mcreator.balsarystisa.block.DBlock;
 import net.mcreator.balsarystisa.block.CobaltoreBlock;
 import net.mcreator.balsarystisa.block.BloctugstiumBlock;
 import net.mcreator.balsarystisa.block.ArystisaWorldPortalBlock;
@@ -68,4 +69,5 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> COBALTORE = REGISTRY.register("cobaltore", () -> new CobaltoreBlock());
 	public static final RegistryObject<Block> IGNISIUM_ORE = REGISTRY.register("ignisium_ore", () -> new IgnisiumOreBlock());
 	public static final RegistryObject<Block> IGNISIUM_BLOCK = REGISTRY.register("ignisium_block", () -> new IgnisiumBlockBlock());
+	public static final RegistryObject<Block> D = REGISTRY.register("d", () -> new DBlock());
 }

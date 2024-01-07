@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bals_arystisa:block/combinateur_cote",
+    "up": "bals_arystisa:block/combinateur_haut",
+    "north": "bals_arystisa:block/combinateur_cote",
+    "east": "bals_arystisa:block/combinateur_cote",
+    "south": "bals_arystisa:block/combinateur_cote",
+    "west": "bals_arystisa:block/combinateur_cote",
+    "particle": "bals_arystisa:block/combinateur_cote"
+  },
+  "render_type": "solid"
+}
