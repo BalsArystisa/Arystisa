@@ -998,6 +998,86 @@
         ]
       },
       "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "Amber",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/AmberItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/amber.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "SapBottle",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sap_bottle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/SapBottleItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/sap_bottle.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "SapAmberCraft",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sap_amber_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/sap_amber_craft.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "AmberLogSapBottleProced",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_log_sap_bottle_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/AmberLogSapBottleProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR"
     }
   ],
   "variable_elements": [
@@ -1037,8 +1117,6 @@
   "language_map": {
     "en_us": {
       "block.bals_arystisa.arysting_button": "Arysting Button",
-      "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
-      "item.bals_arystisa.invisible_camo_cyberware": "Invisible Camo Cyberware",
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
       "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
@@ -1107,11 +1185,11 @@
             "children": []
           },
           {
-            "name": "GUI_Cyberware",
+            "name": "Cyberware",
             "children": []
           },
           {
-            "name": "Cyberware",
+            "name": "GUI_Cyberware",
             "children": []
           }
         ]

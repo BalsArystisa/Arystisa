@@ -40,9 +40,9 @@ public class RunnedPortalParticleParticle extends TextureSheetParticle {
 		this.lifetime = 7;
 		this.gravity = -0.6f;
 		this.hasPhysics = true;
-		this.xd = vx * 1;
-		this.yd = vy * 1;
-		this.zd = vz * 1;
+		this.xd = vx * 0.05;
+		this.yd = vy * 0.05;
+		this.zd = vz * 0.05;
 		this.setSpriteFromAge(spriteSet);
 	}
 

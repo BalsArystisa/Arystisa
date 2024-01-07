@@ -5,6 +5,9 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:ArystingForest"
+      },
+      {
+        "value": "warm_ocean"
       }
     ],
     "worldGenType": "Normal world gen",

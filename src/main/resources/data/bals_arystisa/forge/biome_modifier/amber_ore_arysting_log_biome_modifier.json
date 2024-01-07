@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "bals_arystisa:arysting_forest",
+  "features": "bals_arystisa:amber_ore_arysting_log",
+  "step": "underground_ores"
+}
