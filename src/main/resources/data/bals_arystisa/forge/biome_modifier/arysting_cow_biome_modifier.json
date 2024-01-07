@@ -1,10 +1,10 @@
 {
   "type": "forge:add_spawns",
-  "biomes": "bals_arystisa:arysting_forest",
+  "biomes": "#is_arystisa_world",
   "spawners": {
     "type": "bals_arystisa:arysting_cow",
-    "weight": 20,
-    "minCount": 4,
-    "maxCount": 4
+    "weight": 15,
+    "minCount": 2,
+    "maxCount": 5
   }
 }
