@@ -950,8 +950,8 @@
       "registry_name": "diamond_flint",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/DiamondFlintItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/diamond_flint.json"
+          "src/main/resources/assets/bals_arystisa/models/item/diamond_flint.json",
+          "src/main/java/net/mcreator/balsarystisa/item/DiamondFlintItem.java"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -1155,8 +1155,8 @@
       "registry_name": "work_station_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/client/gui/WorkStationGUIScreen.java",
-          "src/main/java/net/mcreator/balsarystisa/world/inventory/WorkStationGUIMenu.java"
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/WorkStationGUIMenu.java",
+          "src/main/java/net/mcreator/balsarystisa/client/gui/WorkStationGUIScreen.java"
         ]
       },
       "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI"
@@ -1170,8 +1170,8 @@
       "registry_name": "work_station",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/block/work_station.json",
           "src/main/resources/assets/bals_arystisa/models/item/work_station.json",
+          "src/main/resources/assets/bals_arystisa/models/block/work_station.json",
           "src/main/java/net/mcreator/balsarystisa/block/WorkStationBlock.java",
           "src/main/resources/assets/bals_arystisa/blockstates/work_station.json"
         ]
@@ -1203,9 +1203,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/balsarystisa/block/TugstiumoreBlock.java",
-          "src/main/resources/assets/bals_arystisa/models/item/tugstiumore.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/tugstiumore.json",
           "src/main/resources/assets/bals_arystisa/models/block/tugstiumore.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/tugstiumore.json"
+          "src/main/resources/assets/bals_arystisa/models/item/tugstiumore.json"
         ]
       },
       "path": "~/Thekiller9088"
@@ -1466,9 +1466,9 @@
       "registry_name": "arystis_dunjon",
       "metadata": {
         "files": [
+          "src/main/resources/data/bals_arystisa/worldgen/structure_set/arystis_dunjon.json",
           "src/main/resources/data/bals_arystisa/worldgen/structure/arystis_dunjon.json",
-          "src/main/resources/data/bals_arystisa/worldgen/template_pool/arystis_dunjon.json",
-          "src/main/resources/data/bals_arystisa/worldgen/structure_set/arystis_dunjon.json"
+          "src/main/resources/data/bals_arystisa/worldgen/template_pool/arystis_dunjon.json"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -1574,9 +1574,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/bals_arystisa/models/item/ignisium_block.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/ignisium_block.json",
           "src/main/java/net/mcreator/balsarystisa/block/IgnisiumBlockBlock.java",
-          "src/main/resources/assets/bals_arystisa/models/block/ignisium_block.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/ignisium_block.json"
+          "src/main/resources/assets/bals_arystisa/models/block/ignisium_block.json"
         ]
       },
       "path": "~/Jos3/Ignisium"
@@ -1839,8 +1839,8 @@
       "registry_name": "tugstium_1_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1ShovelItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_shovel.json"
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_shovel.json",
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1ShovelItem.java"
         ]
       },
       "path": "~/Thekiller9088/tugstium"
@@ -1910,8 +1910,8 @@
       "registry_name": "tugstium_1_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_hoe.json",
-          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1HoeItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1HoeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_hoe.json"
         ]
       },
       "path": "~/Thekiller9088/tugstium"
@@ -1939,11 +1939,11 @@
       "registry_name": "tugstium_armor_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_armor_armor_chestplate.json",
-          "src/main/java/net/mcreator/balsarystisa/item/TugstiumArmorArmorItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_armor_armor_leggings.json",
           "src/main/resources/assets/bals_arystisa/models/item/tugstium_armor_armor_helmet.json",
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_armor_armor_boots.json"
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_armor_armor_leggings.json",
+          "src/main/java/net/mcreator/balsarystisa/item/TugstiumArmorArmorItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_armor_armor_boots.json",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_armor_armor_chestplate.json"
         ]
       },
       "path": "~/Thekiller9088/tugstium"
@@ -2014,8 +2014,8 @@
       "registry_name": "tugstium_1_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1PickaxeItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_pickaxe.json"
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_pickaxe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1PickaxeItem.java"
         ]
       },
       "path": "~/Thekiller9088/tugstium"
@@ -2095,21 +2095,28 @@
       "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
       "item.bals_arystisa.invisible_camo_cyberware": "Invisible Camo Cyberware",
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
+      "item.bals_arystisa.baguette_axe": "Baguette Axe",
+      "item.bals_arystisa.cobalt_shovel": "Cobalt Shovel",
+      "item.bals_arystisa.cobalt_hoe": "Cobalt Hoe",
       "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
       "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.enchant_wood": "Enchant Wood",
       "key.bals_arystisa.selection_use": "Selection Use",
       "biome.bals_arystisa.arysting_forest": "Arysting Forest",
       "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
+      "item.bals_arystisa.blasondubataillondexploration": "Basondubataillondexploration",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
-      "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
       "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
+      "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
       "block.bals_arystisa.d": "D",
+      "item.bals_arystisa.cobalt_sword": "Cobalt Sword",
       "item.bals_arystisa.tugstium_1_axe": "Tugstium_1 Axe",
       "block.bals_arystisa.arysting_pressure_plate": "Arysting PressurePlate",
       "item.bals_arystisa.tugstium_armor_armor_helmet": "Tugstium Helmet",
+      "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "block.bals_arystisa.arysting_fence": "Arysting Fence",
       "block.bals_arystisa.arysting_wood": "Arysting Wood",
+      "item.bals_arystisa.baguette_shovel": "Baguette Shovel",
       "subtitles.end_spawner_wave": "",
       "block.bals_arystisa.hogirit_block": "Block of Hogirit",
       "item.bals_arystisa.hogirit_armor_chestplate": "Hogirit Chestplate",
@@ -2118,35 +2125,48 @@
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
       "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",
+      "block.bals_arystisa.ignisium_ore": "Ignisium Ore",
       "item.bals_arystisa.hogirit_armor_leggings": "Hogirit Leggings",
       "key.categories.arystisia": "Arystitsia",
-      "block.bals_arystisa.tugstiumore": "Tugstiumore",
+      "block.bals_arystisa.tugstiumore": "Tugstium Ore",
       "block.bals_arystisa.arysting_button": "Arysting Button",
+      "biome.bals_arystisa.enchant_forest": "Enchant Forest",
+      "block.bals_arystisa.ignisium_block": "Ignisium Block",
       "item.bals_arystisa.sap_bottle": "Sap Bottle",
       "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
       "item.bals_arystisa.tugstium_1_hoe": "Tugstium_1 Hoe",
+      "item.bals_arystisa.combinedsword": "Combined sword",
       "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
-      "block.bals_arystisa.bloctugstium": "Bloctugstium",
+      "item.bals_arystisa.cobaltingot": "Cobalt ingot",
+      "block.bals_arystisa.bloctugstium": "Tugstium Block",
+      "item.bals_arystisa.baguette_hoe": "Baguette Hoe",
       "item.bals_arystisa.hogirit_sword": "Hogirit Sword",
       "block.bals_arystisa.hogirit_ore": "Hogirit Ore",
       "item.bals_arystisa.tugstium_armor_armor_chestplate": "Tugstium Chestplate",
+      "item.bals_arystisa.arysting_cow_spawn_egg": "Arysting Cow Spawn Egg",
       "block.bals_arystisa.enchant_log": "Enchant Log",
-      "item.bals_arystisa.tugstium": "Tugstium",
+      "item.bals_arystisa.cobalt_pickaxe": "Cobalt Pickaxe",
+      "item.bals_arystisa.tugstium": "Tugstium Ingot",
       "item_group.bals_arystisa.arystisa": "Arystisa",
       "item.bals_arystisa.tugstium_1_pickaxe": "Tugstium_1 Pickaxe",
+      "item.bals_arystisa.baguette_pickaxe": "Baguette Pickaxe",
       "subtitles.launch_spawner_wave": "",
       "item.bals_arystisa.hogirit_pickaxe": "Hogirit Pickaxe",
       "item.bals_arystisa.baguette": "Baguette",
       "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
       "item.bals_arystisa.diamond_flint": "Diamond Flint",
+      "block.bals_arystisa.work_station": "Work Station",
       "block.bals_arystisa.cobaltore": "Cobalt ore",
       "block.bals_arystisa.arysting_log": "Arysting Log",
       "item.bals_arystisa.tugstium_1_shovel": "Tugstium_1 Shovel",
       "item.bals_arystisa.hogirit_armor_boots": "Hogirit Boots",
       "block.bals_arystisa.enchant_leaves": "Enchant Leaves",
       "item.bals_arystisa.tugstium_armor_armor_leggings": "Tugstium Leggings",
+      "item.bals_arystisa.cobalt_axe": "Cobalt Axe",
+      "entity.bals_arystisa.arysting_cow": "Arysting Cow",
       "item.bals_arystisa.hogirit_hoe": "Hogirit Hoe",
       "block.bals_arystisa.former_gravel": "Former Gravel",
+      "item.bals_arystisa.ignisium_ingot": "Ignisium Ingot",
       "subtitles.next_spawner_wave": "",
       "item.bals_arystisa.tugstium_armor_armor_boots": "Tugstium Boots",
       "item.bals_arystisa.tugstium_1_sword": "Tugstium_1 Sword"
