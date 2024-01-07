@@ -298,151 +298,6 @@
       "path": "~/BAL1SEUR"
     },
     {
-      "name": "HogiritBlock",
-      "type": "block",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_block",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bals_arystisa/models/block/hogirit_block.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/hogirit_block.json",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_block.json",
-          "src/main/java/net/mcreator/balsarystisa/block/HogiritBlockBlock.java"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritSword",
-      "type": "tool",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_sword",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_sword.json",
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritSwordItem.java"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritArmor",
-      "type": "armor",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_armor",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_armor_leggings.json",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_armor_chestplate.json",
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritArmorItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_armor_boots.json",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_armor_helmet.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritHoe",
-      "type": "tool",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_hoe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritHoeItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_hoe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritShovel",
-      "type": "tool",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_shovel",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritShovelItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_shovel.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritAxe",
-      "type": "tool",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_axe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritAxeItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_axe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritIngot",
-      "type": "item",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_ingot",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_ingot.json",
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritIngotItem.java"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritOre",
-      "type": "block",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_ore",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/hogirit_ore.json",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_ore.json",
-          "src/main/java/net/mcreator/balsarystisa/block/HogiritOreBlock.java",
-          "src/main/resources/assets/bals_arystisa/models/block/hogirit_ore.json",
-          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/hogirit_ore.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/hogirit_ore.json",
-          "src/main/resources/data/bals_arystisa/forge/biome_modifier/hogirit_ore_biome_modifier.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritPickaxe",
-      "type": "tool",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_pickaxe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_pickaxe.json",
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritPickaxeItem.java"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
       "name": "ArystisaPlanks",
       "type": "recipe",
       "sortid": 77,
@@ -1287,7 +1142,7 @@
           "src/main/java/net/mcreator/balsarystisa/block/CobaltoreBlock.java"
         ]
       },
-      "path": "~/Hog536/cobalt"
+      "path": "~/Hog536/Cobalt"
     },
     {
       "name": "ArystisDunjon",
@@ -1371,7 +1226,7 @@
       "name": "InvisibleCamoCraftTiers1",
       "type": "procedure",
       "sortid": 121,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "invisible_camo_craft_tiers_1",
       "metadata": {
@@ -1893,23 +1748,16 @@
       "block.bals_arystisa.arysting_wood": "Arysting Wood",
       "item.bals_arystisa.baguette_shovel": "Baguette Shovel",
       "subtitles.end_spawner_wave": "",
-      "block.bals_arystisa.hogirit_block": "Block of Hogirit",
       "block.bals_arystisa.enchant_fence": "Enchant Fence",
-      "item.bals_arystisa.hogirit_armor_chestplate": "Hogirit Chestplate",
-      "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
-      "item.bals_arystisa.hogirit_ingot": "Hogirit",
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
-      "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",
       "block.bals_arystisa.ignisium_ore": "Ignisium Ore",
-      "item.bals_arystisa.hogirit_armor_leggings": "Hogirit Leggings",
       "key.categories.arystisia": "Arystitsia",
       "block.bals_arystisa.tugstiumore": "Tugstium Ore",
       "block.bals_arystisa.arysting_button": "Arysting Button",
       "biome.bals_arystisa.enchant_forest": "Enchant Forest",
       "block.bals_arystisa.ignisium_block": "Ignisium Block",
       "item.bals_arystisa.sap_bottle": "Sap Bottle",
-      "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
       "block.bals_arystisa.enchant_planks": "Enchant Planks",
       "item.bals_arystisa.tugstium_1_hoe": "Tugstium_1 Hoe",
       "item.bals_arystisa.combinedsword": "Combined sword",
@@ -1919,8 +1767,6 @@
       "item.bals_arystisa.cobaltingot": "Cobalt ingot",
       "block.bals_arystisa.bloctugstium": "Tugstium Block",
       "item.bals_arystisa.baguette_hoe": "Baguette Hoe",
-      "item.bals_arystisa.hogirit_sword": "Hogirit Sword",
-      "block.bals_arystisa.hogirit_ore": "Hogirit Ore",
       "item.bals_arystisa.arysting_cow_spawn_egg": "Arysting Cow Spawn Egg",
       "item.bals_arystisa.tugstium_armor_armor_chestplate": "Tugstium Chestplate",
       "block.bals_arystisa.enchant_log": "Enchant Log",
@@ -1930,7 +1776,6 @@
       "item.bals_arystisa.baguette_pickaxe": "Baguette Pickaxe",
       "item.bals_arystisa.tugstium_1_pickaxe": "Tugstium_1 Pickaxe",
       "subtitles.launch_spawner_wave": "",
-      "item.bals_arystisa.hogirit_pickaxe": "Hogirit Pickaxe",
       "block.bals_arystisa.enchant_slab": "Enchant Slab",
       "item.bals_arystisa.baguette": "Baguette",
       "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
@@ -1941,13 +1786,11 @@
       "block.bals_arystisa.enchant_pressure_plate": "Enchant PressurePlate",
       "block.bals_arystisa.arysting_log": "Arysting Log",
       "item.bals_arystisa.tugstium_1_shovel": "Tugstium_1 Shovel",
-      "item.bals_arystisa.hogirit_armor_boots": "Hogirit Boots",
       "block.bals_arystisa.enchant_leaves": "Enchant Leaves",
       "item.bals_arystisa.tugstium_armor_armor_leggings": "Tugstium Leggings",
       "block.bals_arystisa.enchant_button": "Enchant Button",
       "item.bals_arystisa.cobalt_axe": "Cobalt Axe",
       "entity.bals_arystisa.arysting_cow": "Arysting Cow",
-      "item.bals_arystisa.hogirit_hoe": "Hogirit Hoe",
       "block.bals_arystisa.former_gravel": "Former Gravel",
       "block.bals_arystisa.enchant_stairs": "Enchant Stairs",
       "item.bals_arystisa.ignisium_ingot": "Ignisium Ingot",
@@ -1975,7 +1818,7 @@
         "name": "Hog536",
         "children": [
           {
-            "name": "cobalt",
+            "name": "Cobalt",
             "children": []
           }
         ]

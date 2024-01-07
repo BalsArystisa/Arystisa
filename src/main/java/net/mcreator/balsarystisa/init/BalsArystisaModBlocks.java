@@ -14,8 +14,6 @@ import net.mcreator.balsarystisa.block.WorkStationBlock;
 import net.mcreator.balsarystisa.block.TugstiumoreBlock;
 import net.mcreator.balsarystisa.block.RunnedStoneBricksBlock;
 import net.mcreator.balsarystisa.block.IgnisiumOreBlock;
-import net.mcreator.balsarystisa.block.HogiritOreBlock;
-import net.mcreator.balsarystisa.block.HogiritBlockBlock;
 import net.mcreator.balsarystisa.block.FormerGravelBlock;
 import net.mcreator.balsarystisa.block.EnchantWoodBlock;
 import net.mcreator.balsarystisa.block.EnchantStairsBlock;
@@ -51,8 +49,6 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> ARYSTIS_SPAWNER = REGISTRY.register("arystis_spawner", () -> new ArystisSpawnerBlock());
 	public static final RegistryObject<Block> ARYSTIS_SPAWNER_NO_ACTIVETED = REGISTRY.register("arystis_spawner_no_activeted", () -> new ArystisSpawnerNoActivetedBlock());
 	public static final RegistryObject<Block> FORMER_GRAVEL = REGISTRY.register("former_gravel", () -> new FormerGravelBlock());
-	public static final RegistryObject<Block> HOGIRIT_ORE = REGISTRY.register("hogirit_ore", () -> new HogiritOreBlock());
-	public static final RegistryObject<Block> HOGIRIT_BLOCK = REGISTRY.register("hogirit_block", () -> new HogiritBlockBlock());
 	public static final RegistryObject<Block> ARYSTING_LEAVES = REGISTRY.register("arysting_leaves", () -> new ArystingLeavesBlock());
 	public static final RegistryObject<Block> COBALTORE = REGISTRY.register("cobaltore", () -> new CobaltoreBlock());
 	public static final RegistryObject<Block> ARYSTING_WOOD = REGISTRY.register("arysting_wood", () -> new ArystingWoodBlock());
