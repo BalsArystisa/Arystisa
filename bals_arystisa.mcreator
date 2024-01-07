@@ -1705,7 +1705,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI/Craft_Workstation"
     },
     {
       "name": "Combinateur",
@@ -2223,7 +2224,7 @@
           }
         ]
       },
-      "path": "~/SirRacaillou/Functional_Block"
+      "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI"
     }
   ],
   "variable_elements": [
@@ -2417,7 +2418,12 @@
             "children": [
               {
                 "name": "WorkStation_GUI",
-                "children": []
+                "children": [
+                  {
+                    "name": "Craft_Workstation",
+                    "children": []
+                  }
+                ]
               }
             ]
           },
