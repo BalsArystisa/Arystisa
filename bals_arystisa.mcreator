@@ -1145,6 +1145,38 @@
         ]
       },
       "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "WorkStation",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "work_station",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/work_station.json",
+          "src/main/resources/assets/bals_arystisa/models/item/work_station.json",
+          "src/main/java/net/mcreator/balsarystisa/block/WorkStationBlock.java",
+          "src/main/resources/assets/bals_arystisa/blockstates/work_station.json"
+        ]
+      },
+      "path": "~/SirRacaillou/Functional_Block"
+    },
+    {
+      "name": "WorkStationGUI",
+      "type": "gui",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "work_station_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/client/gui/WorkStationGUIScreen.java",
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/WorkStationGUIMenu.java"
+        ]
+      },
+      "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI"
     }
   ],
   "variable_elements": [
@@ -1189,8 +1221,8 @@
   ],
   "language_map": {
     "en_us": {
-      "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
       "block.bals_arystisa.arysting_button": "Arysting Button",
+      "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
       "item.bals_arystisa.invisible_camo_cyberware": "Invisible Camo Cyberware",
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "item.bals_arystisa.sap_bottle": "Sap Bottle",
@@ -1220,6 +1252,7 @@
       "item.bals_arystisa.diamond_flint": "Diamond Flint",
       "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
       "item.bals_arystisa.hogirit_ingot": "Hogirit",
+      "block.bals_arystisa.work_station": "Work Station",
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
       "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",
@@ -1269,6 +1302,15 @@
           {
             "name": "GUI_Cyberware",
             "children": []
+          },
+          {
+            "name": "Functional_Block",
+            "children": [
+              {
+                "name": "WorkStation_GUI",
+                "children": []
+              }
+            ]
           }
         ]
       }

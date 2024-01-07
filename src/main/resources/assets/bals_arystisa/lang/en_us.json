@@ -1,6 +1,6 @@
 {
-  "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
   "block.bals_arystisa.arysting_button": "Arysting Button",
+  "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
   "item.bals_arystisa.invisible_camo_cyberware": "Invisible Camo Cyberware",
   "block.bals_arystisa.arysting_planks": "Arysting Planks",
   "item.bals_arystisa.sap_bottle": "Sap Bottle",
@@ -30,6 +30,7 @@
   "item.bals_arystisa.diamond_flint": "Diamond Flint",
   "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
   "item.bals_arystisa.hogirit_ingot": "Hogirit",
+  "block.bals_arystisa.work_station": "Work Station",
   "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
   "block.bals_arystisa.arysting_slab": "Arysting Slab",
   "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",

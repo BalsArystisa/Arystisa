@@ -51,5 +51,6 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_CYBERWARE.get());
 				tabData.accept(BalsArystisaModItems.SAP_BOTTLE.get());
 				tabData.accept(BalsArystisaModItems.AMBER.get());
+				tabData.accept(BalsArystisaModBlocks.WORK_STATION.get().asItem());
 			}).withSearchBar().build());
 }
