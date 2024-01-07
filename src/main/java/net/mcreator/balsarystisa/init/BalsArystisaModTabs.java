@@ -25,9 +25,12 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.HOGIRIT_ORE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.HOGIRIT_BLOCK.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_LEAVES.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.ENCHANT_LEAVES.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_WOOD.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.ENCHANT_WOOD.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_LOG.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.AMBER_ORE_ARYSTING_LOG.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.ENCHANT_LOG.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_PLANKS.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_STAIRS.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_SLAB.get().asItem());

@@ -43,9 +43,12 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> HOGIRIT_ORE = block(BalsArystisaModBlocks.HOGIRIT_ORE);
 	public static final RegistryObject<Item> HOGIRIT_BLOCK = block(BalsArystisaModBlocks.HOGIRIT_BLOCK);
 	public static final RegistryObject<Item> ARYSTING_LEAVES = block(BalsArystisaModBlocks.ARYSTING_LEAVES);
+	public static final RegistryObject<Item> ENCHANT_LEAVES = block(BalsArystisaModBlocks.ENCHANT_LEAVES);
 	public static final RegistryObject<Item> ARYSTING_WOOD = block(BalsArystisaModBlocks.ARYSTING_WOOD);
+	public static final RegistryObject<Item> ENCHANT_WOOD = block(BalsArystisaModBlocks.ENCHANT_WOOD);
 	public static final RegistryObject<Item> ARYSTING_LOG = block(BalsArystisaModBlocks.ARYSTING_LOG);
 	public static final RegistryObject<Item> AMBER_ORE_ARYSTING_LOG = block(BalsArystisaModBlocks.AMBER_ORE_ARYSTING_LOG);
+	public static final RegistryObject<Item> ENCHANT_LOG = block(BalsArystisaModBlocks.ENCHANT_LOG);
 	public static final RegistryObject<Item> ARYSTING_PLANKS = block(BalsArystisaModBlocks.ARYSTING_PLANKS);
 	public static final RegistryObject<Item> ARYSTING_STAIRS = block(BalsArystisaModBlocks.ARYSTING_STAIRS);
 	public static final RegistryObject<Item> ARYSTING_SLAB = block(BalsArystisaModBlocks.ARYSTING_SLAB);

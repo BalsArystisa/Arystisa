@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bals_arystisa:block/enchant_leaves",
+    "up": "bals_arystisa:block/enchant_leaves",
+    "north": "bals_arystisa:block/enchant_leaves",
+    "east": "bals_arystisa:block/enchant_leaves",
+    "south": "bals_arystisa:block/enchant_leaves",
+    "west": "bals_arystisa:block/enchant_leaves",
+    "particle": "bals_arystisa:block/enchant_leaves"
+  },
+  "render_type": "translucent"
+}
