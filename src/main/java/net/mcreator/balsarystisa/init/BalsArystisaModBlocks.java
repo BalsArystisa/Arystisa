@@ -14,6 +14,7 @@ import net.mcreator.balsarystisa.block.WorkStationBlock;
 import net.mcreator.balsarystisa.block.TugstiumoreBlock;
 import net.mcreator.balsarystisa.block.RunnedStoneBricksBlock;
 import net.mcreator.balsarystisa.block.IgnisiumOreBlock;
+import net.mcreator.balsarystisa.block.IgnisiumBlockBlock;
 import net.mcreator.balsarystisa.block.HogiritOreBlock;
 import net.mcreator.balsarystisa.block.HogiritBlockBlock;
 import net.mcreator.balsarystisa.block.FormerGravelBlock;
@@ -66,4 +67,5 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> BLOCTUGSTIUM = REGISTRY.register("bloctugstium", () -> new BloctugstiumBlock());
 	public static final RegistryObject<Block> COBALTORE = REGISTRY.register("cobaltore", () -> new CobaltoreBlock());
 	public static final RegistryObject<Block> IGNISIUM_ORE = REGISTRY.register("ignisium_ore", () -> new IgnisiumOreBlock());
+	public static final RegistryObject<Block> IGNISIUM_BLOCK = REGISTRY.register("ignisium_block", () -> new IgnisiumBlockBlock());
 }

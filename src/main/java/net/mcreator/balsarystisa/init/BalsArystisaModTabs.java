@@ -68,5 +68,6 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.IGNISIUM_ORE.get().asItem());
 				tabData.accept(BalsArystisaModItems.BLASONDUBATAILLONDEXPLORATION.get());
 				tabData.accept(BalsArystisaModItems.IGNISIUM_INGOT.get());
+				tabData.accept(BalsArystisaModBlocks.IGNISIUM_BLOCK.get().asItem());
 			}).withSearchBar().build());
 }

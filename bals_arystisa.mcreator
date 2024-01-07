@@ -1551,6 +1551,23 @@
         ]
       },
       "path": "~/Jos3/Baguette"
+    },
+    {
+      "name": "IgnisiumBlock",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/ignisium_block.json",
+          "src/main/java/net/mcreator/balsarystisa/block/IgnisiumBlockBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/ignisium_block.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/ignisium_block.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
     }
   ],
   "variable_elements": [
@@ -1607,8 +1624,8 @@
       "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
       "item.bals_arystisa.blasondubataillondexploration": "Basondubataillondexploration",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
-      "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
       "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
+      "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
       "block.bals_arystisa.arysting_pressure_plate": "Arysting PressurePlate",
       "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "block.bals_arystisa.arysting_fence": "Arysting Fence",
@@ -1627,6 +1644,7 @@
       "key.categories.arystisia": "Arystitsia",
       "block.bals_arystisa.tugstiumore": "Tugstiumore",
       "block.bals_arystisa.arysting_button": "Arysting Button",
+      "block.bals_arystisa.ignisium_block": "Ignisium Block",
       "item.bals_arystisa.sap_bottle": "Sap Bottle",
       "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
       "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",

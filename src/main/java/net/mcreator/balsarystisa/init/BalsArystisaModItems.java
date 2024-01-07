@@ -88,6 +88,7 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> IGNISIUM_ORE = block(BalsArystisaModBlocks.IGNISIUM_ORE);
 	public static final RegistryObject<Item> BLASONDUBATAILLONDEXPLORATION = REGISTRY.register("blasondubataillondexploration", () -> new BasondubataillondexplorationItem());
 	public static final RegistryObject<Item> IGNISIUM_INGOT = REGISTRY.register("ignisium_ingot", () -> new IgnisiumIngotItem());
+	public static final RegistryObject<Item> IGNISIUM_BLOCK = block(BalsArystisaModBlocks.IGNISIUM_BLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
