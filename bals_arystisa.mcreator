@@ -55,10 +55,13 @@
       "registry_name": "amber_ore_arysting_log",
       "metadata": {
         "files": [
+          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/amber_ore_arysting_log.json",
+          "src/main/resources/data/bals_arystisa/forge/biome_modifier/amber_ore_arysting_log_biome_modifier.json",
           "src/main/resources/assets/bals_arystisa/models/item/amber_ore_arysting_log.json",
           "src/main/resources/assets/bals_arystisa/blockstates/amber_ore_arysting_log.json",
           "src/main/resources/assets/bals_arystisa/models/block/amber_ore_arysting_log.json",
-          "src/main/java/net/mcreator/balsarystisa/block/AmberOreArystingLogBlock.java"
+          "src/main/java/net/mcreator/balsarystisa/block/AmberOreArystingLogBlock.java",
+          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/amber_ore_arysting_log.json"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -159,7 +162,7 @@
           "src/main/java/net/mcreator/balsarystisa/item/BaguetteItem.java"
         ]
       },
-      "path": "~/Jos3"
+      "path": "~/Jos3/Baguette"
     },
     {
       "name": "BaguetteRecipe",
@@ -173,7 +176,7 @@
           "src/main/resources/data/bals_arystisa/recipes/baguette_recipe.json"
         ]
       },
-      "path": "~/Jos3"
+      "path": "~/Jos3/Baguette"
     },
     {
       "name": "BaguetteRecipe1",
@@ -187,7 +190,7 @@
           "src/main/resources/data/bals_arystisa/recipes/baguette_recipe_1.json"
         ]
       },
-      "path": "~/Jos3"
+      "path": "~/Jos3/Baguette"
     },
     {
       "name": "BaguetteRecipe2",
@@ -201,7 +204,7 @@
           "src/main/resources/data/bals_arystisa/recipes/baguette_recipe_2.json"
         ]
       },
-      "path": "~/Jos3"
+      "path": "~/Jos3/Baguette"
     },
     {
       "name": "HogiritBlock",
@@ -1196,6 +1199,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -1275,37 +1282,50 @@
   ],
   "language_map": {
     "en_us": {
+      "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
+      "block.bals_arystisa.arysting_button": "Arysting Button",
+      "item.bals_arystisa.invisible_camo_cyberware": "Invisible Camo Cyberware",
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
+      "item.bals_arystisa.sap_bottle": "Sap Bottle",
+      "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
       "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
+      "item.bals_arystisa.amber": "Amber Gemmy",
+      "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
+      "key.bals_arystisa.selection_use": "Selection Use",
+      "biome.bals_arystisa.arysting_forest": "Arysting Forest",
       "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
-      "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
+      "item.bals_arystisa.hogirit_sword": "Hogirit Sword",
+      "block.bals_arystisa.hogirit_ore": "Hogirit Ore",
+      "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
       "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
+      "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
+      "item.bals_arystisa.tugstium": "Tugstium",
+      "item_group.bals_arystisa.arystisa": "Arystisa",
       "block.bals_arystisa.arysting_pressure_plate": "Arysting PressurePlate",
+      "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "block.bals_arystisa.arysting_fence": "Arysting Fence",
       "block.bals_arystisa.arysting_wood": "Arysting Wood",
+      "subtitles.launch_spawner_wave": "",
+      "item.bals_arystisa.hogirit_pickaxe": "Hogirit Pickaxe",
       "subtitles.end_spawner_wave": "",
+      "item.bals_arystisa.baguette": "Baguette",
       "block.bals_arystisa.hogirit_block": "Block of Hogirit",
       "item.bals_arystisa.hogirit_armor_chestplate": "Hogirit Chestplate",
+      "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
+      "item.bals_arystisa.diamond_flint": "Diamond Flint",
       "item.bals_arystisa.hogirit_ingot": "Hogirit",
       "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
+      "block.bals_arystisa.work_station": "Work Station",
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
       "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",
+      "block.bals_arystisa.arysting_log": "Arysting Log",
       "item.bals_arystisa.hogirit_armor_leggings": "Hogirit Leggings",
       "key.categories.arystisia": "Arystitsia",
-      "block.bals_arystisa.arysting_button": "Arysting Button",
-      "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
-      "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
-      "item.bals_arystisa.hogirit_sword": "Hogirit Sword",
-      "block.bals_arystisa.hogirit_ore": "Hogirit Ore",
-      "item_group.bals_arystisa.arystisa": "Arystisa",
-      "subtitles.launch_spawner_wave": "",
-      "item.bals_arystisa.hogirit_pickaxe": "Hogirit Pickaxe",
-      "item.bals_arystisa.baguette": "Baguette",
-      "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
-      "block.bals_arystisa.arysting_log": "Arysting Log",
       "item.bals_arystisa.hogirit_armor_boots": "Hogirit Boots",
+      "block.bals_arystisa.tugstiumore": "Tugstiumore",
       "item.bals_arystisa.hogirit_hoe": "Hogirit Hoe",
+      "block.bals_arystisa.former_gravel": "Former Gravel",
       "subtitles.next_spawner_wave": ""
     }
   },
