@@ -20,7 +20,7 @@ public class BaguetteSwordItem extends SwordItem {
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 2f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -38,7 +38,7 @@ public class BaguetteSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -3f, new Item.Properties());
+		}, 3, -2.4f, new Item.Properties());
 	}
 
 	@Override

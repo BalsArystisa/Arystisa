@@ -16,8 +16,8 @@
       "value": "CUSTOM:Arystisa"
     },
     "harvestLevel": 1,
-    "efficiency": 4.0,
-    "attackSpeed": 1.0,
+    "efficiency": 2.0,
+    "attackSpeed": 1.6,
     "enchantability": 1,
     "damageVsEntity": 4.0,
     "usageCount": 59,
