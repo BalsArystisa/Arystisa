@@ -8,7 +8,7 @@
     "width": 0.2,
     "height": 0.2,
     "scale": 0.6,
-    "speedFactor": 1.0,
+    "speedFactor": 0.05,
     "gravity": -0.6,
     "maxAge": 7,
     "maxAgeDiff": 0,

@@ -63,10 +63,10 @@
       "min": -1.0,
       "max": 1.0
     },
-    "treesPerChunk": 3,
+    "treesPerChunk": 7,
     "vanillaTreeType": "Default",
     "treeType": 1,
-    "minHeight": 7,
+    "minHeight": 4,
     "treeStem": {
       "value": "CUSTOM:ArystingLog"
     },
@@ -74,14 +74,18 @@
       "value": "CUSTOM:ArystingLeaves"
     },
     "treeVines": {
-      "value": ""
+      "value": "Blocks.VINE"
     },
     "treeFruits": {
       "value": ""
     },
     "defaultFeatures": [
       "Caves",
-      "Ores"
+      "Ores",
+      "PlainsTallGrass",
+      "JungleGrass",
+      "SwampVegetation",
+      "ForestFlowers"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": true,
@@ -98,7 +102,7 @@
     "spawnShipwreckBeached": false,
     "spawnBuriedTreasure": false,
     "oceanRuinType": "NONE",
-    "spawnNetherBridge": true,
+    "spawnNetherBridge": false,
     "spawnNetherFossil": false,
     "spawnBastionRemnant": false,
     "spawnEndCity": false,

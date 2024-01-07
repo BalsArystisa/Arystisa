@@ -55,8 +55,11 @@
       "registry_name": "amber_ore_arysting_log",
       "metadata": {
         "files": [
+          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/amber_ore_arysting_log.json",
           "src/main/java/net/mcreator/balsarystisa/block/AmberOreArystingLogBlock.java",
+          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/amber_ore_arysting_log.json",
           "src/main/resources/assets/bals_arystisa/models/block/amber_ore_arysting_log.json",
+          "src/main/resources/data/bals_arystisa/forge/biome_modifier/amber_ore_arysting_log_biome_modifier.json",
           "src/main/resources/assets/bals_arystisa/models/item/amber_ore_arysting_log.json",
           "src/main/resources/assets/bals_arystisa/blockstates/amber_ore_arysting_log.json"
         ]
@@ -924,9 +927,11 @@
       "registry_name": "arysting_forest",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/balsarystisa/world/features/treedecorators/ArystingForestLeaveDecorator.java",
           "src/main/resources/data/bals_arystisa/worldgen/placed_feature/arysting_forest_tree.json",
           "src/main/resources/data/bals_arystisa/worldgen/configured_feature/arysting_forest_tree.json",
-          "src/main/resources/data/bals_arystisa/worldgen/biome/arysting_forest.json"
+          "src/main/resources/data/bals_arystisa/worldgen/biome/arysting_forest.json",
+          "src/main/java/net/mcreator/balsarystisa/world/features/treedecorators/ArystingForestTrunkDecorator.java"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -969,6 +974,86 @@
         ]
       },
       "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "SapBottle",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sap_bottle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/SapBottleItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/sap_bottle.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "AmberLogSapBottleProced",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber_log_sap_bottle_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/AmberLogSapBottleProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "Amber",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/amber.json",
+          "src/main/java/net/mcreator/balsarystisa/item/AmberItem.java"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "SapAmberCraft",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sap_amber_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/sap_amber_craft.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
     }
   ],
   "variable_elements": [],
@@ -1002,8 +1087,10 @@
     "en_us": {
       "block.bals_arystisa.arysting_button": "Arysting Button",
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
+      "item.bals_arystisa.sap_bottle": "Sap Bottle",
       "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
       "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
+      "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
       "biome.bals_arystisa.arysting_forest": "Arysting Forest",
       "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
