@@ -9,7 +9,6 @@
   "key.bals_arystisa.selection_use": "Selection Use",
   "biome.bals_arystisa.arysting_forest": "Arysting Forest",
   "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
-  "item.bals_arystisa.blasondubataillondexploration": "Basondubataillondexploration",
   "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
   "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
   "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
@@ -26,11 +25,11 @@
   "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
   "block.bals_arystisa.arysting_slab": "Arysting Slab",
   "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",
-  "block.bals_arystisa.ignisium_ore": "Ignisium Ore",
   "item.bals_arystisa.hogirit_armor_leggings": "Hogirit Leggings",
   "key.categories.arystisia": "Arystitsia",
   "block.bals_arystisa.tugstiumore": "Tugstiumore",
   "block.bals_arystisa.arysting_button": "Arysting Button",
+  "biome.bals_arystisa.enchant_forest": "Enchant Forest",
   "item.bals_arystisa.sap_bottle": "Sap Bottle",
   "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
   "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
@@ -56,6 +55,5 @@
   "entity.bals_arystisa.arysting_cow": "Arysting Cow",
   "item.bals_arystisa.hogirit_hoe": "Hogirit Hoe",
   "block.bals_arystisa.former_gravel": "Former Gravel",
-  "item.bals_arystisa.ignisium_ingot": "Ignisium Ingot",
   "subtitles.next_spawner_wave": ""
 }

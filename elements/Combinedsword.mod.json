@@ -1,0 +1,40 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "combined_sword",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Combined sword",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Arystisa"
+    },
+    "harvestLevel": 1,
+    "efficiency": 66.5,
+    "attackSpeed": 9.5,
+    "enchantability": 94,
+    "damageVsEntity": 1000.0,
+    "usageCount": 160,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Cobaltingot"
+      },
+      {
+        "value": "CUSTOM:HogiritIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false
+  }
+}

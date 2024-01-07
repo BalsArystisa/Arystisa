@@ -2,8 +2,8 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "cherry_log_top",
-    "textureTop": "cherry_log_top",
+    "texture": "enchant_log_top",
+    "textureTop": "enchant_log_top",
     "textureLeft": "enchant_log",
     "textureFront": "enchant_log",
     "textureRight": "enchant_log",
