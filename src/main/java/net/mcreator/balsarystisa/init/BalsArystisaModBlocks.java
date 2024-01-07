@@ -16,6 +16,7 @@ import net.mcreator.balsarystisa.block.RunnedStoneBricksBlock;
 import net.mcreator.balsarystisa.block.HogiritOreBlock;
 import net.mcreator.balsarystisa.block.HogiritBlockBlock;
 import net.mcreator.balsarystisa.block.FormerGravelBlock;
+import net.mcreator.balsarystisa.block.DBlock;
 import net.mcreator.balsarystisa.block.CobaltoreBlock;
 import net.mcreator.balsarystisa.block.BloctugstiumBlock;
 import net.mcreator.balsarystisa.block.ArystisaWorldPortalBlock;
@@ -58,4 +59,5 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> TUGSTIUMORE = REGISTRY.register("tugstiumore", () -> new TugstiumoreBlock());
 	public static final RegistryObject<Block> BLOCTUGSTIUM = REGISTRY.register("bloctugstium", () -> new BloctugstiumBlock());
 	public static final RegistryObject<Block> COBALTORE = REGISTRY.register("cobaltore", () -> new CobaltoreBlock());
+	public static final RegistryObject<Block> D = REGISTRY.register("d", () -> new DBlock());
 }
