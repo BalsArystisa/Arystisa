@@ -1121,11 +1121,41 @@
         ]
       },
       "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "InvisibleCamoCooldown",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_camo_cooldown",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/InvisibleCamoCooldownProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
     }
   ],
   "variable_elements": [
     {
       "name": "Invisible_Camo",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "Invisible_Camo_Cooldown",
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
@@ -1159,8 +1189,8 @@
   ],
   "language_map": {
     "en_us": {
-      "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
       "block.bals_arystisa.arysting_button": "Arysting Button",
+      "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
       "item.bals_arystisa.invisible_camo_cyberware": "Invisible Camo Cyberware",
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "item.bals_arystisa.sap_bottle": "Sap Bottle",
