@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
 public class IgnisiumBlockBlock extends Block {
 	public IgnisiumBlockBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1f, 10f));
 	}
 
 	@Override

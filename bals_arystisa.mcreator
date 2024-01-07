@@ -834,7 +834,7 @@
           "src/main/resources/assets/bals_arystisa/models/item/tugstium.json"
         ]
       },
-      "path": "~/Thekiller9088/tugstium"
+      "path": "~/Thekiller9088"
     },
     {
       "name": "Tugstiumore",
@@ -851,7 +851,7 @@
           "src/main/resources/assets/bals_arystisa/blockstates/tugstiumore.json"
         ]
       },
-      "path": "~/Thekiller9088/tugstium"
+      "path": "~/Thekiller9088"
     },
     {
       "name": "ArystisaWorld",
@@ -1586,7 +1586,7 @@
       "name": "D",
       "type": "block",
       "sortid": 95,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "d",
       "metadata": {
@@ -1714,7 +1714,7 @@
       "name": "EnchantLog",
       "type": "block",
       "sortid": 13,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "enchant_log",
       "metadata": {
@@ -1861,7 +1861,7 @@
       "name": "EnchantWood",
       "type": "block",
       "sortid": 10,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "enchant_wood",
       "metadata": {
@@ -1893,7 +1893,7 @@
       "name": "EnchantLeaves",
       "type": "block",
       "sortid": 8,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "enchant_leaves",
       "metadata": {
@@ -1960,7 +1960,7 @@
       "name": "Cobaltore",
       "type": "block",
       "sortid": 7,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cobaltore",
       "metadata": {
@@ -2097,12 +2097,14 @@
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
       "item.bals_arystisa.amber": "Amber Gemmy",
+      "block.bals_arystisa.enchant_wood": "Enchant Wood",
       "key.bals_arystisa.selection_use": "Selection Use",
       "biome.bals_arystisa.arysting_forest": "Arysting Forest",
       "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
       "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
       "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
+      "block.bals_arystisa.d": "D",
       "item.bals_arystisa.tugstium_1_axe": "Tugstium_1 Axe",
       "block.bals_arystisa.arysting_pressure_plate": "Arysting PressurePlate",
       "item.bals_arystisa.tugstium_armor_armor_helmet": "Tugstium Helmet",
@@ -2118,7 +2120,7 @@
       "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",
       "item.bals_arystisa.hogirit_armor_leggings": "Hogirit Leggings",
       "key.categories.arystisia": "Arystitsia",
-      "block.bals_arystisa.tugstiumore": "Tugstiumore",
+      "block.bals_arystisa.tugstiumore": "Tugstium Ore",
       "block.bals_arystisa.arysting_button": "Arysting Button",
       "item.bals_arystisa.sap_bottle": "Sap Bottle",
       "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
@@ -2128,6 +2130,7 @@
       "item.bals_arystisa.hogirit_sword": "Hogirit Sword",
       "block.bals_arystisa.hogirit_ore": "Hogirit Ore",
       "item.bals_arystisa.tugstium_armor_armor_chestplate": "Tugstium Chestplate",
+      "block.bals_arystisa.enchant_log": "Enchant Log",
       "item.bals_arystisa.tugstium": "Tugstium",
       "item_group.bals_arystisa.arystisa": "Arystisa",
       "item.bals_arystisa.tugstium_1_pickaxe": "Tugstium_1 Pickaxe",
@@ -2136,10 +2139,12 @@
       "item.bals_arystisa.baguette": "Baguette",
       "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
       "item.bals_arystisa.diamond_flint": "Diamond Flint",
+      "block.bals_arystisa.cobaltore": "Cobalt ore",
       "block.bals_arystisa.arysting_log": "Arysting Log",
       "item.bals_arystisa.tugstium_1_shovel": "Tugstium_1 Shovel",
       "item.bals_arystisa.hogirit_armor_boots": "Hogirit Boots",
       "item.bals_arystisa.tugstium_armor_armor_leggings": "Tugstium Leggings",
+      "block.bals_arystisa.enchant_leaves": "Enchant Leaves",
       "item.bals_arystisa.hogirit_hoe": "Hogirit Hoe",
       "block.bals_arystisa.former_gravel": "Former Gravel",
       "subtitles.next_spawner_wave": "",

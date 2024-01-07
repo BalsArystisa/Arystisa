@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ignisium_ingot",
+    "texture": "ignisium_ingott",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
