@@ -3,7 +3,7 @@
     {
       "name": "Arystisa",
       "type": "tab",
-      "sortid": 26,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystisa",
@@ -15,7 +15,7 @@
     {
       "name": "ArystingLog",
       "type": "block",
-      "sortid": 9,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_log",
@@ -49,7 +49,7 @@
     {
       "name": "AmberOreArystingLog",
       "type": "block",
-      "sortid": 10,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amber_ore_arysting_log",
@@ -69,7 +69,7 @@
     {
       "name": "ArystisSpawner",
       "type": "block",
-      "sortid": 2,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystis_spawner",
@@ -86,7 +86,7 @@
     {
       "name": "ArystisSpawnerNoActiveted",
       "type": "block",
-      "sortid": 3,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystis_spawner_no_activeted",
@@ -103,7 +103,7 @@
     {
       "name": "ArystisSpawnerProced",
       "type": "procedure",
-      "sortid": 27,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystis_spawner_proced",
@@ -135,7 +135,7 @@
     {
       "name": "ArystingLeaves",
       "type": "block",
-      "sortid": 7,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_leaves",
@@ -152,7 +152,7 @@
     {
       "name": "ArystingWood",
       "type": "block",
-      "sortid": 8,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_wood",
@@ -169,7 +169,7 @@
     {
       "name": "ArystingPlanks",
       "type": "block",
-      "sortid": 11,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_planks",
@@ -186,7 +186,7 @@
     {
       "name": "ArystingStairs",
       "type": "block",
-      "sortid": 12,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_stairs",
@@ -205,7 +205,7 @@
     {
       "name": "ArystingSlab",
       "type": "block",
-      "sortid": 13,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_slab",
@@ -224,7 +224,7 @@
     {
       "name": "ArystingFence",
       "type": "block",
-      "sortid": 14,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_fence",
@@ -243,7 +243,7 @@
     {
       "name": "ArystingFenceGate",
       "type": "block",
-      "sortid": 15,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_fence_gate",
@@ -263,7 +263,7 @@
     {
       "name": "ArystingPressurePlate",
       "type": "block",
-      "sortid": 16,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_pressure_plate",
@@ -281,7 +281,7 @@
     {
       "name": "ArystingButton",
       "type": "block",
-      "sortid": 17,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_button",
@@ -300,7 +300,7 @@
     {
       "name": "HogiritBlock",
       "type": "block",
-      "sortid": 6,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_block",
@@ -317,7 +317,7 @@
     {
       "name": "HogiritSword",
       "type": "tool",
-      "sortid": 19,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_sword",
@@ -332,7 +332,7 @@
     {
       "name": "HogiritPickaxeRecipe",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_pickaxe_recipe",
@@ -346,7 +346,7 @@
     {
       "name": "HogiritArmor",
       "type": "armor",
-      "sortid": 24,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_armor",
@@ -364,7 +364,7 @@
     {
       "name": "HogiritShovelRecipe",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_shovel_recipe",
@@ -378,7 +378,7 @@
     {
       "name": "HogiritHoe",
       "type": "tool",
-      "sortid": 23,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_hoe",
@@ -393,7 +393,7 @@
     {
       "name": "HogiritArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_armor_leggings_recipe",
@@ -407,7 +407,7 @@
     {
       "name": "HogiritShovel",
       "type": "tool",
-      "sortid": 22,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_shovel",
@@ -422,7 +422,7 @@
     {
       "name": "HogiritArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 31,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_armor_helmet_recipe",
@@ -436,7 +436,7 @@
     {
       "name": "HogiritAxe",
       "type": "tool",
-      "sortid": 21,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_axe",
@@ -451,7 +451,7 @@
     {
       "name": "HogiritSwordRecipe",
       "type": "recipe",
-      "sortid": 32,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_sword_recipe",
@@ -465,7 +465,7 @@
     {
       "name": "HogiritAxeRecipe",
       "type": "recipe",
-      "sortid": 33,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_axe_recipe",
@@ -479,7 +479,7 @@
     {
       "name": "HogiritBlockOreRecipe",
       "type": "recipe",
-      "sortid": 34,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_block_ore_recipe",
@@ -493,7 +493,7 @@
     {
       "name": "HogiritHoeRecipe",
       "type": "recipe",
-      "sortid": 35,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_hoe_recipe",
@@ -507,7 +507,7 @@
     {
       "name": "HogiritIngot",
       "type": "item",
-      "sortid": 25,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_ingot",
@@ -522,7 +522,7 @@
     {
       "name": "HogiritOre",
       "type": "block",
-      "sortid": 5,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_ore",
@@ -542,7 +542,7 @@
     {
       "name": "HogiritOreSmelting",
       "type": "recipe",
-      "sortid": 36,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_ore_smelting",
@@ -556,7 +556,7 @@
     {
       "name": "HogiritPickaxe",
       "type": "tool",
-      "sortid": 20,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_pickaxe",
@@ -571,7 +571,7 @@
     {
       "name": "HogiritArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_armor_chestplate_recipe",
@@ -585,7 +585,7 @@
     {
       "name": "HogiritArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 38,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_armor_boots_recipe",
@@ -599,7 +599,7 @@
     {
       "name": "HogiritOreBlockRecipe",
       "type": "recipe",
-      "sortid": 39,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hogirit_ore_block_recipe",
@@ -613,7 +613,7 @@
     {
       "name": "ArystisaPlanks",
       "type": "recipe",
-      "sortid": 40,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystisa_planks",
@@ -627,7 +627,7 @@
     {
       "name": "CraftingTableArystingPlanks",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crafting_table_arysting_planks",
@@ -641,7 +641,7 @@
     {
       "name": "ArystingButtonCraft",
       "type": "recipe",
-      "sortid": 42,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_button_craft",
@@ -655,7 +655,7 @@
     {
       "name": "ArystisaStickCraft",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystisa_stick_craft",
@@ -669,7 +669,7 @@
     {
       "name": "ArystisaForgeTableCraft",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystisa_forge_table_craft",
@@ -683,7 +683,7 @@
     {
       "name": "ArystisaWoodCraft",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystisa_wood_craft",
@@ -697,7 +697,7 @@
     {
       "name": "Baguette",
       "type": "item",
-      "sortid": 18,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette",
@@ -712,7 +712,7 @@
     {
       "name": "BaguetteRecipe",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette_recipe",
@@ -726,7 +726,7 @@
     {
       "name": "BaguetteRecipe1",
       "type": "recipe",
-      "sortid": 47,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette_recipe_1",
@@ -740,7 +740,7 @@
     {
       "name": "BaguetteRecipe2",
       "type": "recipe",
-      "sortid": 48,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette_recipe_2",
@@ -754,7 +754,7 @@
     {
       "name": "ArystingPressurePlateCraft",
       "type": "recipe",
-      "sortid": 49,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_pressure_plate_craft",
@@ -768,7 +768,7 @@
     {
       "name": "ArystingFenceGateCraft",
       "type": "recipe",
-      "sortid": 50,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_fence_gate_craft",
@@ -782,7 +782,7 @@
     {
       "name": "ArystingSlabCraft",
       "type": "recipe",
-      "sortid": 51,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_slab_craft",
@@ -796,7 +796,7 @@
     {
       "name": "ArystingStairsCraft",
       "type": "recipe",
-      "sortid": 52,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_stairs_craft",
@@ -810,7 +810,7 @@
     {
       "name": "ArystingFenceCraft",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_fence_craft",
@@ -824,7 +824,7 @@
     {
       "name": "FormerGravel",
       "type": "block",
-      "sortid": 4,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "former_gravel",
@@ -841,7 +841,7 @@
     {
       "name": "FormerGravelLootTable",
       "type": "loottable",
-      "sortid": 54,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "former_gravel_loot_table",
@@ -855,7 +855,7 @@
     {
       "name": "GUICyberwareGeneral",
       "type": "gui",
-      "sortid": 55,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_cyberware_general",
@@ -870,7 +870,7 @@
     {
       "name": "GUICyberwareGeneralTrigger",
       "type": "procedure",
-      "sortid": 56,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gui_cyberware_general_trigger",
@@ -906,7 +906,7 @@
     {
       "name": "TriggerCyberwareGUI",
       "type": "keybind",
-      "sortid": 57,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trigger_cyberware_gui",
@@ -920,7 +920,7 @@
     {
       "name": "ArystisaWorld",
       "type": "dimension",
-      "sortid": 59,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystisa_world",
@@ -944,7 +944,7 @@
     {
       "name": "DiamondFlint",
       "type": "item",
-      "sortid": 57,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_flint",
@@ -959,7 +959,7 @@
     {
       "name": "ArystingForest",
       "type": "biome",
-      "sortid": 58,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_forest",
@@ -977,7 +977,7 @@
     {
       "name": "RunnedPortalParticle",
       "type": "particle",
-      "sortid": 60,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "runned_portal_particle",
@@ -992,7 +992,7 @@
     {
       "name": "InvisibleCamoCyberware",
       "type": "item",
-      "sortid": 61,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "invisible_camo_cyberware",
@@ -1007,7 +1007,7 @@
     {
       "name": "Amber",
       "type": "item",
-      "sortid": 63,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amber",
@@ -1022,7 +1022,7 @@
     {
       "name": "SapBottle",
       "type": "item",
-      "sortid": 61,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sap_bottle",
@@ -1037,7 +1037,7 @@
     {
       "name": "SapAmberCraft",
       "type": "recipe",
-      "sortid": 64,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sap_amber_craft",
@@ -1051,7 +1051,7 @@
     {
       "name": "AmberLogSapBottleProced",
       "type": "procedure",
-      "sortid": 62,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amber_log_sap_bottle_proced",
@@ -1087,7 +1087,7 @@
     {
       "name": "InvisibleCamoUse",
       "type": "procedure",
-      "sortid": 65,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "invisible_camo_use",
@@ -1111,7 +1111,7 @@
     {
       "name": "SelectionUse",
       "type": "keybind",
-      "sortid": 66,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "selection_use",
@@ -1125,7 +1125,7 @@
     {
       "name": "InvisibleCamoCooldown",
       "type": "procedure",
-      "sortid": 67,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "invisible_camo_cooldown",
@@ -1149,7 +1149,7 @@
     {
       "name": "WorkStationGUI",
       "type": "gui",
-      "sortid": 69,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "work_station_gui",
@@ -1164,7 +1164,7 @@
     {
       "name": "WorkStation",
       "type": "block",
-      "sortid": 68,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "work_station",
@@ -1181,7 +1181,7 @@
     {
       "name": "Tugstium",
       "type": "item",
-      "sortid": 70,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstium",
@@ -1196,7 +1196,7 @@
     {
       "name": "Tugstiumore",
       "type": "block",
-      "sortid": 71,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstiumore",
@@ -1213,7 +1213,7 @@
     {
       "name": "ArystingCow",
       "type": "livingentity",
-      "sortid": 68,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_cow",
@@ -1230,7 +1230,7 @@
     {
       "name": "BaguetteSword",
       "type": "tool",
-      "sortid": 61,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette_sword",
@@ -1245,7 +1245,7 @@
     {
       "name": "BaguetteSwordRecipe",
       "type": "recipe",
-      "sortid": 60,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette_sword_recipe",
@@ -1259,7 +1259,7 @@
     {
       "name": "BaguetteAxeRecipe",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette_axe_recipe",
@@ -1273,7 +1273,7 @@
     {
       "name": "BaguettePickaxe",
       "type": "tool",
-      "sortid": 74,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette_pickaxe",
@@ -1288,7 +1288,7 @@
     {
       "name": "BaguetteShovelRecipe",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette_shovel_recipe",
@@ -1302,7 +1302,7 @@
     {
       "name": "BaguetteAxe",
       "type": "tool",
-      "sortid": 73,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette_axe",
@@ -1317,7 +1317,7 @@
     {
       "name": "BaguetteHoe",
       "type": "tool",
-      "sortid": 76,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette_hoe",
@@ -1332,7 +1332,7 @@
     {
       "name": "BaguetteShovel",
       "type": "tool",
-      "sortid": 75,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette_shovel",
@@ -1347,7 +1347,7 @@
     {
       "name": "BaguettePickaxeRecipe",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette_pickaxe_recipe",
@@ -1361,7 +1361,7 @@
     {
       "name": "BaguetteHoeRecipe",
       "type": "recipe",
-      "sortid": 80,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette_hoe_recipe",
@@ -1375,7 +1375,7 @@
     {
       "name": "Bloctugstium",
       "type": "block",
-      "sortid": 72,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bloctugstium",
@@ -1392,7 +1392,7 @@
     {
       "name": "EnchantLog",
       "type": "block",
-      "sortid": 13,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enchant_log",
@@ -1409,7 +1409,7 @@
     {
       "name": "EnchantWood",
       "type": "block",
-      "sortid": 10,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enchant_wood",
@@ -1426,7 +1426,7 @@
     {
       "name": "EnchantLeaves",
       "type": "block",
-      "sortid": 8,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enchant_leaves",
@@ -1443,7 +1443,7 @@
     {
       "name": "Cobaltore",
       "type": "block",
-      "sortid": 7,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobaltore",
@@ -1460,7 +1460,7 @@
     {
       "name": "ArystisDunjon",
       "type": "structure",
-      "sortid": 91,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystis_dunjon",
@@ -1476,7 +1476,7 @@
     {
       "name": "EnchantForest",
       "type": "biome",
-      "sortid": 90,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enchant_forest",
@@ -1494,7 +1494,7 @@
     {
       "name": "CobaltAxe",
       "type": "tool",
-      "sortid": 89,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_axe",
@@ -1509,7 +1509,7 @@
     {
       "name": "CobaltSwordRecipe",
       "type": "recipe",
-      "sortid": 85,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_sword_recipe",
@@ -1523,7 +1523,7 @@
     {
       "name": "CobaltShovel",
       "type": "tool",
-      "sortid": 91,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_shovel",
@@ -1538,7 +1538,7 @@
     {
       "name": "Basondubataillondexploration",
       "type": "item",
-      "sortid": 82,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blasondubataillondexploration",
@@ -1553,7 +1553,7 @@
     {
       "name": "CobaltShovelRecipe",
       "type": "recipe",
-      "sortid": 86,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_shovel_recipe",
@@ -1567,7 +1567,7 @@
     {
       "name": "IgnisiumBlock",
       "type": "block",
-      "sortid": 85,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ignisium_block",
@@ -1584,7 +1584,7 @@
     {
       "name": "D",
       "type": "block",
-      "sortid": 95,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "d",
@@ -1601,7 +1601,7 @@
     {
       "name": "IgnisiumIngot",
       "type": "item",
-      "sortid": 82,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ignisium_ingot",
@@ -1616,7 +1616,7 @@
     {
       "name": "IgnisiumIngotRecipe1",
       "type": "recipe",
-      "sortid": 84,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ignisium_ingot_recipe_1",
@@ -1630,7 +1630,7 @@
     {
       "name": "CobaltPickaxe",
       "type": "tool",
-      "sortid": 88,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_pickaxe",
@@ -1645,7 +1645,7 @@
     {
       "name": "Combinateuruse",
       "type": "procedure",
-      "sortid": 94,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "combinateuruse",
@@ -1665,7 +1665,7 @@
     {
       "name": "CobaltPickaxeRecipe",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_pickaxe_recipe",
@@ -1679,7 +1679,7 @@
     {
       "name": "CobaltHoeRecipe",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_hoe_recipe",
@@ -1693,7 +1693,7 @@
     {
       "name": "InvisibleCamoCraftTiers1",
       "type": "procedure",
-      "sortid": 73,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "invisible_camo_craft_tiers_1",
@@ -1713,7 +1713,7 @@
     {
       "name": "Combinateur",
       "type": "gui",
-      "sortid": 93,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "combinateur",
@@ -1728,7 +1728,7 @@
     {
       "name": "Cobaltingot",
       "type": "item",
-      "sortid": 82,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobaltingot",
@@ -1743,7 +1743,7 @@
     {
       "name": "CobaltAxeRecipe",
       "type": "recipe",
-      "sortid": 84,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_axe_recipe",
@@ -1757,7 +1757,7 @@
     {
       "name": "CobaltHoe",
       "type": "tool",
-      "sortid": 92,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_hoe",
@@ -1772,7 +1772,7 @@
     {
       "name": "IgnisiumOre",
       "type": "block",
-      "sortid": 81,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ignisium_ore",
@@ -1789,7 +1789,7 @@
     {
       "name": "CobaltSword",
       "type": "tool",
-      "sortid": 90,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cobalt_sword",
@@ -1804,7 +1804,7 @@
     {
       "name": "IgnisiumIngotRecipe",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ignisium_ingot_recipe",
@@ -1818,7 +1818,7 @@
     {
       "name": "Combinedsword",
       "type": "tool",
-      "sortid": 96,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "combinedsword",
@@ -1833,7 +1833,7 @@
     {
       "name": "Tugstium_1Shovel",
       "type": "tool",
-      "sortid": 86,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstium_1_shovel",
@@ -1848,7 +1848,7 @@
     {
       "name": "TugstiumArmorArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 75,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstium_armor_armor_chestplate_recipe",
@@ -1862,7 +1862,7 @@
     {
       "name": "Tugstium_1AxeRecipe",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstium_1_axe_recipe",
@@ -1876,7 +1876,7 @@
     {
       "name": "Tugstium_1SwordRecipe",
       "type": "recipe",
-      "sortid": 80,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstium_1_sword_recipe",
@@ -1890,7 +1890,7 @@
     {
       "name": "Tugstium_1ShovelRecipe",
       "type": "recipe",
-      "sortid": 81,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstium_1_shovel_recipe",
@@ -1904,7 +1904,7 @@
     {
       "name": "Tugstium_1Hoe",
       "type": "tool",
-      "sortid": 87,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstium_1_hoe",
@@ -1919,7 +1919,7 @@
     {
       "name": "Tugstium_1HoeRecipe",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstium_1_hoe_recipe",
@@ -1933,7 +1933,7 @@
     {
       "name": "TugstiumArmorArmor",
       "type": "armor",
-      "sortid": 73,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstium_armor_armor",
@@ -1951,7 +1951,7 @@
     {
       "name": "Tugstium_1Sword",
       "type": "tool",
-      "sortid": 85,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstium_1_sword",
@@ -1966,7 +1966,7 @@
     {
       "name": "TugstiumArmorArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 76,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstium_armor_armor_leggings_recipe",
@@ -1980,7 +1980,7 @@
     {
       "name": "Tugstium_1PickaxeRecipe",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstium_1_pickaxe_recipe",
@@ -1994,7 +1994,7 @@
     {
       "name": "TugstiumArmorArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstium_armor_armor_boots_recipe",
@@ -2008,7 +2008,7 @@
     {
       "name": "Tugstium_1Pickaxe",
       "type": "tool",
-      "sortid": 83,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstium_1_pickaxe",
@@ -2023,7 +2023,7 @@
     {
       "name": "Tugstium_1Axe",
       "type": "tool",
-      "sortid": 84,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstium_1_axe",
@@ -2038,7 +2038,7 @@
     {
       "name": "TugstiumArmorArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 74,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstium_armor_armor_helmet_recipe",
@@ -2048,6 +2048,137 @@
         ]
       },
       "path": "~/Thekiller9088/tugstium"
+    },
+    {
+      "name": "EnchantPlanks",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_planks.json",
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantPlanksBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_planks.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_planks.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "EnchantStairs",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantStairsBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_stairs.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_stairs_outer.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_stairs.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_stairs.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_stairs_inner.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "EnchantSlab",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_slab_full.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_slab.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_slab.json",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_slab.json",
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantSlabBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_slab_top.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "EnchantFence",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_fence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantFenceBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence.json",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_fence.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_inventory.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_fence.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_post.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "EnchantFenceGate",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_gate_wall_open.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_gate.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_gate_open.json",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_fence_gate.json",
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantFenceGateBlock.java",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_fence_gate.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_gate_wall.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "EnchantPressurePlate",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_pressure_plate.json",
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantPressurePlateBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_pressure_plate.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_pressure_plate_down.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_pressure_plate.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "EnchantButton",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_button.json",
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantButtonBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_button_pressed.json",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_button.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_button.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_button_inventory.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
     }
   ],
   "variable_elements": [
@@ -2119,6 +2250,7 @@
       "item.bals_arystisa.baguette_shovel": "Baguette Shovel",
       "subtitles.end_spawner_wave": "",
       "block.bals_arystisa.hogirit_block": "Block of Hogirit",
+      "block.bals_arystisa.enchant_fence": "Enchant Fence",
       "item.bals_arystisa.hogirit_armor_chestplate": "Hogirit Chestplate",
       "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
       "item.bals_arystisa.hogirit_ingot": "Hogirit",
@@ -2134,6 +2266,7 @@
       "block.bals_arystisa.ignisium_block": "Ignisium Block",
       "item.bals_arystisa.sap_bottle": "Sap Bottle",
       "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
+      "block.bals_arystisa.enchant_planks": "Enchant Planks",
       "item.bals_arystisa.tugstium_1_hoe": "Tugstium_1 Hoe",
       "item.bals_arystisa.combinedsword": "Combined sword",
       "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
@@ -2152,20 +2285,25 @@
       "item.bals_arystisa.baguette_pickaxe": "Baguette Pickaxe",
       "subtitles.launch_spawner_wave": "",
       "item.bals_arystisa.hogirit_pickaxe": "Hogirit Pickaxe",
+      "block.bals_arystisa.enchant_slab": "Enchant Slab",
       "item.bals_arystisa.baguette": "Baguette",
       "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
       "item.bals_arystisa.diamond_flint": "Diamond Flint",
       "block.bals_arystisa.work_station": "Work Station",
+      "block.bals_arystisa.enchant_fence_gate": "Enchant FenceGate",
       "block.bals_arystisa.cobaltore": "Cobalt ore",
+      "block.bals_arystisa.enchant_pressure_plate": "Enchant PressurePlate",
       "block.bals_arystisa.arysting_log": "Arysting Log",
       "item.bals_arystisa.tugstium_1_shovel": "Tugstium_1 Shovel",
       "item.bals_arystisa.hogirit_armor_boots": "Hogirit Boots",
       "block.bals_arystisa.enchant_leaves": "Enchant Leaves",
       "item.bals_arystisa.tugstium_armor_armor_leggings": "Tugstium Leggings",
+      "block.bals_arystisa.enchant_button": "Enchant Button",
       "item.bals_arystisa.cobalt_axe": "Cobalt Axe",
       "entity.bals_arystisa.arysting_cow": "Arysting Cow",
       "item.bals_arystisa.hogirit_hoe": "Hogirit Hoe",
       "block.bals_arystisa.former_gravel": "Former Gravel",
+      "block.bals_arystisa.enchant_stairs": "Enchant Stairs",
       "item.bals_arystisa.ignisium_ingot": "Ignisium Ingot",
       "subtitles.next_spawner_wave": "",
       "item.bals_arystisa.tugstium_armor_armor_boots": "Tugstium Boots",

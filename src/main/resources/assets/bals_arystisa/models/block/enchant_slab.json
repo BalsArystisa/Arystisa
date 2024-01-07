@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "bals_arystisa:block/enchant_planks",
+    "top": "bals_arystisa:block/enchant_planks",
+    "side": "bals_arystisa:block/enchant_planks"
+  },
+  "render_type": "solid"
+}
