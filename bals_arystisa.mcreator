@@ -16,7 +16,7 @@
       "name": "ArystingLog",
       "type": "block",
       "sortid": 3,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_log",
       "metadata": {
@@ -50,7 +50,7 @@
       "name": "AmberOreArystingLog",
       "type": "block",
       "sortid": 4,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "amber_ore_arysting_log",
       "metadata": {
@@ -136,7 +136,7 @@
       "name": "ArystingLeaves",
       "type": "block",
       "sortid": 5,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_leaves",
       "metadata": {
@@ -225,7 +225,7 @@
       "name": "ArystingFence",
       "type": "block",
       "sortid": 14,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_fence",
       "metadata": {
@@ -244,7 +244,7 @@
       "name": "ArystingFenceGate",
       "type": "block",
       "sortid": 15,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_fence_gate",
       "metadata": {
@@ -282,7 +282,7 @@
       "name": "ArystingButton",
       "type": "block",
       "sortid": 17,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_button",
       "metadata": {
@@ -857,7 +857,7 @@
       "name": "ArystisaWorld",
       "type": "dimension",
       "sortid": 59,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "arystisa_world",
       "metadata": {
@@ -1613,8 +1613,8 @@
       "subtitles.end_spawner_wave": "",
       "block.bals_arystisa.hogirit_block": "Block of Hogirit",
       "item.bals_arystisa.hogirit_armor_chestplate": "Hogirit Chestplate",
-      "item.bals_arystisa.hogirit_ingot": "Hogirit",
       "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
+      "item.bals_arystisa.hogirit_ingot": "Hogirit",
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
       "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",
