@@ -56,7 +56,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "WOOD"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -119,13 +119,24 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": false,
-    "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "onRightClicked": {
+      "name": "AmberLogSapBottleProced"
+    },
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:ArystingForest"
+      }
+    ],
+    "blocksToReplace": [
+      {
+        "value": "CUSTOM:ArystingLog"
+      }
+    ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 6,
+    "frequencyOnChunk": 2,
+    "minGenerateHeight": 60,
+    "maxGenerateHeight": 80
   }
 }

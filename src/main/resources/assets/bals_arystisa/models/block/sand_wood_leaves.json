@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "bals_arystisa:block/sand_wood_leaves",
-    "particle": "bals_arystisa:block/sand_wood_leaves"
-  }
-}

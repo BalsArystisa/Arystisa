@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "bals_arystisa:arysting_log"
+    }
+  },
+  "result": {
+    "item": "bals_arystisa:arysting_wood",
+    "count": 3
+  }
+}

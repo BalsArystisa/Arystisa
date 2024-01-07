@@ -10,9 +10,6 @@
     "bals_arystisa:arysting_fence",
     "bals_arystisa:arysting_fence_gate",
     "bals_arystisa:arysting_pressure_plate",
-    "bals_arystisa:arysting_button",
-    "bals_arystisa:sand_wood_wood",
-    "bals_arystisa:sand_wood_log",
-    "bals_arystisa:sand_wood_planks"
+    "bals_arystisa:arysting_button"
   ]
 }

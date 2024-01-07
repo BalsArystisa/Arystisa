@@ -11,9 +11,9 @@
     "enableBoots": true,
     "textureBoots": "iron_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Arystisa"
     },
-    "armorTextureFile": "hogiritearmor",
+    "armorTextureFile": "hogirite_armor_",
     "helmetName": "Hogirit Helmet",
     "bodyName": "Hogirit Chestplate",
     "leggingsName": "Hogirit Leggings",
@@ -71,11 +71,11 @@
       "fixedValue": false
     },
     "maxDamage": 1000,
-    "damageValueHelmet": 3,
-    "damageValueBody": 8,
-    "damageValueLeggings": 9,
-    "damageValueBoots": 3,
-    "enchantability": 50,
+    "damageValueHelmet": 100,
+    "damageValueBody": 100,
+    "damageValueLeggings": 100,
+    "damageValueBoots": 100,
+    "enchantability": 100,
     "toughness": 5.0,
     "knockbackResistance": 2.0,
     "equipSound": {

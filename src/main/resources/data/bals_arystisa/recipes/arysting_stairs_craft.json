@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "bals_arystisa:arysting_planks"
+    }
+  },
+  "result": {
+    "item": "bals_arystisa:arysting_stairs",
+    "count": 4
+  }
+}

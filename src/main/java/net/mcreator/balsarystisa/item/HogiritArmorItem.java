@@ -31,12 +31,12 @@ public abstract class HogiritArmorItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForType(ArmorItem.Type type) {
-				return new int[]{3, 9, 8, 3}[type.getSlot().getIndex()];
+				return new int[]{100, 100, 100, 100}[type.getSlot().getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 50;
+				return 100;
 			}
 
 			@Override
@@ -78,7 +78,7 @@ public abstract class HogiritArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "bals_arystisa:textures/models/armor/hogiritearmor_layer_1.png";
+			return "bals_arystisa:textures/models/armor/hogirite_armor__layer_1.png";
 		}
 
 		@Override
@@ -99,7 +99,7 @@ public abstract class HogiritArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "bals_arystisa:textures/models/armor/hogiritearmor_layer_1.png";
+			return "bals_arystisa:textures/models/armor/hogirite_armor__layer_1.png";
 		}
 
 		@Override
@@ -120,7 +120,7 @@ public abstract class HogiritArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "bals_arystisa:textures/models/armor/hogiritearmor_layer_2.png";
+			return "bals_arystisa:textures/models/armor/hogirite_armor__layer_2.png";
 		}
 
 		@Override
@@ -141,7 +141,7 @@ public abstract class HogiritArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "bals_arystisa:textures/models/armor/hogiritearmor_layer_1.png";
+			return "bals_arystisa:textures/models/armor/hogirite_armor__layer_1.png";
 		}
 
 		@Override

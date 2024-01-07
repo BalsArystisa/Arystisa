@@ -5,7 +5,7 @@
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "hogirit_sword",
+    "texture": "hogirite_sword",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Hogirit Sword",
@@ -13,13 +13,13 @@
       "fixedValue": []
     },
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Arystisa"
     },
     "harvestLevel": 3,
     "efficiency": 8.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 5.0,
     "enchantability": 21,
-    "damageVsEntity": 3.0,
+    "damageVsEntity": 100.0,
     "usageCount": 441,
     "blocksAffected": [],
     "glowCondition": {

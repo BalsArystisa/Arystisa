@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ArystingPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ArystingPlanks"
+      },
+      {
+        "value": "CUSTOM:ArystingPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ArystingPlanks"
+      },
+      {
+        "value": "CUSTOM:ArystingPlanks"
+      },
+      {
+        "value": "CUSTOM:ArystingPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ArystingStairs"
+    },
+    "name": "arysting_stairs_craft",
+    "namespace": "mod"
+  }
+}

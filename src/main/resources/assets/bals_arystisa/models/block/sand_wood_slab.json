@@ -1,9 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "bals_arystisa:block/sand_wood_planks",
-    "top": "bals_arystisa:block/sand_wood_planks",
-    "side": "bals_arystisa:block/sand_wood_planks"
-  },
-  "render_type": "solid"
-}

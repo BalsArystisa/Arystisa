@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "bals_arystisa:item/hogirit_shovel"
+    "layer0": "bals_arystisa:item/hoggirite_shovel"
   }
 }
