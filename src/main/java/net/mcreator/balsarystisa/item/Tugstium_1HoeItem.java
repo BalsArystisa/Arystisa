@@ -38,7 +38,7 @@ public class Tugstium_1HoeItem extends HoeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(BalsArystisaModItems.TUGSTIUM_ARMOR_ARMOR_HELMET.get()));
+				return Ingredient.of(new ItemStack(BalsArystisaModItems.TUGSTIUM.get()));
 			}
 		}, 0, -3f, new Item.Properties());
 	}

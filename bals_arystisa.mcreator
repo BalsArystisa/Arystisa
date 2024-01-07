@@ -607,7 +607,7 @@
     {
       "name": "ArystisaWorld",
       "type": "dimension",
-      "sortid": 47,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arystisa_world",
@@ -631,7 +631,7 @@
     {
       "name": "DiamondFlint",
       "type": "item",
-      "sortid": 46,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diamond_flint",
@@ -679,7 +679,7 @@
     {
       "name": "InvisibleCamoCyberware",
       "type": "item",
-      "sortid": 41,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "invisible_camo_cyberware",
@@ -694,7 +694,7 @@
     {
       "name": "Amber",
       "type": "item",
-      "sortid": 45,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amber",
@@ -709,7 +709,7 @@
     {
       "name": "SapBottle",
       "type": "item",
-      "sortid": 44,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sap_bottle",
@@ -900,7 +900,7 @@
     {
       "name": "ArystingCow",
       "type": "livingentity",
-      "sortid": 48,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "arysting_cow",
@@ -960,7 +960,7 @@
     {
       "name": "BaguettePickaxe",
       "type": "tool",
-      "sortid": 36,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette_pickaxe",
@@ -989,7 +989,7 @@
     {
       "name": "BaguetteAxe",
       "type": "tool",
-      "sortid": 38,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette_axe",
@@ -1004,7 +1004,7 @@
     {
       "name": "BaguetteHoe",
       "type": "tool",
-      "sortid": 40,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette_hoe",
@@ -1019,7 +1019,7 @@
     {
       "name": "BaguetteShovel",
       "type": "tool",
-      "sortid": 39,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "baguette_shovel",
@@ -1181,7 +1181,7 @@
     {
       "name": "Basondubataillondexploration",
       "type": "item",
-      "sortid": 49,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blasondubataillondexploration",
@@ -1276,7 +1276,7 @@
     {
       "name": "Tugstium_1Shovel",
       "type": "tool",
-      "sortid": 51,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstium_1_shovel",
@@ -1347,7 +1347,7 @@
     {
       "name": "Tugstium_1Hoe",
       "type": "tool",
-      "sortid": 52,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstium_1_hoe",
@@ -1394,7 +1394,7 @@
     {
       "name": "Tugstium_1Sword",
       "type": "tool",
-      "sortid": 53,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstium_1_sword",
@@ -1451,7 +1451,7 @@
     {
       "name": "Tugstium_1Pickaxe",
       "type": "tool",
-      "sortid": 37,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstium_1_pickaxe",
@@ -1466,7 +1466,7 @@
     {
       "name": "Tugstium_1Axe",
       "type": "tool",
-      "sortid": 50,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tugstium_1_axe",
@@ -1626,7 +1626,7 @@
     {
       "name": "InvisibleCamotiers2",
       "type": "item",
-      "sortid": 42,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "invisible_camotiers_2",
@@ -1641,7 +1641,7 @@
     {
       "name": "InvisibleCamotiers3",
       "type": "item",
-      "sortid": 43,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "invisible_camotiers_3",
@@ -1764,7 +1764,7 @@
       "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
       "block.bals_arystisa.d": "D",
       "item.bals_arystisa.cobalt_sword": "Cobalt Sword",
-      "item.bals_arystisa.tugstium_1_axe": "Tugstium_1 Axe",
+      "item.bals_arystisa.tugstium_1_axe": "Tugstium Axe",
       "block.bals_arystisa.arysting_pressure_plate": "Arysting PressurePlate",
       "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "item.bals_arystisa.tugstium_armor_armor_helmet": "Tugstium Helmet",
@@ -1821,7 +1821,7 @@
       "item.bals_arystisa.ignisium_ingot": "Ignisium Ingot",
       "subtitles.next_spawner_wave": "",
       "item.bals_arystisa.tugstium_armor_armor_boots": "Tugstium Boots",
-      "item.bals_arystisa.tugstium_1_sword": "Tugstium_1 Sword"
+      "item.bals_arystisa.tugstium_1_sword": "Tugstium Sword"
     }
   },
   "foldersRoot": {

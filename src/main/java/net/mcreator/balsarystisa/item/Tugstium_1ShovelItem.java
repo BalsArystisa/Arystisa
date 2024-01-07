@@ -38,7 +38,7 @@ public class Tugstium_1ShovelItem extends ShovelItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(BalsArystisaModItems.TUGSTIUM_ARMOR_ARMOR_HELMET.get()));
+				return Ingredient.of(new ItemStack(BalsArystisaModItems.TUGSTIUM.get()));
 			}
 		}, 1, -3f, new Item.Properties());
 	}
