@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.balsarystisa.block.TugstiumoreBlock;
 import net.mcreator.balsarystisa.block.RunnedStoneBricksBlock;
 import net.mcreator.balsarystisa.block.HogiritOreBlock;
 import net.mcreator.balsarystisa.block.HogiritBlockBlock;
@@ -46,4 +47,5 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> ARYSTING_BUTTON = REGISTRY.register("arysting_button", () -> new ArystingButtonBlock());
 	public static final RegistryObject<Block> HOGIRIT_ORE = REGISTRY.register("hogirit_ore", () -> new HogiritOreBlock());
 	public static final RegistryObject<Block> HOGIRIT_BLOCK = REGISTRY.register("hogirit_block", () -> new HogiritBlockBlock());
+	public static final RegistryObject<Block> TUGSTIUMORE = REGISTRY.register("tugstiumore", () -> new TugstiumoreBlock());
 }

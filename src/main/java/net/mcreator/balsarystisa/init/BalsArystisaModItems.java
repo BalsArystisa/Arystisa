@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.balsarystisa.item.TugstiumItem;
 import net.mcreator.balsarystisa.item.HogiritSwordItem;
 import net.mcreator.balsarystisa.item.HogiritShovelItem;
 import net.mcreator.balsarystisa.item.HogiritPickaxeItem;
@@ -51,6 +52,8 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> HOGIRIT_ARMOR_CHESTPLATE = REGISTRY.register("hogirit_armor_chestplate", () -> new HogiritArmorItem.Chestplate());
 	public static final RegistryObject<Item> HOGIRIT_ARMOR_LEGGINGS = REGISTRY.register("hogirit_armor_leggings", () -> new HogiritArmorItem.Leggings());
 	public static final RegistryObject<Item> HOGIRIT_ARMOR_BOOTS = REGISTRY.register("hogirit_armor_boots", () -> new HogiritArmorItem.Boots());
+	public static final RegistryObject<Item> TUGSTIUM = REGISTRY.register("tugstium", () -> new TugstiumItem());
+	public static final RegistryObject<Item> TUGSTIUMORE = block(BalsArystisaModBlocks.TUGSTIUMORE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

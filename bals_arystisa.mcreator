@@ -817,6 +817,38 @@
         ]
       },
       "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "Tugstium",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/TugstiumItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium.json"
+        ]
+      },
+      "path": "~/Thekiller9088"
+    },
+    {
+      "name": "Tugstiumore",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstiumore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/tugstiumore.json",
+          "src/main/java/net/mcreator/balsarystisa/block/TugstiumoreBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/tugstiumore.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/tugstiumore.json"
+        ]
+      },
+      "path": "~/Thekiller9088"
     }
   ],
   "variable_elements": [],
@@ -858,6 +890,7 @@
       "block.bals_arystisa.hogirit_ore": "Hogirit Ore",
       "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
       "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
+      "item.bals_arystisa.tugstium": "Tugstium",
       "item_group.bals_arystisa.arystisa": "Arystisa",
       "block.bals_arystisa.arysting_pressure_plate": "Arysting PressurePlate",
       "block.bals_arystisa.arysting_fence": "Arysting Fence",
@@ -877,6 +910,7 @@
       "block.bals_arystisa.arysting_log": "Arysting Log",
       "item.bals_arystisa.hogirit_armor_leggings": "Hogirit Leggings",
       "item.bals_arystisa.hogirit_armor_boots": "Hogirit Boots",
+      "block.bals_arystisa.tugstiumore": "Tugstiumore",
       "item.bals_arystisa.hogirit_hoe": "Hogirit Hoe",
       "subtitles.next_spawner_wave": ""
     }
