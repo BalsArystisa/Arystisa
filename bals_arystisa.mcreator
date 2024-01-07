@@ -950,8 +950,8 @@
       "registry_name": "diamond_flint",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/diamond_flint.json",
-          "src/main/java/net/mcreator/balsarystisa/item/DiamondFlintItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/DiamondFlintItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/diamond_flint.json"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -1155,8 +1155,8 @@
       "registry_name": "work_station_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/world/inventory/WorkStationGUIMenu.java",
-          "src/main/java/net/mcreator/balsarystisa/client/gui/WorkStationGUIScreen.java"
+          "src/main/java/net/mcreator/balsarystisa/client/gui/WorkStationGUIScreen.java",
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/WorkStationGUIMenu.java"
         ]
       },
       "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI"
