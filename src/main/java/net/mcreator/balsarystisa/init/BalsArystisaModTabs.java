@@ -38,6 +38,7 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_FENCE_GATE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_PRESSURE_PLATE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_BUTTON.get().asItem());
+				tabData.accept(BalsArystisaModItems.BAGUETTE_SWORD.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

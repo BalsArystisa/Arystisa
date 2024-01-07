@@ -19,6 +19,7 @@ import net.mcreator.balsarystisa.item.HogiritIngotItem;
 import net.mcreator.balsarystisa.item.HogiritHoeItem;
 import net.mcreator.balsarystisa.item.HogiritAxeItem;
 import net.mcreator.balsarystisa.item.HogiritArmorItem;
+import net.mcreator.balsarystisa.item.BaguetteSwordItem;
 import net.mcreator.balsarystisa.item.BaguetteItem;
 import net.mcreator.balsarystisa.BalsArystisaMod;
 
@@ -61,6 +62,7 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> HOGIRIT_ARMOR_CHESTPLATE = REGISTRY.register("hogirit_armor_chestplate", () -> new HogiritArmorItem.Chestplate());
 	public static final RegistryObject<Item> HOGIRIT_ARMOR_LEGGINGS = REGISTRY.register("hogirit_armor_leggings", () -> new HogiritArmorItem.Leggings());
 	public static final RegistryObject<Item> HOGIRIT_ARMOR_BOOTS = REGISTRY.register("hogirit_armor_boots", () -> new HogiritArmorItem.Boots());
+	public static final RegistryObject<Item> BAGUETTE_SWORD = REGISTRY.register("baguette_sword", () -> new BaguetteSwordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

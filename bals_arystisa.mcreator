@@ -159,7 +159,7 @@
           "src/main/java/net/mcreator/balsarystisa/item/BaguetteItem.java"
         ]
       },
-      "path": "~/Jos3"
+      "path": "~/Jos3/Baguette"
     },
     {
       "name": "BaguetteRecipe",
@@ -173,7 +173,7 @@
           "src/main/resources/data/bals_arystisa/recipes/baguette_recipe.json"
         ]
       },
-      "path": "~/Jos3"
+      "path": "~/Jos3/Baguette"
     },
     {
       "name": "BaguetteRecipe1",
@@ -187,7 +187,7 @@
           "src/main/resources/data/bals_arystisa/recipes/baguette_recipe_1.json"
         ]
       },
-      "path": "~/Jos3"
+      "path": "~/Jos3/Baguette"
     },
     {
       "name": "BaguetteRecipe2",
@@ -201,7 +201,7 @@
           "src/main/resources/data/bals_arystisa/recipes/baguette_recipe_2.json"
         ]
       },
-      "path": "~/Jos3"
+      "path": "~/Jos3/Baguette"
     },
     {
       "name": "HogiritBlock",
@@ -985,6 +985,35 @@
         ]
       },
       "path": "~/Hog536"
+    },
+    {
+      "name": "BaguetteSwordRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/baguette_sword_recipe.json"
+        ]
+      },
+      "path": "~/Jos3/Baguette"
+    },
+    {
+      "name": "BaguetteSword",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/baguette_sword.json",
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteSwordItem.java"
+        ]
+      },
+      "path": "~/Jos3/Baguette"
     }
   ],
   "variable_elements": [],
@@ -1035,6 +1064,7 @@
       "block.bals_arystisa.sand_wood_fence": "Sand_wood Fence",
       "block.bals_arystisa.sand_wood_stairs": "Sand_wood Stairs",
       "block.bals_arystisa.arysting_pressure_plate": "Arysting PressurePlate",
+      "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "block.bals_arystisa.arysting_fence": "Arysting Fence",
       "subtitles.launch_spawner_wave": "",
       "block.bals_arystisa.arysting_wood": "Arysting Wood",
@@ -1076,7 +1106,12 @@
       },
       {
         "name": "Jos3",
-        "children": []
+        "children": [
+          {
+            "name": "Baguette",
+            "children": []
+          }
+        ]
       }
     ]
   },
