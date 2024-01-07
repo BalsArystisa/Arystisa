@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "bals_arystisa:block/workstation_top",
-    "up": "bals_arystisa:block/workstation_top",
-    "north": "bals_arystisa:block/workstation_top",
-    "east": "bals_arystisa:block/workstation_side",
-    "south": "bals_arystisa:block/workstation_top",
-    "west": "bals_arystisa:block/workstation_right",
-    "particle": "bals_arystisa:block/workstation_top"
+    "down": "bals_arystisa:block/iron_block",
+    "up": "bals_arystisa:block/worksation-top",
+    "north": "bals_arystisa:block/iron_block_-_copie",
+    "east": "bals_arystisa:block/workstation-front",
+    "south": "bals_arystisa:block/iron-side",
+    "west": "bals_arystisa:block/iron-side",
+    "particle": "bals_arystisa:block/iron_block"
   },
   "render_type": "solid"
 }
