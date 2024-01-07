@@ -1,21 +1,9 @@
 package net.mcreator.balsarystisa.client.gui;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
-import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.GuiGraphics;
-
-import net.mcreator.balsarystisa.world.inventory.CombinateurMenu;
-
-import java.util.HashMap;
-
-import com.mojang.blaze3d.systems.RenderSystem;
-
 public class CombinateurScreen extends AbstractContainerScreen<CombinateurMenu> {
+
 	private final static HashMap<String, Object> guistate = CombinateurMenu.guistate;
+
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -36,8 +24,11 @@ public class CombinateurScreen extends AbstractContainerScreen<CombinateurMenu> 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(guiGraphics);
+
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
+
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
+
 	}
 
 	@Override
@@ -45,6 +36,7 @@ public class CombinateurScreen extends AbstractContainerScreen<CombinateurMenu> 
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
+
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/hog_sword.png"), this.leftPos + 19, this.topPos + 15, 0, 0, 16, 16, 16, 16);
@@ -60,6 +52,7 @@ public class CombinateurScreen extends AbstractContainerScreen<CombinateurMenu> 
 			this.minecraft.player.closeContainer();
 			return true;
 		}
+
 		return super.keyPressed(key, b, c);
 	}
 
@@ -80,5 +73,7 @@ public class CombinateurScreen extends AbstractContainerScreen<CombinateurMenu> 
 	@Override
 	public void init() {
 		super.init();
+
 	}
+
 }
