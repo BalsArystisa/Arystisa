@@ -34,7 +34,6 @@ import net.mcreator.balsarystisa.init.BalsArystisaModSounds;
 import net.mcreator.balsarystisa.init.BalsArystisaModParticleTypes;
 import net.mcreator.balsarystisa.init.BalsArystisaModMenus;
 import net.mcreator.balsarystisa.init.BalsArystisaModItems;
-import net.mcreator.balsarystisa.init.BalsArystisaModEntities;
 import net.mcreator.balsarystisa.init.BalsArystisaModBlocks;
 
 import java.util.function.Supplier;
@@ -58,7 +57,6 @@ public class BalsArystisaMod {
 		BalsArystisaModBlocks.REGISTRY.register(bus);
 
 		BalsArystisaModItems.REGISTRY.register(bus);
-		BalsArystisaModEntities.REGISTRY.register(bus);
 
 		BalsArystisaModTabs.REGISTRY.register(bus);
 
