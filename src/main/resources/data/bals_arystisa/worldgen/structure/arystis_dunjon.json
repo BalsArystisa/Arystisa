@@ -9,7 +9,7 @@
   "start_height": {
     "absolute": 0
   },
-  "project_start_to_heightmap": "MOTION_BLOCKING",
+  "project_start_to_heightmap": "WORLD_SURFACE",
   "biomes": [
     "bals_arystisa:arysting_forest",
     "bals_arystisa:enchant_forest"
