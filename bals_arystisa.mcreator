@@ -1595,7 +1595,8 @@
           "src/main/java/net/mcreator/balsarystisa/block/DBlock.java",
           "src/main/resources/assets/bals_arystisa/models/item/d.json"
         ]
-      }
+      },
+      "path": "~/Hog536"
     },
     {
       "name": "IgnisiumIngot",
@@ -1658,7 +1659,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Hog536"
     },
     {
       "name": "CobaltPickaxeRecipe",
@@ -1720,7 +1722,8 @@
           "src/main/java/net/mcreator/balsarystisa/world/inventory/CombinateurMenu.java",
           "src/main/java/net/mcreator/balsarystisa/client/gui/CombinateurScreen.java"
         ]
-      }
+      },
+      "path": "~/Hog536"
     },
     {
       "name": "Cobaltingot",
@@ -1824,7 +1827,8 @@
           "src/main/java/net/mcreator/balsarystisa/item/CombinedswordItem.java",
           "src/main/resources/assets/bals_arystisa/models/item/combinedsword.json"
         ]
-      }
+      },
+      "path": "~/Hog536"
     },
     {
       "name": "Tugstium_1Shovel",
