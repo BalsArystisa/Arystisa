@@ -1209,6 +1209,52 @@
         ]
       },
       "path": "~/Thekiller9088"
+    },
+    {
+      "name": "ArystingCow",
+      "type": "livingentity",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arysting_cow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/client/renderer/ArystingCowRenderer.java",
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_cow_spawn_egg.json",
+          "src/main/resources/data/bals_arystisa/forge/biome_modifier/arysting_cow_biome_modifier.json",
+          "src/main/java/net/mcreator/balsarystisa/entity/ArystingCowEntity.java"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "BaguetteSword",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/baguette_sword.json",
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteSwordItem.java"
+        ]
+      },
+      "path": "~/Jos3/Baguette"
+    },
+    {
+      "name": "BaguetteSwordRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baguette_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/baguette_sword_recipe.json"
+        ]
+      },
+      "path": "~/Jos3/Baguette"
     }
   ],
   "variable_elements": [
@@ -1316,7 +1362,12 @@
       },
       {
         "name": "Jos3",
-        "children": []
+        "children": [
+          {
+            "name": "Baguette",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Thekiller9088",
