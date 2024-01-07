@@ -53,5 +53,6 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.AMBER.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM.get());
 				tabData.accept(BalsArystisaModBlocks.TUGSTIUMORE.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.BLOCTUGSTIUM.get().asItem());
 			}).withSearchBar().build());
 }

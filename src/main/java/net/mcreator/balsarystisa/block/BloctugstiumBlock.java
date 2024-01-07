@@ -1,10 +1,11 @@
 
 package net.mcreator.balsarystisa.block;
 
+import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.FallingBlock;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
@@ -12,10 +13,11 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
 import java.util.List;
+import java.util.Collections;
 
-public class FormerGravelBlock extends FallingBlock {
-	public FormerGravelBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(0.6f, 0.5f));
+public class BloctugstiumBlock extends Block {
+	public BloctugstiumBlock() {
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(2f, 10f));
 	}
 
 	@Override
@@ -26,5 +28,13 @@ public class FormerGravelBlock extends FallingBlock {
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
+	}
+
+	@Override
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
+		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
+		if (!dropsOriginal.isEmpty())
+			return dropsOriginal;
+		return Collections.singletonList(new ItemStack(this, 1));
 	}
 }

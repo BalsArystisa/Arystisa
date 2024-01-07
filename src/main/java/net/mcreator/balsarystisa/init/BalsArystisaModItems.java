@@ -65,6 +65,7 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> AMBER = REGISTRY.register("amber", () -> new AmberItem());
 	public static final RegistryObject<Item> TUGSTIUM = REGISTRY.register("tugstium", () -> new TugstiumItem());
 	public static final RegistryObject<Item> TUGSTIUMORE = block(BalsArystisaModBlocks.TUGSTIUMORE);
+	public static final RegistryObject<Item> BLOCTUGSTIUM = block(BalsArystisaModBlocks.BLOCTUGSTIUM);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
