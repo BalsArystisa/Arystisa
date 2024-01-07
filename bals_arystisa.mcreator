@@ -1299,8 +1299,8 @@
   ],
   "language_map": {
     "en_us": {
-      "block.bals_arystisa.arysting_button": "Arysting Button",
       "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
+      "block.bals_arystisa.arysting_button": "Arysting Button",
       "item.bals_arystisa.invisible_camo_cyberware": "Invisible Camo Cyberware",
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "item.bals_arystisa.sap_bottle": "Sap Bottle",
