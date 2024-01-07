@@ -976,6 +976,21 @@
       "path": "~/BAL1SEUR"
     },
     {
+      "name": "Amber",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/amber.json",
+          "src/main/java/net/mcreator/balsarystisa/item/AmberItem.java"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
       "name": "SapBottle",
       "type": "item",
       "sortid": 61,
@@ -986,6 +1001,20 @@
         "files": [
           "src/main/java/net/mcreator/balsarystisa/item/SapBottleItem.java",
           "src/main/resources/assets/bals_arystisa/models/item/sap_bottle.json"
+        ]
+      },
+      "path": "~/BAL1SEUR"
+    },
+    {
+      "name": "SapAmberCraft",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sap_amber_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/sap_amber_craft.json"
         ]
       },
       "path": "~/BAL1SEUR"
@@ -1027,33 +1056,18 @@
       "path": "~/BAL1SEUR"
     },
     {
-      "name": "Amber",
-      "type": "item",
-      "sortid": 63,
+      "name": "TriggerCyberwareGUI",
+      "type": "keybind",
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "amber",
+      "registry_name": "trigger_cyberware_gui",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/amber.json",
-          "src/main/java/net/mcreator/balsarystisa/item/AmberItem.java"
+          "src/main/java/net/mcreator/balsarystisa/network/TriggerCyberwareGUIMessage.java"
         ]
       },
-      "path": "~/BAL1SEUR"
-    },
-    {
-      "name": "SapAmberCraft",
-      "type": "recipe",
-      "sortid": 64,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sap_amber_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/sap_amber_craft.json"
-        ]
-      },
-      "path": "~/BAL1SEUR"
+      "path": "~/SirRacaillou/GUI_Cyberware"
     }
   ],
   "variable_elements": [],
@@ -1087,10 +1101,8 @@
     "en_us": {
       "block.bals_arystisa.arysting_button": "Arysting Button",
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
-      "item.bals_arystisa.sap_bottle": "Sap Bottle",
       "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
       "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
-      "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
       "biome.bals_arystisa.arysting_forest": "Arysting Forest",
       "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
@@ -1118,6 +1130,7 @@
       "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",
       "block.bals_arystisa.arysting_log": "Arysting Log",
       "item.bals_arystisa.hogirit_armor_leggings": "Hogirit Leggings",
+      "key.categories.arystisia": "Arystitsia",
       "item.bals_arystisa.hogirit_armor_boots": "Hogirit Boots",
       "item.bals_arystisa.hogirit_hoe": "Hogirit Hoe",
       "block.bals_arystisa.former_gravel": "Former Gravel",
