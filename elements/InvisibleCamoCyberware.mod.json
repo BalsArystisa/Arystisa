@@ -28,10 +28,10 @@
     "damageVsEntity": 0.0,
     "specialInformation": {
       "fixedValue": [
-        "§2Invisible_Camo",
-        "§2Tier 1",
-        "§4Duration :§6 4s",
-        "§4Cooldown :§6 60s"
+        "Invisible_Camo",
+        "Tier 1",
+        "Duration : 4s",
+        "§4Cooldown : 60s"
       ]
     },
     "glowCondition": {

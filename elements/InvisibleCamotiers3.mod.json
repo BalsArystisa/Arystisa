@@ -27,7 +27,12 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "Tier 3",
+        "Invisible_Camo",
+        "Duration : 8s",
+        "Cooldown : 60s"
+      ]
     },
     "glowCondition": {
       "fixedValue": false
