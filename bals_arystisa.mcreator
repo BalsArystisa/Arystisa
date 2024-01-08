@@ -2185,6 +2185,36 @@
         ]
       },
       "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "SubDermalArmorTier2",
+      "type": "item",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sub_dermal_armor_tier_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/sub_dermal_armor_tier_2.json",
+          "src/main/java/net/mcreator/balsarystisa/item/SubDermalArmorTier2Item.java"
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "SubDermalArmorTier3",
+      "type": "item",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sub_dermal_armor_tier_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/SubDermalArmorTier3Item.java",
+          "src/main/resources/assets/bals_arystisa/models/item/sub_dermal_armor_tier_3.json"
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
     }
   ],
   "variable_elements": [
@@ -2219,10 +2249,10 @@
       "value": "false"
     },
     {
-      "name": "SubDermal_Armor_First_Implant",
-      "type": "logic",
+      "name": "SubDermal_Armor_Tier",
+      "type": "number",
       "scope": "player_lifetime",
-      "value": "true"
+      "value": "0.0"
     }
   ],
   "sound_elements": [
@@ -2292,6 +2322,8 @@
       "item.bals_arystisa.hogirit_pickaxe": "Hogirit Pickaxe",
       "item.bals_arystisa.sub_dermal_armor_tier_1": "Sub Dermal Armor",
       "item.bals_arystisa.nano_hoe": "Nano Hoe",
+      "item.bals_arystisa.sub_dermal_armor_tier_3": "Sub Dermal Armor",
+      "item.bals_arystisa.sub_dermal_armor_tier_2": "Sub Dermal Armor",
       "item.bals_arystisa.baguette": "Baguette",
       "block.bals_arystisa.work_station": "Work Station",
       "block.bals_arystisa.enchant_fence_gate": "Enchant FenceGate",

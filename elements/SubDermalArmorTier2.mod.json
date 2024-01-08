@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "subdermal_armor_tier1",
+    "texture": "subdermal_armor_tier2",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
