@@ -5,7 +5,7 @@
     "toolType": "Pickaxe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "tugstium_picaxe",
+    "texture": "tugstium_picaxe1",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Tugstium_1 Pickaxe",
