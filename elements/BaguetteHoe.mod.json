@@ -5,7 +5,7 @@
     "toolType": "Hoe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "baguette_hoe",
+    "texture": "baguette_hoe2",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Baguette Hoe",

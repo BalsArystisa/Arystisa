@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "bals_arystisa:item/baguette_pickaxe"
+    "layer0": "bals_arystisa:item/baguette_pickaxe2"
   }
 }

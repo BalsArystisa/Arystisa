@@ -5,7 +5,7 @@
     "toolType": "Pickaxe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "baguette_shovel",
+    "texture": "baguette_shovel2",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Baguette Shovel",
