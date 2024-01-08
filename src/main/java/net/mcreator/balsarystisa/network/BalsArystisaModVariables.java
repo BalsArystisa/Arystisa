@@ -70,6 +70,7 @@ public class BalsArystisaModVariables {
 			clone.Invisible_Camo_Cooldown = original.Invisible_Camo_Cooldown;
 			clone.Cubdoc = original.Cubdoc;
 			clone.Invisible_Camo_Tiers = original.Invisible_Camo_Tiers;
+			clone.SubDermal_Armor = original.SubDermal_Armor;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -110,6 +111,7 @@ public class BalsArystisaModVariables {
 		public boolean Invisible_Camo_Cooldown = false;
 		public boolean Cubdoc = true;
 		public double Invisible_Camo_Tiers = 0.0;
+		public boolean SubDermal_Armor = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -122,6 +124,7 @@ public class BalsArystisaModVariables {
 			nbt.putBoolean("Invisible_Camo_Cooldown", Invisible_Camo_Cooldown);
 			nbt.putBoolean("Cubdoc", Cubdoc);
 			nbt.putDouble("Invisible_Camo_Tiers", Invisible_Camo_Tiers);
+			nbt.putBoolean("SubDermal_Armor", SubDermal_Armor);
 			return nbt;
 		}
 
@@ -131,6 +134,7 @@ public class BalsArystisaModVariables {
 			Invisible_Camo_Cooldown = nbt.getBoolean("Invisible_Camo_Cooldown");
 			Cubdoc = nbt.getBoolean("Cubdoc");
 			Invisible_Camo_Tiers = nbt.getDouble("Invisible_Camo_Tiers");
+			SubDermal_Armor = nbt.getBoolean("SubDermal_Armor");
 		}
 	}
 
@@ -159,6 +163,7 @@ public class BalsArystisaModVariables {
 					variables.Invisible_Camo_Cooldown = message.data.Invisible_Camo_Cooldown;
 					variables.Cubdoc = message.data.Cubdoc;
 					variables.Invisible_Camo_Tiers = message.data.Invisible_Camo_Tiers;
+					variables.SubDermal_Armor = message.data.SubDermal_Armor;
 				}
 			});
 			context.setPacketHandled(true);
