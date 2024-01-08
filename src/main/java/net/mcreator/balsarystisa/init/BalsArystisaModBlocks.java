@@ -58,6 +58,8 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> NANO_CRAFTING_TABLE = REGISTRY.register("nano_crafting_table", () -> new NanoCraftingTableBlock());
 	public static final RegistryObject<Block> ARYSTIS_SPAWNER = REGISTRY.register("arystis_spawner", () -> new ArystisSpawnerBlock());
 	public static final RegistryObject<Block> ARYSTIS_SPAWNER_NO_ACTIVETED = REGISTRY.register("arystis_spawner_no_activeted", () -> new ArystisSpawnerNoActivetedBlock());
+	public static final RegistryObject<Block> BLOCDEPHOSPHOREROUGE = REGISTRY.register("blocdephosphorerouge", () -> new BlocdephosphorerougeBlock());
+	public static final RegistryObject<Block> BLOCDEPHOSPHORENOIR = REGISTRY.register("blocdephosphorenoir", () -> new BlocdephosphorenoirBlock());
 	public static final RegistryObject<Block> IGNISIUM_BLOCK = REGISTRY.register("ignisium_block", () -> new IgnisiumBlockBlock());
 	public static final RegistryObject<Block> BLOCTUGSTIUM = REGISTRY.register("bloctugstium", () -> new BloctugstiumBlock());
 	public static final RegistryObject<Block> NANO_BLOCK = REGISTRY.register("nano_block", () -> new NanoBlockBlock());
@@ -88,6 +90,4 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> ENCHANT_PRESSURE_PLATE = REGISTRY.register("enchant_pressure_plate", () -> new EnchantPressurePlateBlock());
 	public static final RegistryObject<Block> ENCHANT_BUTTON = REGISTRY.register("enchant_button", () -> new EnchantButtonBlock());
 	public static final RegistryObject<Block> ARYSTISA_WORLD_PORTAL = REGISTRY.register("arystisa_world_portal", () -> new ArystisaWorldPortalBlock());
-	public static final RegistryObject<Block> BLOCDEPHOSPHOREROUGE = REGISTRY.register("blocdephosphorerouge", () -> new BlocdephosphorerougeBlock());
-	public static final RegistryObject<Block> BLOCDEPHOSPHORENOIR = REGISTRY.register("blocdephosphorenoir", () -> new BlocdephosphorenoirBlock());
 }
