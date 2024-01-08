@@ -47,7 +47,7 @@ public class GUICyberwareGeneralScreen extends AbstractContainerScreen<GUICyberw
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/gui_cyberware_general.png"), this.leftPos + -1, this.topPos + 0, 0, 0, 320, 200, 320, 200);
+		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/gui_cyberware_texture.png"), this.leftPos + 0, this.topPos + 1, 0, 0, 320, 200, 320, 200);
 
 		RenderSystem.disableBlend();
 	}

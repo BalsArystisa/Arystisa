@@ -2,24 +2,63 @@
   "_fv": 57,
   "_type": "gui",
   "definition": {
-    "type": 0,
+    "type": 1,
     "width": 320,
     "height": 200,
-    "inventoryOffsetX": 0,
-    "inventoryOffsetY": 0,
+    "inventoryOffsetX": 69,
+    "inventoryOffsetY": 16,
     "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
       {
+        "type": "outputslot",
+        "data": {
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 72,
+          "y": 186
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 104,
+          "y": 186
+        }
+      },
+      {
         "type": "image",
         "data": {
-          "image": "gui_cyberware_general.png",
+          "image": "gui_cyberware_texture.png",
           "use1Xscale": false,
-          "x": 53,
-          "y": 20
+          "x": 54,
+          "y": 21
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 136,
+          "y": 186
         }
       }
     ],
+    "onTick": {
+      "name": "GUI_Cyberware_General_UI"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,
