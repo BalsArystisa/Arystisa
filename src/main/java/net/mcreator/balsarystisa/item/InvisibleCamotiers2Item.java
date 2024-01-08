@@ -18,5 +18,9 @@ public class InvisibleCamotiers2Item extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
+		list.add(Component.literal(("\u00A7c")+"Tier 2"));
+		list.add(Component.literal(("\u00A7c")+"Invisible_Camo"));
+		list.add(Component.literal(("\u00A74")+"Duration :"+("\u00A76")+" 6s"));
+		list.add(Component.literal(("\u00A74")+"Cooldown :"+("\u00A76")+" 60s"));
 	}
 }
