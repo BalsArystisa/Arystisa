@@ -8,30 +8,30 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.GuiGraphics;
 
-import net.mcreator.balsarystisa.world.inventory.GUICyberwareGeneralMenu;
+import net.mcreator.balsarystisa.world.inventory.IgnisiumCraftingTableGUIMenu;
 
 import java.util.HashMap;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class GUICyberwareGeneralScreen extends AbstractContainerScreen<GUICyberwareGeneralMenu> {
-	private final static HashMap<String, Object> guistate = GUICyberwareGeneralMenu.guistate;
+public class IgnisiumCraftingTableGUIScreen extends AbstractContainerScreen<IgnisiumCraftingTableGUIMenu> {
+	private final static HashMap<String, Object> guistate = IgnisiumCraftingTableGUIMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
 
-	public GUICyberwareGeneralScreen(GUICyberwareGeneralMenu container, Inventory inventory, Component text) {
+	public IgnisiumCraftingTableGUIScreen(IgnisiumCraftingTableGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 320;
-		this.imageHeight = 200;
+		this.imageWidth = 176;
+		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("bals_arystisa:textures/screens/gui_cyberware_general.png");
+	private static final ResourceLocation texture = new ResourceLocation("bals_arystisa:textures/screens/ignisium_crafting_table_gui.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
@@ -46,9 +46,6 @@ public class GUICyberwareGeneralScreen extends AbstractContainerScreen<GUICyberw
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-
-		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/gui_cyberware_texture.png"), this.leftPos + 0, this.topPos + 1, 0, 0, 320, 200, 320, 200);
-
 		RenderSystem.disableBlend();
 	}
 

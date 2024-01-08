@@ -13,6 +13,7 @@ import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.balsarystisa.client.gui.WorkStationGUIScreen;
 import net.mcreator.balsarystisa.client.gui.NanoCraftingTableGUIScreen;
+import net.mcreator.balsarystisa.client.gui.IgnisiumCraftingTableGUIScreen;
 import net.mcreator.balsarystisa.client.gui.GUICyberwareGeneralScreen;
 import net.mcreator.balsarystisa.client.gui.ArystisiaGUIScreen;
 
@@ -25,6 +26,7 @@ public class BalsArystisaModScreens {
 			MenuScreens.register(BalsArystisaModMenus.WORK_STATION_GUI.get(), WorkStationGUIScreen::new);
 			MenuScreens.register(BalsArystisaModMenus.ARYSTISIA_GUI.get(), ArystisiaGUIScreen::new);
 			MenuScreens.register(BalsArystisaModMenus.NANO_CRAFTING_TABLE_GUI.get(), NanoCraftingTableGUIScreen::new);
+			MenuScreens.register(BalsArystisaModMenus.IGNISIUM_CRAFTING_TABLE_GUI.get(), IgnisiumCraftingTableGUIScreen::new);
 		});
 	}
 }
