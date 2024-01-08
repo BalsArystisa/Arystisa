@@ -17,6 +17,7 @@ import net.mcreator.balsarystisa.block.NanoOreBlock;
 import net.mcreator.balsarystisa.block.NanoCraftingTableBlock;
 import net.mcreator.balsarystisa.block.NanoBlockBlock;
 import net.mcreator.balsarystisa.block.IgnisiumOreBlock;
+import net.mcreator.balsarystisa.block.IgnisiumCraftingTableBlock;
 import net.mcreator.balsarystisa.block.IgnisiumBlockBlock;
 import net.mcreator.balsarystisa.block.FormerGravelBlock;
 import net.mcreator.balsarystisa.block.EnchantWoodBlock;
@@ -32,6 +33,7 @@ import net.mcreator.balsarystisa.block.EnchantButtonBlock;
 import net.mcreator.balsarystisa.block.CobaltoreBlock;
 import net.mcreator.balsarystisa.block.BloctugstiumBlock;
 import net.mcreator.balsarystisa.block.BlocdephosphorerougeBlock;
+import net.mcreator.balsarystisa.block.BlocdephosphorenoirBlock;
 import net.mcreator.balsarystisa.block.ArystisaWorldPortalBlock;
 import net.mcreator.balsarystisa.block.ArystisSpawnerNoActivetedBlock;
 import net.mcreator.balsarystisa.block.ArystisSpawnerBlock;
@@ -86,4 +88,6 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> BLOCDEPHOSPHOREROUGE = REGISTRY.register("blocdephosphorerouge", () -> new BlocdephosphorerougeBlock());
 	public static final RegistryObject<Block> IGNISIUM_BLOCK = REGISTRY.register("ignisium_block", () -> new IgnisiumBlockBlock());
 	public static final RegistryObject<Block> NANO_CRAFTING_TABLE = REGISTRY.register("nano_crafting_table", () -> new NanoCraftingTableBlock());
+	public static final RegistryObject<Block> BLOCDEPHOSPHORENOIR = REGISTRY.register("blocdephosphorenoir", () -> new BlocdephosphorenoirBlock());
+	public static final RegistryObject<Block> IGNISIUM_CRAFTING_TABLE = REGISTRY.register("ignisium_crafting_table", () -> new IgnisiumCraftingTableBlock());
 }

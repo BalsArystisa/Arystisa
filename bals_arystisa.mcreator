@@ -1353,8 +1353,8 @@
       "registry_name": "tugstium_1_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1HoeItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_hoe.json"
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_hoe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1HoeItem.java"
         ]
       },
       "path": "~/Thekiller9088/tugstium"
@@ -1457,8 +1457,8 @@
       "registry_name": "tugstium_1_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_pickaxe.json",
-          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1PickaxeItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1PickaxeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_pickaxe.json"
         ]
       },
       "path": "~/Thekiller9088/tugstium"
@@ -1472,8 +1472,8 @@
       "registry_name": "tugstium_1_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1AxeItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_axe.json"
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_axe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1AxeItem.java"
         ]
       },
       "path": "~/Thekiller9088/tugstium"
@@ -1830,8 +1830,8 @@
       "registry_name": "nano_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/NanoShovelItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/nano_shovel.json"
+          "src/main/resources/assets/bals_arystisa/models/item/nano_shovel.json",
+          "src/main/java/net/mcreator/balsarystisa/item/NanoShovelItem.java"
         ]
       },
       "path": "~/BAL1SEUR/Minerais Nano"
@@ -1845,8 +1845,8 @@
       "registry_name": "nano_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/NanoSwordItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/nano_sword.json"
+          "src/main/resources/assets/bals_arystisa/models/item/nano_sword.json",
+          "src/main/java/net/mcreator/balsarystisa/item/NanoSwordItem.java"
         ]
       },
       "path": "~/BAL1SEUR/Minerais Nano"
@@ -1860,8 +1860,8 @@
       "registry_name": "nano_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/nano_hoe.json",
-          "src/main/java/net/mcreator/balsarystisa/item/NanoHoeItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/NanoHoeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_hoe.json"
         ]
       },
       "path": "~/BAL1SEUR/Minerais Nano"
@@ -2035,8 +2035,8 @@
       "registry_name": "nano_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/nano_axe.json",
-          "src/main/java/net/mcreator/balsarystisa/item/NanoAxeItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/NanoAxeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_axe.json"
         ]
       },
       "path": "~/BAL1SEUR/Minerais Nano"
@@ -2217,6 +2217,40 @@
         ]
       },
       "path": "~/MisterPongiste"
+    },
+    {
+      "name": "Blocdephosphorenoir",
+      "type": "block",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocdephosphorenoir",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/blockstates/blocdephosphorenoir.json",
+          "src/main/resources/assets/bals_arystisa/models/block/blocdephosphorenoir.json",
+          "src/main/java/net/mcreator/balsarystisa/block/BlocdephosphorenoirBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/blocdephosphorenoir.json"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "IgnisiumCraftingTable",
+      "type": "block",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_crafting_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/IgnisiumCraftingTableBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/ignisium_crafting_table.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/ignisium_crafting_table.json",
+          "src/main/resources/assets/bals_arystisa/models/item/ignisium_crafting_table.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium/IgnisiumCraftingTable"
     }
   ],
   "variable_elements": [
@@ -2440,7 +2474,12 @@
         "children": [
           {
             "name": "Ignisium",
-            "children": []
+            "children": [
+              {
+                "name": "IgnisiumCraftingTable",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Baguette",
