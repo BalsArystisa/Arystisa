@@ -122,6 +122,15 @@
           "x": 213,
           "y": 56
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "inventory_overlay.png",
+          "use1Xscale": false,
+          "x": 23,
+          "y": 81
+        }
       }
     ],
     "onTick": {

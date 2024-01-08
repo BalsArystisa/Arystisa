@@ -49,6 +49,8 @@ public class WorkStationGUIScreen extends AbstractContainerScreen<WorkStationGUI
 
 		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/gui_workstation_texture.png"), this.leftPos + 0, this.topPos + 0, 0, 0, 128, 128, 128, 128);
 
+		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/inventory_overlay.png"), this.leftPos + -190, this.topPos + 25, 0, 0, 162, 76, 162, 76);
+
 		RenderSystem.disableBlend();
 	}
 
