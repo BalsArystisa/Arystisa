@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bals_arystisa:block/ignisium_block",
+    "up": "bals_arystisa:block/ignisium_block",
+    "north": "bals_arystisa:block/ignisium_block",
+    "east": "bals_arystisa:block/ignisium_block",
+    "south": "bals_arystisa:block/ignisium_block",
+    "west": "bals_arystisa:block/ignisium_block",
+    "particle": "bals_arystisa:block/ignisium_block"
+  },
+  "render_type": "solid"
+}

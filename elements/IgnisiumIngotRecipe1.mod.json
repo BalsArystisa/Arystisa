@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.7999999999999998,
+    "cookingTime": 1500,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:IgnisiumOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:IgnisiumIngot"
+    },
+    "name": "ignisium_ingot_recipe_1",
+    "namespace": "mod"
+  }
+}

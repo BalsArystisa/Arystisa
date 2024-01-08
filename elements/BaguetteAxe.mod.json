@@ -5,7 +5,7 @@
     "toolType": "Axe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "baguette_axe",
+    "texture": "baguette_axe2",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Baguette Axe",

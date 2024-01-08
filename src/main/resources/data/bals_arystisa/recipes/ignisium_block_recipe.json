@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "bals_arystisa:deleted_mod_element"
+    }
+  },
+  "result": {
+    "item": "bals_arystisa:ignisium_block",
+    "count": 1
+  }
+}

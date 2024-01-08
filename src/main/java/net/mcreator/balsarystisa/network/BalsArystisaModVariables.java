@@ -68,7 +68,11 @@ public class BalsArystisaModVariables {
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 			clone.Invisible_Camo = original.Invisible_Camo;
 			clone.Invisible_Camo_Cooldown = original.Invisible_Camo_Cooldown;
+			clone.Invisible_Camo_Tiers = original.Invisible_Camo_Tiers;
+			clone.SubDermal_Armor = original.SubDermal_Armor;
+			clone.Cubdoc = original.Cubdoc;
 			if (!event.isWasDeath()) {
+				clone.SubDermal_Armor_First_Implant = original.SubDermal_Armor_First_Implant;
 			}
 		}
 	}
@@ -106,6 +110,10 @@ public class BalsArystisaModVariables {
 	public static class PlayerVariables {
 		public boolean Invisible_Camo = false;
 		public boolean Invisible_Camo_Cooldown = false;
+		public double Invisible_Camo_Tiers = 0.0;
+		public boolean SubDermal_Armor = false;
+		public boolean Cubdoc = true;
+		public boolean SubDermal_Armor_First_Implant = true;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -116,6 +124,10 @@ public class BalsArystisaModVariables {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putBoolean("Invisible_Camo", Invisible_Camo);
 			nbt.putBoolean("Invisible_Camo_Cooldown", Invisible_Camo_Cooldown);
+			nbt.putDouble("Invisible_Camo_Tiers", Invisible_Camo_Tiers);
+			nbt.putBoolean("SubDermal_Armor", SubDermal_Armor);
+			nbt.putBoolean("Cubdoc", Cubdoc);
+			nbt.putBoolean("SubDermal_Armor_First_Implant", SubDermal_Armor_First_Implant);
 			return nbt;
 		}
 
@@ -123,6 +135,10 @@ public class BalsArystisaModVariables {
 			CompoundTag nbt = (CompoundTag) Tag;
 			Invisible_Camo = nbt.getBoolean("Invisible_Camo");
 			Invisible_Camo_Cooldown = nbt.getBoolean("Invisible_Camo_Cooldown");
+			Invisible_Camo_Tiers = nbt.getDouble("Invisible_Camo_Tiers");
+			SubDermal_Armor = nbt.getBoolean("SubDermal_Armor");
+			Cubdoc = nbt.getBoolean("Cubdoc");
+			SubDermal_Armor_First_Implant = nbt.getBoolean("SubDermal_Armor_First_Implant");
 		}
 	}
 
@@ -149,6 +165,10 @@ public class BalsArystisaModVariables {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 					variables.Invisible_Camo = message.data.Invisible_Camo;
 					variables.Invisible_Camo_Cooldown = message.data.Invisible_Camo_Cooldown;
+					variables.Invisible_Camo_Tiers = message.data.Invisible_Camo_Tiers;
+					variables.SubDermal_Armor = message.data.SubDermal_Armor;
+					variables.Cubdoc = message.data.Cubdoc;
+					variables.SubDermal_Armor_First_Implant = message.data.SubDermal_Armor_First_Implant;
 				}
 			});
 			context.setPacketHandled(true);

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "bals_arystisa:item/tugstium_picaxe1"
+  }
+}

@@ -298,319 +298,6 @@
       "path": "~/BAL1SEUR"
     },
     {
-      "name": "HogiritBlock",
-      "type": "block",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/block/HogiritBlockBlock.java",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_block.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/hogirit_block.json",
-          "src/main/resources/assets/bals_arystisa/models/block/hogirit_block.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritSword",
-      "type": "tool",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_sword",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritSwordItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_sword.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_pickaxe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_pickaxe_recipe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritArmor",
-      "type": "armor",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_armor",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_armor_leggings.json",
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritArmorItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_armor_helmet.json",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_armor_boots.json",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_armor_chestplate.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritShovelRecipe",
-      "type": "recipe",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_shovel_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_shovel_recipe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritHoe",
-      "type": "tool",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_hoe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_hoe.json",
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritHoeItem.java"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_armor_leggings_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_armor_leggings_recipe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritShovel",
-      "type": "tool",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_shovel",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritShovelItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_shovel.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_armor_helmet_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_armor_helmet_recipe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritAxe",
-      "type": "tool",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_axe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_axe.json",
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritAxeItem.java"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritSwordRecipe",
-      "type": "recipe",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_sword_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_sword_recipe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritAxeRecipe",
-      "type": "recipe",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_axe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_axe_recipe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_block_ore_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_block_ore_recipe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritHoeRecipe",
-      "type": "recipe",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_hoe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_hoe_recipe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritIngot",
-      "type": "item",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_ingot",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritIngotItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_ingot.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritOre",
-      "type": "block",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_ore",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_ore.json",
-          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/hogirit_ore.json",
-          "src/main/resources/data/bals_arystisa/forge/biome_modifier/hogirit_ore_biome_modifier.json",
-          "src/main/resources/assets/bals_arystisa/models/block/hogirit_ore.json",
-          "src/main/java/net/mcreator/balsarystisa/block/HogiritOreBlock.java",
-          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/hogirit_ore.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/hogirit_ore.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritOreSmelting",
-      "type": "recipe",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_ore_smelting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_ore_smelting.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritPickaxe",
-      "type": "tool",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_pickaxe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritPickaxeItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_pickaxe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritArmorChestplateRecipe",
-      "type": "recipe",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_armor_chestplate_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_armor_chestplate_recipe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_armor_boots_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_armor_boots_recipe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_ore_block_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_ore_block_recipe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
       "name": "ArystisaPlanks",
       "type": "recipe",
       "sortid": 40,
@@ -1488,6 +1175,1048 @@
         ]
       },
       "path": "~/MisterPongiste"
+    },
+    {
+      "name": "IgnisiumIngotRecipe2",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_ingot_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/ignisium_ingot_recipe_2.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
+    },
+    {
+      "name": "NanoOre",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/nano_ore.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/nano_ore.json",
+          "src/main/resources/data/bals_arystisa/forge/biome_modifier/nano_ore_biome_modifier.json",
+          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/nano_ore.json",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_ore.json",
+          "src/main/java/net/mcreator/balsarystisa/block/NanoOreBlock.java",
+          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/nano_ore.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "IgnisiumBlock",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/IgnisiumBlockBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/ignisium_block.json",
+          "src/main/resources/assets/bals_arystisa/models/block/ignisium_block.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/ignisium_block.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
+    },
+    {
+      "name": "EnchantForest",
+      "type": "biome",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_forest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/world/features/treedecorators/EnchantForestLeaveDecorator.java",
+          "src/main/resources/data/bals_arystisa/worldgen/biome/enchant_forest.json",
+          "src/main/java/net/mcreator/balsarystisa/world/features/treedecorators/EnchantForestTrunkDecorator.java",
+          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/enchant_forest_tree.json",
+          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/enchant_forest_tree.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Dimension Arystisa"
+    },
+    {
+      "name": "IgnisiumIngotRecipe1",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_ingot_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/ignisium_ingot_recipe_1.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
+    },
+    {
+      "name": "NanoArmor",
+      "type": "armor",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/NanoArmorItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_armor_chestplate.json",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_armor_leggings.json",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_armor_helmet.json",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_armor_boots.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "NanoPickaxe",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/nano_pickaxe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/NanoPickaxeItem.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "EnchantSlab",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantSlabBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_slab.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_slab.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_slab.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_slab_full.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_slab_top.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Dimension Arystisa"
+    },
+    {
+      "name": "NanoArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/nano_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "Cyberwareinstallkey",
+      "type": "keybind",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyberwareinstallkey",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/network/CyberwareinstallkeyMessage.java"
+        ]
+      },
+      "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI"
+    },
+    {
+      "name": "NanoAxeRecipe",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/nano_axe_recipe.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "Tugstium_1Sword",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstium_1_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_sword.json",
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1SwordItem.java"
+        ]
+      },
+      "path": "~/Thekiller9088/tugstium"
+    },
+    {
+      "name": "Cyberwareinstall",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyberwareinstall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/CyberwareinstallProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI"
+    },
+    {
+      "name": "SubDermalArmorTier1",
+      "type": "item",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sub_dermal_armor_tier_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/sub_dermal_armor_tier_1.json",
+          "src/main/java/net/mcreator/balsarystisa/item/SubDermalArmorTier1Item.java"
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "OpenArystisaEmotesKeyBind",
+      "type": "keybind",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_arystisa_emotes_key_bind",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/network/OpenArystisaEmotesKeyBindMessage.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "NanoCraftingTable",
+      "type": "block",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_crafting_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/NanoCraftingTableBlock.java",
+          "src/main/resources/assets/bals_arystisa/blockstates/nano_crafting_table.json",
+          "src/main/resources/assets/bals_arystisa/models/block/nano_crafting_table.json",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_crafting_table.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "NanoPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/nano_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "NanoHoe",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/NanoHoeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_hoe.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "Tugstium_1HoeRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstium_1_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/tugstium_1_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Thekiller9088/tugstium"
+    },
+    {
+      "name": "IgnisiumBlockRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/ignisium_block_recipe.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
+    },
+    {
+      "name": "EnchantPressurePlate",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_pressure_plate.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_pressure_plate_down.json",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_pressure_plate.json",
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantPressurePlateBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_pressure_plate.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Dimension Arystisa"
+    },
+    {
+      "name": "NanoArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/nano_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "NanoArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/nano_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "InvisibleCamoCraftTiers1",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_camo_craft_tiers_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/InvisibleCamoCraftTiers1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI/Craft_Workstation"
+    },
+    {
+      "name": "TugstiumArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstium_armor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/tugstium_armor_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Thekiller9088/tugstium"
+    },
+    {
+      "name": "NanoOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/nano_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "SubDermalArmor",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sub_dermal_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/SubDermalArmorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "IgnisiumOre",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/ignisium_ore.json",
+          "src/main/java/net/mcreator/balsarystisa/block/IgnisiumOreBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/ignisium_ore.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/ignisium_ore.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
+    },
+    {
+      "name": "Tugstium_1Axe",
+      "type": "tool",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstium_1_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_axe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1AxeItem.java"
+        ]
+      },
+      "path": "~/Thekiller9088/tugstium"
+    },
+    {
+      "name": "TugstiumArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstium_armor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/tugstium_armor_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Thekiller9088/tugstium"
+    },
+    {
+      "name": "NanoShovelRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/nano_shovel_recipe.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "NanoBlock",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/NanoBlockBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_block.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/nano_block.json",
+          "src/main/resources/assets/bals_arystisa/models/block/nano_block.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "EnchantStairs",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_stairs.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_stairs.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_stairs_outer.json",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_stairs.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_stairs_inner.json",
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantStairsBlock.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/Dimension Arystisa"
+    },
+    {
+      "name": "NanoHoeRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/nano_hoe_recipe.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "TugstiumArmorArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstium_armor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/tugstium_armor_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Thekiller9088/tugstium"
+    },
+    {
+      "name": "NanoSword",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/nano_sword.json",
+          "src/main/java/net/mcreator/balsarystisa/item/NanoSwordItem.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "NanoArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/nano_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "Tugstium_1SwordRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstium_1_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/tugstium_1_sword_recipe.json"
+        ]
+      },
+      "path": "~/Thekiller9088/tugstium"
+    },
+    {
+      "name": "Tugstium_1ShovelRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstium_1_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/tugstium_1_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Thekiller9088/tugstium"
+    },
+    {
+      "name": "Tugstium_1Hoe",
+      "type": "tool",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstium_1_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_hoe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1HoeItem.java"
+        ]
+      },
+      "path": "~/Thekiller9088/tugstium"
+    },
+    {
+      "name": "TugstiumArmorArmor",
+      "type": "armor",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstium_armor_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_armor_armor_chestplate.json",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_armor_armor_boots.json",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_armor_armor_helmet.json",
+          "src/main/java/net/mcreator/balsarystisa/item/TugstiumArmorArmorItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_armor_armor_leggings.json"
+        ]
+      },
+      "path": "~/Thekiller9088/tugstium"
+    },
+    {
+      "name": "NanoCraftingTableGUI",
+      "type": "gui",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_crafting_table_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/client/gui/NanoCraftingTableGUIScreen.java",
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/NanoCraftingTableGUIMenu.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "NanoBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/nano_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "IgnisiumIngotRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/ignisium_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
+    },
+    {
+      "name": "ArystisiaGUI",
+      "type": "gui",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arystisia_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/ArystisiaGUIMenu.java",
+          "src/main/java/net/mcreator/balsarystisa/client/gui/ArystisiaGUIScreen.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "Tugstium_1Shovel",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstium_1_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1ShovelItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_shovel.json"
+        ]
+      },
+      "path": "~/Thekiller9088/tugstium"
+    },
+    {
+      "name": "NanoShovel",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/nano_shovel.json",
+          "src/main/java/net/mcreator/balsarystisa/item/NanoShovelItem.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "IgnisiumIngot",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/ignisium_ingot.json",
+          "src/main/java/net/mcreator/balsarystisa/item/IgnisiumIngotItem.java"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
+    },
+    {
+      "name": "GUI_Cyberware_General_UI",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_cyberware_general_ui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/GUI_Cyberware_General_UIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/SirRacaillou/GUI_Cyberware"
+    },
+    {
+      "name": "Tugstium_1AxeRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstium_1_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/tugstium_1_axe_recipe.json"
+        ]
+      },
+      "path": "~/Thekiller9088/tugstium"
+    },
+    {
+      "name": "InvisibleCamotiers2",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_camotiers_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamotiers2Item.java",
+          "src/main/resources/assets/bals_arystisa/models/item/invisible_camotiers_2.json"
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "NanoIngot",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/nano_ingot.json",
+          "src/main/java/net/mcreator/balsarystisa/item/NanoIngotItem.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "InvisibleCamotiers3",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_camotiers_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/invisible_camotiers_3.json",
+          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamotiers3Item.java"
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "EnchantFenceGate",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_gate.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_gate_wall_open.json",
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantFenceGateBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_fence_gate.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_fence_gate.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_gate_wall.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_gate_open.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Dimension Arystisa"
+    },
+    {
+      "name": "EnchantFence",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_post.json",
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantFenceBlock.java",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_fence.json",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_fence.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_inventory.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Dimension Arystisa"
+    },
+    {
+      "name": "ArystisDunjon",
+      "type": "structure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arystis_dunjon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/worldgen/structure_set/arystis_dunjon.json",
+          "src/main/resources/data/bals_arystisa/worldgen/template_pool/arystis_dunjon.json",
+          "src/main/resources/data/bals_arystisa/worldgen/structure/arystis_dunjon.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Dimension Arystisa"
+    },
+    {
+      "name": "NanoOreSmelting",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/nano_ore_smelting.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "OpenArystisaEmotesGUI",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_arystisa_emotes_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/OpenArystisaEmotesGUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "Tugstium_1PickaxeRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstium_1_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/tugstium_1_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Thekiller9088/tugstium"
+    },
+    {
+      "name": "NanoAxe",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/NanoAxeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_axe.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "EnchantPlanks",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantPlanksBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_planks.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_planks.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_planks.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Dimension Arystisa"
+    },
+    {
+      "name": "TugstiumArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstium_armor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/tugstium_armor_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Thekiller9088/tugstium"
+    },
+    {
+      "name": "NanoSwordRecipe",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/nano_sword_recipe.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "Tugstium_1Pickaxe",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstium_1_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1PickaxeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_pickaxe.json"
+        ]
+      },
+      "path": "~/Thekiller9088/tugstium"
+    },
+    {
+      "name": "EnchantButton",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantButtonBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_button_inventory.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_button.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_button.json",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_button.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_button_pressed.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Dimension Arystisa"
     }
   ],
   "variable_elements": [
@@ -1502,6 +2231,30 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "Invisible_Camo_Tiers",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "SubDermal_Armor",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "Cubdoc",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "true"
+    },
+    {
+      "name": "SubDermal_Armor_First_Implant",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "true"
     }
   ],
   "sound_elements": [
@@ -1532,61 +2285,68 @@
   ],
   "language_map": {
     "en_us": {
-      "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
-      "item.bals_arystisa.invisible_camo_cyberware": "Invisible Camo Cyberware",
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "item.bals_arystisa.baguette_axe": "Baguette Axe",
-      "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
       "item.bals_arystisa.amber": "Amber Gemmy",
-      "block.bals_arystisa.enchant_wood": "Enchant Wood",
       "key.bals_arystisa.selection_use": "Selection Use",
-      "biome.bals_arystisa.arysting_forest": "Arysting Forest",
-      "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
       "item.bals_arystisa.blasondubataillondexploration": "Basondubataillondexploration",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
-      "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
-      "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
-      "block.bals_arystisa.arysting_pressure_plate": "Arysting PressurePlate",
       "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "block.bals_arystisa.arysting_fence": "Arysting Fence",
-      "block.bals_arystisa.arysting_wood": "Arysting Wood",
       "item.bals_arystisa.baguette_shovel": "Baguette Shovel",
       "subtitles.end_spawner_wave": "",
-      "block.bals_arystisa.hogirit_block": "Block of Hogirit",
-      "item.bals_arystisa.hogirit_armor_chestplate": "Hogirit Chestplate",
       "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
       "item.bals_arystisa.hogirit_ingot": "Hogirit",
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
-      "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",
-      "item.bals_arystisa.hogirit_armor_leggings": "Hogirit Leggings",
-      "key.categories.arystisia": "Arystitsia",
       "block.bals_arystisa.tugstiumore": "Tugstiumore",
       "block.bals_arystisa.arysting_button": "Arysting Button",
-      "item.bals_arystisa.sap_bottle": "Sap Bottle",
-      "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
-      "block.bals_arystisa.blocdephosphorerouge": "Blocdephosphorerouge",
       "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
       "block.bals_arystisa.bloctugstium": "Bloctugstium",
       "item.bals_arystisa.baguette_hoe": "Baguette Hoe",
       "item.bals_arystisa.hogirit_sword": "Hogirit Sword",
-      "block.bals_arystisa.hogirit_ore": "Hogirit Ore",
-      "item.bals_arystisa.arysting_cow_spawn_egg": "Arysting Cow Spawn Egg",
-      "block.bals_arystisa.enchant_log": "Enchant Log",
+      "item.bals_arystisa.cobalt_pickaxe": "Cobalt Pickaxe",
       "item.bals_arystisa.tugstium": "Tugstium",
-      "item_group.bals_arystisa.arystisa": "Arystisa",
       "item.bals_arystisa.baguette_pickaxe": "Baguette Pickaxe",
       "subtitles.launch_spawner_wave": "",
       "item.bals_arystisa.hogirit_pickaxe": "Hogirit Pickaxe",
       "item.bals_arystisa.baguette": "Baguette",
+      "block.bals_arystisa.work_station": "Work Station",
+      "block.bals_arystisa.enchant_leaves": "Enchant Leaves",
+      "item.bals_arystisa.cobalt_axe": "Cobalt Axe",
+      "entity.bals_arystisa.arysting_cow": "Arysting Cow",
+      "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
+      "item.bals_arystisa.invisible_camo_cyberware": "Invisible Camo Cyberware",
+      "item.bals_arystisa.cobalt_shovel": "Cobalt Shovel",
+      "item.bals_arystisa.cobalt_hoe": "Cobalt Hoe",
+      "block.bals_arystisa.arysting_leaves": "Arysting Leaves",
+      "block.bals_arystisa.enchant_wood": "Enchant Wood",
+      "biome.bals_arystisa.arysting_forest": "Arysting Forest",
+      "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
+      "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
+      "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
+      "block.bals_arystisa.d": "D",
+      "item.bals_arystisa.cobalt_sword": "Cobalt Sword",
+      "block.bals_arystisa.arysting_pressure_plate": "Arysting PressurePlate",
+      "block.bals_arystisa.arysting_wood": "Arysting Wood",
+      "block.bals_arystisa.hogirit_block": "Block of Hogirit",
+      "item.bals_arystisa.hogirit_armor_chestplate": "Hogirit Chestplate",
+      "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",
+      "item.bals_arystisa.hogirit_armor_leggings": "Hogirit Leggings",
+      "key.categories.arystisia": "Arystitsia",
+      "item.bals_arystisa.sap_bottle": "Sap Bottle",
+      "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
+      "item.bals_arystisa.combinedsword": "Combined sword",
+      "item.bals_arystisa.cobaltingot": "Cobalt ingot",
+      "block.bals_arystisa.hogirit_ore": "Hogirit Ore",
+      "item.bals_arystisa.arysting_cow_spawn_egg": "Arysting Cow Spawn Egg",
+      "block.bals_arystisa.enchant_log": "Enchant Log",
+      "item_group.bals_arystisa.arystisa": "Arystisa",
       "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
       "item.bals_arystisa.diamond_flint": "Diamond Flint",
-      "block.bals_arystisa.work_station": "Work Station",
       "block.bals_arystisa.cobaltore": "Cobaltore",
       "block.bals_arystisa.arysting_log": "Arysting Log",
       "item.bals_arystisa.hogirit_armor_boots": "Hogirit Boots",
-      "block.bals_arystisa.enchant_leaves": "Enchant Leaves",
-      "entity.bals_arystisa.arysting_cow": "Arysting Cow",
       "item.bals_arystisa.hogirit_hoe": "Hogirit Hoe",
       "block.bals_arystisa.former_gravel": "Former Gravel",
       "subtitles.next_spawner_wave": ""
@@ -1605,13 +2365,31 @@
       },
       {
         "name": "BAL1SEUR",
-        "children": []
+        "children": [
+          {
+            "name": "Arystisa Emotes",
+            "children": [
+              {
+                "name": "Animation",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Minerais Nano",
+            "children": []
+          },
+          {
+            "name": "Dimension Arystisa",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Hog536",
         "children": [
           {
-            "name": "cobalt",
+            "name": "Cobalt",
             "children": []
           }
         ]
@@ -1619,6 +2397,10 @@
       {
         "name": "Jos3",
         "children": [
+          {
+            "name": "Ignisium",
+            "children": []
+          },
           {
             "name": "Baguette",
             "children": []
@@ -1642,7 +2424,12 @@
             "children": [
               {
                 "name": "WorkStation_GUI",
-                "children": []
+                "children": [
+                  {
+                    "name": "Craft_Workstation",
+                    "children": []
+                  }
+                ]
               }
             ]
           },

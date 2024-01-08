@@ -4,7 +4,7 @@
   "definition": {
     "triggerKey": "NUMPAD2",
     "keyBindingName": "Selection Use",
-    "keyBindingCategoryKey": "arystisia",
+    "keyBindingCategoryKey": "arystisa",
     "onKeyPressed": {
       "name": "InvisibleCamoUse"
     }

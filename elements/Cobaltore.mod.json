@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Cobaltore",
+    "name": "Cobalt ore",
     "specialInformation": {
       "fixedValue": []
     },
@@ -46,7 +46,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Cobaltore"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -81,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""

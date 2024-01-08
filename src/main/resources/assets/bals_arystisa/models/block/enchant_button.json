@@ -1,0 +1,7 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "bals_arystisa:block/enchant_planks"
+  },
+  "render_type": "solid"
+}

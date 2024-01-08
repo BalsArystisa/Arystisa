@@ -4,7 +4,7 @@
   "definition": {
     "triggerKey": "NUMPAD0",
     "keyBindingName": "Trigger Cyberware GUI",
-    "keyBindingCategoryKey": "arystisia",
+    "keyBindingCategoryKey": "arystisa",
     "onKeyPressed": {
       "name": "GUICyberwareGeneralTrigger"
     }

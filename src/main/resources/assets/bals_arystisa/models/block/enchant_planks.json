@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bals_arystisa:block/enchant_planks",
+    "up": "bals_arystisa:block/enchant_planks",
+    "north": "bals_arystisa:block/enchant_planks",
+    "east": "bals_arystisa:block/enchant_planks",
+    "south": "bals_arystisa:block/enchant_planks",
+    "west": "bals_arystisa:block/enchant_planks",
+    "particle": "bals_arystisa:block/enchant_planks"
+  },
+  "render_type": "solid"
+}

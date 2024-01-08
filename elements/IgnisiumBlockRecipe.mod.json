@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:IgnisiumIngot"
+      },
+      {
+        "value": "CUSTOM:IgnisiumIngot"
+      },
+      {
+        "value": "CUSTOM:IgnisiumIngot"
+      },
+      {
+        "value": "CUSTOM:IgnisiumIngot"
+      },
+      {
+        "value": "CUSTOM:IgnisiumIngot"
+      },
+      {
+        "value": "CUSTOM:IgnisiumIngot"
+      },
+      {
+        "value": "CUSTOM:IgnisiumIngot"
+      },
+      {
+        "value": "CUSTOM:IgnisiumIngot"
+      },
+      {
+        "value": "CUSTOM:IgnisiumIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:IgnisiumBlock"
+    },
+    "name": "ignisium_block_recipe",
+    "namespace": "mod"
+  }
+}
