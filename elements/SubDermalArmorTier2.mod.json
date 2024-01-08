@@ -27,7 +27,10 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "§cSubDermal_Armor : Tier 2",
+        "§4Resitance : §6+7Armor"
+      ]
     },
     "glowCondition": {
       "fixedValue": false

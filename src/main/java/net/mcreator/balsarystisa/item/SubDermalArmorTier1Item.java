@@ -18,5 +18,7 @@ public class SubDermalArmorTier1Item extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
+		list.add(Component.literal("\u00A72SubDermal_Armor : Tier 1"));
+		list.add(Component.literal("\u00A74Resitance : \u00A76+5Armor"));
 	}
 }
