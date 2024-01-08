@@ -144,6 +144,22 @@ public class CyberwareinstallProcedure {
 					});
 				}
 			}
+			if (BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_1.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
+				if (world.isClientSide())
+					Minecraft.getInstance().gameRenderer.displayItemActivation(new ItemStack(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_1.get()));
+				if (entity instanceof Player _player) {
+					ItemStack _stktoremove = new ItemStack(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_1.get());
+					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+				}
+				{
+					boolean _setval = true;
+					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.SubDermal_Armor = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				SubDermalArmorProcedure.execute(entity);
+			}
 		}
 	}
 }

@@ -2150,19 +2150,54 @@
         ]
       },
       "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "SubDermalArmorTier1",
+      "type": "item",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sub_dermal_armor_tier_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/sub_dermal_armor_tier_1.json",
+          "src/main/java/net/mcreator/balsarystisa/item/SubDermalArmorTier1Item.java"
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "SubDermalArmor",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sub_dermal_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/SubDermalArmorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
     }
   ],
   "variable_elements": [
     {
       "name": "Invisible_Camo",
       "type": "logic",
-      "scope": "player_persistent",
+      "scope": "player_lifetime",
       "value": "false"
     },
     {
       "name": "Invisible_Camo_Cooldown",
       "type": "logic",
-      "scope": "player_persistent",
+      "scope": "player_lifetime",
       "value": "false"
     },
     {
@@ -2174,14 +2209,20 @@
     {
       "name": "Invisible_Camo_Tiers",
       "type": "number",
-      "scope": "player_persistent",
+      "scope": "player_lifetime",
       "value": "0.0"
     },
     {
       "name": "SubDermal_Armor",
       "type": "logic",
-      "scope": "player_persistent",
+      "scope": "player_lifetime",
       "value": "false"
+    },
+    {
+      "name": "SubDermal_Armor_First_Implant",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "true"
     }
   ],
   "sound_elements": [
@@ -2249,14 +2290,15 @@
       "subtitles.launch_spawner_wave": "",
       "block.bals_arystisa.enchant_slab": "Enchant Slab",
       "item.bals_arystisa.hogirit_pickaxe": "Hogirit Pickaxe",
+      "item.bals_arystisa.sub_dermal_armor_tier_1": "Sub Dermal Armor",
       "item.bals_arystisa.nano_hoe": "Nano Hoe",
       "item.bals_arystisa.baguette": "Baguette",
       "block.bals_arystisa.work_station": "Work Station",
       "block.bals_arystisa.enchant_fence_gate": "Enchant FenceGate",
       "block.bals_arystisa.enchant_pressure_plate": "Enchant PressurePlate",
       "item.bals_arystisa.tugstium_1_shovel": "Tugstium_1 Shovel",
-      "block.bals_arystisa.enchant_leaves": "Enchant Leaves",
       "item.bals_arystisa.tugstium_armor_armor_leggings": "Tugstium Leggings",
+      "block.bals_arystisa.enchant_leaves": "Enchant Leaves",
       "item.bals_arystisa.cobalt_axe": "Cobalt Axe",
       "entity.bals_arystisa.arysting_cow": "Arysting Cow",
       "item.bals_arystisa.tugstium_1_sword": "Tugstium Sword",

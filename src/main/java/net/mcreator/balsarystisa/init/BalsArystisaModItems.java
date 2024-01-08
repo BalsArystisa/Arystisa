@@ -20,6 +20,7 @@ import net.mcreator.balsarystisa.item.Tugstium_1HoeItem;
 import net.mcreator.balsarystisa.item.Tugstium_1AxeItem;
 import net.mcreator.balsarystisa.item.TugstiumItem;
 import net.mcreator.balsarystisa.item.TugstiumArmorArmorItem;
+import net.mcreator.balsarystisa.item.SubDermalArmorTier1Item;
 import net.mcreator.balsarystisa.item.SapBottleItem;
 import net.mcreator.balsarystisa.item.NanoSwordItem;
 import net.mcreator.balsarystisa.item.NanoShovelItem;
@@ -116,6 +117,7 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> BLASONDUBATAILLONDEXPLORATION = REGISTRY.register("blasondubataillondexploration", () -> new BasondubataillondexplorationItem());
 	public static final RegistryObject<Item> IGNISIUM_BLOCK = block(BalsArystisaModBlocks.IGNISIUM_BLOCK);
 	public static final RegistryObject<Item> NANO_CRAFTING_TABLE = block(BalsArystisaModBlocks.NANO_CRAFTING_TABLE);
+	public static final RegistryObject<Item> SUB_DERMAL_ARMOR_TIER_1 = REGISTRY.register("sub_dermal_armor_tier_1", () -> new SubDermalArmorTier1Item());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
