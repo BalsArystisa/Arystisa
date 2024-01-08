@@ -708,7 +708,7 @@
       "name": "ArystisaWorld",
       "type": "dimension",
       "sortid": 59,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "arystisa_world",
       "metadata": {
@@ -1241,8 +1241,7 @@
           "src/main/resources/assets/bals_arystisa/models/block/cobaltore.json",
           "src/main/java/net/mcreator/balsarystisa/block/CobaltoreBlock.java"
         ]
-      },
-      "path": "~/Hog536/cobalt"
+      }
     },
     {
       "name": "ArystisDunjon",
@@ -1324,8 +1323,7 @@
           "src/main/java/net/mcreator/balsarystisa/block/DBlock.java",
           "src/main/resources/assets/bals_arystisa/models/item/d.json"
         ]
-      },
-      "path": "~/Hog536/tech with cobalt"
+      }
     },
     {
       "name": "IgnisiumIngot",
@@ -1368,8 +1366,7 @@
           "src/main/resources/assets/bals_arystisa/models/item/cobalt_pickaxe.json",
           "src/main/java/net/mcreator/balsarystisa/item/CobaltPickaxeItem.java"
         ]
-      },
-      "path": "~/Hog536/cobalt"
+      }
     },
     {
       "name": "InvisibleCamoCraftTiers1",
@@ -1388,8 +1385,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI/Work_Station_Craft"
+      }
     },
     {
       "name": "Combinateur",
@@ -1403,8 +1399,7 @@
           "src/main/java/net/mcreator/balsarystisa/world/inventory/CombinateurMenu.java",
           "src/main/java/net/mcreator/balsarystisa/client/gui/CombinateurScreen.java"
         ]
-      },
-      "path": "~/Hog536/tech with cobalt"
+      }
     },
     {
       "name": "IgnisiumOre",
@@ -1435,8 +1430,7 @@
           "src/main/java/net/mcreator/balsarystisa/item/CobaltSwordItem.java",
           "src/main/resources/assets/bals_arystisa/models/item/cobalt_sword.json"
         ]
-      },
-      "path": "~/Hog536/cobalt"
+      }
     },
     {
       "name": "IgnisiumIngotRecipe",
@@ -1694,7 +1688,7 @@
       "name": "GUI_Cyberware_General_UI",
       "type": "procedure",
       "sortid": 106,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "gui_cyberware_general_ui",
       "metadata": {
@@ -1834,7 +1828,7 @@
       "name": "Cyberwareinstall",
       "type": "procedure",
       "sortid": 101,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cyberwareinstall",
       "metadata": {
