@@ -3,22 +3,13 @@
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 176,
-    "height": 166,
-    "inventoryOffsetX": 0,
-    "inventoryOffsetY": 0,
+    "width": 1,
+    "height": 128,
+    "inventoryOffsetX": -110,
+    "inventoryOffsetY": -39,
     "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
-      {
-        "type": "image",
-        "data": {
-          "image": "gui_workstation_texture.png",
-          "use1Xscale": false,
-          "x": 127,
-          "y": 38
-        }
-      },
       {
         "type": "inputslot",
         "data": {
@@ -37,8 +28,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 132,
-          "y": 75
+          "x": 244,
+          "y": 87
         }
       },
       {
@@ -59,8 +50,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 164,
-          "y": 75
+          "x": 292,
+          "y": 87
         }
       },
       {
@@ -75,8 +66,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 272,
-          "y": 62
+          "x": 268,
+          "y": 111
         }
       },
       {
@@ -97,8 +88,8 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 132,
-          "y": 49
+          "x": 244,
+          "y": 135
         }
       },
       {
@@ -119,8 +110,17 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "x": 164,
-          "y": 49
+          "x": 292,
+          "y": 135
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_workstation_texture.png",
+          "use1Xscale": false,
+          "x": 213,
+          "y": 56
         }
       }
     ],
