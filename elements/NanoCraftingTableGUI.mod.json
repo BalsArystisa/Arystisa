@@ -363,6 +363,15 @@
           "x": 205,
           "y": 95
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "crafting_table_nano_gui.png",
+          "use1Xscale": false,
+          "x": 104,
+          "y": 30
+        }
       }
     ],
     "gridSettings": {

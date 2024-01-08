@@ -8,14 +8,14 @@
   ],
   "key": {
     "a": {
-      "item": "bals_arystisa:deleted_mod_element"
+      "item": "bals_arystisa:nano_ingot"
     },
     "b": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "bals_arystisa:deleted_mod_element",
+    "item": "bals_arystisa:nano_shovel",
     "count": 1
   }
 }
