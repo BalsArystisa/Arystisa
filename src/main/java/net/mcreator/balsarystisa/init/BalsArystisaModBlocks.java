@@ -16,6 +16,7 @@ import net.mcreator.balsarystisa.block.RunnedStoneBricksBlock;
 import net.mcreator.balsarystisa.block.NanoOreBlock;
 import net.mcreator.balsarystisa.block.NanoBlockBlock;
 import net.mcreator.balsarystisa.block.IgnisiumOreBlock;
+import net.mcreator.balsarystisa.block.IgnisiumBlockBlock;
 import net.mcreator.balsarystisa.block.FormerGravelBlock;
 import net.mcreator.balsarystisa.block.EnchantWoodBlock;
 import net.mcreator.balsarystisa.block.EnchantStairsBlock;
@@ -80,4 +81,5 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> ENCHANT_PRESSURE_PLATE = REGISTRY.register("enchant_pressure_plate", () -> new EnchantPressurePlateBlock());
 	public static final RegistryObject<Block> ENCHANT_BUTTON = REGISTRY.register("enchant_button", () -> new EnchantButtonBlock());
 	public static final RegistryObject<Block> ARYSTISA_WORLD_PORTAL = REGISTRY.register("arystisa_world_portal", () -> new ArystisaWorldPortalBlock());
+	public static final RegistryObject<Block> IGNISIUM_BLOCK = REGISTRY.register("ignisium_block", () -> new IgnisiumBlockBlock());
 }
