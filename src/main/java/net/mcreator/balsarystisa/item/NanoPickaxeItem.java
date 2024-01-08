@@ -1,18 +1,7 @@
 
 package net.mcreator.balsarystisa.item;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.network.chat.Component;
-
-import net.mcreator.balsarystisa.init.BalsArystisaModItems;
-
-import java.util.List;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class NanoPickaxeItem extends PickaxeItem {
 	public NanoPickaxeItem() {
@@ -38,7 +27,7 @@ public class NanoPickaxeItem extends PickaxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(BalsArystisaModItems.NANO_INGOT.get()));
+				return Ingredient.of(new ItemStack(BalsArystisaModItems.DELETED_MOD_ELEMENT.get()));
 			}
 		}, 1, -3f, new Item.Properties());
 	}

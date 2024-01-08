@@ -8,11 +8,11 @@
   ],
   "key": {
     "a": {
-      "item": "bals_arystisa:nano_ingot"
+      "item": "bals_arystisa:deleted_mod_element"
     }
   },
   "result": {
-    "item": "bals_arystisa:nano_block",
+    "item": "bals_arystisa:deleted_mod_element",
     "count": 1
   }
 }

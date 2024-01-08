@@ -1,12 +1,8 @@
 package net.mcreator.balsarystisa.procedures;
 
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.CommandSource;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.mcreator.balsarystisa.network.BalsArystisaModVariables;
+import javax.annotation.Nullable;
 
 public class SubDermalArmorProcedure {
 	public static void execute(Entity entity) {
