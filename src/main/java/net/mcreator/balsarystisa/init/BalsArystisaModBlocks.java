@@ -53,7 +53,6 @@ import net.mcreator.balsarystisa.BalsArystisaMod;
 public class BalsArystisaModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, BalsArystisaMod.MODID);
 	public static final RegistryObject<Block> RUNNED_STONE_BRICKS = REGISTRY.register("runned_stone_bricks", () -> new RunnedStoneBricksBlock());
-	public static final RegistryObject<Block> WORK_STATION = REGISTRY.register("work_station", () -> new WorkStationBlock());
 	public static final RegistryObject<Block> ARYSTIS_SPAWNER = REGISTRY.register("arystis_spawner", () -> new ArystisSpawnerBlock());
 	public static final RegistryObject<Block> ARYSTIS_SPAWNER_NO_ACTIVETED = REGISTRY.register("arystis_spawner_no_activeted", () -> new ArystisSpawnerNoActivetedBlock());
 	public static final RegistryObject<Block> BLOCTUGSTIUM = REGISTRY.register("bloctugstium", () -> new BloctugstiumBlock());
@@ -88,6 +87,7 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> BLOCDEPHOSPHOREROUGE = REGISTRY.register("blocdephosphorerouge", () -> new BlocdephosphorerougeBlock());
 	public static final RegistryObject<Block> IGNISIUM_BLOCK = REGISTRY.register("ignisium_block", () -> new IgnisiumBlockBlock());
 	public static final RegistryObject<Block> NANO_CRAFTING_TABLE = REGISTRY.register("nano_crafting_table", () -> new NanoCraftingTableBlock());
-	public static final RegistryObject<Block> BLOCDEPHOSPHORENOIR = REGISTRY.register("blocdephosphorenoir", () -> new BlocdephosphorenoirBlock());
+	public static final RegistryObject<Block> WORK_STATION = REGISTRY.register("work_station", () -> new WorkStationBlock());
 	public static final RegistryObject<Block> IGNISIUM_CRAFTING_TABLE = REGISTRY.register("ignisium_crafting_table", () -> new IgnisiumCraftingTableBlock());
+	public static final RegistryObject<Block> BLOCDEPHOSPHORENOIR = REGISTRY.register("blocdephosphorenoir", () -> new BlocdephosphorenoirBlock());
 }

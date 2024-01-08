@@ -19,7 +19,6 @@ public class BalsArystisaModTabs {
 	public static final RegistryObject<CreativeModeTab> ARYSTISA = REGISTRY.register("arystisa",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.bals_arystisa.arystisa")).icon(() -> new ItemStack(BalsArystisaModBlocks.RUNNED_STONE_BRICKS.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(BalsArystisaModBlocks.RUNNED_STONE_BRICKS.get().asItem());
-				tabData.accept(BalsArystisaModBlocks.WORK_STATION.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTIS_SPAWNER.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTIS_SPAWNER_NO_ACTIVETED.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.BLOCTUGSTIUM.get().asItem());
@@ -53,6 +52,8 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.IGNISIUM_INGOT.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM.get());
 				tabData.accept(BalsArystisaModItems.NANO_INGOT.get());
+				tabData.accept(BalsArystisaModItems.NANO_PLATE.get());
+				tabData.accept(BalsArystisaModItems.COMPACT_NANO_INGOT.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_ARMOR_ARMOR_HELMET.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_ARMOR_ARMOR_CHESTPLATE.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_ARMOR_ARMOR_LEGGINGS.get());
@@ -65,7 +66,6 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.BAGUETTE_SWORD.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_1_SWORD.get());
 				tabData.accept(BalsArystisaModItems.NANO_SWORD.get());
-				tabData.accept(BalsArystisaModItems.NANO_PLATE.get());
 				tabData.accept(BalsArystisaModItems.BAGUETTE_PICKAXE.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_1_PICKAXE.get());
 				tabData.accept(BalsArystisaModItems.NANO_PICKAXE.get());
@@ -81,6 +81,9 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_CYBERWARE.get());
 				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMOTIERS_2.get());
 				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMOTIERS_3.get());
+				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_1.get());
+				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_2.get());
+				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_3.get());
 				tabData.accept(BalsArystisaModItems.SAP_BOTTLE.get());
 				tabData.accept(BalsArystisaModItems.AMBER.get());
 				tabData.accept(BalsArystisaModItems.DIAMOND_FLINT.get());
@@ -91,11 +94,8 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.BLOCDEPHOSPHOREROUGE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.IGNISIUM_BLOCK.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.NANO_CRAFTING_TABLE.get().asItem());
-				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_1.get());
-				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_2.get());
-				tabData.accept(BalsArystisaModBlocks.BLOCDEPHOSPHORENOIR.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.WORK_STATION.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.IGNISIUM_CRAFTING_TABLE.get().asItem());
-				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_3.get());
-				tabData.accept(BalsArystisaModItems.COMPACT_NANO_INGOT.get());
+				tabData.accept(BalsArystisaModBlocks.BLOCDEPHOSPHORENOIR.get().asItem());
 			}).withSearchBar().build());
 }
