@@ -708,7 +708,7 @@
       "name": "ArystisaWorld",
       "type": "dimension",
       "sortid": 59,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "arystisa_world",
       "metadata": {
@@ -1688,7 +1688,7 @@
       "name": "GUI_Cyberware_General_UI",
       "type": "procedure",
       "sortid": 106,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "gui_cyberware_general_ui",
       "metadata": {
@@ -1828,7 +1828,7 @@
       "name": "Cyberwareinstall",
       "type": "procedure",
       "sortid": 101,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cyberwareinstall",
       "metadata": {

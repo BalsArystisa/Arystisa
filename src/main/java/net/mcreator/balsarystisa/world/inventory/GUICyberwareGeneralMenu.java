@@ -97,9 +97,9 @@ public class GUICyberwareGeneralMenu extends AbstractContainerMenu implements Su
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
-				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 142 + 8 + sj * 18, 32 + 84 + si * 18));
+				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 141 + 8 + sj * 18, 33 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
-			this.addSlot(new Slot(inv, si, 142 + 8 + si * 18, 32 + 142));
+			this.addSlot(new Slot(inv, si, 141 + 8 + si * 18, 33 + 142));
 	}
 
 	@Override
