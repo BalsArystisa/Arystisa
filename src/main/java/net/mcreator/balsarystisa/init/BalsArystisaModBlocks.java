@@ -48,10 +48,16 @@ import net.mcreator.balsarystisa.BalsArystisaMod;
 public class BalsArystisaModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, BalsArystisaMod.MODID);
 	public static final RegistryObject<Block> RUNNED_STONE_BRICKS = REGISTRY.register("runned_stone_bricks", () -> new RunnedStoneBricksBlock());
-	public static final RegistryObject<Block> FORMER_GRAVEL = REGISTRY.register("former_gravel", () -> new FormerGravelBlock());
+	public static final RegistryObject<Block> WORK_STATION = REGISTRY.register("work_station", () -> new WorkStationBlock());
 	public static final RegistryObject<Block> ARYSTIS_SPAWNER = REGISTRY.register("arystis_spawner", () -> new ArystisSpawnerBlock());
 	public static final RegistryObject<Block> ARYSTIS_SPAWNER_NO_ACTIVETED = REGISTRY.register("arystis_spawner_no_activeted", () -> new ArystisSpawnerNoActivetedBlock());
-	public static final RegistryObject<Block> WORK_STATION = REGISTRY.register("work_station", () -> new WorkStationBlock());
+	public static final RegistryObject<Block> BLOCTUGSTIUM = REGISTRY.register("bloctugstium", () -> new BloctugstiumBlock());
+	public static final RegistryObject<Block> NANO_BLOCK = REGISTRY.register("nano_block", () -> new NanoBlockBlock());
+	public static final RegistryObject<Block> IGNISIUM_ORE = REGISTRY.register("ignisium_ore", () -> new IgnisiumOreBlock());
+	public static final RegistryObject<Block> COBALTORE = REGISTRY.register("cobaltore", () -> new CobaltoreBlock());
+	public static final RegistryObject<Block> TUGSTIUMORE = REGISTRY.register("tugstiumore", () -> new TugstiumoreBlock());
+	public static final RegistryObject<Block> NANO_ORE = REGISTRY.register("nano_ore", () -> new NanoOreBlock());
+	public static final RegistryObject<Block> FORMER_GRAVEL = REGISTRY.register("former_gravel", () -> new FormerGravelBlock());
 	public static final RegistryObject<Block> ARYSTING_LEAVES = REGISTRY.register("arysting_leaves", () -> new ArystingLeavesBlock());
 	public static final RegistryObject<Block> ENCHANT_LEAVES = REGISTRY.register("enchant_leaves", () -> new EnchantLeavesBlock());
 	public static final RegistryObject<Block> ARYSTING_WOOD = REGISTRY.register("arysting_wood", () -> new ArystingWoodBlock());
@@ -73,11 +79,5 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> ENCHANT_FENCE_GATE = REGISTRY.register("enchant_fence_gate", () -> new EnchantFenceGateBlock());
 	public static final RegistryObject<Block> ENCHANT_PRESSURE_PLATE = REGISTRY.register("enchant_pressure_plate", () -> new EnchantPressurePlateBlock());
 	public static final RegistryObject<Block> ENCHANT_BUTTON = REGISTRY.register("enchant_button", () -> new EnchantButtonBlock());
-	public static final RegistryObject<Block> BLOCTUGSTIUM = REGISTRY.register("bloctugstium", () -> new BloctugstiumBlock());
-	public static final RegistryObject<Block> TUGSTIUMORE = REGISTRY.register("tugstiumore", () -> new TugstiumoreBlock());
-	public static final RegistryObject<Block> IGNISIUM_ORE = REGISTRY.register("ignisium_ore", () -> new IgnisiumOreBlock());
-	public static final RegistryObject<Block> COBALTORE = REGISTRY.register("cobaltore", () -> new CobaltoreBlock());
 	public static final RegistryObject<Block> ARYSTISA_WORLD_PORTAL = REGISTRY.register("arystisa_world_portal", () -> new ArystisaWorldPortalBlock());
-	public static final RegistryObject<Block> NANO_ORE = REGISTRY.register("nano_ore", () -> new NanoOreBlock());
-	public static final RegistryObject<Block> NANO_BLOCK = REGISTRY.register("nano_block", () -> new NanoBlockBlock());
 }

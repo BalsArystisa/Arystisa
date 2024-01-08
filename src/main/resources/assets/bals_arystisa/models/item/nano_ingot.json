@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "bals_arystisa:item/nano_ingot"
+    "layer0": "bals_arystisa:item/nanoo_ingot"
   }
 }

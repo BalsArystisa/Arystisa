@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "nano_ingot",
+    "texture": "nanoo_ingot",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Nano",
+    "name": "Nano Ingot",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:Arystisa"
     },
     "stackSize": 64,
     "enchantability": 0,
