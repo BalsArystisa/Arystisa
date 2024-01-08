@@ -21,6 +21,13 @@ import net.mcreator.balsarystisa.item.Tugstium_1AxeItem;
 import net.mcreator.balsarystisa.item.TugstiumItem;
 import net.mcreator.balsarystisa.item.TugstiumArmorArmorItem;
 import net.mcreator.balsarystisa.item.SapBottleItem;
+import net.mcreator.balsarystisa.item.NanoSwordItem;
+import net.mcreator.balsarystisa.item.NanoShovelItem;
+import net.mcreator.balsarystisa.item.NanoPickaxeItem;
+import net.mcreator.balsarystisa.item.NanoIngotItem;
+import net.mcreator.balsarystisa.item.NanoHoeItem;
+import net.mcreator.balsarystisa.item.NanoAxeItem;
+import net.mcreator.balsarystisa.item.NanoArmorItem;
 import net.mcreator.balsarystisa.item.InvisibleCamotiers3Item;
 import net.mcreator.balsarystisa.item.InvisibleCamotiers2Item;
 import net.mcreator.balsarystisa.item.InvisibleCamoCyberwareItem;
@@ -95,6 +102,18 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> ARYSTISA_WORLD = REGISTRY.register("arystisa_world", () -> new ArystisaWorldItem());
 	public static final RegistryObject<Item> ARYSTING_COW_SPAWN_EGG = REGISTRY.register("arysting_cow_spawn_egg", () -> new ForgeSpawnEggItem(BalsArystisaModEntities.ARYSTING_COW, -16764109, -16737895, new Item.Properties()));
 	public static final RegistryObject<Item> BLASONDUBATAILLONDEXPLORATION = REGISTRY.register("blasondubataillondexploration", () -> new BasondubataillondexplorationItem());
+	public static final RegistryObject<Item> NANO_ARMOR_HELMET = REGISTRY.register("nano_armor_helmet", () -> new NanoArmorItem.Helmet());
+	public static final RegistryObject<Item> NANO_ARMOR_CHESTPLATE = REGISTRY.register("nano_armor_chestplate", () -> new NanoArmorItem.Chestplate());
+	public static final RegistryObject<Item> NANO_ARMOR_LEGGINGS = REGISTRY.register("nano_armor_leggings", () -> new NanoArmorItem.Leggings());
+	public static final RegistryObject<Item> NANO_ARMOR_BOOTS = REGISTRY.register("nano_armor_boots", () -> new NanoArmorItem.Boots());
+	public static final RegistryObject<Item> NANO_ORE = block(BalsArystisaModBlocks.NANO_ORE);
+	public static final RegistryObject<Item> NANO_BLOCK = block(BalsArystisaModBlocks.NANO_BLOCK);
+	public static final RegistryObject<Item> NANO_INGOT = REGISTRY.register("nano_ingot", () -> new NanoIngotItem());
+	public static final RegistryObject<Item> NANO_PICKAXE = REGISTRY.register("nano_pickaxe", () -> new NanoPickaxeItem());
+	public static final RegistryObject<Item> NANO_AXE = REGISTRY.register("nano_axe", () -> new NanoAxeItem());
+	public static final RegistryObject<Item> NANO_SWORD = REGISTRY.register("nano_sword", () -> new NanoSwordItem());
+	public static final RegistryObject<Item> NANO_SHOVEL = REGISTRY.register("nano_shovel", () -> new NanoShovelItem());
+	public static final RegistryObject<Item> NANO_HOE = REGISTRY.register("nano_hoe", () -> new NanoHoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

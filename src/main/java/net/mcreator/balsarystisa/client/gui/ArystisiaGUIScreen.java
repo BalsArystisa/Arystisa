@@ -69,6 +69,7 @@ public class ArystisiaGUIScreen extends AbstractContainerScreen<ArystisiaGUIMenu
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.bals_arystisa.arystisia_gui.label_arystisa"), 10, 7, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.bals_arystisa.arystisia_gui.label_comming_soon"), 270, 153, -65536, false);
 	}
 
 	@Override

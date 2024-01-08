@@ -33,6 +33,21 @@
           "x": 49,
           "y": 42
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_comming_soon",
+          "text": {
+            "fixedValue": "Comming Soon !"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 309,
+          "y": 188
+        }
       }
     ],
     "gridSettings": {
