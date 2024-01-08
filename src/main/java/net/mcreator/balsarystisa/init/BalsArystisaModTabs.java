@@ -90,5 +90,6 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.IGNISIUM_BLOCK.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.NANO_CRAFTING_TABLE.get().asItem());
 				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_1.get());
+				tabData.accept(BalsArystisaModBlocks.IGNISIUM_CRAFTING_TABLE.get().asItem());
 			}).withSearchBar().build());
 }
