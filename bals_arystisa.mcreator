@@ -2212,23 +2212,6 @@
       "path": "~/BAL1SEUR/Minerais Nano/Nano Crafting Table"
     },
     {
-      "name": "Blocdephosphorenoir",
-      "type": "block",
-      "sortid": 73,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blocdephosphorenoir",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/block/BlocdephosphorenoirBlock.java",
-          "src/main/resources/assets/bals_arystisa/blockstates/blocdephosphorenoir.json",
-          "src/main/resources/assets/bals_arystisa/models/item/blocdephosphorenoir.json",
-          "src/main/resources/assets/bals_arystisa/models/block/blocdephosphorenoir.json"
-        ]
-      },
-      "path": "~/MisterPongiste"
-    },
-    {
       "name": "NanoCraftTableCraftProced",
       "type": "procedure",
       "sortid": 142,
@@ -2311,23 +2294,6 @@
       "path": "~/Jos3/Ignisium/IgnisiumCraftingTable"
     },
     {
-      "name": "Blocdephosphorerouge",
-      "type": "block",
-      "sortid": 68,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blocdephosphorerouge",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bals_arystisa/models/block/blocdephosphorerouge.json",
-          "src/main/java/net/mcreator/balsarystisa/block/BlocdephosphorerougeBlock.java",
-          "src/main/resources/assets/bals_arystisa/blockstates/blocdephosphorerouge.json",
-          "src/main/resources/assets/bals_arystisa/models/item/blocdephosphorerouge.json"
-        ]
-      },
-      "path": "~/MisterPongiste"
-    },
-    {
       "name": "NanoPlate",
       "type": "item",
       "sortid": 35,
@@ -2361,6 +2327,40 @@
         ]
       },
       "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI/Craft_Workstation"
+    },
+    {
+      "name": "BlackPhosphorusBlock",
+      "type": "block",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_phosphorus_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/black_phosphorus_block.json",
+          "src/main/resources/assets/bals_arystisa/models/block/black_phosphorus_block.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/black_phosphorus_block.json",
+          "src/main/java/net/mcreator/balsarystisa/block/BlackPhosphorusBlockBlock.java"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "RedPhosphorusBlock",
+      "type": "block",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_phosphorus_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/blockstates/red_phosphorus_block.json",
+          "src/main/resources/assets/bals_arystisa/models/item/red_phosphorus_block.json",
+          "src/main/java/net/mcreator/balsarystisa/block/RedPhosphorusBlockBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/red_phosphorus_block.json"
+        ]
+      },
+      "path": "~/MisterPongiste"
     }
   ],
   "variable_elements": [
@@ -2438,14 +2438,14 @@
       "item.bals_arystisa.blasondubataillondexploration": "Basondubataillondexploration",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
       "item.bals_arystisa.nano_armor_leggings": "Nano Leggings",
-      "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "item.bals_arystisa.tugstium_armor_armor_helmet": "Tugstium Helmet",
+      "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "block.bals_arystisa.arysting_fence": "Arysting Fence",
       "item.bals_arystisa.baguette_shovel": "Baguette Shovel",
       "subtitles.end_spawner_wave": "",
       "gui.bals_arystisa.arystisia_gui.label_comming_soon": "Comming Soon !",
-      "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
       "item.bals_arystisa.hogirit_ingot": "Hogirit",
+      "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
       "block.bals_arystisa.ignisium_ore": "Ignisium Ore",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
@@ -2502,17 +2502,16 @@
       "item.bals_arystisa.nano_plate": "Nano Plate",
       "block.bals_arystisa.enchant_fence": "Enchant Fence",
       "block.bals_arystisa.hogirit_block": "Block of Hogirit",
+      "block.bals_arystisa.black_phosphorus_block": "Blocdephosphorenoir",
       "item.bals_arystisa.hogirit_armor_chestplate": "Hogirit Chestplate",
       "item.bals_arystisa.nano_sword": "Nano Sword",
       "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",
-      "block.bals_arystisa.blocdephosphorenoir": "Blocdephosphorenoir",
       "item.bals_arystisa.hogirit_armor_leggings": "Hogirit Leggings",
       "key.categories.arystisia": "Arystitsia",
       "block.bals_arystisa.nano_ore": "Nano Ore",
       "block.bals_arystisa.ignisium_block": "Ignisium Block",
       "item.bals_arystisa.sap_bottle": "Sap Bottle",
       "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
-      "block.bals_arystisa.blocdephosphorerouge": "Blocdephosphorerouge",
       "item.bals_arystisa.tugstium_1_hoe": "Tugstium_1 Hoe",
       "item.bals_arystisa.combinedsword": "Combined sword",
       "item.bals_arystisa.invisible_camotiers_3": "Invisible Camo Cyberware",
@@ -2524,6 +2523,7 @@
       "block.bals_arystisa.enchant_log": "Enchant Log",
       "item_group.bals_arystisa.arystisa": "Arystisa",
       "item.bals_arystisa.nano_pickaxe": "Nano Pickaxe",
+      "block.bals_arystisa.red_phosphorus_block": "Blocdephosphorerouge",
       "item.bals_arystisa.tugstium_1_pickaxe": "Tugstium_1 Pickaxe",
       "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
       "item.bals_arystisa.diamond_flint": "Diamond Flint",

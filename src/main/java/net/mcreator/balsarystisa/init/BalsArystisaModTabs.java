@@ -91,11 +91,11 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.NANO_CRAFTING_HAMMER.get());
 				tabData.accept(BalsArystisaModItems.ARYSTING_COW_SPAWN_EGG.get());
 				tabData.accept(BalsArystisaModItems.BLASONDUBATAILLONDEXPLORATION.get());
-				tabData.accept(BalsArystisaModBlocks.BLOCDEPHOSPHOREROUGE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.IGNISIUM_BLOCK.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.NANO_CRAFTING_TABLE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.WORK_STATION.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.IGNISIUM_CRAFTING_TABLE.get().asItem());
-				tabData.accept(BalsArystisaModBlocks.BLOCDEPHOSPHORENOIR.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.BLACK_PHOSPHORUS_BLOCK.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.RED_PHOSPHORUS_BLOCK.get().asItem());
 			}).withSearchBar().build());
 }

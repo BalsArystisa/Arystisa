@@ -2,12 +2,12 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "bloc_phosphore_noir",
-    "textureTop": "bloc_phosphore_noir",
-    "textureLeft": "bloc_phosphore_noir",
-    "textureFront": "bloc_phosphore_noir",
-    "textureRight": "bloc_phosphore_noir",
-    "textureBack": "bloc_phosphore_noir",
+    "texture": "red_phosphorus_block",
+    "textureTop": "red_phosphorus_block",
+    "textureLeft": "red_phosphorus_block",
+    "textureFront": "red_phosphorus_block",
+    "textureRight": "red_phosphorus_block",
+    "textureBack": "red_phosphorus_block",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Blocdephosphorenoir",
+    "name": "Blocdephosphorerouge",
     "specialInformation": {
       "fixedValue": []
     },

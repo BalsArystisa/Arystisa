@@ -16,8 +16,8 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class BlocdephosphorenoirBlock extends Block {
-	public BlocdephosphorenoirBlock() {
+public class BlackPhosphorusBlockBlock extends Block {
+	public BlackPhosphorusBlockBlock() {
 		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f));
 	}
 
