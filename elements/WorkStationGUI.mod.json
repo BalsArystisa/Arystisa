@@ -125,7 +125,7 @@
       }
     ],
     "onTick": {
-      "name": "InvisibleCamoCraftTiers1"
+      "name": "WorkStationCraft"
     },
     "gridSettings": {
       "sx": 18,

@@ -22,7 +22,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.balsarystisa.procedures.InvisibleCamoCraftTiers1Procedure;
+import net.mcreator.balsarystisa.procedures.WorkStationCraftProcedure;
 import net.mcreator.balsarystisa.init.BalsArystisaModMenus;
 
 import java.util.function.Supplier;
@@ -258,7 +258,7 @@ public class WorkStationGUIMenu extends AbstractContainerMenu implements Supplie
 			double x = entity.getX();
 			double y = entity.getY();
 			double z = entity.getZ();
-			InvisibleCamoCraftTiers1Procedure.execute(entity);
+			WorkStationCraftProcedure.execute(entity);
 		}
 	}
 }
