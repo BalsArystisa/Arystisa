@@ -1,18 +1,7 @@
 
 package net.mcreator.balsarystisa.item;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.ShovelItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.network.chat.Component;
-
-import net.mcreator.balsarystisa.init.BalsArystisaModItems;
-
-import java.util.List;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class Tugstium_1ShovelItem extends ShovelItem {
 	public Tugstium_1ShovelItem() {
@@ -38,7 +27,7 @@ public class Tugstium_1ShovelItem extends ShovelItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(BalsArystisaModItems.TUGSTIUM_ARMOR_ARMOR_HELMET.get()));
+				return Ingredient.of(new ItemStack(BalsArystisaModItems.TUGSTIUM.get()));
 			}
 		}, 1, -3f, new Item.Properties());
 	}

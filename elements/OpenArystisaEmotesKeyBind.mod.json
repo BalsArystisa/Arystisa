@@ -1,0 +1,12 @@
+{
+  "_fv": 57,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "8",
+    "keyBindingName": "Open Arystisa Emotes",
+    "keyBindingCategoryKey": "arystisa",
+    "onKeyPressed": {
+      "name": "OpenArystisaEmotesGUI"
+    }
+  }
+}

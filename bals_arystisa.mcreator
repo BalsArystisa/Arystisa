@@ -307,9 +307,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/balsarystisa/block/HogiritBlockBlock.java",
-          "src/main/resources/assets/bals_arystisa/blockstates/hogirit_block.json",
+          "src/main/resources/assets/bals_arystisa/models/item/hogirit_block.json",
           "src/main/resources/assets/bals_arystisa/models/block/hogirit_block.json",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_block.json"
+          "src/main/resources/assets/bals_arystisa/blockstates/hogirit_block.json"
         ]
       },
       "path": "~/Hog536"
@@ -323,22 +323,8 @@
       "registry_name": "hogirit_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritSwordItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_sword.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_pickaxe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_pickaxe_recipe.json"
+          "src/main/resources/assets/bals_arystisa/models/item/hogirit_sword.json",
+          "src/main/java/net/mcreator/balsarystisa/item/HogiritSwordItem.java"
         ]
       },
       "path": "~/Hog536"
@@ -353,24 +339,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/bals_arystisa/models/item/hogirit_armor_leggings.json",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_armor_helmet.json",
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritArmorItem.java",
           "src/main/resources/assets/bals_arystisa/models/item/hogirit_armor_boots.json",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_armor_chestplate.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritShovelRecipe",
-      "type": "recipe",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_shovel_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_shovel_recipe.json"
+          "src/main/java/net/mcreator/balsarystisa/item/HogiritArmorItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/hogirit_armor_chestplate.json",
+          "src/main/resources/assets/bals_arystisa/models/item/hogirit_armor_helmet.json"
         ]
       },
       "path": "~/Hog536"
@@ -384,122 +356,8 @@
       "registry_name": "hogirit_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritHoeItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_hoe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_armor_leggings_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_armor_leggings_recipe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritShovel",
-      "type": "tool",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_shovel",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_shovel.json",
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritShovelItem.java"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_armor_helmet_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_armor_helmet_recipe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritAxe",
-      "type": "tool",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_axe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritAxeItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_axe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritSwordRecipe",
-      "type": "recipe",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_sword_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_sword_recipe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritAxeRecipe",
-      "type": "recipe",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_axe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_axe_recipe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_block_ore_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_block_ore_recipe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritHoeRecipe",
-      "type": "recipe",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_hoe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_hoe_recipe.json"
+          "src/main/resources/assets/bals_arystisa/models/item/hogirit_hoe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/HogiritHoeItem.java"
         ]
       },
       "path": "~/Hog536"
@@ -513,8 +371,8 @@
       "registry_name": "hogirit_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritIngotItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_ingot.json"
+          "src/main/resources/assets/bals_arystisa/models/item/hogirit_ingot.json",
+          "src/main/java/net/mcreator/balsarystisa/item/HogiritIngotItem.java"
         ]
       },
       "path": "~/Hog536"
@@ -528,84 +386,13 @@
       "registry_name": "hogirit_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/block/hogirit_ore.json",
           "src/main/resources/assets/bals_arystisa/models/item/hogirit_ore.json",
-          "src/main/resources/data/bals_arystisa/forge/biome_modifier/hogirit_ore_biome_modifier.json",
-          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/hogirit_ore.json",
-          "src/main/java/net/mcreator/balsarystisa/block/HogiritOreBlock.java",
           "src/main/resources/data/bals_arystisa/worldgen/placed_feature/hogirit_ore.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/hogirit_ore.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritOreSmelting",
-      "type": "recipe",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_ore_smelting",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_ore_smelting.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritPickaxe",
-      "type": "tool",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_pickaxe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/HogiritPickaxeItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/hogirit_pickaxe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritArmorChestplateRecipe",
-      "type": "recipe",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_armor_chestplate_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_armor_chestplate_recipe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_armor_boots_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_armor_boots_recipe.json"
-        ]
-      },
-      "path": "~/Hog536"
-    },
-    {
-      "name": "HogiritOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hogirit_ore_block_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/hogirit_ore_block_recipe.json"
+          "src/main/java/net/mcreator/balsarystisa/block/HogiritOreBlock.java",
+          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/hogirit_ore.json",
+          "src/main/resources/data/bals_arystisa/forge/biome_modifier/hogirit_ore_biome_modifier.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/hogirit_ore.json",
+          "src/main/resources/assets/bals_arystisa/models/block/hogirit_ore.json"
         ]
       },
       "path": "~/Hog536"
@@ -1492,50 +1279,6 @@
       "path": "~/BAL1SEUR"
     },
     {
-      "name": "CobaltAxe",
-      "type": "tool",
-      "sortid": 89,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_axe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/cobalt_axe.json",
-          "src/main/java/net/mcreator/balsarystisa/item/CobaltAxeItem.java"
-        ]
-      },
-      "path": "~/Hog536/cobalt"
-    },
-    {
-      "name": "CobaltSwordRecipe",
-      "type": "recipe",
-      "sortid": 85,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_sword_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/cobalt_sword_recipe.json"
-        ]
-      },
-      "path": "~/Hog536/cobalt"
-    },
-    {
-      "name": "CobaltShovel",
-      "type": "tool",
-      "sortid": 91,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_shovel",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/cobalt_shovel.json",
-          "src/main/java/net/mcreator/balsarystisa/item/CobaltShovelItem.java"
-        ]
-      },
-      "path": "~/Hog536/cobalt"
-    },
-    {
       "name": "Basondubataillondexploration",
       "type": "item",
       "sortid": 82,
@@ -1549,20 +1292,6 @@
         ]
       },
       "path": "~/MisterPongiste"
-    },
-    {
-      "name": "CobaltShovelRecipe",
-      "type": "recipe",
-      "sortid": 86,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_shovel_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/cobalt_shovel_recipe.json"
-        ]
-      },
-      "path": "~/Hog536/cobalt"
     },
     {
       "name": "IgnisiumBlock",
@@ -1590,10 +1319,10 @@
       "registry_name": "d",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/block/DBlock.java",
-          "src/main/resources/assets/bals_arystisa/models/item/d.json",
+          "src/main/resources/assets/bals_arystisa/models/block/d.json",
           "src/main/resources/assets/bals_arystisa/blockstates/d.json",
-          "src/main/resources/assets/bals_arystisa/models/block/d.json"
+          "src/main/java/net/mcreator/balsarystisa/block/DBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/d.json"
         ]
       },
       "path": "~/Hog536/tech with cobalt"
@@ -1636,56 +1365,8 @@
       "registry_name": "cobalt_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/CobaltPickaxeItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/cobalt_pickaxe.json"
-        ]
-      },
-      "path": "~/Hog536/cobalt"
-    },
-    {
-      "name": "Combinateuruse",
-      "type": "procedure",
-      "sortid": 94,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "combinateuruse",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/procedures/CombinateuruseProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Hog536/tech with cobalt"
-    },
-    {
-      "name": "CobaltPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 83,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_pickaxe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/cobalt_pickaxe_recipe.json"
-        ]
-      },
-      "path": "~/Hog536/cobalt"
-    },
-    {
-      "name": "CobaltHoeRecipe",
-      "type": "recipe",
-      "sortid": 87,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_hoe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/cobalt_hoe_recipe.json"
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_pickaxe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltPickaxeItem.java"
         ]
       },
       "path": "~/Hog536/cobalt"
@@ -1719,55 +1400,11 @@
       "registry_name": "combinateur",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/client/gui/CombinateurScreen.java",
-          "src/main/java/net/mcreator/balsarystisa/world/inventory/CombinateurMenu.java"
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/CombinateurMenu.java",
+          "src/main/java/net/mcreator/balsarystisa/client/gui/CombinateurScreen.java"
         ]
       },
       "path": "~/Hog536/tech with cobalt"
-    },
-    {
-      "name": "Cobaltingot",
-      "type": "item",
-      "sortid": 82,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobaltingot",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/CobaltingotItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/cobaltingot.json"
-        ]
-      },
-      "path": "~/Hog536/cobalt"
-    },
-    {
-      "name": "CobaltAxeRecipe",
-      "type": "recipe",
-      "sortid": 84,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_axe_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/cobalt_axe_recipe.json"
-        ]
-      },
-      "path": "~/Hog536/cobalt"
-    },
-    {
-      "name": "CobaltHoe",
-      "type": "tool",
-      "sortid": 92,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobalt_hoe",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/cobalt_hoe.json",
-          "src/main/java/net/mcreator/balsarystisa/item/CobaltHoeItem.java"
-        ]
-      },
-      "path": "~/Hog536/cobalt"
     },
     {
       "name": "IgnisiumOre",
@@ -1795,8 +1432,8 @@
       "registry_name": "cobalt_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/cobalt_sword.json",
-          "src/main/java/net/mcreator/balsarystisa/item/CobaltSwordItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltSwordItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_sword.json"
         ]
       },
       "path": "~/Hog536/cobalt"
@@ -1814,21 +1451,6 @@
         ]
       },
       "path": "~/Jos3/Ignisium"
-    },
-    {
-      "name": "Combinedsword",
-      "type": "tool",
-      "sortid": 96,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "combinedsword",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/CombinedswordItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/combinedsword.json"
-        ]
-      },
-      "path": "~/Hog536/tech with cobalt"
     },
     {
       "name": "Tugstium_1Shovel",
@@ -2048,6 +1670,290 @@
         ]
       },
       "path": "~/Thekiller9088/tugstium"
+    },
+    {
+      "name": "EnchantStairs",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_stairs.json",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_stairs.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_stairs_inner.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_stairs.json",
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantStairsBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_stairs_outer.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Dimension Arystisa"
+    },
+    {
+      "name": "GUI_Cyberware_General_UI",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_cyberware_general_ui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/GUI_Cyberware_General_UIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/SirRacaillou/GUI_Cyberware"
+    },
+    {
+      "name": "InvisibleCamotiers2",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "invisible_camotiers_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/invisible_camotiers_2.json",
+          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamotiers2Item.java"
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "InvisibleCamotiers3",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "invisible_camotiers_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamotiers3Item.java",
+          "src/main/resources/assets/bals_arystisa/models/item/invisible_camotiers_3.json"
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "EnchantSlab",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_slab_full.json",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_slab.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_slab_top.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_slab.json",
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantSlabBlock.java",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_slab.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Dimension Arystisa"
+    },
+    {
+      "name": "EnchantFenceGate",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantFenceGateBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_gate.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_gate_open.json",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_fence_gate.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_gate_wall_open.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_fence_gate.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_gate_wall.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Dimension Arystisa"
+    },
+    {
+      "name": "EnchantPressurePlate",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantPressurePlateBlock.java",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_pressure_plate.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_pressure_plate.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_pressure_plate_down.json",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_pressure_plate.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Dimension Arystisa"
+    },
+    {
+      "name": "EnchantFence",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_fence.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_fence.json",
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantFenceBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_inventory.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_post.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Dimension Arystisa"
+    },
+    {
+      "name": "Cyberwareinstallkey",
+      "type": "keybind",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyberwareinstallkey",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/network/CyberwareinstallkeyMessage.java"
+        ]
+      },
+      "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI"
+    },
+    {
+      "name": "Cyberwareinstall",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyberwareinstall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/CyberwareinstallProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SirRacaillou/Functional_Block/WorkStation_GUI"
+    },
+    {
+      "name": "OpenArystisaEmotesGUI",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_arystisa_emotes_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/OpenArystisaEmotesGUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "OpenArystisaEmotesKeyBind",
+      "type": "keybind",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_arystisa_emotes_key_bind",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/network/OpenArystisaEmotesKeyBindMessage.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "EnchantPlanks",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantPlanksBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_planks.json",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_planks.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_planks.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Dimension Arystisa"
+    },
+    {
+      "name": "EnchantButton",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_button_pressed.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_button_inventory.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_button.json",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_button.json",
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantButtonBlock.java",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_button.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Dimension Arystisa"
+    },
+    {
+      "name": "ArystisiaGUI",
+      "type": "gui",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arystisia_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/ArystisiaGUIMenu.java",
+          "src/main/java/net/mcreator/balsarystisa/client/gui/ArystisiaGUIScreen.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
     }
   ],
   "variable_elements": [
@@ -2062,6 +1968,18 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "Invisible_Camo_Tiers",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "Cubdoc",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "true"
     }
   ],
   "sound_elements": [
@@ -2185,17 +2103,22 @@
       },
       {
         "name": "BAL1SEUR",
-        "children": []
+        "children": [
+          {
+            "name": "Arystisa Emotes",
+            "children": []
+          },
+          {
+            "name": "Dimension Arystisa",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Hog536",
         "children": [
           {
-            "name": "tech with cobalt",
-            "children": []
-          },
-          {
-            "name": "cobalt",
+            "name": "Cobalt",
             "children": []
           }
         ]
@@ -2232,7 +2155,7 @@
                 "name": "WorkStation_GUI",
                 "children": [
                   {
-                    "name": "Work_Station_Craft",
+                    "name": "Craft_Workstation",
                     "children": []
                   }
                 ]
