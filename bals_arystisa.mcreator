@@ -2187,6 +2187,21 @@
       "path": "~/SirRacaillou/Cyberware"
     },
     {
+      "name": "SubDermalArmorTier3",
+      "type": "item",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sub_dermal_armor_tier_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/SubDermalArmorTier3Item.java",
+          "src/main/resources/assets/bals_arystisa/models/item/sub_dermal_armor_tier_3.json"
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
+    },
+    {
       "name": "SubDermalArmorTier2",
       "type": "item",
       "sortid": 133,
@@ -2202,19 +2217,150 @@
       "path": "~/SirRacaillou/Cyberware"
     },
     {
-      "name": "SubDermalArmorTier3",
+      "name": "NanoCraftingTableGUI",
+      "type": "gui",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_crafting_table_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/client/gui/NanoCraftingTableGUIScreen.java",
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/NanoCraftingTableGUIMenu.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano/Nano Crafting Table"
+    },
+    {
+      "name": "Blocdephosphorenoir",
+      "type": "block",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocdephosphorenoir",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/BlocdephosphorenoirBlock.java",
+          "src/main/resources/assets/bals_arystisa/blockstates/blocdephosphorenoir.json",
+          "src/main/resources/assets/bals_arystisa/models/item/blocdephosphorenoir.json",
+          "src/main/resources/assets/bals_arystisa/models/block/blocdephosphorenoir.json"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "NanoCraftTableCraftProced",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_craft_table_craft_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/NanoCraftTableCraftProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano/Nano Crafting Table"
+    },
+    {
+      "name": "CompactNanoIngot",
       "type": "item",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_nano_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/compact_nano_ingot.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CompactNanoIngotItem.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "IgnisiumCraftingTable",
+      "type": "block",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_crafting_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/ignisium_crafting_table.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/ignisium_crafting_table.json",
+          "src/main/java/net/mcreator/balsarystisa/block/IgnisiumCraftingTableBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/ignisium_crafting_table.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium/IgnisiumCraftingTable"
+    },
+    {
+      "name": "NanoCraftingHammer",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_crafting_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/NanoCraftingHammerItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_crafting_hammer.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
+    },
+    {
+      "name": "IgnisiumCraftingTableGUI",
+      "type": "gui",
       "sortid": 134,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sub_dermal_armor_tier_3",
+      "registry_name": "ignisium_crafting_table_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/SubDermalArmorTier3Item.java",
-          "src/main/resources/assets/bals_arystisa/models/item/sub_dermal_armor_tier_3.json"
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/IgnisiumCraftingTableGUIMenu.java",
+          "src/main/java/net/mcreator/balsarystisa/client/gui/IgnisiumCraftingTableGUIScreen.java"
         ]
       },
-      "path": "~/SirRacaillou/Cyberware"
+      "path": "~/Jos3/Ignisium/IgnisiumCraftingTable"
+    },
+    {
+      "name": "Blocdephosphorerouge",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocdephosphorerouge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/blocdephosphorerouge.json",
+          "src/main/java/net/mcreator/balsarystisa/block/BlocdephosphorerougeBlock.java",
+          "src/main/resources/assets/bals_arystisa/blockstates/blocdephosphorerouge.json",
+          "src/main/resources/assets/bals_arystisa/models/item/blocdephosphorerouge.json"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "NanoPlate",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/NanoPlateItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_plate.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
     }
   ],
   "variable_elements": [
@@ -2292,14 +2438,14 @@
       "item.bals_arystisa.blasondubataillondexploration": "Basondubataillondexploration",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
       "item.bals_arystisa.nano_armor_leggings": "Nano Leggings",
-      "item.bals_arystisa.tugstium_armor_armor_helmet": "Tugstium Helmet",
       "item.bals_arystisa.baguette_sword": "Baguette Sword",
+      "item.bals_arystisa.tugstium_armor_armor_helmet": "Tugstium Helmet",
       "block.bals_arystisa.arysting_fence": "Arysting Fence",
       "item.bals_arystisa.baguette_shovel": "Baguette Shovel",
       "subtitles.end_spawner_wave": "",
       "gui.bals_arystisa.arystisia_gui.label_comming_soon": "Comming Soon !",
-      "item.bals_arystisa.hogirit_ingot": "Hogirit",
       "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
+      "item.bals_arystisa.hogirit_ingot": "Hogirit",
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
       "block.bals_arystisa.ignisium_ore": "Ignisium Ore",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
@@ -2322,8 +2468,6 @@
       "item.bals_arystisa.hogirit_pickaxe": "Hogirit Pickaxe",
       "item.bals_arystisa.sub_dermal_armor_tier_1": "Sub Dermal Armor",
       "item.bals_arystisa.nano_hoe": "Nano Hoe",
-      "item.bals_arystisa.sub_dermal_armor_tier_3": "Sub Dermal Armor",
-      "item.bals_arystisa.sub_dermal_armor_tier_2": "Sub Dermal Armor",
       "item.bals_arystisa.baguette": "Baguette",
       "block.bals_arystisa.work_station": "Work Station",
       "block.bals_arystisa.enchant_fence_gate": "Enchant FenceGate",
@@ -2417,11 +2561,21 @@
           },
           {
             "name": "Minerais Nano",
-            "children": []
+            "children": [
+              {
+                "name": "Nano Crafting Table",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Dimension Arystisa",
-            "children": []
+            "children": [
+              {
+                "name": "Biomes Dimension",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -2439,7 +2593,12 @@
         "children": [
           {
             "name": "Ignisium",
-            "children": []
+            "children": [
+              {
+                "name": "IgnisiumCraftingTable",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Baguette",

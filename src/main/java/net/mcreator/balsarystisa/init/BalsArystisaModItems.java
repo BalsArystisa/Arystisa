@@ -26,9 +26,11 @@ import net.mcreator.balsarystisa.item.SubDermalArmorTier1Item;
 import net.mcreator.balsarystisa.item.SapBottleItem;
 import net.mcreator.balsarystisa.item.NanoSwordItem;
 import net.mcreator.balsarystisa.item.NanoShovelItem;
+import net.mcreator.balsarystisa.item.NanoPlateItem;
 import net.mcreator.balsarystisa.item.NanoPickaxeItem;
 import net.mcreator.balsarystisa.item.NanoIngotItem;
 import net.mcreator.balsarystisa.item.NanoHoeItem;
+import net.mcreator.balsarystisa.item.NanoCraftingHammerItem;
 import net.mcreator.balsarystisa.item.NanoAxeItem;
 import net.mcreator.balsarystisa.item.NanoArmorItem;
 import net.mcreator.balsarystisa.item.InvisibleCamotiers3Item;
@@ -36,6 +38,7 @@ import net.mcreator.balsarystisa.item.InvisibleCamotiers2Item;
 import net.mcreator.balsarystisa.item.InvisibleCamoCyberwareItem;
 import net.mcreator.balsarystisa.item.IgnisiumIngotItem;
 import net.mcreator.balsarystisa.item.DiamondFlintItem;
+import net.mcreator.balsarystisa.item.CompactNanoIngotItem;
 import net.mcreator.balsarystisa.item.BasondubataillondexplorationItem;
 import net.mcreator.balsarystisa.item.BaguetteSwordItem;
 import net.mcreator.balsarystisa.item.BaguetteShovelItem;
@@ -96,6 +99,7 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> BAGUETTE_SWORD = REGISTRY.register("baguette_sword", () -> new BaguetteSwordItem());
 	public static final RegistryObject<Item> TUGSTIUM_1_SWORD = REGISTRY.register("tugstium_1_sword", () -> new Tugstium_1SwordItem());
 	public static final RegistryObject<Item> NANO_SWORD = REGISTRY.register("nano_sword", () -> new NanoSwordItem());
+	public static final RegistryObject<Item> NANO_PLATE = REGISTRY.register("nano_plate", () -> new NanoPlateItem());
 	public static final RegistryObject<Item> BAGUETTE_PICKAXE = REGISTRY.register("baguette_pickaxe", () -> new BaguettePickaxeItem());
 	public static final RegistryObject<Item> TUGSTIUM_1_PICKAXE = REGISTRY.register("tugstium_1_pickaxe", () -> new Tugstium_1PickaxeItem());
 	public static final RegistryObject<Item> NANO_PICKAXE = REGISTRY.register("nano_pickaxe", () -> new NanoPickaxeItem());
@@ -115,13 +119,18 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> AMBER = REGISTRY.register("amber", () -> new AmberItem());
 	public static final RegistryObject<Item> DIAMOND_FLINT = REGISTRY.register("diamond_flint", () -> new DiamondFlintItem());
 	public static final RegistryObject<Item> ARYSTISA_WORLD = REGISTRY.register("arystisa_world", () -> new ArystisaWorldItem());
+	public static final RegistryObject<Item> NANO_CRAFTING_HAMMER = REGISTRY.register("nano_crafting_hammer", () -> new NanoCraftingHammerItem());
 	public static final RegistryObject<Item> ARYSTING_COW_SPAWN_EGG = REGISTRY.register("arysting_cow_spawn_egg", () -> new ForgeSpawnEggItem(BalsArystisaModEntities.ARYSTING_COW, -16764109, -16737895, new Item.Properties()));
 	public static final RegistryObject<Item> BLASONDUBATAILLONDEXPLORATION = REGISTRY.register("blasondubataillondexploration", () -> new BasondubataillondexplorationItem());
+	public static final RegistryObject<Item> BLOCDEPHOSPHOREROUGE = block(BalsArystisaModBlocks.BLOCDEPHOSPHOREROUGE);
 	public static final RegistryObject<Item> IGNISIUM_BLOCK = block(BalsArystisaModBlocks.IGNISIUM_BLOCK);
 	public static final RegistryObject<Item> NANO_CRAFTING_TABLE = block(BalsArystisaModBlocks.NANO_CRAFTING_TABLE);
 	public static final RegistryObject<Item> SUB_DERMAL_ARMOR_TIER_1 = REGISTRY.register("sub_dermal_armor_tier_1", () -> new SubDermalArmorTier1Item());
 	public static final RegistryObject<Item> SUB_DERMAL_ARMOR_TIER_2 = REGISTRY.register("sub_dermal_armor_tier_2", () -> new SubDermalArmorTier2Item());
+	public static final RegistryObject<Item> BLOCDEPHOSPHORENOIR = block(BalsArystisaModBlocks.BLOCDEPHOSPHORENOIR);
+	public static final RegistryObject<Item> IGNISIUM_CRAFTING_TABLE = block(BalsArystisaModBlocks.IGNISIUM_CRAFTING_TABLE);
 	public static final RegistryObject<Item> SUB_DERMAL_ARMOR_TIER_3 = REGISTRY.register("sub_dermal_armor_tier_3", () -> new SubDermalArmorTier3Item());
+	public static final RegistryObject<Item> COMPACT_NANO_INGOT = REGISTRY.register("compact_nano_ingot", () -> new CompactNanoIngotItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

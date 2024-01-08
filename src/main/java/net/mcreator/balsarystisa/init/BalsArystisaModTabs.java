@@ -65,6 +65,7 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.BAGUETTE_SWORD.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_1_SWORD.get());
 				tabData.accept(BalsArystisaModItems.NANO_SWORD.get());
+				tabData.accept(BalsArystisaModItems.NANO_PLATE.get());
 				tabData.accept(BalsArystisaModItems.BAGUETTE_PICKAXE.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_1_PICKAXE.get());
 				tabData.accept(BalsArystisaModItems.NANO_PICKAXE.get());
@@ -84,12 +85,17 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.AMBER.get());
 				tabData.accept(BalsArystisaModItems.DIAMOND_FLINT.get());
 				tabData.accept(BalsArystisaModItems.ARYSTISA_WORLD.get());
+				tabData.accept(BalsArystisaModItems.NANO_CRAFTING_HAMMER.get());
 				tabData.accept(BalsArystisaModItems.ARYSTING_COW_SPAWN_EGG.get());
 				tabData.accept(BalsArystisaModItems.BLASONDUBATAILLONDEXPLORATION.get());
+				tabData.accept(BalsArystisaModBlocks.BLOCDEPHOSPHOREROUGE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.IGNISIUM_BLOCK.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.NANO_CRAFTING_TABLE.get().asItem());
 				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_1.get());
 				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_2.get());
+				tabData.accept(BalsArystisaModBlocks.BLOCDEPHOSPHORENOIR.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.IGNISIUM_CRAFTING_TABLE.get().asItem());
 				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_3.get());
+				tabData.accept(BalsArystisaModItems.COMPACT_NANO_INGOT.get());
 			}).withSearchBar().build());
 }

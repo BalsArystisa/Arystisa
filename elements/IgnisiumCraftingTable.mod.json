@@ -2,12 +2,12 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "nano_block",
-    "textureTop": "nano_crafting_table_top",
-    "textureLeft": "nano_crafting_table_side",
-    "textureFront": "nano_crafting_table_front",
-    "textureRight": "nano_crafting_table_front",
-    "textureBack": "nano_crafting_table_side",
+    "texture": "ignisium_crafting_table_down",
+    "textureTop": "ignisium_crafting_table_top",
+    "textureLeft": "ignisium_crafting_table_side",
+    "textureFront": "ignisium_crafting_table_front",
+    "textureRight": "ignisium_crafting_table_front",
+    "textureBack": "ignisium_crafting_table_side",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,24 +33,24 @@
         "subtract": false
       }
     ],
-    "name": "Nano Crafting Table",
+    "name": "Ignisium Crafting Table",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 5.0,
+    "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Arystisa"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:IgnisiumCraftingTable"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
@@ -59,7 +59,7 @@
       "value": "IRON"
     },
     "tickRate": 0,
-    "tickRandomly": true,
+    "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -100,11 +100,11 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 1,
     "isBonemealable": false,
     "hasInventory": false,
-    "guiBoundTo": "NanoCraftingTableGUI",
-    "openGUIOnRightClick": true,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,

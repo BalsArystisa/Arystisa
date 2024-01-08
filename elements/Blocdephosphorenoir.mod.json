@@ -2,12 +2,12 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "nano_block",
-    "textureTop": "nano_crafting_table_top",
-    "textureLeft": "nano_crafting_table_side",
-    "textureFront": "nano_crafting_table_front",
-    "textureRight": "nano_crafting_table_front",
-    "textureBack": "nano_crafting_table_side",
+    "texture": "bloc_phosphore_noir",
+    "textureTop": "bloc_phosphore_noir",
+    "textureLeft": "bloc_phosphore_noir",
+    "textureFront": "bloc_phosphore_noir",
+    "textureRight": "bloc_phosphore_noir",
+    "textureBack": "bloc_phosphore_noir",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,33 +33,33 @@
         "subtract": false
       }
     ],
-    "name": "Nano Crafting Table",
+    "name": "Blocdephosphorenoir",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 5.0,
+    "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Arystisa"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "IRON"
+      "value": "ROCK"
     },
     "tickRate": 0,
-    "tickRandomly": true,
+    "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -81,7 +81,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "GROUND"
     },
     "breakSound": {
       "value": ""
@@ -100,11 +100,11 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 1,
     "isBonemealable": false,
     "hasInventory": false,
-    "guiBoundTo": "NanoCraftingTableGUI",
-    "openGUIOnRightClick": true,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,

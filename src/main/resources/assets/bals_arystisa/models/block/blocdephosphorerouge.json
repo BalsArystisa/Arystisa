@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bals_arystisa:block/bloc_phosphore_rouge",
+    "up": "bals_arystisa:block/bloc_phosphore_rouge",
+    "north": "bals_arystisa:block/bloc_phosphore_rouge",
+    "east": "bals_arystisa:block/bloc_phosphore_rouge",
+    "south": "bals_arystisa:block/bloc_phosphore_rouge",
+    "west": "bals_arystisa:block/bloc_phosphore_rouge",
+    "particle": "bals_arystisa:block/bloc_phosphore_rouge"
+  },
+  "render_type": "solid"
+}

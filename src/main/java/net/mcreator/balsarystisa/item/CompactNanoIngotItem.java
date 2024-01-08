@@ -4,8 +4,8 @@ package net.mcreator.balsarystisa.item;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import javax.annotation.Nullable;
 
-public class SubDermalArmorTier2Item extends Item {
-	public SubDermalArmorTier2Item() {
+public class CompactNanoIngotItem extends Item {
+	public CompactNanoIngotItem() {
 		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 
