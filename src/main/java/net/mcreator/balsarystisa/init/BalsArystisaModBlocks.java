@@ -21,6 +21,7 @@ import net.mcreator.balsarystisa.block.EnchantLogBlock;
 import net.mcreator.balsarystisa.block.EnchantLeavesBlock;
 import net.mcreator.balsarystisa.block.CobaltoreBlock;
 import net.mcreator.balsarystisa.block.BloctugstiumBlock;
+import net.mcreator.balsarystisa.block.BlocdephosphorerougeBlock;
 import net.mcreator.balsarystisa.block.ArystisaWorldPortalBlock;
 import net.mcreator.balsarystisa.block.ArystisSpawnerNoActivetedBlock;
 import net.mcreator.balsarystisa.block.ArystisSpawnerBlock;
@@ -64,4 +65,5 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> TUGSTIUMORE = REGISTRY.register("tugstiumore", () -> new TugstiumoreBlock());
 	public static final RegistryObject<Block> BLOCTUGSTIUM = REGISTRY.register("bloctugstium", () -> new BloctugstiumBlock());
 	public static final RegistryObject<Block> COBALTORE = REGISTRY.register("cobaltore", () -> new CobaltoreBlock());
+	public static final RegistryObject<Block> BLOCDEPHOSPHOREROUGE = REGISTRY.register("blocdephosphorerouge", () -> new BlocdephosphorerougeBlock());
 }

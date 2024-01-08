@@ -1471,6 +1471,23 @@
         ]
       },
       "path": "~/MisterPongiste"
+    },
+    {
+      "name": "Blocdephosphorerouge",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocdephosphorerouge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/blocdephosphorerouge.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/blocdephosphorerouge.json",
+          "src/main/java/net/mcreator/balsarystisa/block/BlocdephosphorerougeBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/blocdephosphorerouge.json"
+        ]
+      },
+      "path": "~/MisterPongiste"
     }
   ],
   "variable_elements": [
@@ -1527,8 +1544,8 @@
       "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
       "item.bals_arystisa.blasondubataillondexploration": "Basondubataillondexploration",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
-      "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
       "block.bals_arystisa.amber_ore_arysting_log": "Amber Ore Arysting Log",
+      "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
       "block.bals_arystisa.arysting_pressure_plate": "Arysting PressurePlate",
       "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "block.bals_arystisa.arysting_fence": "Arysting Fence",
@@ -1548,6 +1565,7 @@
       "block.bals_arystisa.arysting_button": "Arysting Button",
       "item.bals_arystisa.sap_bottle": "Sap Bottle",
       "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
+      "block.bals_arystisa.blocdephosphorerouge": "Blocdephosphorerouge",
       "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
       "block.bals_arystisa.bloctugstium": "Bloctugstium",
       "item.bals_arystisa.baguette_hoe": "Baguette Hoe",

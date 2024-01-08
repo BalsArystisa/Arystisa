@@ -66,5 +66,6 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.BAGUETTE_HOE.get());
 				tabData.accept(BalsArystisaModBlocks.COBALTORE.get().asItem());
 				tabData.accept(BalsArystisaModItems.BLASONDUBATAILLONDEXPLORATION.get());
+				tabData.accept(BalsArystisaModBlocks.BLOCDEPHOSPHOREROUGE.get().asItem());
 			}).withSearchBar().build());
 }
