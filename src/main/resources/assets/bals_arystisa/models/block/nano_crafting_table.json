@@ -5,8 +5,8 @@
     "up": "bals_arystisa:block/nano_crafting_table_top",
     "north": "bals_arystisa:block/nano_crafting_table_front",
     "east": "bals_arystisa:block/nano_crafting_table_side",
-    "south": "bals_arystisa:block/nano_crafting_table_front",
-    "west": "bals_arystisa:block/nano_crafting_table_side",
+    "south": "bals_arystisa:block/nano_crafting_table_side",
+    "west": "bals_arystisa:block/nano_crafting_table_front",
     "particle": "bals_arystisa:block/nano_block"
   },
   "render_type": "solid"
