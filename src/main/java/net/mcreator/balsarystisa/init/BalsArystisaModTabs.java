@@ -27,6 +27,8 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.COBALTORE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.TUGSTIUMORE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.NANO_ORE.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.BLACK_PHOSPHORUS_BLOCK.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.RED_PHOSPHORUS_BLOCK.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.FORMER_GRAVEL.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_LEAVES.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ENCHANT_LEAVES.get().asItem());
@@ -95,7 +97,5 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.NANO_CRAFTING_TABLE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.WORK_STATION.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.IGNISIUM_CRAFTING_TABLE.get().asItem());
-				tabData.accept(BalsArystisaModBlocks.BLACK_PHOSPHORUS_BLOCK.get().asItem());
-				tabData.accept(BalsArystisaModBlocks.RED_PHOSPHORUS_BLOCK.get().asItem());
 			}).withSearchBar().build());
 }

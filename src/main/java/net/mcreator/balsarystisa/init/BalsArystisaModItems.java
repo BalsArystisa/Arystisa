@@ -61,6 +61,8 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> COBALTORE = block(BalsArystisaModBlocks.COBALTORE);
 	public static final RegistryObject<Item> TUGSTIUMORE = block(BalsArystisaModBlocks.TUGSTIUMORE);
 	public static final RegistryObject<Item> NANO_ORE = block(BalsArystisaModBlocks.NANO_ORE);
+	public static final RegistryObject<Item> BLACK_PHOSPHORUS_BLOCK = block(BalsArystisaModBlocks.BLACK_PHOSPHORUS_BLOCK);
+	public static final RegistryObject<Item> RED_PHOSPHORUS_BLOCK = block(BalsArystisaModBlocks.RED_PHOSPHORUS_BLOCK);
 	public static final RegistryObject<Item> FORMER_GRAVEL = block(BalsArystisaModBlocks.FORMER_GRAVEL);
 	public static final RegistryObject<Item> ARYSTING_LEAVES = block(BalsArystisaModBlocks.ARYSTING_LEAVES);
 	public static final RegistryObject<Item> ENCHANT_LEAVES = block(BalsArystisaModBlocks.ENCHANT_LEAVES);
@@ -129,8 +131,6 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> NANO_CRAFTING_TABLE = block(BalsArystisaModBlocks.NANO_CRAFTING_TABLE);
 	public static final RegistryObject<Item> WORK_STATION = block(BalsArystisaModBlocks.WORK_STATION);
 	public static final RegistryObject<Item> IGNISIUM_CRAFTING_TABLE = block(BalsArystisaModBlocks.IGNISIUM_CRAFTING_TABLE);
-	public static final RegistryObject<Item> BLACK_PHOSPHORUS_BLOCK = block(BalsArystisaModBlocks.BLACK_PHOSPHORUS_BLOCK);
-	public static final RegistryObject<Item> RED_PHOSPHORUS_BLOCK = block(BalsArystisaModBlocks.RED_PHOSPHORUS_BLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -61,6 +61,8 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> COBALTORE = REGISTRY.register("cobaltore", () -> new CobaltoreBlock());
 	public static final RegistryObject<Block> TUGSTIUMORE = REGISTRY.register("tugstiumore", () -> new TugstiumoreBlock());
 	public static final RegistryObject<Block> NANO_ORE = REGISTRY.register("nano_ore", () -> new NanoOreBlock());
+	public static final RegistryObject<Block> BLACK_PHOSPHORUS_BLOCK = REGISTRY.register("black_phosphorus_block", () -> new BlackPhosphorusBlockBlock());
+	public static final RegistryObject<Block> RED_PHOSPHORUS_BLOCK = REGISTRY.register("red_phosphorus_block", () -> new RedPhosphorusBlockBlock());
 	public static final RegistryObject<Block> FORMER_GRAVEL = REGISTRY.register("former_gravel", () -> new FormerGravelBlock());
 	public static final RegistryObject<Block> ARYSTING_LEAVES = REGISTRY.register("arysting_leaves", () -> new ArystingLeavesBlock());
 	public static final RegistryObject<Block> ENCHANT_LEAVES = REGISTRY.register("enchant_leaves", () -> new EnchantLeavesBlock());
@@ -88,6 +90,4 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> NANO_CRAFTING_TABLE = REGISTRY.register("nano_crafting_table", () -> new NanoCraftingTableBlock());
 	public static final RegistryObject<Block> WORK_STATION = REGISTRY.register("work_station", () -> new WorkStationBlock());
 	public static final RegistryObject<Block> IGNISIUM_CRAFTING_TABLE = REGISTRY.register("ignisium_crafting_table", () -> new IgnisiumCraftingTableBlock());
-	public static final RegistryObject<Block> BLACK_PHOSPHORUS_BLOCK = REGISTRY.register("black_phosphorus_block", () -> new BlackPhosphorusBlockBlock());
-	public static final RegistryObject<Block> RED_PHOSPHORUS_BLOCK = REGISTRY.register("red_phosphorus_block", () -> new RedPhosphorusBlockBlock());
 }
