@@ -87,5 +87,6 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.ARYSTING_COW_SPAWN_EGG.get());
 				tabData.accept(BalsArystisaModItems.BLASONDUBATAILLONDEXPLORATION.get());
 				tabData.accept(BalsArystisaModBlocks.IGNISIUM_BLOCK.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.NANO_CRAFTING_TABLE.get().asItem());
 			}).withSearchBar().build());
 }

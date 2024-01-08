@@ -3,13 +3,13 @@
   "_type": "block",
   "definition": {
     "texture": "nano_block",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "textureTop": "nano_crafting_table_top",
+    "textureLeft": "nano_crafting_table_side",
+    "textureFront": "nano_crafting_table_front",
+    "textureRight": "nano_crafting_table_side",
+    "textureBack": "nano_crafting_table_front",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Nano Block",
+    "name": "Nano Crafting Table",
     "specialInformation": {
       "fixedValue": []
     },

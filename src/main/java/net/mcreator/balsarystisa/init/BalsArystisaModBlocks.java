@@ -14,6 +14,7 @@ import net.mcreator.balsarystisa.block.WorkStationBlock;
 import net.mcreator.balsarystisa.block.TugstiumoreBlock;
 import net.mcreator.balsarystisa.block.RunnedStoneBricksBlock;
 import net.mcreator.balsarystisa.block.NanoOreBlock;
+import net.mcreator.balsarystisa.block.NanoCraftingTableBlock;
 import net.mcreator.balsarystisa.block.NanoBlockBlock;
 import net.mcreator.balsarystisa.block.IgnisiumOreBlock;
 import net.mcreator.balsarystisa.block.IgnisiumBlockBlock;
@@ -82,4 +83,5 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> ENCHANT_BUTTON = REGISTRY.register("enchant_button", () -> new EnchantButtonBlock());
 	public static final RegistryObject<Block> ARYSTISA_WORLD_PORTAL = REGISTRY.register("arystisa_world_portal", () -> new ArystisaWorldPortalBlock());
 	public static final RegistryObject<Block> IGNISIUM_BLOCK = REGISTRY.register("ignisium_block", () -> new IgnisiumBlockBlock());
+	public static final RegistryObject<Block> NANO_CRAFTING_TABLE = REGISTRY.register("nano_crafting_table", () -> new NanoCraftingTableBlock());
 }
