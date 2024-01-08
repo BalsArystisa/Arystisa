@@ -1371,7 +1371,7 @@
       "name": "Cyberwareinstall",
       "type": "procedure",
       "sortid": 110,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cyberwareinstall",
       "metadata": {
@@ -1592,7 +1592,7 @@
       "name": "SubDermalArmor",
       "type": "procedure",
       "sortid": 132,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "sub_dermal_armor",
       "metadata": {
@@ -1929,7 +1929,7 @@
       "name": "GUI_Cyberware_General_UI",
       "type": "procedure",
       "sortid": 127,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "gui_cyberware_general_ui",
       "metadata": {

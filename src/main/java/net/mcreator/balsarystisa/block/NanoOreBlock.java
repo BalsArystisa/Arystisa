@@ -31,6 +31,6 @@ public class NanoOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(BalsArystisaModItems.DELETED_MOD_ELEMENT.get()));
+		return Collections.singletonList(new ItemStack(BalsArystisaModItems.NANO_INGOT.get()));
 	}
 }

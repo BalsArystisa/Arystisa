@@ -31,7 +31,7 @@ public abstract class NanoArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(BalsArystisaModItems.DELETED_MOD_ELEMENT.get()));
+				return Ingredient.of(new ItemStack(BalsArystisaModItems.NANO_INGOT.get()));
 			}
 
 			@Override
