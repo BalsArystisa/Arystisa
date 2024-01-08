@@ -20,8 +20,11 @@ public class BalsArystisaModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.bals_arystisa.arystisa")).icon(() -> new ItemStack(BalsArystisaModBlocks.RUNNED_STONE_BRICKS.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(BalsArystisaModBlocks.RUNNED_STONE_BRICKS.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.WORK_STATION.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.IGNISIUM_CRAFTING_TABLE.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.NANO_CRAFTING_TABLE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTIS_SPAWNER.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTIS_SPAWNER_NO_ACTIVETED.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.IGNISIUM_BLOCK.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.BLOCTUGSTIUM.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.NANO_BLOCK.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.IGNISIUM_ORE.get().asItem());
@@ -87,10 +90,7 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.ARYSTING_COW_SPAWN_EGG.get());
 				tabData.accept(BalsArystisaModItems.BLASONDUBATAILLONDEXPLORATION.get());
 				tabData.accept(BalsArystisaModBlocks.BLOCDEPHOSPHOREROUGE.get().asItem());
-				tabData.accept(BalsArystisaModBlocks.IGNISIUM_BLOCK.get().asItem());
-				tabData.accept(BalsArystisaModBlocks.NANO_CRAFTING_TABLE.get().asItem());
 				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_1.get());
 				tabData.accept(BalsArystisaModBlocks.BLOCDEPHOSPHORENOIR.get().asItem());
-				tabData.accept(BalsArystisaModBlocks.IGNISIUM_CRAFTING_TABLE.get().asItem());
 			}).withSearchBar().build());
 }
