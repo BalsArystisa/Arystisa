@@ -5,8 +5,8 @@
     "type": 1,
     "width": 320,
     "height": 200,
-    "inventoryOffsetX": 70,
-    "inventoryOffsetY": 15,
+    "inventoryOffsetX": 69,
+    "inventoryOffsetY": 16,
     "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
