@@ -94,5 +94,6 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_1.get());
 				tabData.accept(BalsArystisaModBlocks.BLOCDEPHOSPHORENOIR.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.IGNISIUM_CRAFTING_TABLE.get().asItem());
+				tabData.accept(BalsArystisaModItems.COMPACT_NANO_INGOT.get());
 			}).withSearchBar().build());
 }

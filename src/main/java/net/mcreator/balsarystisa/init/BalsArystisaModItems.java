@@ -36,6 +36,7 @@ import net.mcreator.balsarystisa.item.InvisibleCamotiers2Item;
 import net.mcreator.balsarystisa.item.InvisibleCamoCyberwareItem;
 import net.mcreator.balsarystisa.item.IgnisiumIngotItem;
 import net.mcreator.balsarystisa.item.DiamondFlintItem;
+import net.mcreator.balsarystisa.item.CompactNanoIngotItem;
 import net.mcreator.balsarystisa.item.BasondubataillondexplorationItem;
 import net.mcreator.balsarystisa.item.BaguetteSwordItem;
 import net.mcreator.balsarystisa.item.BaguetteShovelItem;
@@ -125,6 +126,7 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> SUB_DERMAL_ARMOR_TIER_1 = REGISTRY.register("sub_dermal_armor_tier_1", () -> new SubDermalArmorTier1Item());
 	public static final RegistryObject<Item> BLOCDEPHOSPHORENOIR = block(BalsArystisaModBlocks.BLOCDEPHOSPHORENOIR);
 	public static final RegistryObject<Item> IGNISIUM_CRAFTING_TABLE = block(BalsArystisaModBlocks.IGNISIUM_CRAFTING_TABLE);
+	public static final RegistryObject<Item> COMPACT_NANO_INGOT = REGISTRY.register("compact_nano_ingot", () -> new CompactNanoIngotItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

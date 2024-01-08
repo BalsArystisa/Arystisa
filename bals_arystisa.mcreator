@@ -1353,8 +1353,8 @@
       "registry_name": "tugstium_1_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_hoe.json",
-          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1HoeItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1HoeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_hoe.json"
         ]
       },
       "path": "~/Thekiller9088/tugstium"
@@ -1457,8 +1457,8 @@
       "registry_name": "tugstium_1_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1PickaxeItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_pickaxe.json"
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_pickaxe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1PickaxeItem.java"
         ]
       },
       "path": "~/Thekiller9088/tugstium"
@@ -1472,8 +1472,8 @@
       "registry_name": "tugstium_1_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_axe.json",
-          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1AxeItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1AxeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_axe.json"
         ]
       },
       "path": "~/Thekiller9088/tugstium"
@@ -1830,8 +1830,8 @@
       "registry_name": "nano_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/nano_shovel.json",
-          "src/main/java/net/mcreator/balsarystisa/item/NanoShovelItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/NanoShovelItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_shovel.json"
         ]
       },
       "path": "~/BAL1SEUR/Minerais Nano"
@@ -1845,8 +1845,8 @@
       "registry_name": "nano_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/nano_sword.json",
-          "src/main/java/net/mcreator/balsarystisa/item/NanoSwordItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/NanoSwordItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_sword.json"
         ]
       },
       "path": "~/BAL1SEUR/Minerais Nano"
@@ -1860,8 +1860,8 @@
       "registry_name": "nano_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/NanoHoeItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/nano_hoe.json"
+          "src/main/resources/assets/bals_arystisa/models/item/nano_hoe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/NanoHoeItem.java"
         ]
       },
       "path": "~/BAL1SEUR/Minerais Nano"
@@ -2035,8 +2035,8 @@
       "registry_name": "nano_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/NanoAxeItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/nano_axe.json"
+          "src/main/resources/assets/bals_arystisa/models/item/nano_axe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/NanoAxeItem.java"
         ]
       },
       "path": "~/BAL1SEUR/Minerais Nano"
@@ -2149,7 +2149,7 @@
           "src/main/resources/assets/bals_arystisa/blockstates/nano_crafting_table.json"
         ]
       },
-      "path": "~/BAL1SEUR/Minerais Nano"
+      "path": "~/BAL1SEUR/Minerais Nano/Nano Crafting Table"
     },
     {
       "name": "NanoCraftingTableGUI",
@@ -2164,7 +2164,7 @@
           "src/main/java/net/mcreator/balsarystisa/world/inventory/NanoCraftingTableGUIMenu.java"
         ]
       },
-      "path": "~/BAL1SEUR/Minerais Nano"
+      "path": "~/BAL1SEUR/Minerais Nano/Nano Crafting Table"
     },
     {
       "name": "SubDermalArmorTier1",
@@ -2296,6 +2296,41 @@
         ]
       },
       "path": "~/Jos3/Ignisium/IgnisiumCraftingTable"
+    },
+    {
+      "name": "NanoCraftTableCraftProced",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_craft_table_craft_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/NanoCraftTableCraftProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano/Nano Crafting Table"
+    },
+    {
+      "name": "CompactNanoIngot",
+      "type": "item",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_nano_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CompactNanoIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/compact_nano_ingot.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Minerais Nano"
     }
   ],
   "variable_elements": [
@@ -2421,6 +2456,7 @@
       "gui.bals_arystisa.arystisia_gui.label_arystisa": "Arystisa",
       "block.bals_arystisa.enchant_wood": "Enchant Wood",
       "biome.bals_arystisa.arysting_forest": "Arysting Forest",
+      "item.bals_arystisa.compact_nano_ingot": "Compact Nano Ingot",
       "block.bals_arystisa.arysting_stairs": "Arysting Stairs",
       "block.bals_arystisa.nano_crafting_table": "Nano Crafting Table",
       "block.bals_arystisa.runned_stone_bricks": "Runned Stone Bricks",
@@ -2501,7 +2537,12 @@
           },
           {
             "name": "Minerais Nano",
-            "children": []
+            "children": [
+              {
+                "name": "Nano Crafting Table",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Dimension Arystisa",

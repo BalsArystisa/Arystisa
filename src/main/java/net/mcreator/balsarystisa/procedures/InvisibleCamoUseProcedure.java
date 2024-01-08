@@ -1,8 +1,10 @@
 package net.mcreator.balsarystisa.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.entity.Entity;
 
-import javax.annotation.Nullable;
+import net.mcreator.balsarystisa.network.BalsArystisaModVariables;
+import net.mcreator.balsarystisa.BalsArystisaMod;
 
 public class InvisibleCamoUseProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
