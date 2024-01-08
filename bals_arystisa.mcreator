@@ -1400,8 +1400,8 @@
       "registry_name": "sub_dermal_armor_tier_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/SubDermalArmorTier1Item.java",
-          "src/main/resources/assets/bals_arystisa/models/item/sub_dermal_armor_tier_1.json"
+          "src/main/resources/assets/bals_arystisa/models/item/sub_dermal_armor_tier_1.json",
+          "src/main/java/net/mcreator/balsarystisa/item/SubDermalArmorTier1Item.java"
         ]
       },
       "path": "~/SirRacaillou/Cyberware"
@@ -1874,8 +1874,8 @@
       "registry_name": "arystisia_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/client/gui/ArystisiaGUIScreen.java",
-          "src/main/java/net/mcreator/balsarystisa/world/inventory/ArystisiaGUIMenu.java"
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/ArystisiaGUIMenu.java",
+          "src/main/java/net/mcreator/balsarystisa/client/gui/ArystisiaGUIScreen.java"
         ]
       },
       "path": "~/BAL1SEUR/Arystisa Emotes"
@@ -1968,8 +1968,8 @@
       "registry_name": "invisible_camotiers_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/invisible_camotiers_2.json",
-          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamotiers2Item.java"
+          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamotiers2Item.java",
+          "src/main/resources/assets/bals_arystisa/models/item/invisible_camotiers_2.json"
         ]
       },
       "path": "~/SirRacaillou/Cyberware"

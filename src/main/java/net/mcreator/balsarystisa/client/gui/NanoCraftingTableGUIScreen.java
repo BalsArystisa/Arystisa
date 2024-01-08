@@ -46,6 +46,9 @@ public class NanoCraftingTableGUIScreen extends AbstractContainerScreen<NanoCraf
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/crafting_table_nano_gui.png"), this.leftPos + 0, this.topPos + 0, 0, 0, 220, 180, 220, 180);
+
 		RenderSystem.disableBlend();
 	}
 
