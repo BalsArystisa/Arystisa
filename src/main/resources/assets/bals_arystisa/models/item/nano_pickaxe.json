@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "bals_arystisa:item/nanoo_pickaxe"
+    "layer0": "bals_arystisa:item/nanooo_pickaxe"
   }
 }

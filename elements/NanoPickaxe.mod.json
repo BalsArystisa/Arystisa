@@ -5,7 +5,7 @@
     "toolType": "Pickaxe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "nanoo_pickaxe",
+    "texture": "nanooo_pickaxe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Nano Pickaxe",
