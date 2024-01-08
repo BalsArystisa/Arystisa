@@ -1,14 +1,14 @@
 package net.mcreator.balsarystisa.client.gui;
 
-public class WorkStationGUIScreen extends AbstractContainerScreen<WorkStationGUIMenu> {
+public class IgnisiumCraftingTableGUIScreen extends AbstractContainerScreen<IgnisiumCraftingTableGUIMenu> {
 
-	private final static HashMap<String, Object> guistate = WorkStationGUIMenu.guistate;
+	private final static HashMap<String, Object> guistate = IgnisiumCraftingTableGUIMenu.guistate;
 
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
 
-	public WorkStationGUIScreen(WorkStationGUIMenu container, Inventory inventory, Component text) {
+	public IgnisiumCraftingTableGUIScreen(IgnisiumCraftingTableGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -19,7 +19,7 @@ public class WorkStationGUIScreen extends AbstractContainerScreen<WorkStationGUI
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("bals_arystisa:textures/screens/work_station_gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("bals_arystisa:textures/screens/ignisium_crafting_table_gui.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
@@ -38,8 +38,6 @@ public class WorkStationGUIScreen extends AbstractContainerScreen<WorkStationGUI
 		RenderSystem.defaultBlendFunc();
 
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-
-		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/gui_workstation_texture.png"), this.leftPos + 1, this.topPos + 1, 0, 0, 174, 66, 174, 66);
 
 		RenderSystem.disableBlend();
 	}

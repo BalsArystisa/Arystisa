@@ -51,13 +51,8 @@ public class BalsArystisaModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, BalsArystisaMod.MODID);
 	public static final RegistryObject<Item> RUNNED_STONE_BRICKS = block(BalsArystisaModBlocks.RUNNED_STONE_BRICKS);
 	public static final RegistryObject<Item> WORK_STATION = block(BalsArystisaModBlocks.WORK_STATION);
-	public static final RegistryObject<Item> IGNISIUM_CRAFTING_TABLE = block(BalsArystisaModBlocks.IGNISIUM_CRAFTING_TABLE);
-	public static final RegistryObject<Item> NANO_CRAFTING_TABLE = block(BalsArystisaModBlocks.NANO_CRAFTING_TABLE);
 	public static final RegistryObject<Item> ARYSTIS_SPAWNER = block(BalsArystisaModBlocks.ARYSTIS_SPAWNER);
 	public static final RegistryObject<Item> ARYSTIS_SPAWNER_NO_ACTIVETED = block(BalsArystisaModBlocks.ARYSTIS_SPAWNER_NO_ACTIVETED);
-	public static final RegistryObject<Item> BLOCDEPHOSPHOREROUGE = block(BalsArystisaModBlocks.BLOCDEPHOSPHOREROUGE);
-	public static final RegistryObject<Item> BLOCDEPHOSPHORENOIR = block(BalsArystisaModBlocks.BLOCDEPHOSPHORENOIR);
-	public static final RegistryObject<Item> IGNISIUM_BLOCK = block(BalsArystisaModBlocks.IGNISIUM_BLOCK);
 	public static final RegistryObject<Item> BLOCTUGSTIUM = block(BalsArystisaModBlocks.BLOCTUGSTIUM);
 	public static final RegistryObject<Item> NANO_BLOCK = block(BalsArystisaModBlocks.NANO_BLOCK);
 	public static final RegistryObject<Item> IGNISIUM_ORE = block(BalsArystisaModBlocks.IGNISIUM_ORE);
@@ -89,7 +84,6 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> IGNISIUM_INGOT = REGISTRY.register("ignisium_ingot", () -> new IgnisiumIngotItem());
 	public static final RegistryObject<Item> TUGSTIUM = REGISTRY.register("tugstium", () -> new TugstiumItem());
 	public static final RegistryObject<Item> NANO_INGOT = REGISTRY.register("nano_ingot", () -> new NanoIngotItem());
-	public static final RegistryObject<Item> NANO_PLATE = REGISTRY.register("nano_plate", () -> new NanoPlateItem());
 	public static final RegistryObject<Item> TUGSTIUM_ARMOR_ARMOR_HELMET = REGISTRY.register("tugstium_armor_armor_helmet", () -> new TugstiumArmorArmorItem.Helmet());
 	public static final RegistryObject<Item> TUGSTIUM_ARMOR_ARMOR_CHESTPLATE = REGISTRY.register("tugstium_armor_armor_chestplate", () -> new TugstiumArmorArmorItem.Chestplate());
 	public static final RegistryObject<Item> TUGSTIUM_ARMOR_ARMOR_LEGGINGS = REGISTRY.register("tugstium_armor_armor_leggings", () -> new TugstiumArmorArmorItem.Leggings());
@@ -102,6 +96,7 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> BAGUETTE_SWORD = REGISTRY.register("baguette_sword", () -> new BaguetteSwordItem());
 	public static final RegistryObject<Item> TUGSTIUM_1_SWORD = REGISTRY.register("tugstium_1_sword", () -> new Tugstium_1SwordItem());
 	public static final RegistryObject<Item> NANO_SWORD = REGISTRY.register("nano_sword", () -> new NanoSwordItem());
+	public static final RegistryObject<Item> NANO_PLATE = REGISTRY.register("nano_plate", () -> new NanoPlateItem());
 	public static final RegistryObject<Item> BAGUETTE_PICKAXE = REGISTRY.register("baguette_pickaxe", () -> new BaguettePickaxeItem());
 	public static final RegistryObject<Item> TUGSTIUM_1_PICKAXE = REGISTRY.register("tugstium_1_pickaxe", () -> new Tugstium_1PickaxeItem());
 	public static final RegistryObject<Item> NANO_PICKAXE = REGISTRY.register("nano_pickaxe", () -> new NanoPickaxeItem());
@@ -114,17 +109,22 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> BAGUETTE_HOE = REGISTRY.register("baguette_hoe", () -> new BaguetteHoeItem());
 	public static final RegistryObject<Item> TUGSTIUM_1_HOE = REGISTRY.register("tugstium_1_hoe", () -> new Tugstium_1HoeItem());
 	public static final RegistryObject<Item> NANO_HOE = REGISTRY.register("nano_hoe", () -> new NanoHoeItem());
-	public static final RegistryObject<Item> NANO_CRAFTING_HAMMER = REGISTRY.register("nano_crafting_hammer", () -> new NanoCraftingHammerItem());
 	public static final RegistryObject<Item> INVISIBLE_CAMO_CYBERWARE = REGISTRY.register("invisible_camo_cyberware", () -> new InvisibleCamoCyberwareItem());
 	public static final RegistryObject<Item> INVISIBLE_CAMOTIERS_2 = REGISTRY.register("invisible_camotiers_2", () -> new InvisibleCamotiers2Item());
 	public static final RegistryObject<Item> INVISIBLE_CAMOTIERS_3 = REGISTRY.register("invisible_camotiers_3", () -> new InvisibleCamotiers3Item());
-	public static final RegistryObject<Item> SUB_DERMAL_ARMOR_TIER_1 = REGISTRY.register("sub_dermal_armor_tier_1", () -> new SubDermalArmorTier1Item());
 	public static final RegistryObject<Item> SAP_BOTTLE = REGISTRY.register("sap_bottle", () -> new SapBottleItem());
 	public static final RegistryObject<Item> AMBER = REGISTRY.register("amber", () -> new AmberItem());
 	public static final RegistryObject<Item> DIAMOND_FLINT = REGISTRY.register("diamond_flint", () -> new DiamondFlintItem());
 	public static final RegistryObject<Item> ARYSTISA_WORLD = REGISTRY.register("arystisa_world", () -> new ArystisaWorldItem());
+	public static final RegistryObject<Item> NANO_CRAFTING_HAMMER = REGISTRY.register("nano_crafting_hammer", () -> new NanoCraftingHammerItem());
 	public static final RegistryObject<Item> ARYSTING_COW_SPAWN_EGG = REGISTRY.register("arysting_cow_spawn_egg", () -> new ForgeSpawnEggItem(BalsArystisaModEntities.ARYSTING_COW, -16764109, -16737895, new Item.Properties()));
 	public static final RegistryObject<Item> BLASONDUBATAILLONDEXPLORATION = REGISTRY.register("blasondubataillondexploration", () -> new BasondubataillondexplorationItem());
+	public static final RegistryObject<Item> BLOCDEPHOSPHOREROUGE = block(BalsArystisaModBlocks.BLOCDEPHOSPHOREROUGE);
+	public static final RegistryObject<Item> IGNISIUM_BLOCK = block(BalsArystisaModBlocks.IGNISIUM_BLOCK);
+	public static final RegistryObject<Item> NANO_CRAFTING_TABLE = block(BalsArystisaModBlocks.NANO_CRAFTING_TABLE);
+	public static final RegistryObject<Item> SUB_DERMAL_ARMOR_TIER_1 = REGISTRY.register("sub_dermal_armor_tier_1", () -> new SubDermalArmorTier1Item());
+	public static final RegistryObject<Item> BLOCDEPHOSPHORENOIR = block(BalsArystisaModBlocks.BLOCDEPHOSPHORENOIR);
+	public static final RegistryObject<Item> IGNISIUM_CRAFTING_TABLE = block(BalsArystisaModBlocks.IGNISIUM_CRAFTING_TABLE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
