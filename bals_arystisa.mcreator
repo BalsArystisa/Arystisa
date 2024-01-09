@@ -2433,8 +2433,38 @@
       "registry_name": "matchbox",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/MatchboxItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/matchbox.json"
+          "src/main/resources/assets/bals_arystisa/models/item/matchbox.json",
+          "src/main/java/net/mcreator/balsarystisa/item/MatchboxItem.java"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "Matchbox1",
+      "type": "item",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "matchbox_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/matchbox_1.json",
+          "src/main/java/net/mcreator/balsarystisa/item/Matchbox1Item.java"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "Match",
+      "type": "item",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "match",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/MatchItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/match.json"
         ]
       },
       "path": "~/MisterPongiste"
@@ -2524,6 +2554,7 @@
       "gui.bals_arystisa.arystisia_gui.label_comming_soon": "Comming Soon !",
       "item.bals_arystisa.hogirit_ingot": "Hogirit",
       "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
+      "item.bals_arystisa.matchbox_1": "Matchbox 1",
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
       "block.bals_arystisa.ignisium_ore": "Ignisium Ore",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
@@ -2536,6 +2567,7 @@
       "item.bals_arystisa.nano_shovel": "Nano Shovel",
       "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
       "block.bals_arystisa.bloctugstium": "Tugstium Block",
+      "item.bals_arystisa.match": "Match",
       "item.bals_arystisa.baguette_hoe": "Baguette Hoe",
       "item.bals_arystisa.hogirit_sword": "Hogirit Sword",
       "item.bals_arystisa.cobalt_pickaxe": "Cobalt Pickaxe",
