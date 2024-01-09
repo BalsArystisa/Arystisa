@@ -33,6 +33,7 @@ import net.mcreator.balsarystisa.item.NanoHoeItem;
 import net.mcreator.balsarystisa.item.NanoCraftingHammerItem;
 import net.mcreator.balsarystisa.item.NanoAxeItem;
 import net.mcreator.balsarystisa.item.NanoArmorItem;
+import net.mcreator.balsarystisa.item.MatchboxItem;
 import net.mcreator.balsarystisa.item.InvisibleCamotiers3Item;
 import net.mcreator.balsarystisa.item.InvisibleCamotiers2Item;
 import net.mcreator.balsarystisa.item.InvisibleCamoCyberwareItem;
@@ -131,6 +132,8 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> NANO_CRAFTING_TABLE = block(BalsArystisaModBlocks.NANO_CRAFTING_TABLE);
 	public static final RegistryObject<Item> WORK_STATION = block(BalsArystisaModBlocks.WORK_STATION);
 	public static final RegistryObject<Item> IGNISIUM_CRAFTING_TABLE = block(BalsArystisaModBlocks.IGNISIUM_CRAFTING_TABLE);
+	public static final RegistryObject<Item> WHITE_PHOSPHORUS_BLOCK = block(BalsArystisaModBlocks.WHITE_PHOSPHORUS_BLOCK);
+	public static final RegistryObject<Item> MATCHBOX = REGISTRY.register("matchbox", () -> new MatchboxItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

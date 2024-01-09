@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.balsarystisa.block.WorkStationBlock;
+import net.mcreator.balsarystisa.block.WhitePhosphorusBlockBlock;
 import net.mcreator.balsarystisa.block.TugstiumoreBlock;
 import net.mcreator.balsarystisa.block.RunnedStoneBricksBlock;
 import net.mcreator.balsarystisa.block.RedPhosphorusBlockBlock;
@@ -90,4 +91,5 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> NANO_CRAFTING_TABLE = REGISTRY.register("nano_crafting_table", () -> new NanoCraftingTableBlock());
 	public static final RegistryObject<Block> WORK_STATION = REGISTRY.register("work_station", () -> new WorkStationBlock());
 	public static final RegistryObject<Block> IGNISIUM_CRAFTING_TABLE = REGISTRY.register("ignisium_crafting_table", () -> new IgnisiumCraftingTableBlock());
+	public static final RegistryObject<Block> WHITE_PHOSPHORUS_BLOCK = REGISTRY.register("white_phosphorus_block", () -> new WhitePhosphorusBlockBlock());
 }
