@@ -82,7 +82,7 @@ public class GUICyberwareGeneralMenu extends AbstractContainerMenu implements Su
 					});
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 19, 167) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 19, 166) {
 			private final int slot = 0;
 
 			@Override
@@ -95,7 +95,7 @@ public class GUICyberwareGeneralMenu extends AbstractContainerMenu implements Su
 				return false;
 			}
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 51, 167) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 51, 166) {
 			private final int slot = 1;
 
 			@Override
@@ -108,7 +108,7 @@ public class GUICyberwareGeneralMenu extends AbstractContainerMenu implements Su
 				return false;
 			}
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 83, 167) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 83, 166) {
 			private final int slot = 2;
 
 			@Override
@@ -123,9 +123,9 @@ public class GUICyberwareGeneralMenu extends AbstractContainerMenu implements Su
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
-				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 141 + 8 + sj * 18, 33 + 84 + si * 18));
+				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 141 + 8 + sj * 18, 31 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
-			this.addSlot(new Slot(inv, si, 141 + 8 + si * 18, 33 + 142));
+			this.addSlot(new Slot(inv, si, 141 + 8 + si * 18, 31 + 142));
 	}
 
 	@Override
