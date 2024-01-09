@@ -27,7 +27,7 @@ public class MatchboxItem extends Item {
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		super.useOn(context);
-		MatchboxRightclickedOnBlockProcedure.execute(context.getItemInHand());
+		MatchboxRightclickedOnBlockProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ(), context.getItemInHand());
 		return InteractionResult.SUCCESS;
 	}
 }
