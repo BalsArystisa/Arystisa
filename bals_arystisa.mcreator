@@ -548,8 +548,8 @@
       "registry_name": "gui_cyberware_general",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/world/inventory/GUICyberwareGeneralMenu.java",
-          "src/main/java/net/mcreator/balsarystisa/client/gui/GUICyberwareGeneralScreen.java"
+          "src/main/java/net/mcreator/balsarystisa/client/gui/GUICyberwareGeneralScreen.java",
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/GUICyberwareGeneralMenu.java"
         ]
       },
       "path": "~/SirRacaillou/GUI_Cyberware"
@@ -2057,9 +2057,6 @@
       "locked_code": false,
       "registry_name": "gui_cyberware_general_ui",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/procedures/GUI_Cyberware_General_UIProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "entity",
@@ -2486,14 +2483,14 @@
       "item.bals_arystisa.blasondubataillondexploration": "Basondubataillondexploration",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
       "item.bals_arystisa.nano_armor_leggings": "Nano Leggings",
-      "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "item.bals_arystisa.tugstium_armor_armor_helmet": "Tugstium Helmet",
+      "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "block.bals_arystisa.arysting_fence": "Arysting Fence",
       "item.bals_arystisa.baguette_shovel": "Baguette Shovel",
       "subtitles.end_spawner_wave": "",
       "gui.bals_arystisa.arystisia_gui.label_comming_soon": "Comming Soon !",
-      "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
       "item.bals_arystisa.hogirit_ingot": "Hogirit",
+      "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
       "block.bals_arystisa.ignisium_ore": "Ignisium Ore",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
