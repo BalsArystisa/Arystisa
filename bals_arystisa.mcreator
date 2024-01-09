@@ -793,7 +793,7 @@
           }
         ]
       },
-      "path": "~/SirRacaillou/Cyberware"
+      "path": "~/SirRacaillou/Cyberware/ Procedure_Cyberware"
     },
     {
       "name": "SelectionUse",
@@ -807,7 +807,7 @@
           "src/main/java/net/mcreator/balsarystisa/network/SelectionUseMessage.java"
         ]
       },
-      "path": "~/SirRacaillou/Cyberware"
+      "path": "~/SirRacaillou/Cyberware/ Procedure_Cyberware"
     },
     {
       "name": "InvisibleCamoCooldown",
@@ -831,7 +831,7 @@
           }
         ]
       },
-      "path": "~/SirRacaillou/Cyberware"
+      "path": "~/SirRacaillou/Cyberware/ Procedure_Cyberware"
     },
     {
       "name": "WorkStationGUI",
@@ -2164,7 +2164,7 @@
           }
         ]
       },
-      "path": "~/SirRacaillou/Cyberware"
+      "path": "~/SirRacaillou/Cyberware/ Procedure_Cyberware"
     },
     {
       "name": "SubDermalArmorTier3",
@@ -2438,14 +2438,14 @@
       "item.bals_arystisa.blasondubataillondexploration": "Basondubataillondexploration",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
       "item.bals_arystisa.nano_armor_leggings": "Nano Leggings",
-      "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "item.bals_arystisa.tugstium_armor_armor_helmet": "Tugstium Helmet",
+      "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "block.bals_arystisa.arysting_fence": "Arysting Fence",
       "item.bals_arystisa.baguette_shovel": "Baguette Shovel",
       "subtitles.end_spawner_wave": "",
       "gui.bals_arystisa.arystisia_gui.label_comming_soon": "Comming Soon !",
-      "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
       "item.bals_arystisa.hogirit_ingot": "Hogirit",
+      "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
       "block.bals_arystisa.ignisium_ore": "Ignisium Ore",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
@@ -2646,7 +2646,12 @@
           },
           {
             "name": "Cyberware",
-            "children": []
+            "children": [
+              {
+                "name": " Procedure_Cyberware",
+                "children": []
+              }
+            ]
           },
           {
             "name": "GUI_Cyberware",
