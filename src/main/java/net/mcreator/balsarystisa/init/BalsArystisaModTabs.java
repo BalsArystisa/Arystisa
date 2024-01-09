@@ -99,5 +99,7 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.IGNISIUM_CRAFTING_TABLE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.WHITE_PHOSPHORUS_BLOCK.get().asItem());
 				tabData.accept(BalsArystisaModItems.MATCHBOX.get());
+				tabData.accept(BalsArystisaModItems.MATCH.get());
+				tabData.accept(BalsArystisaModItems.MATCHBOX_1.get());
 			}).withSearchBar().build());
 }
