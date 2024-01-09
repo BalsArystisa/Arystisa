@@ -35,7 +35,7 @@ public class InvisibleCamoCooldownProcedure {
 					capability.syncPlayerVariables(entity);
 				});
 			}
-			BalsArystisaMod.queueServerWork(1340, () -> {
+			BalsArystisaMod.queueServerWork(1320, () -> {
 				{
 					boolean _setval = false;
 					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
@@ -52,7 +52,7 @@ public class InvisibleCamoCooldownProcedure {
 					capability.syncPlayerVariables(entity);
 				});
 			}
-			BalsArystisaMod.queueServerWork(1340, () -> {
+			BalsArystisaMod.queueServerWork(1360, () -> {
 				{
 					boolean _setval = false;
 					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
