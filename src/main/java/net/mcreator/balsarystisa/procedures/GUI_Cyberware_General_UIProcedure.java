@@ -38,6 +38,11 @@ public class GUI_Cyberware_General_UIProcedure {
 					_player.containerMenu.broadcastChanges();
 				}
 			}
+		} else {
+			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				((Slot) _slots.get(0)).set(ItemStack.EMPTY);
+				_player.containerMenu.broadcastChanges();
+			}
 		}
 		if ((entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).SubDermal_Armor == true) {
 			if ((entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).SubDermal_Armor_Tier == 1) {
@@ -61,6 +66,11 @@ public class GUI_Cyberware_General_UIProcedure {
 					((Slot) _slots.get(1)).set(_setstack);
 					_player.containerMenu.broadcastChanges();
 				}
+			}
+		} else {
+			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				((Slot) _slots.get(1)).set(ItemStack.EMPTY);
+				_player.containerMenu.broadcastChanges();
 			}
 		}
 	}
