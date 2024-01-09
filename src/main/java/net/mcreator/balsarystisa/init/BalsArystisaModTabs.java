@@ -101,5 +101,6 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.MATCHBOX.get());
 				tabData.accept(BalsArystisaModItems.MATCH.get());
 				tabData.accept(BalsArystisaModItems.MATCHBOX_1.get());
+				tabData.accept(BalsArystisaModItems.FIREWORKS.get());
 			}).withSearchBar().build());
 }
