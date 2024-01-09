@@ -12,7 +12,7 @@ import java.util.List;
 
 public class MatchboxItem extends Item {
 	public MatchboxItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().durability(10).rarity(Rarity.COMMON));
 	}
 
 	@Override

@@ -2433,8 +2433,8 @@
       "registry_name": "matchbox",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/matchbox.json",
-          "src/main/java/net/mcreator/balsarystisa/item/MatchboxItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/MatchboxItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/matchbox.json"
         ]
       },
       "path": "~/MisterPongiste"
@@ -2508,22 +2508,22 @@
     "en_us": {
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "item.bals_arystisa.baguette_axe": "Baguette Axe",
-      "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.white_phosphorus_block": "White Phosphorus Block",
+      "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.nano_block": "Nano Block",
       "key.bals_arystisa.selection_use": "Selection Use",
       "item.bals_arystisa.nano_axe": "Nano Axe",
       "item.bals_arystisa.blasondubataillondexploration": "Basondubataillondexploration",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
       "item.bals_arystisa.nano_armor_leggings": "Nano Leggings",
-      "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "item.bals_arystisa.tugstium_armor_armor_helmet": "Tugstium Helmet",
+      "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "block.bals_arystisa.arysting_fence": "Arysting Fence",
       "item.bals_arystisa.baguette_shovel": "Baguette Shovel",
       "subtitles.end_spawner_wave": "",
       "gui.bals_arystisa.arystisia_gui.label_comming_soon": "Comming Soon !",
-      "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
       "item.bals_arystisa.hogirit_ingot": "Hogirit",
+      "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
       "block.bals_arystisa.ignisium_ore": "Ignisium Ore",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
