@@ -3,16 +3,16 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "nightvision_medaillon",
+    "texture": "nanotechnologie_ingot",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "NightVision Medaillon",
-    "rarity": "EPIC",
+    "name": "NanoTechnologie Ingot",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Arystisa"
     },
-    "stackSize": 1,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -30,7 +30,7 @@
       "fixedValue": []
     },
     "glowCondition": {
-      "fixedValue": true
+      "fixedValue": false
     },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

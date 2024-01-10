@@ -3137,6 +3137,116 @@
         ]
       },
       "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CompactIgnisiumIngot",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_ignisium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/compact_ignisium_ingot.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CompactIgnisiumIngotItem.java"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
+    },
+    {
+      "name": "CompactNanoTechnologieIngot",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_nano_technologie_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CompactNanoTechnologieIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/compact_nano_technologie_ingot.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie"
+    },
+    {
+      "name": "NanoTechnologiePlate",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_technologie_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_plate.json",
+          "src/main/java/net/mcreator/balsarystisa/item/NanoTechnologiePlateItem.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie"
+    },
+    {
+      "name": "CompactTugstiumIngot",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_tugstium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CompactTugstiumIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/compact_tugstium_ingot.json"
+        ]
+      },
+      "path": "~/Thekiller9088"
+    },
+    {
+      "name": "NanoTechnologieIngot",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_technologie_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/NanoTechnologieIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_ingot.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie"
+    },
+    {
+      "name": "NanoTechnologieBlock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_technologie_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/nano_technologie_block.json",
+          "src/main/java/net/mcreator/balsarystisa/block/NanoTechnologieBlockBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_block.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/nano_technologie_block.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie"
+    },
+    {
+      "name": "NanoTechnologieArmor",
+      "type": "armor",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_technologie_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_armor_helmet.json",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_armor_leggings.json",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_armor_chestplate.json",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_armor_boots.json",
+          "src/main/java/net/mcreator/balsarystisa/item/NanoTechnologieArmorItem.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie"
     }
   ],
   "variable_elements": [
@@ -3187,6 +3297,36 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "0.0"
+    },
+    {
+      "name": "Fall_Damage_Medaillon",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "Health_Boost_Medaillon",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "Night_Vision_Medaillon",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "Hunger_Medaillon",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "Respiration_Medaillon",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
     }
   ],
   "sound_elements": [

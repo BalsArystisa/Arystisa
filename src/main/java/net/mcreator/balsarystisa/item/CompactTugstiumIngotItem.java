@@ -4,15 +4,9 @@ package net.mcreator.balsarystisa.item;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import javax.annotation.Nullable;
 
-public class FallDamageMedaillonItem extends Item {
-	public FallDamageMedaillonItem() {
-		super(new Item.Properties().stacksTo(1).rarity(Rarity.EPIC));
-	}
-
-	@Override
-	@OnlyIn(Dist.CLIENT)
-	public boolean isFoil(ItemStack itemstack) {
-		return true;
+public class CompactTugstiumIngotItem extends Item {
+	public CompactTugstiumIngotItem() {
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.EPIC));
 	}
 
 	@Override
