@@ -59,8 +59,13 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.IGNISIUM_INGOT.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM.get());
 				tabData.accept(BalsArystisaModItems.NANO_INGOT.get());
-				tabData.accept(BalsArystisaModItems.NANO_PLATE.get());
+				tabData.accept(BalsArystisaModItems.NANO_TECHNOLOGIE_INGOT.get());
+				tabData.accept(BalsArystisaModItems.COMPACT_IGNISIUM_INGOT.get());
+				tabData.accept(BalsArystisaModItems.COMPACT_TUGSTIUM_INGOT.get());
 				tabData.accept(BalsArystisaModItems.COMPACT_NANO_INGOT.get());
+				tabData.accept(BalsArystisaModItems.COMPACT_NANO_TECHNOLOGIE_INGOT.get());
+				tabData.accept(BalsArystisaModItems.NANO_PLATE.get());
+				tabData.accept(BalsArystisaModItems.NANO_TECHNOLOGIE_PLATE.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_ARMOR_ARMOR_HELMET.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_ARMOR_ARMOR_CHESTPLATE.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_ARMOR_ARMOR_LEGGINGS.get());
@@ -70,15 +75,12 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.NANO_ARMOR_LEGGINGS.get());
 				tabData.accept(BalsArystisaModItems.NANO_ARMOR_BOOTS.get());
 				tabData.accept(BalsArystisaModItems.BAGUETTE.get());
-				tabData.accept(BalsArystisaModItems.NANO_TECHNOLOGIE_PLATE.get());
 				tabData.accept(BalsArystisaModItems.BAGUETTE_SWORD.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_1_SWORD.get());
-				tabData.accept(BalsArystisaModItems.COMPACT_NANO_TECHNOLOGIE_INGOT.get());
 				tabData.accept(BalsArystisaModItems.NANO_SWORD.get());
 				tabData.accept(BalsArystisaModItems.BAGUETTE_PICKAXE.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_1_PICKAXE.get());
 				tabData.accept(BalsArystisaModItems.NANO_PICKAXE.get());
-				tabData.accept(BalsArystisaModItems.NANO_TECHNOLOGIE_INGOT.get());
 				tabData.accept(BalsArystisaModItems.BAGUETTE_AXE.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_1_AXE.get());
 				tabData.accept(BalsArystisaModItems.NANO_AXE.get());
@@ -130,7 +132,6 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.NANO_TECHNOLOGIE_ARMOR_CHESTPLATE.get());
 				tabData.accept(BalsArystisaModItems.NANO_TECHNOLOGIE_ARMOR_LEGGINGS.get());
 				tabData.accept(BalsArystisaModItems.NANO_TECHNOLOGIE_ARMOR_BOOTS.get());
-				tabData.accept(BalsArystisaModItems.COMPACT_IGNISIUM_INGOT.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
