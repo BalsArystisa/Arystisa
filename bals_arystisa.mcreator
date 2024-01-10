@@ -2526,8 +2526,8 @@
       "registry_name": "fireworks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/fireworks.json",
-          "src/main/java/net/mcreator/balsarystisa/item/FireworksItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/FireworksItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/fireworks.json"
         ]
       },
       "path": "~/MisterPongiste"
@@ -2906,6 +2906,336 @@
         ]
       },
       "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
+    },
+    {
+      "name": "CobaltSwordRecipe",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_sword_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltAxe",
+      "type": "tool",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_axe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltAxeItem.java"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "NanoTechnologiePlate",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_technologie_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_plate.json",
+          "src/main/java/net/mcreator/balsarystisa/item/NanoTechnologiePlateItem.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie"
+    },
+    {
+      "name": "CobaltShovel",
+      "type": "tool",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltShovelItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_shovel.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltShovelRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "NanoTechnologieBlock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_technologie_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/blockstates/nano_technologie_block.json",
+          "src/main/java/net/mcreator/balsarystisa/block/NanoTechnologieBlockBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_block.json",
+          "src/main/resources/assets/bals_arystisa/models/block/nano_technologie_block.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie"
+    },
+    {
+      "name": "CobaltPickaxe",
+      "type": "tool",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_pickaxe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltPickaxeItem.java"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltOreSmelting",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_ore_smelting.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltHoeRecipe",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CompactNanoTechnologieIngot",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_nano_technologie_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/compact_nano_technologie_ingot.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CompactNanoTechnologieIngotItem.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie"
+    },
+    {
+      "name": "CobaltArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "NanoTechnologieIngot",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_technologie_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/NanoTechnologieIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_ingot.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie"
+    },
+    {
+      "name": "CobaltOre",
+      "type": "block",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/CobaltOreBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_ore.json",
+          "src/main/resources/assets/bals_arystisa/models/block/cobalt_ore.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/cobalt_ore.json",
+          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/cobalt_ore.json",
+          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/cobalt_ore.json",
+          "src/main/resources/data/bals_arystisa/forge/biome_modifier/cobalt_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltAxeRecipe",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_axe_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltIngot",
+      "type": "item",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_ingot.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltHoe",
+      "type": "tool",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_hoe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltHoeItem.java"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltSword",
+      "type": "tool",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltSwordItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_sword.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltArmor",
+      "type": "armor",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltArmorItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_armor_helmet.json",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_armor_chestplate.json",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_armor_leggings.json",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_armor_boots.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
     }
   ],
   "variable_elements": [
