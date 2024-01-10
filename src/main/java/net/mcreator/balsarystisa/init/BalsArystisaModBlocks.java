@@ -56,9 +56,6 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> RUNNED_STONE_BRICKS = REGISTRY.register("runned_stone_bricks", () -> new RunnedStoneBricksBlock());
 	public static final RegistryObject<Block> ARYSTIS_SPAWNER = REGISTRY.register("arystis_spawner", () -> new ArystisSpawnerBlock());
 	public static final RegistryObject<Block> ARYSTIS_SPAWNER_NO_ACTIVETED = REGISTRY.register("arystis_spawner_no_activeted", () -> new ArystisSpawnerNoActivetedBlock());
-	public static final RegistryObject<Block> NANO_CRAFTING_TABLE = REGISTRY.register("nano_crafting_table", () -> new NanoCraftingTableBlock());
-	public static final RegistryObject<Block> WORK_STATION = REGISTRY.register("work_station", () -> new WorkStationBlock());
-	public static final RegistryObject<Block> IGNISIUM_CRAFTING_TABLE = REGISTRY.register("ignisium_crafting_table", () -> new IgnisiumCraftingTableBlock());
 	public static final RegistryObject<Block> BLOCTUGSTIUM = REGISTRY.register("bloctugstium", () -> new BloctugstiumBlock());
 	public static final RegistryObject<Block> NANO_BLOCK = REGISTRY.register("nano_block", () -> new NanoBlockBlock());
 	public static final RegistryObject<Block> IGNISIUM_ORE = REGISTRY.register("ignisium_ore", () -> new IgnisiumOreBlock());
@@ -91,5 +88,8 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> ENCHANT_BUTTON = REGISTRY.register("enchant_button", () -> new EnchantButtonBlock());
 	public static final RegistryObject<Block> ARYSTISA_WORLD_PORTAL = REGISTRY.register("arystisa_world_portal", () -> new ArystisaWorldPortalBlock());
 	public static final RegistryObject<Block> IGNISIUM_BLOCK = REGISTRY.register("ignisium_block", () -> new IgnisiumBlockBlock());
+	public static final RegistryObject<Block> NANO_CRAFTING_TABLE = REGISTRY.register("nano_crafting_table", () -> new NanoCraftingTableBlock());
+	public static final RegistryObject<Block> WORK_STATION = REGISTRY.register("work_station", () -> new WorkStationBlock());
+	public static final RegistryObject<Block> IGNISIUM_CRAFTING_TABLE = REGISTRY.register("ignisium_crafting_table", () -> new IgnisiumCraftingTableBlock());
 	public static final RegistryObject<Block> WHITE_PHOSPHORUS_BLOCK = REGISTRY.register("white_phosphorus_block", () -> new WhitePhosphorusBlockBlock());
 }

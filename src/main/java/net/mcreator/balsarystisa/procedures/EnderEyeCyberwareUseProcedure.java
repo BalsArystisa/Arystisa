@@ -1,10 +1,8 @@
 package net.mcreator.balsarystisa.procedures;
 
-import net.minecraft.world.level.ClipContext;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerPlayer;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.mcreator.balsarystisa.network.BalsArystisaModVariables;
+import javax.annotation.Nullable;
 
 public class EnderEyeCyberwareUseProcedure {
 	public static void execute(Entity entity) {
