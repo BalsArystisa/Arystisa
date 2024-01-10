@@ -97,5 +97,10 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.NANO_CRAFTING_TABLE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.WORK_STATION.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.IGNISIUM_CRAFTING_TABLE.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.WHITE_PHOSPHORUS_BLOCK.get().asItem());
+				tabData.accept(BalsArystisaModItems.MATCHBOX.get());
+				tabData.accept(BalsArystisaModItems.MATCH.get());
+				tabData.accept(BalsArystisaModItems.MATCHBOX_1.get());
+				tabData.accept(BalsArystisaModItems.FIREWORKS.get());
 			}).withSearchBar().build());
 }

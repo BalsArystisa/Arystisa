@@ -1,0 +1,62 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "bals_arystisa:item/boite_dallumette_10"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "damage": 0.1
+      },
+      "model": "bals_arystisa:item/matchbox_0"
+    },
+    {
+      "predicate": {
+        "damage": 0.2
+      },
+      "model": "bals_arystisa:item/matchbox_1"
+    },
+    {
+      "predicate": {
+        "damage": 0.3
+      },
+      "model": "bals_arystisa:item/matchbox_2"
+    },
+    {
+      "predicate": {
+        "damage": 0.4
+      },
+      "model": "bals_arystisa:item/matchbox_3"
+    },
+    {
+      "predicate": {
+        "damage": 0.5
+      },
+      "model": "bals_arystisa:item/matchbox_4"
+    },
+    {
+      "predicate": {
+        "damage": 0.6
+      },
+      "model": "bals_arystisa:item/matchbox_5"
+    },
+    {
+      "predicate": {
+        "damage": 0.7
+      },
+      "model": "bals_arystisa:item/matchbox_6"
+    },
+    {
+      "predicate": {
+        "damage": 0.8
+      },
+      "model": "bals_arystisa:item/matchbox_7"
+    },
+    {
+      "predicate": {
+        "damage": 0.9
+      },
+      "model": "bals_arystisa:item/matchbox_8"
+    }
+  ]
+}
