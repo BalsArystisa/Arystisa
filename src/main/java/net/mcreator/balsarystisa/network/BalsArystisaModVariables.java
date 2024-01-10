@@ -75,6 +75,11 @@ public class BalsArystisaModVariables {
 				clone.SubDermal_Armor_Tier = original.SubDermal_Armor_Tier;
 				clone.Ender_Eye_Cyberware = original.Ender_Eye_Cyberware;
 				clone.Ender_Eye_Cyberware_Tier = original.Ender_Eye_Cyberware_Tier;
+				clone.Health_Boost_Medaillon = original.Health_Boost_Medaillon;
+				clone.Hunger_Medaillon = original.Hunger_Medaillon;
+				clone.Night_Vision_Medaillon = original.Night_Vision_Medaillon;
+				clone.Respiration_Medaillon = original.Respiration_Medaillon;
+				clone.Fall_Damage_Medaillon = original.Fall_Damage_Medaillon;
 			}
 		}
 	}
@@ -118,6 +123,11 @@ public class BalsArystisaModVariables {
 		public double SubDermal_Armor_Tier = 0.0;
 		public boolean Ender_Eye_Cyberware = false;
 		public double Ender_Eye_Cyberware_Tier = 0.0;
+		public boolean Health_Boost_Medaillon = false;
+		public boolean Hunger_Medaillon = false;
+		public boolean Night_Vision_Medaillon = false;
+		public boolean Respiration_Medaillon = false;
+		public boolean Fall_Damage_Medaillon = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -134,6 +144,11 @@ public class BalsArystisaModVariables {
 			nbt.putDouble("SubDermal_Armor_Tier", SubDermal_Armor_Tier);
 			nbt.putBoolean("Ender_Eye_Cyberware", Ender_Eye_Cyberware);
 			nbt.putDouble("Ender_Eye_Cyberware_Tier", Ender_Eye_Cyberware_Tier);
+			nbt.putBoolean("Health_Boost_Medaillon", Health_Boost_Medaillon);
+			nbt.putBoolean("Hunger_Medaillon", Hunger_Medaillon);
+			nbt.putBoolean("Night_Vision_Medaillon", Night_Vision_Medaillon);
+			nbt.putBoolean("Respiration_Medaillon", Respiration_Medaillon);
+			nbt.putBoolean("Fall_Damage_Medaillon", Fall_Damage_Medaillon);
 			return nbt;
 		}
 
@@ -147,6 +162,11 @@ public class BalsArystisaModVariables {
 			SubDermal_Armor_Tier = nbt.getDouble("SubDermal_Armor_Tier");
 			Ender_Eye_Cyberware = nbt.getBoolean("Ender_Eye_Cyberware");
 			Ender_Eye_Cyberware_Tier = nbt.getDouble("Ender_Eye_Cyberware_Tier");
+			Health_Boost_Medaillon = nbt.getBoolean("Health_Boost_Medaillon");
+			Hunger_Medaillon = nbt.getBoolean("Hunger_Medaillon");
+			Night_Vision_Medaillon = nbt.getBoolean("Night_Vision_Medaillon");
+			Respiration_Medaillon = nbt.getBoolean("Respiration_Medaillon");
+			Fall_Damage_Medaillon = nbt.getBoolean("Fall_Damage_Medaillon");
 		}
 	}
 
@@ -179,6 +199,11 @@ public class BalsArystisaModVariables {
 					variables.SubDermal_Armor_Tier = message.data.SubDermal_Armor_Tier;
 					variables.Ender_Eye_Cyberware = message.data.Ender_Eye_Cyberware;
 					variables.Ender_Eye_Cyberware_Tier = message.data.Ender_Eye_Cyberware_Tier;
+					variables.Health_Boost_Medaillon = message.data.Health_Boost_Medaillon;
+					variables.Hunger_Medaillon = message.data.Hunger_Medaillon;
+					variables.Night_Vision_Medaillon = message.data.Night_Vision_Medaillon;
+					variables.Respiration_Medaillon = message.data.Respiration_Medaillon;
+					variables.Fall_Damage_Medaillon = message.data.Fall_Damage_Medaillon;
 				}
 			});
 			context.setPacketHandled(true);

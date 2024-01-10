@@ -3249,6 +3249,36 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "0.0"
+    },
+    {
+      "name": "Health_Boost_Medaillon",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "Hunger_Medaillon",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "Night_Vision_Medaillon",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "Respiration_Medaillon",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "Fall_Damage_Medaillon",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -3283,8 +3313,8 @@
       "item.bals_arystisa.baguette_axe": "Baguette Axe",
       "item.bals_arystisa.respiration_medaillon": "Respiration Medaillon",
       "item.bals_arystisa.nano_technologie_ingot": "NanoTechnologie Ingot",
-      "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.white_phosphorus_block": "White Phosphorus Block",
+      "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.nano_block": "Nano Block",
       "key.bals_arystisa.selection_use": "Selection Use",
       "item.bals_arystisa.black_phosphorus_ore": "Black Phosphorus Ore",
@@ -3293,9 +3323,9 @@
       "item.bals_arystisa.blasondubataillondexploration": "Basondubataillondexploration",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
       "item.bals_arystisa.nano_armor_leggings": "Nano Leggings",
-      "item.bals_arystisa.baguette_sword": "Baguette Sword",
-      "item.bals_arystisa.tugstium_armor_armor_helmet": "Tugstium Helmet",
       "item.bals_arystisa.cobalt_armor_boots": "Cobalt Boots",
+      "item.bals_arystisa.tugstium_armor_armor_helmet": "Tugstium Helmet",
+      "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "block.bals_arystisa.arysting_fence": "Arysting Fence",
       "item.bals_arystisa.baguette_shovel": "Baguette Shovel",
       "subtitles.end_spawner_wave": "",
