@@ -7,11 +7,11 @@
   ],
   "key": {
     "a": {
-      "item": "bals_arystisa:deleted_mod_element"
+      "item": "bals_arystisa:cobalt_ingot"
     }
   },
   "result": {
-    "item": "bals_arystisa:deleted_mod_element_boots",
+    "item": "bals_arystisa:cobalt_armor_boots",
     "count": 1
   }
 }
