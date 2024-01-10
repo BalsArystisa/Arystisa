@@ -44,6 +44,7 @@ import net.mcreator.balsarystisa.item.MatchItem;
 import net.mcreator.balsarystisa.item.InvisibleCamotiers3Item;
 import net.mcreator.balsarystisa.item.InvisibleCamotiers2Item;
 import net.mcreator.balsarystisa.item.InvisibleCamoCyberwareItem;
+import net.mcreator.balsarystisa.item.InvisibleCamo3Item;
 import net.mcreator.balsarystisa.item.InvisibleCamo2Item;
 import net.mcreator.balsarystisa.item.InvisibleCamo1Item;
 import net.mcreator.balsarystisa.item.IgnisiumIngotItem;
@@ -51,6 +52,7 @@ import net.mcreator.balsarystisa.item.HungerMedaillonItem;
 import net.mcreator.balsarystisa.item.HealthBoostMedaillonItem;
 import net.mcreator.balsarystisa.item.FireworksItem;
 import net.mcreator.balsarystisa.item.FallDamageMedaillonItem;
+import net.mcreator.balsarystisa.item.EnderPearlImplantItem;
 import net.mcreator.balsarystisa.item.DiamondFlintItem;
 import net.mcreator.balsarystisa.item.CompactNanoIngotItem;
 import net.mcreator.balsarystisa.item.BlackPhosphorusOreItem;
@@ -162,6 +164,8 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> RED_PHOSPHORUS_ORE = REGISTRY.register("red_phosphorus_ore", () -> new RedPhosphorusOreItem());
 	public static final RegistryObject<Item> INVISIBLE_CAMO_1 = REGISTRY.register("invisible_camo_1", () -> new InvisibleCamo1Item());
 	public static final RegistryObject<Item> INVISIBLE_CAMO_2 = REGISTRY.register("invisible_camo_2", () -> new InvisibleCamo2Item());
+	public static final RegistryObject<Item> INVISIBLE_CAMO_3 = REGISTRY.register("invisible_camo_3", () -> new InvisibleCamo3Item());
+	public static final RegistryObject<Item> ENDER_PEARL_IMPLANT = REGISTRY.register("ender_pearl_implant", () -> new EnderPearlImplantItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -113,5 +113,7 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.RED_PHOSPHORUS_ORE.get());
 				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_1.get());
 				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_2.get());
+				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_3.get());
+				tabData.accept(BalsArystisaModItems.ENDER_PEARL_IMPLANT.get());
 			}).withSearchBar().build());
 }
