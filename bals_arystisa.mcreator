@@ -2569,7 +2569,7 @@
       "name": "HealthBoostMedaillon",
       "type": "item",
       "sortid": 153,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "health_boost_medaillon",
       "metadata": {
@@ -2584,7 +2584,7 @@
       "name": "HungerMedaillon",
       "type": "item",
       "sortid": 154,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "hunger_medaillon",
       "metadata": {
@@ -2629,7 +2629,7 @@
       "name": "FallDamageMedaillon",
       "type": "item",
       "sortid": 152,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "fall_damage_medaillon",
       "metadata": {
@@ -3142,7 +3142,7 @@
       "name": "CompactIgnisiumIngot",
       "type": "item",
       "sortid": 38,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "compact_ignisium_ingot",
       "metadata": {
@@ -3157,7 +3157,7 @@
       "name": "CompactNanoTechnologieIngot",
       "type": "item",
       "sortid": 41,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "compact_nano_technologie_ingot",
       "metadata": {
@@ -3187,7 +3187,7 @@
       "name": "CompactTugstiumIngot",
       "type": "item",
       "sortid": 39,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "compact_tugstium_ingot",
       "metadata": {
@@ -3202,7 +3202,7 @@
       "name": "NanoTechnologieIngot",
       "type": "item",
       "sortid": 37,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "nano_technologie_ingot",
       "metadata": {
@@ -3217,7 +3217,7 @@
       "name": "NanoTechnologieBlock",
       "type": "block",
       "sortid": 10,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "nano_technologie_block",
       "metadata": {
@@ -3234,7 +3234,7 @@
       "name": "NanoTechnologieArmor",
       "type": "armor",
       "sortid": 100,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "nano_technologie_armor",
       "metadata": {
@@ -3247,6 +3247,20 @@
         ]
       },
       "path": "~/BAL1SEUR/NanoTechnologie"
+    },
+    {
+      "name": "FuseeArtifice",
+      "type": "projectile",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusee_artifice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/entity/FuseeArtificeEntity.java"
+        ]
+      },
+      "path": "~/MisterPongiste"
     }
   ],
   "variable_elements": [
@@ -3360,8 +3374,8 @@
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "item.bals_arystisa.baguette_axe": "Baguette Axe",
       "item.bals_arystisa.respiration_medaillon": "Respiration Medaillon",
-      "block.bals_arystisa.white_phosphorus_block": "White Phosphorus Block",
       "item.bals_arystisa.amber": "Amber Gemmy",
+      "block.bals_arystisa.white_phosphorus_block": "White Phosphorus Block",
       "block.bals_arystisa.nano_block": "Nano Block",
       "key.bals_arystisa.selection_use": "Selection Use",
       "item.bals_arystisa.black_phosphorus_ore": "Black Phosphorus Ore",
@@ -3369,9 +3383,9 @@
       "item.bals_arystisa.blasondubataillondexploration": "Basondubataillondexploration",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
       "item.bals_arystisa.nano_armor_leggings": "Nano Leggings",
-      "item.bals_arystisa.tugstium_armor_armor_helmet": "Tugstium Helmet",
-      "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "item.bals_arystisa.cobalt_armor_boots": "Cobalt Boots",
+      "item.bals_arystisa.baguette_sword": "Baguette Sword",
+      "item.bals_arystisa.tugstium_armor_armor_helmet": "Tugstium Helmet",
       "block.bals_arystisa.arysting_fence": "Arysting Fence",
       "item.bals_arystisa.baguette_shovel": "Baguette Shovel",
       "subtitles.end_spawner_wave": "",

@@ -1,0 +1,19 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Fireworks"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.player.death"
+    },
+    "igniteFire": false,
+    "power": 10.0,
+    "damage": 5.0,
+    "knockback": 10,
+    "entityModel": "Default",
+    "customModelTexture": "fusee_dartifice.png"
+  }
+}
