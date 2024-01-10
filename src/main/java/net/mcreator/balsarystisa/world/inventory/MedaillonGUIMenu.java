@@ -252,30 +252,10 @@ public class MedaillonGUIMenu extends AbstractContainerMenu implements Supplier<
 		if (!bound && playerIn instanceof ServerPlayer serverPlayer) {
 			if (!serverPlayer.isAlive() || serverPlayer.hasDisconnected()) {
 				for (int j = 0; j < internal.getSlots(); ++j) {
-					if (j == 0)
-						continue;
-					if (j == 1)
-						continue;
-					if (j == 2)
-						continue;
-					if (j == 3)
-						continue;
-					if (j == 4)
-						continue;
 					playerIn.drop(internal.extractItem(j, internal.getStackInSlot(j).getCount(), false), false);
 				}
 			} else {
 				for (int i = 0; i < internal.getSlots(); ++i) {
-					if (i == 0)
-						continue;
-					if (i == 1)
-						continue;
-					if (i == 2)
-						continue;
-					if (i == 3)
-						continue;
-					if (i == 4)
-						continue;
 					playerIn.getInventory().placeItemBackInInventory(internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 				}
 			}

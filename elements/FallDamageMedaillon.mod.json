@@ -8,11 +8,11 @@
     "customProperties": {},
     "states": [],
     "name": "Fall-Damage Medaillon",
-    "rarity": "EPIC",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Arystisa"
     },
-    "stackSize": 1,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -30,7 +30,7 @@
       "fixedValue": []
     },
     "glowCondition": {
-      "fixedValue": true
+      "fixedValue": false
     },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
