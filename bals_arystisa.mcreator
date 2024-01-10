@@ -21,9 +21,9 @@
       "registry_name": "arysting_log",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/block/ArystingLogBlock.java",
-          "src/main/resources/assets/bals_arystisa/blockstates/arysting_log.json",
           "src/main/resources/assets/bals_arystisa/models/item/arysting_log.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_log.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingLogBlock.java",
           "src/main/resources/assets/bals_arystisa/models/block/arysting_log.json"
         ]
       },
@@ -38,9 +38,9 @@
       "registry_name": "runned_stone_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/runned_stone_bricks.json",
           "src/main/resources/assets/bals_arystisa/models/block/runned_stone_bricks.json",
           "src/main/java/net/mcreator/balsarystisa/block/RunnedStoneBricksBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/runned_stone_bricks.json",
           "src/main/resources/assets/bals_arystisa/blockstates/runned_stone_bricks.json"
         ]
       },
@@ -55,13 +55,13 @@
       "registry_name": "amber_ore_arysting_log",
       "metadata": {
         "files": [
-          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/amber_ore_arysting_log.json",
           "src/main/resources/data/bals_arystisa/forge/biome_modifier/amber_ore_arysting_log_biome_modifier.json",
-          "src/main/resources/assets/bals_arystisa/models/item/amber_ore_arysting_log.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/amber_ore_arysting_log.json",
+          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/amber_ore_arysting_log.json",
           "src/main/resources/assets/bals_arystisa/models/block/amber_ore_arysting_log.json",
-          "src/main/java/net/mcreator/balsarystisa/block/AmberOreArystingLogBlock.java",
-          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/amber_ore_arysting_log.json"
+          "src/main/resources/assets/bals_arystisa/models/item/amber_ore_arysting_log.json",
+          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/amber_ore_arysting_log.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/amber_ore_arysting_log.json",
+          "src/main/java/net/mcreator/balsarystisa/block/AmberOreArystingLogBlock.java"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -75,10 +75,10 @@
       "registry_name": "arystis_spawner",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/block/ArystisSpawnerBlock.java",
-          "src/main/resources/assets/bals_arystisa/blockstates/arystis_spawner.json",
           "src/main/resources/assets/bals_arystisa/models/block/arystis_spawner.json",
-          "src/main/resources/assets/bals_arystisa/models/item/arystis_spawner.json"
+          "src/main/java/net/mcreator/balsarystisa/block/ArystisSpawnerBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/arystis_spawner.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/arystis_spawner.json"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -92,10 +92,10 @@
       "registry_name": "arystis_spawner_no_activeted",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/blockstates/arystis_spawner_no_activeted.json",
-          "src/main/resources/assets/bals_arystisa/models/item/arystis_spawner_no_activeted.json",
           "src/main/resources/assets/bals_arystisa/models/block/arystis_spawner_no_activeted.json",
-          "src/main/java/net/mcreator/balsarystisa/block/ArystisSpawnerNoActivetedBlock.java"
+          "src/main/java/net/mcreator/balsarystisa/block/ArystisSpawnerNoActivetedBlock.java",
+          "src/main/resources/assets/bals_arystisa/blockstates/arystis_spawner_no_activeted.json",
+          "src/main/resources/assets/bals_arystisa/models/item/arystis_spawner_no_activeted.json"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -141,10 +141,10 @@
       "registry_name": "arysting_leaves",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/block/ArystingLeavesBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_leaves.json",
           "src/main/resources/assets/bals_arystisa/models/block/arysting_leaves.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/arysting_leaves.json",
-          "src/main/resources/assets/bals_arystisa/models/item/arysting_leaves.json"
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingLeavesBlock.java",
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_leaves.json"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -158,10 +158,10 @@
       "registry_name": "arysting_wood",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/block/ArystingWoodBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_wood.json",
           "src/main/resources/assets/bals_arystisa/blockstates/arysting_wood.json",
           "src/main/resources/assets/bals_arystisa/models/block/arysting_wood.json",
-          "src/main/resources/assets/bals_arystisa/models/item/arysting_wood.json"
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingWoodBlock.java"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -175,10 +175,10 @@
       "registry_name": "arysting_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_planks.json",
-          "src/main/resources/assets/bals_arystisa/models/item/arysting_planks.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingPlanksBlock.java",
           "src/main/resources/assets/bals_arystisa/blockstates/arysting_planks.json",
-          "src/main/java/net/mcreator/balsarystisa/block/ArystingPlanksBlock.java"
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_planks.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_planks.json"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -192,11 +192,11 @@
       "registry_name": "arysting_stairs",
       "metadata": {
         "files": [
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_stairs.json",
           "src/main/resources/assets/bals_arystisa/models/block/arysting_stairs_inner.json",
           "src/main/resources/assets/bals_arystisa/blockstates/arysting_stairs.json",
           "src/main/java/net/mcreator/balsarystisa/block/ArystingStairsBlock.java",
           "src/main/resources/assets/bals_arystisa/models/item/arysting_stairs.json",
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_stairs.json",
           "src/main/resources/assets/bals_arystisa/models/block/arysting_stairs_outer.json"
         ]
       },
@@ -211,12 +211,12 @@
       "registry_name": "arysting_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/arysting_slab.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/arysting_slab.json",
           "src/main/resources/assets/bals_arystisa/models/block/arysting_slab_top.json",
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_slab.json",
           "src/main/resources/assets/bals_arystisa/models/block/arysting_slab_full.json",
-          "src/main/java/net/mcreator/balsarystisa/block/ArystingSlabBlock.java"
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingSlabBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_slab.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_slab.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_slab.json"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -232,10 +232,10 @@
         "files": [
           "src/main/resources/assets/bals_arystisa/models/block/arysting_fence.json",
           "src/main/java/net/mcreator/balsarystisa/block/ArystingFenceBlock.java",
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_inventory.json",
           "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_post.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/arysting_fence.json",
-          "src/main/resources/assets/bals_arystisa/models/item/arysting_fence.json"
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_inventory.json",
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_fence.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_fence.json"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -249,13 +249,13 @@
       "registry_name": "arysting_fence_gate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_gate.json",
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_gate_open.json",
           "src/main/java/net/mcreator/balsarystisa/block/ArystingFenceGateBlock.java",
-          "src/main/resources/assets/bals_arystisa/blockstates/arysting_fence_gate.json",
-          "src/main/resources/assets/bals_arystisa/models/item/arysting_fence_gate.json",
           "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_gate_wall.json",
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_gate_wall_open.json"
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_fence_gate.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_gate_open.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_gate_wall_open.json",
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_fence_gate.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_fence_gate.json"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -269,11 +269,11 @@
       "registry_name": "arysting_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/block/ArystingPressurePlateBlock.java",
           "src/main/resources/assets/bals_arystisa/models/item/arysting_pressure_plate.json",
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_pressure_plate_down.json",
           "src/main/resources/assets/bals_arystisa/blockstates/arysting_pressure_plate.json",
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_pressure_plate.json"
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_pressure_plate.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_pressure_plate_down.json",
+          "src/main/java/net/mcreator/balsarystisa/block/ArystingPressurePlateBlock.java"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -287,12 +287,12 @@
       "registry_name": "arysting_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_button.json",
-          "src/main/resources/assets/bals_arystisa/models/item/arysting_button.json",
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_button_pressed.json",
           "src/main/java/net/mcreator/balsarystisa/block/ArystingButtonBlock.java",
-          "src/main/resources/assets/bals_arystisa/models/block/arysting_button_inventory.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/arysting_button.json"
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_button_pressed.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/arysting_button.json",
+          "src/main/resources/assets/bals_arystisa/models/item/arysting_button.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_button.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arysting_button_inventory.json"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -518,9 +518,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/bals_arystisa/blockstates/former_gravel.json",
-          "src/main/java/net/mcreator/balsarystisa/block/FormerGravelBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/former_gravel.json",
           "src/main/resources/assets/bals_arystisa/models/block/former_gravel.json",
-          "src/main/resources/assets/bals_arystisa/models/item/former_gravel.json"
+          "src/main/java/net/mcreator/balsarystisa/block/FormerGravelBlock.java"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -614,16 +614,16 @@
       "metadata": {
         "files": [
           "src/main/resources/data/bals_arystisa/dimension_type/arystisa_world.json",
-          "src/main/java/net/mcreator/balsarystisa/world/teleporter/ArystisaWorldTeleporter.java",
-          "src/main/resources/assets/bals_arystisa/models/block/arystisa_world_portal_ew.json",
           "src/main/resources/assets/bals_arystisa/models/item/arystisa_world.json",
-          "src/main/java/net/mcreator/balsarystisa/world/dimension/ArystisaWorldDimension.java",
-          "src/main/resources/assets/bals_arystisa/models/block/arystisa_world_portal_ns.json",
-          "src/main/java/net/mcreator/balsarystisa/world/teleporter/ArystisaWorldPortalShape.java",
           "src/main/resources/assets/bals_arystisa/blockstates/arystisa_world_portal.json",
+          "src/main/resources/assets/bals_arystisa/models/block/arystisa_world_portal_ns.json",
+          "src/main/java/net/mcreator/balsarystisa/world/teleporter/ArystisaWorldTeleporter.java",
           "src/main/java/net/mcreator/balsarystisa/item/ArystisaWorldItem.java",
-          "src/main/resources/data/bals_arystisa/dimension/arystisa_world.json",
-          "src/main/java/net/mcreator/balsarystisa/block/ArystisaWorldPortalBlock.java"
+          "src/main/java/net/mcreator/balsarystisa/block/ArystisaWorldPortalBlock.java",
+          "src/main/java/net/mcreator/balsarystisa/world/dimension/ArystisaWorldDimension.java",
+          "src/main/resources/assets/bals_arystisa/models/block/arystisa_world_portal_ew.json",
+          "src/main/java/net/mcreator/balsarystisa/world/teleporter/ArystisaWorldPortalShape.java",
+          "src/main/resources/data/bals_arystisa/dimension/arystisa_world.json"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -652,11 +652,11 @@
       "registry_name": "arysting_forest",
       "metadata": {
         "files": [
-          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/arysting_forest_tree.json",
-          "src/main/java/net/mcreator/balsarystisa/world/features/treedecorators/ArystingForestLeaveDecorator.java",
           "src/main/resources/data/bals_arystisa/worldgen/biome/arysting_forest.json",
+          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/arysting_forest_tree.json",
           "src/main/java/net/mcreator/balsarystisa/world/features/treedecorators/ArystingForestTrunkDecorator.java",
-          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/arysting_forest_tree.json"
+          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/arysting_forest_tree.json",
+          "src/main/java/net/mcreator/balsarystisa/world/features/treedecorators/ArystingForestLeaveDecorator.java"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -715,8 +715,8 @@
       "registry_name": "sap_bottle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/sap_bottle.json",
-          "src/main/java/net/mcreator/balsarystisa/item/SapBottleItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/SapBottleItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/sap_bottle.json"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -857,10 +857,10 @@
       "registry_name": "work_station",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/work_station.json",
-          "src/main/resources/assets/bals_arystisa/models/block/work_station.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/work_station.json",
           "src/main/java/net/mcreator/balsarystisa/block/WorkStationBlock.java",
-          "src/main/resources/assets/bals_arystisa/blockstates/work_station.json"
+          "src/main/resources/assets/bals_arystisa/models/block/work_station.json",
+          "src/main/resources/assets/bals_arystisa/models/item/work_station.json"
         ]
       },
       "path": "~/SirRacaillou/Functional_Block"
@@ -874,8 +874,8 @@
       "registry_name": "tugstium",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium.json",
-          "src/main/java/net/mcreator/balsarystisa/item/TugstiumItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/TugstiumItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium.json"
         ]
       },
       "path": "~/Thekiller9088"
@@ -889,10 +889,10 @@
       "registry_name": "tugstiumore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/block/tugstiumore.json",
           "src/main/resources/assets/bals_arystisa/blockstates/tugstiumore.json",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstiumore.json",
           "src/main/java/net/mcreator/balsarystisa/block/TugstiumoreBlock.java",
-          "src/main/resources/assets/bals_arystisa/models/item/tugstiumore.json"
+          "src/main/resources/assets/bals_arystisa/models/block/tugstiumore.json"
         ]
       },
       "path": "~/Thekiller9088"
@@ -906,10 +906,10 @@
       "registry_name": "arysting_cow",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/balsarystisa/entity/ArystingCowEntity.java",
           "src/main/java/net/mcreator/balsarystisa/client/renderer/ArystingCowRenderer.java",
-          "src/main/resources/data/bals_arystisa/forge/biome_modifier/arysting_cow_biome_modifier.json",
           "src/main/resources/assets/bals_arystisa/models/item/arysting_cow_spawn_egg.json",
-          "src/main/java/net/mcreator/balsarystisa/entity/ArystingCowEntity.java"
+          "src/main/resources/data/bals_arystisa/forge/biome_modifier/arysting_cow_biome_modifier.json"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -923,8 +923,8 @@
       "registry_name": "baguette_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/baguette_sword.json",
-          "src/main/java/net/mcreator/balsarystisa/item/BaguetteSwordItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteSwordItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/baguette_sword.json"
         ]
       },
       "path": "~/Jos3/Baguette"
@@ -966,8 +966,8 @@
       "registry_name": "baguette_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/BaguettePickaxeItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/baguette_pickaxe.json"
+          "src/main/resources/assets/bals_arystisa/models/item/baguette_pickaxe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/BaguettePickaxeItem.java"
         ]
       },
       "path": "~/Jos3/Baguette"
@@ -995,8 +995,8 @@
       "registry_name": "baguette_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/baguette_axe.json",
-          "src/main/java/net/mcreator/balsarystisa/item/BaguetteAxeItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteAxeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/baguette_axe.json"
         ]
       },
       "path": "~/Jos3/Baguette"
@@ -1010,8 +1010,8 @@
       "registry_name": "baguette_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/baguette_hoe.json",
-          "src/main/java/net/mcreator/balsarystisa/item/BaguetteHoeItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteHoeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/baguette_hoe.json"
         ]
       },
       "path": "~/Jos3/Baguette"
@@ -1025,8 +1025,8 @@
       "registry_name": "baguette_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/baguette_shovel.json",
-          "src/main/java/net/mcreator/balsarystisa/item/BaguetteShovelItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteShovelItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/baguette_shovel.json"
         ]
       },
       "path": "~/Jos3/Baguette"
@@ -1069,9 +1069,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/bals_arystisa/models/item/bloctugstium.json",
+          "src/main/resources/assets/bals_arystisa/models/block/bloctugstium.json",
           "src/main/java/net/mcreator/balsarystisa/block/BloctugstiumBlock.java",
-          "src/main/resources/assets/bals_arystisa/blockstates/bloctugstium.json",
-          "src/main/resources/assets/bals_arystisa/models/block/bloctugstium.json"
+          "src/main/resources/assets/bals_arystisa/blockstates/bloctugstium.json"
         ]
       },
       "path": "~/Thekiller9088/tugstium"
@@ -1086,9 +1086,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/bals_arystisa/models/item/enchant_log.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/enchant_log.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_log.json",
           "src/main/java/net/mcreator/balsarystisa/block/EnchantLogBlock.java",
-          "src/main/resources/assets/bals_arystisa/models/block/enchant_log.json"
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_log.json"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -1102,10 +1102,10 @@
       "registry_name": "enchant_wood",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/block/EnchantWoodBlock.java",
-          "src/main/resources/assets/bals_arystisa/blockstates/enchant_wood.json",
           "src/main/resources/assets/bals_arystisa/models/block/enchant_wood.json",
-          "src/main/resources/assets/bals_arystisa/models/item/enchant_wood.json"
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantWoodBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_wood.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_wood.json"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -1119,10 +1119,10 @@
       "registry_name": "enchant_leaves",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/block/EnchantLeavesBlock.java",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_leaves.json",
           "src/main/resources/assets/bals_arystisa/models/block/enchant_leaves.json",
           "src/main/resources/assets/bals_arystisa/models/item/enchant_leaves.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/enchant_leaves.json"
+          "src/main/java/net/mcreator/balsarystisa/block/EnchantLeavesBlock.java"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -1136,10 +1136,10 @@
       "registry_name": "cobaltore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/block/cobaltore.json",
           "src/main/resources/assets/bals_arystisa/blockstates/cobaltore.json",
-          "src/main/resources/assets/bals_arystisa/models/item/cobaltore.json",
-          "src/main/java/net/mcreator/balsarystisa/block/CobaltoreBlock.java"
+          "src/main/java/net/mcreator/balsarystisa/block/CobaltoreBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/cobaltore.json",
+          "src/main/resources/assets/bals_arystisa/models/item/cobaltore.json"
         ]
       },
       "path": "~/Hog536/Cobalt"
@@ -1170,9 +1170,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/bals_arystisa/worldgen/biome/enchant_forest.json",
-          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/enchant_forest_tree.json",
           "src/main/java/net/mcreator/balsarystisa/world/features/treedecorators/EnchantForestLeaveDecorator.java",
           "src/main/resources/data/bals_arystisa/worldgen/configured_feature/enchant_forest_tree.json",
+          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/enchant_forest_tree.json",
           "src/main/java/net/mcreator/balsarystisa/world/features/treedecorators/EnchantForestTrunkDecorator.java"
         ]
       },
@@ -1231,10 +1231,10 @@
       "registry_name": "ignisium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/ignisium_ore.json",
           "src/main/resources/assets/bals_arystisa/models/block/ignisium_ore.json",
-          "src/main/java/net/mcreator/balsarystisa/block/IgnisiumOreBlock.java",
-          "src/main/resources/assets/bals_arystisa/blockstates/ignisium_ore.json"
+          "src/main/resources/assets/bals_arystisa/blockstates/ignisium_ore.json",
+          "src/main/resources/assets/bals_arystisa/models/item/ignisium_ore.json",
+          "src/main/java/net/mcreator/balsarystisa/block/IgnisiumOreBlock.java"
         ]
       },
       "path": "~/Jos3/Ignisium"
@@ -1333,8 +1333,8 @@
       "registry_name": "tugstium_1_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_hoe.json",
-          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1HoeItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1HoeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_hoe.json"
         ]
       },
       "path": "~/Thekiller9088/tugstium"
@@ -1362,10 +1362,10 @@
       "registry_name": "tugstium_armor_armor",
       "metadata": {
         "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_armor_armor_boots.json",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_armor_armor_leggings.json",
           "src/main/resources/assets/bals_arystisa/models/item/tugstium_armor_armor_helmet.json",
           "src/main/java/net/mcreator/balsarystisa/item/TugstiumArmorArmorItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_armor_armor_leggings.json",
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_armor_armor_boots.json",
           "src/main/resources/assets/bals_arystisa/models/item/tugstium_armor_armor_chestplate.json"
         ]
       },
@@ -1380,8 +1380,8 @@
       "registry_name": "tugstium_1_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1SwordItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_sword.json"
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_sword.json",
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1SwordItem.java"
         ]
       },
       "path": "~/Thekiller9088/tugstium"
@@ -1452,8 +1452,8 @@
       "registry_name": "tugstium_1_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_axe.json",
-          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1AxeItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1AxeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_axe.json"
         ]
       },
       "path": "~/Thekiller9088/tugstium"
@@ -1481,12 +1481,12 @@
       "registry_name": "enchant_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/block/enchant_stairs.json",
           "src/main/resources/assets/bals_arystisa/models/block/enchant_stairs_outer.json",
-          "src/main/resources/assets/bals_arystisa/models/item/enchant_stairs.json",
           "src/main/resources/assets/bals_arystisa/models/block/enchant_stairs_inner.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_stairs.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_stairs.json",
           "src/main/java/net/mcreator/balsarystisa/block/EnchantStairsBlock.java",
-          "src/main/resources/assets/bals_arystisa/blockstates/enchant_stairs.json"
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_stairs.json"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -1500,8 +1500,8 @@
       "registry_name": "enchant_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/enchant_planks.json",
           "src/main/java/net/mcreator/balsarystisa/block/EnchantPlanksBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_planks.json",
           "src/main/resources/assets/bals_arystisa/blockstates/enchant_planks.json",
           "src/main/resources/assets/bals_arystisa/models/block/enchant_planks.json"
         ]
@@ -1517,12 +1517,12 @@
       "registry_name": "enchant_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/blockstates/enchant_slab.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_slab.json",
+          "src/main/resources/assets/bals_arystisa/models/item/enchant_slab.json",
           "src/main/java/net/mcreator/balsarystisa/block/EnchantSlabBlock.java",
           "src/main/resources/assets/bals_arystisa/models/block/enchant_slab_full.json",
-          "src/main/resources/assets/bals_arystisa/models/block/enchant_slab_top.json",
-          "src/main/resources/assets/bals_arystisa/models/block/enchant_slab.json",
-          "src/main/resources/assets/bals_arystisa/models/item/enchant_slab.json"
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_slab.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_slab_top.json"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -1538,11 +1538,11 @@
         "files": [
           "src/main/java/net/mcreator/balsarystisa/block/EnchantFenceGateBlock.java",
           "src/main/resources/assets/bals_arystisa/models/item/enchant_fence_gate.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/enchant_fence_gate.json",
-          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_gate_open.json",
-          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_gate.json",
           "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_gate_wall.json",
-          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_gate_wall_open.json"
+          "src/main/resources/assets/bals_arystisa/blockstates/enchant_fence_gate.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_gate.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_gate_wall_open.json",
+          "src/main/resources/assets/bals_arystisa/models/block/enchant_fence_gate_open.json"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -2676,7 +2676,7 @@
       "name": "MedaillonKeyBind",
       "type": "keybind",
       "sortid": 159,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "medaillon_key_bind",
       "metadata": {
