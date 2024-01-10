@@ -19,7 +19,7 @@ import java.util.Collections;
 
 public class IgnisiumCraftingTableBlock extends Block {
 	public IgnisiumCraftingTableBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(5f, 30f));
 	}
 
 	@Override
