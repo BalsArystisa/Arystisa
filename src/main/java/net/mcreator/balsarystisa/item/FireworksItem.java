@@ -4,8 +4,8 @@ package net.mcreator.balsarystisa.item;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import javax.annotation.Nullable;
 
-public class MatchItem extends Item {
-	public MatchItem() {
+public class FireworksItem extends Item {
+	public FireworksItem() {
 		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 
