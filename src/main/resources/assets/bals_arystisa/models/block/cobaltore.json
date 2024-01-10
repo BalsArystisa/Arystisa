@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "bals_arystisa:block/cobalt_ore",
-    "particle": "bals_arystisa:block/cobalt_ore"
-  },
-  "render_type": "solid"
-}

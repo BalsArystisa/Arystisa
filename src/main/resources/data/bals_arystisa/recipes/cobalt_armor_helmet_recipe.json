@@ -2,20 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
-    "a",
-    "b",
-    "b"
+    "aaa",
+    "a a"
   ],
   "key": {
     "a": {
       "item": "bals_arystisa:cobalt_ingot"
-    },
-    "b": {
-      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "bals_arystisa:cobalt_shovel",
+    "item": "bals_arystisa:cobalt_armor_helmet",
     "count": 1
   }
 }

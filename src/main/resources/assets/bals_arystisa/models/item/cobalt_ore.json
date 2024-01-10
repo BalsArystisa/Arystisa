@@ -1,5 +1,5 @@
 {
-  "parent": "bals_arystisa:block/cobaltore",
+  "parent": "bals_arystisa:block/cobalt_ore",
   "display": {
     "thirdperson": {
       "rotation": [
