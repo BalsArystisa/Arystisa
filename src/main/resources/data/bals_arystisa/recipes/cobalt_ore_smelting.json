@@ -4,7 +4,7 @@
   "experience": 4.9,
   "cookingtime": 200,
   "ingredient": {
-    "item": "bals_arystisa:deleted_mod_element"
+    "item": "bals_arystisa:cobalt_ore"
   },
-  "result": "bals_arystisa:deleted_mod_element"
+  "result": "bals_arystisa:cobalt_ingot"
 }
