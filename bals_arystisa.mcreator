@@ -2533,42 +2533,6 @@
       "path": "~/MisterPongiste"
     },
     {
-      "name": "IgnisiumCraftingTableLorsDunClicDroitSurLeBloc",
-      "type": "procedure",
-      "sortid": 154,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ignisium_crafting_table_lors_dun_clic_droit_sur_le_bloc",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/procedures/IgnisiumCraftingTableLorsDunClicDroitSurLeBlocProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Jos3/Ignisium/IgnisiumCraftingTable"
-    },
-    {
       "name": "IgnisiumCraftingTableCraft",
       "type": "recipe",
       "sortid": 153,
@@ -2656,6 +2620,42 @@
         ]
       },
       "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
+    },
+    {
+      "name": "IgnisiumCraftingTableLorsDunClicDroitSurLeBloc",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_crafting_table_lors_dun_clic_droit_sur_le_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/IgnisiumCraftingTableLorsDunClicDroitSurLeBlocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Jos3/Ignisium/IgnisiumCraftingTable"
     }
   ],
   "variable_elements": [
@@ -2727,16 +2727,16 @@
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "item.bals_arystisa.baguette_axe": "Baguette Axe",
       "item.bals_arystisa.respiration_medaillon": "Respiration Medaillon",
-      "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.white_phosphorus_block": "White Phosphorus Block",
+      "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.nano_block": "Nano Block",
       "key.bals_arystisa.selection_use": "Selection Use",
       "item.bals_arystisa.nano_axe": "Nano Axe",
       "item.bals_arystisa.blasondubataillondexploration": "Basondubataillondexploration",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
       "item.bals_arystisa.nano_armor_leggings": "Nano Leggings",
-      "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "item.bals_arystisa.tugstium_armor_armor_helmet": "Tugstium Helmet",
+      "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "block.bals_arystisa.arysting_fence": "Arysting Fence",
       "item.bals_arystisa.baguette_shovel": "Baguette Shovel",
       "subtitles.end_spawner_wave": "",
@@ -2745,8 +2745,8 @@
       "item.bals_arystisa.hogirit_ingot": "Hogirit",
       "item.bals_arystisa.matchbox_1": "Matchbox 1",
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
-      "block.bals_arystisa.ignisium_ore": "Ignisium Ore",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
+      "block.bals_arystisa.ignisium_ore": "Ignisium Ore",
       "item.bals_arystisa.night_vision_medaillon": "NightVision Medaillon",
       "block.bals_arystisa.tugstiumore": "Tugstium Ore",
       "item.bals_arystisa.nano_armor_chestplate": "Nano Chestplate",
@@ -2776,6 +2776,7 @@
       "block.bals_arystisa.enchant_fence_gate": "Enchant FenceGate",
       "block.bals_arystisa.enchant_pressure_plate": "Enchant PressurePlate",
       "item.bals_arystisa.tugstium_1_shovel": "Tugstium_1 Shovel",
+      "gui.bals_arystisa.ignisium_crafting_table_gui.label_ignisium_crafting_table": "Ignisium Crafting Table",
       "item.bals_arystisa.tugstium_armor_armor_leggings": "Tugstium Leggings",
       "block.bals_arystisa.enchant_leaves": "Enchant Leaves",
       "item.bals_arystisa.cobalt_axe": "Cobalt Axe",

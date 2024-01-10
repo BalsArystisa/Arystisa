@@ -183,6 +183,30 @@
           "x": 259,
           "y": 65
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ignisium_crafting_table_gui.png.png",
+          "use1Xscale": false,
+          "x": 126,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ignisium_crafting_table",
+          "text": {
+            "fixedValue": "Ignisium Crafting Table"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 134,
+          "y": 108
+        }
       }
     ],
     "gridSettings": {
