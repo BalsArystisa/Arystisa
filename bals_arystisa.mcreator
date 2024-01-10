@@ -637,8 +637,8 @@
       "registry_name": "diamond_flint",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/diamond_flint.json",
-          "src/main/java/net/mcreator/balsarystisa/item/DiamondFlintItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/DiamondFlintItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/diamond_flint.json"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -670,8 +670,8 @@
       "registry_name": "runned_portal_particle",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/client/particle/RunnedPortalParticleParticle.java",
-          "src/main/resources/assets/bals_arystisa/particles/runned_portal_particle.json"
+          "src/main/resources/assets/bals_arystisa/particles/runned_portal_particle.json",
+          "src/main/java/net/mcreator/balsarystisa/client/particle/RunnedPortalParticleParticle.java"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -685,8 +685,8 @@
       "registry_name": "invisible_camo_cyberware",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamoCyberwareItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/invisible_camo_cyberware.json"
+          "src/main/resources/assets/bals_arystisa/models/item/invisible_camo_cyberware.json",
+          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamoCyberwareItem.java"
         ]
       },
       "path": "~/SirRacaillou/Cyberware"
@@ -923,8 +923,8 @@
       "registry_name": "baguette_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/BaguetteSwordItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/baguette_sword.json"
+          "src/main/resources/assets/bals_arystisa/models/item/baguette_sword.json",
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteSwordItem.java"
         ]
       },
       "path": "~/Jos3/Baguette"
@@ -995,8 +995,8 @@
       "registry_name": "baguette_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/BaguetteAxeItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/baguette_axe.json"
+          "src/main/resources/assets/bals_arystisa/models/item/baguette_axe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteAxeItem.java"
         ]
       },
       "path": "~/Jos3/Baguette"
@@ -1010,8 +1010,8 @@
       "registry_name": "baguette_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/BaguetteHoeItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/baguette_hoe.json"
+          "src/main/resources/assets/bals_arystisa/models/item/baguette_hoe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteHoeItem.java"
         ]
       },
       "path": "~/Jos3/Baguette"
@@ -1025,8 +1025,8 @@
       "registry_name": "baguette_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/BaguetteShovelItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/baguette_shovel.json"
+          "src/main/resources/assets/bals_arystisa/models/item/baguette_shovel.json",
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteShovelItem.java"
         ]
       },
       "path": "~/Jos3/Baguette"
@@ -1333,8 +1333,8 @@
       "registry_name": "tugstium_1_hoe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1HoeItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_hoe.json"
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_hoe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1HoeItem.java"
         ]
       },
       "path": "~/Thekiller9088/tugstium"
@@ -1437,8 +1437,8 @@
       "registry_name": "tugstium_1_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_pickaxe.json",
-          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1PickaxeItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1PickaxeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_pickaxe.json"
         ]
       },
       "path": "~/Thekiller9088/tugstium"
@@ -1452,8 +1452,8 @@
       "registry_name": "tugstium_1_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1AxeItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_axe.json"
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_axe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1AxeItem.java"
         ]
       },
       "path": "~/Thekiller9088/tugstium"
@@ -1612,8 +1612,8 @@
       "registry_name": "invisible_camotiers_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamotiers2Item.java",
-          "src/main/resources/assets/bals_arystisa/models/item/invisible_camotiers_2.json"
+          "src/main/resources/assets/bals_arystisa/models/item/invisible_camotiers_2.json",
+          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamotiers2Item.java"
         ]
       },
       "path": "~/SirRacaillou/Cyberware"
@@ -1810,8 +1810,8 @@
       "registry_name": "nano_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/NanoShovelItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/nano_shovel.json"
+          "src/main/resources/assets/bals_arystisa/models/item/nano_shovel.json",
+          "src/main/java/net/mcreator/balsarystisa/item/NanoShovelItem.java"
         ]
       },
       "path": "~/BAL1SEUR/Minerais Nano"
@@ -2526,8 +2526,8 @@
       "registry_name": "match",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/match.json",
-          "src/main/java/net/mcreator/balsarystisa/item/MatchItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/MatchItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/match.json"
         ]
       },
       "path": "~/MisterPongiste"
@@ -2726,26 +2726,28 @@
     "en_us": {
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "item.bals_arystisa.baguette_axe": "Baguette Axe",
-      "block.bals_arystisa.white_phosphorus_block": "White Phosphorus Block",
+      "item.bals_arystisa.respiration_medaillon": "Respiration Medaillon",
       "item.bals_arystisa.amber": "Amber Gemmy",
+      "block.bals_arystisa.white_phosphorus_block": "White Phosphorus Block",
       "block.bals_arystisa.nano_block": "Nano Block",
       "key.bals_arystisa.selection_use": "Selection Use",
       "item.bals_arystisa.nano_axe": "Nano Axe",
       "item.bals_arystisa.blasondubataillondexploration": "Basondubataillondexploration",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
       "item.bals_arystisa.nano_armor_leggings": "Nano Leggings",
-      "item.bals_arystisa.tugstium_armor_armor_helmet": "Tugstium Helmet",
       "item.bals_arystisa.baguette_sword": "Baguette Sword",
+      "item.bals_arystisa.tugstium_armor_armor_helmet": "Tugstium Helmet",
       "block.bals_arystisa.arysting_fence": "Arysting Fence",
       "item.bals_arystisa.baguette_shovel": "Baguette Shovel",
       "subtitles.end_spawner_wave": "",
       "gui.bals_arystisa.arystisia_gui.label_comming_soon": "Comming Soon !",
-      "item.bals_arystisa.matchbox_1": "Matchbox 1",
-      "item.bals_arystisa.hogirit_ingot": "Hogirit",
       "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
+      "item.bals_arystisa.hogirit_ingot": "Hogirit",
+      "item.bals_arystisa.matchbox_1": "Matchbox 1",
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
       "block.bals_arystisa.ignisium_ore": "Ignisium Ore",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
+      "item.bals_arystisa.night_vision_medaillon": "NightVision Medaillon",
       "block.bals_arystisa.tugstiumore": "Tugstium Ore",
       "item.bals_arystisa.nano_armor_chestplate": "Nano Chestplate",
       "block.bals_arystisa.arysting_button": "Arysting Button",
@@ -2765,6 +2767,7 @@
       "block.bals_arystisa.enchant_slab": "Enchant Slab",
       "item.bals_arystisa.hogirit_pickaxe": "Hogirit Pickaxe",
       "item.bals_arystisa.sub_dermal_armor_tier_1": "Sub Dermal Armor",
+      "item.bals_arystisa.fall_damage_medaillon": "Fall-Damage Medaillon",
       "item.bals_arystisa.nano_hoe": "Nano Hoe",
       "item.bals_arystisa.sub_dermal_armor_tier_3": "Sub Dermal Armor",
       "item.bals_arystisa.sub_dermal_armor_tier_2": "Sub Dermal Armor",
@@ -2841,7 +2844,9 @@
       "item.bals_arystisa.ignisium_ingot": "Ignisium Ingot",
       "subtitles.next_spawner_wave": "",
       "item.bals_arystisa.tugstium_armor_armor_boots": "Tugstium Boots",
-      "item.bals_arystisa.nano_armor_boots": "Nano Boots"
+      "item.bals_arystisa.health_boost_medaillon": "Health-Boost Medaillon",
+      "item.bals_arystisa.nano_armor_boots": "Nano Boots",
+      "item.bals_arystisa.hunger_medaillon": "Hunger Medaillon"
     }
   },
   "foldersRoot": {
