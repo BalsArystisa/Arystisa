@@ -6,14 +6,19 @@ package net.mcreator.balsarystisa.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.balsarystisa.BalsArystisaMod;
 
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class BalsArystisaModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, BalsArystisaMod.MODID);
 	public static final RegistryObject<CreativeModeTab> ARYSTISA = REGISTRY.register("arystisa",
@@ -24,7 +29,6 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.BLOCTUGSTIUM.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.NANO_BLOCK.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.IGNISIUM_ORE.get().asItem());
-				tabData.accept(BalsArystisaModBlocks.COBALTORE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.TUGSTIUMORE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.NANO_ORE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.BLACK_PHOSPHORUS_BLOCK.get().asItem());
@@ -87,8 +91,11 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_2.get());
 				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_3.get());
 				tabData.accept(BalsArystisaModItems.SAP_BOTTLE.get());
+				tabData.accept(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_1.get());
 				tabData.accept(BalsArystisaModItems.AMBER.get());
+				tabData.accept(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_2.get());
 				tabData.accept(BalsArystisaModItems.DIAMOND_FLINT.get());
+				tabData.accept(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_3.get());
 				tabData.accept(BalsArystisaModItems.ARYSTISA_WORLD.get());
 				tabData.accept(BalsArystisaModItems.NANO_CRAFTING_HAMMER.get());
 				tabData.accept(BalsArystisaModItems.ARYSTING_COW_SPAWN_EGG.get());
@@ -116,4 +123,27 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_3.get());
 				tabData.accept(BalsArystisaModItems.ENDER_PEARL_IMPLANT.get());
 			}).withSearchBar().build());
+
+	@SubscribeEvent
+	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+
+		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(BalsArystisaModItems.COBALT_ARMOR_HELMET.get());
+			tabData.accept(BalsArystisaModItems.COBALT_ARMOR_CHESTPLATE.get());
+			tabData.accept(BalsArystisaModItems.COBALT_ARMOR_LEGGINGS.get());
+			tabData.accept(BalsArystisaModItems.COBALT_ARMOR_BOOTS.get());
+			tabData.accept(BalsArystisaModItems.COBALT_SWORD.get());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(BalsArystisaModItems.COBALT_INGOT.get());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(BalsArystisaModItems.COBALT_PICKAXE.get());
+			tabData.accept(BalsArystisaModItems.COBALT_AXE.get());
+			tabData.accept(BalsArystisaModItems.COBALT_SHOVEL.get());
+			tabData.accept(BalsArystisaModItems.COBALT_HOE.get());
+		}
+	}
 }

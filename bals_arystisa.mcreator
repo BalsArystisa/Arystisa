@@ -1128,23 +1128,6 @@
       "path": "~/BAL1SEUR/Dimension Arystisa"
     },
     {
-      "name": "Cobaltore",
-      "type": "block",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cobaltore",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/bals_arystisa/blockstates/cobaltore.json",
-          "src/main/resources/assets/bals_arystisa/models/block/cobaltore.json",
-          "src/main/resources/assets/bals_arystisa/models/item/cobaltore.json",
-          "src/main/java/net/mcreator/balsarystisa/block/CobaltoreBlock.java"
-        ]
-      },
-      "path": "~/Hog536/Cobalt"
-    },
-    {
       "name": "ArystisDunjon",
       "type": "structure",
       "sortid": 107,
@@ -2841,6 +2824,339 @@
         ]
       },
       "path": "~/MisterPongiste"
+    },
+    {
+      "name": "CobaltAxe",
+      "type": "tool",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_axe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltAxeItem.java"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltSwordRecipe",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_sword_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltShovel",
+      "type": "tool",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltShovelItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_shovel.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltShovelRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltPickaxe",
+      "type": "tool",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltPickaxeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_pickaxe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltOreSmelting",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_ore_smelting.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltHoeRecipe",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "EnderEyeCyberwareTier2",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_eye_cyberware_tier_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/EnderEyeCyberwareTier2Item.java",
+          "src/main/resources/assets/bals_arystisa/models/item/ender_eye_cyberware_tier_2.json"
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "EnderEyeCyberwareTier1",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_eye_cyberware_tier_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/ender_eye_cyberware_tier_1.json",
+          "src/main/java/net/mcreator/balsarystisa/item/EnderEyeCyberwareTier1Item.java"
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "CobaltArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltOre",
+      "type": "block",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/CobaltOreBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_ore.json",
+          "src/main/resources/assets/bals_arystisa/models/block/cobalt_ore.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/cobalt_ore.json",
+          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/cobalt_ore.json",
+          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/cobalt_ore.json",
+          "src/main/resources/data/bals_arystisa/forge/biome_modifier/cobalt_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "EnderEyeCyberwareUse",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_eye_cyberware_use",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/EnderEyeCyberwareUseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware/ Procedure_Cyberware"
+    },
+    {
+      "name": "CobaltIngot",
+      "type": "item",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_ingot.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltIngotItem.java"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltAxeRecipe",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_axe_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltHoe",
+      "type": "tool",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltHoeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_hoe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "EnderEyeCyberwareTier3",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_eye_cyberware_tier_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/EnderEyeCyberwareTier3Item.java",
+          "src/main/resources/assets/bals_arystisa/models/item/ender_eye_cyberware_tier_3.json"
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "CobaltSword",
+      "type": "tool",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltSwordItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_sword.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltArmor",
+      "type": "armor",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_armor_chestplate.json",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_armor_helmet.json",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_armor_boots.json",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_armor_leggings.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltArmorItem.java"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
     }
   ],
   "variable_elements": [
@@ -2879,6 +3195,18 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "0.0"
+    },
+    {
+      "name": "Ender_Eye_Cyberware",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "Ender_Eye_Cyberware_Tier",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
     }
   ],
   "sound_elements": [
@@ -2911,12 +3239,10 @@
     "en_us": {
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "item.bals_arystisa.baguette_axe": "Baguette Axe",
-      "item.bals_arystisa.respiration_medaillon": "Respiration Medaillon",
       "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.white_phosphorus_block": "White Phosphorus Block",
       "block.bals_arystisa.nano_block": "Nano Block",
       "key.bals_arystisa.selection_use": "Selection Use",
-      "item.bals_arystisa.black_phosphorus_ore": "Black Phosphorus Ore",
       "item.bals_arystisa.nano_axe": "Nano Axe",
       "item.bals_arystisa.blasondubataillondexploration": "Basondubataillondexploration",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
@@ -2931,16 +3257,13 @@
       "item.bals_arystisa.hogirit_ingot": "Hogirit",
       "item.bals_arystisa.matchbox_1": "Matchbox 1",
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
-      "item.bals_arystisa.match_lie": "Match Lie",
       "block.bals_arystisa.ignisium_ore": "Ignisium Ore",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
-      "item.bals_arystisa.night_vision_medaillon": "NightVision Medaillon",
       "block.bals_arystisa.tugstiumore": "Tugstium Ore",
       "item.bals_arystisa.nano_armor_chestplate": "Nano Chestplate",
       "block.bals_arystisa.arysting_button": "Arysting Button",
       "biome.bals_arystisa.enchant_forest": "Enchant Forest",
       "item.bals_arystisa.nano_armor_helmet": "Nano Helmet",
-      "key.bals_arystisa.medaillon_key_bind": "Medaillon",
       "block.bals_arystisa.enchant_planks": "Enchant Planks",
       "item.bals_arystisa.nano_shovel": "Nano Shovel",
       "block.bals_arystisa.arystis_spawner": "Arysti\u0027s Spawner",
@@ -2955,7 +3278,6 @@
       "block.bals_arystisa.enchant_slab": "Enchant Slab",
       "item.bals_arystisa.hogirit_pickaxe": "Hogirit Pickaxe",
       "item.bals_arystisa.sub_dermal_armor_tier_1": "Sub Dermal Armor",
-      "item.bals_arystisa.fall_damage_medaillon": "Fall-Damage Medaillon",
       "item.bals_arystisa.nano_hoe": "Nano Hoe",
       "item.bals_arystisa.sub_dermal_armor_tier_3": "Sub Dermal Armor",
       "item.bals_arystisa.sub_dermal_armor_tier_2": "Sub Dermal Armor",
@@ -2964,14 +3286,11 @@
       "block.bals_arystisa.enchant_fence_gate": "Enchant FenceGate",
       "block.bals_arystisa.enchant_pressure_plate": "Enchant PressurePlate",
       "item.bals_arystisa.tugstium_1_shovel": "Tugstium_1 Shovel",
-      "item.bals_arystisa.invisible_camo_3": "Invisible Camo 3",
       "gui.bals_arystisa.ignisium_crafting_table_gui.label_ignisium_crafting_table": "Ignisium Crafting Table",
       "item.bals_arystisa.tugstium_armor_armor_leggings": "Tugstium Leggings",
       "block.bals_arystisa.enchant_leaves": "Enchant Leaves",
       "item.bals_arystisa.cobalt_axe": "Cobalt Axe",
       "entity.bals_arystisa.arysting_cow": "Arysting Cow",
-      "item.bals_arystisa.invisible_camo_2": "Invisible Camo 2",
-      "item.bals_arystisa.invisible_camo_1": "Invisible Camo 1",
       "item.bals_arystisa.tugstium_1_sword": "Tugstium Sword",
       "key.bals_arystisa.trigger_cyberware_gui": "Trigger Cyberware GUI",
       "item.bals_arystisa.invisible_camo_cyberware": "Invisible Camo Cyberware",
@@ -2993,8 +3312,6 @@
       "item.bals_arystisa.tugstium_1_axe": "Tugstium Axe",
       "block.bals_arystisa.arysting_pressure_plate": "Arysting PressurePlate",
       "block.bals_arystisa.arysting_wood": "Arysting Wood",
-      "item.bals_arystisa.white_phosphorus_ore": "White Phosphorus Ore",
-      "item.bals_arystisa.red_phosphorus_ore": "Red Phosphorus Ore",
       "item.bals_arystisa.nano_plate": "Nano Plate",
       "block.bals_arystisa.enchant_fence": "Enchant Fence",
       "block.bals_arystisa.hogirit_block": "Block of Hogirit",
@@ -3027,7 +3344,6 @@
       "key.bals_arystisa.open_arystisa_emotes_key_bind": "Open Arystisa Emotes",
       "key.bals_arystisa.cyberwareinstallkey": "Cyberwareinstallkey",
       "block.bals_arystisa.cobaltore": "Cobalt ore",
-      "item.bals_arystisa.ender_pearl_implant": "Ender Pearl Implant",
       "block.bals_arystisa.arysting_log": "Arysting Log",
       "item.bals_arystisa.nano_ingot": "Nano Ingot",
       "block.bals_arystisa.enchant_button": "Enchant Button",
@@ -3039,9 +3355,7 @@
       "item.bals_arystisa.ignisium_ingot": "Ignisium Ingot",
       "subtitles.next_spawner_wave": "",
       "item.bals_arystisa.tugstium_armor_armor_boots": "Tugstium Boots",
-      "item.bals_arystisa.health_boost_medaillon": "Health-Boost Medaillon",
-      "item.bals_arystisa.nano_armor_boots": "Nano Boots",
-      "item.bals_arystisa.hunger_medaillon": "Hunger Medaillon"
+      "item.bals_arystisa.nano_armor_boots": "Nano Boots"
     }
   },
   "foldersRoot": {

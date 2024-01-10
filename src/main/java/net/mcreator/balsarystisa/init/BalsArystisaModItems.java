@@ -53,8 +53,18 @@ import net.mcreator.balsarystisa.item.HealthBoostMedaillonItem;
 import net.mcreator.balsarystisa.item.FireworksItem;
 import net.mcreator.balsarystisa.item.FallDamageMedaillonItem;
 import net.mcreator.balsarystisa.item.EnderPearlImplantItem;
+import net.mcreator.balsarystisa.item.EnderEyeCyberwareTier3Item;
+import net.mcreator.balsarystisa.item.EnderEyeCyberwareTier2Item;
+import net.mcreator.balsarystisa.item.EnderEyeCyberwareTier1Item;
 import net.mcreator.balsarystisa.item.DiamondFlintItem;
 import net.mcreator.balsarystisa.item.CompactNanoIngotItem;
+import net.mcreator.balsarystisa.item.CobaltSwordItem;
+import net.mcreator.balsarystisa.item.CobaltShovelItem;
+import net.mcreator.balsarystisa.item.CobaltPickaxeItem;
+import net.mcreator.balsarystisa.item.CobaltIngotItem;
+import net.mcreator.balsarystisa.item.CobaltHoeItem;
+import net.mcreator.balsarystisa.item.CobaltAxeItem;
+import net.mcreator.balsarystisa.item.CobaltArmorItem;
 import net.mcreator.balsarystisa.item.BlackPhosphorusOreItem;
 import net.mcreator.balsarystisa.item.BasondubataillondexplorationItem;
 import net.mcreator.balsarystisa.item.BaguetteSwordItem;
@@ -75,7 +85,6 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> BLOCTUGSTIUM = block(BalsArystisaModBlocks.BLOCTUGSTIUM);
 	public static final RegistryObject<Item> NANO_BLOCK = block(BalsArystisaModBlocks.NANO_BLOCK);
 	public static final RegistryObject<Item> IGNISIUM_ORE = block(BalsArystisaModBlocks.IGNISIUM_ORE);
-	public static final RegistryObject<Item> COBALTORE = block(BalsArystisaModBlocks.COBALTORE);
 	public static final RegistryObject<Item> TUGSTIUMORE = block(BalsArystisaModBlocks.TUGSTIUMORE);
 	public static final RegistryObject<Item> NANO_ORE = block(BalsArystisaModBlocks.NANO_ORE);
 	public static final RegistryObject<Item> BLACK_PHOSPHORUS_BLOCK = block(BalsArystisaModBlocks.BLACK_PHOSPHORUS_BLOCK);
@@ -138,8 +147,11 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> SUB_DERMAL_ARMOR_TIER_2 = REGISTRY.register("sub_dermal_armor_tier_2", () -> new SubDermalArmorTier2Item());
 	public static final RegistryObject<Item> SUB_DERMAL_ARMOR_TIER_3 = REGISTRY.register("sub_dermal_armor_tier_3", () -> new SubDermalArmorTier3Item());
 	public static final RegistryObject<Item> SAP_BOTTLE = REGISTRY.register("sap_bottle", () -> new SapBottleItem());
+	public static final RegistryObject<Item> ENDER_EYE_CYBERWARE_TIER_1 = REGISTRY.register("ender_eye_cyberware_tier_1", () -> new EnderEyeCyberwareTier1Item());
 	public static final RegistryObject<Item> AMBER = REGISTRY.register("amber", () -> new AmberItem());
+	public static final RegistryObject<Item> ENDER_EYE_CYBERWARE_TIER_2 = REGISTRY.register("ender_eye_cyberware_tier_2", () -> new EnderEyeCyberwareTier2Item());
 	public static final RegistryObject<Item> DIAMOND_FLINT = REGISTRY.register("diamond_flint", () -> new DiamondFlintItem());
+	public static final RegistryObject<Item> ENDER_EYE_CYBERWARE_TIER_3 = REGISTRY.register("ender_eye_cyberware_tier_3", () -> new EnderEyeCyberwareTier3Item());
 	public static final RegistryObject<Item> ARYSTISA_WORLD = REGISTRY.register("arystisa_world", () -> new ArystisaWorldItem());
 	public static final RegistryObject<Item> NANO_CRAFTING_HAMMER = REGISTRY.register("nano_crafting_hammer", () -> new NanoCraftingHammerItem());
 	public static final RegistryObject<Item> ARYSTING_COW_SPAWN_EGG = REGISTRY.register("arysting_cow_spawn_egg", () -> new ForgeSpawnEggItem(BalsArystisaModEntities.ARYSTING_COW, -16764109, -16737895, new Item.Properties()));
@@ -158,7 +170,12 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> HUNGER_MEDAILLON = REGISTRY.register("hunger_medaillon", () -> new HungerMedaillonItem());
 	public static final RegistryObject<Item> NIGHT_VISION_MEDAILLON = REGISTRY.register("night_vision_medaillon", () -> new NightVisionMedaillonItem());
 	public static final RegistryObject<Item> RESPIRATION_MEDAILLON = REGISTRY.register("respiration_medaillon", () -> new RespirationMedaillonItem());
+	public static final RegistryObject<Item> COBALT_ARMOR_HELMET = REGISTRY.register("cobalt_armor_helmet", () -> new CobaltArmorItem.Helmet());
+	public static final RegistryObject<Item> COBALT_ARMOR_CHESTPLATE = REGISTRY.register("cobalt_armor_chestplate", () -> new CobaltArmorItem.Chestplate());
+	public static final RegistryObject<Item> COBALT_ARMOR_LEGGINGS = REGISTRY.register("cobalt_armor_leggings", () -> new CobaltArmorItem.Leggings());
+	public static final RegistryObject<Item> COBALT_ARMOR_BOOTS = REGISTRY.register("cobalt_armor_boots", () -> new CobaltArmorItem.Boots());
 	public static final RegistryObject<Item> MATCH_LIE = REGISTRY.register("match_lie", () -> new MatchLieItem());
+	public static final RegistryObject<Item> COBALT_INGOT = REGISTRY.register("cobalt_ingot", () -> new CobaltIngotItem());
 	public static final RegistryObject<Item> WHITE_PHOSPHORUS_ORE = REGISTRY.register("white_phosphorus_ore", () -> new WhitePhosphorusOreItem());
 	public static final RegistryObject<Item> BLACK_PHOSPHORUS_ORE = REGISTRY.register("black_phosphorus_ore", () -> new BlackPhosphorusOreItem());
 	public static final RegistryObject<Item> RED_PHOSPHORUS_ORE = REGISTRY.register("red_phosphorus_ore", () -> new RedPhosphorusOreItem());
@@ -166,6 +183,11 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> INVISIBLE_CAMO_2 = REGISTRY.register("invisible_camo_2", () -> new InvisibleCamo2Item());
 	public static final RegistryObject<Item> INVISIBLE_CAMO_3 = REGISTRY.register("invisible_camo_3", () -> new InvisibleCamo3Item());
 	public static final RegistryObject<Item> ENDER_PEARL_IMPLANT = REGISTRY.register("ender_pearl_implant", () -> new EnderPearlImplantItem());
+	public static final RegistryObject<Item> COBALT_PICKAXE = REGISTRY.register("cobalt_pickaxe", () -> new CobaltPickaxeItem());
+	public static final RegistryObject<Item> COBALT_AXE = REGISTRY.register("cobalt_axe", () -> new CobaltAxeItem());
+	public static final RegistryObject<Item> COBALT_SWORD = REGISTRY.register("cobalt_sword", () -> new CobaltSwordItem());
+	public static final RegistryObject<Item> COBALT_SHOVEL = REGISTRY.register("cobalt_shovel", () -> new CobaltShovelItem());
+	public static final RegistryObject<Item> COBALT_HOE = REGISTRY.register("cobalt_hoe", () -> new CobaltHoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
