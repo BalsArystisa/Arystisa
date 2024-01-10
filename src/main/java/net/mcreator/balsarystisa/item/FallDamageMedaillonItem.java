@@ -10,8 +10,8 @@ import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
-public class MatchItem extends Item {
-	public MatchItem() {
+public class FallDamageMedaillonItem extends Item {
+	public FallDamageMedaillonItem() {
 		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 

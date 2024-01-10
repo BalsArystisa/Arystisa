@@ -24,6 +24,8 @@ import net.mcreator.balsarystisa.item.SubDermalArmorTier3Item;
 import net.mcreator.balsarystisa.item.SubDermalArmorTier2Item;
 import net.mcreator.balsarystisa.item.SubDermalArmorTier1Item;
 import net.mcreator.balsarystisa.item.SapBottleItem;
+import net.mcreator.balsarystisa.item.RespirationMedaillonItem;
+import net.mcreator.balsarystisa.item.NightVisionMedaillonItem;
 import net.mcreator.balsarystisa.item.NanoSwordItem;
 import net.mcreator.balsarystisa.item.NanoShovelItem;
 import net.mcreator.balsarystisa.item.NanoPlateItem;
@@ -40,7 +42,10 @@ import net.mcreator.balsarystisa.item.InvisibleCamotiers3Item;
 import net.mcreator.balsarystisa.item.InvisibleCamotiers2Item;
 import net.mcreator.balsarystisa.item.InvisibleCamoCyberwareItem;
 import net.mcreator.balsarystisa.item.IgnisiumIngotItem;
+import net.mcreator.balsarystisa.item.HungerMedaillonItem;
+import net.mcreator.balsarystisa.item.HealthBoostMedaillonItem;
 import net.mcreator.balsarystisa.item.FireworksItem;
+import net.mcreator.balsarystisa.item.FallDamageMedaillonItem;
 import net.mcreator.balsarystisa.item.DiamondFlintItem;
 import net.mcreator.balsarystisa.item.CompactNanoIngotItem;
 import net.mcreator.balsarystisa.item.BasondubataillondexplorationItem;
@@ -140,6 +145,11 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> MATCH = REGISTRY.register("match", () -> new MatchItem());
 	public static final RegistryObject<Item> MATCHBOX_1 = REGISTRY.register("matchbox_1", () -> new Matchbox1Item());
 	public static final RegistryObject<Item> FIREWORKS = REGISTRY.register("fireworks", () -> new FireworksItem());
+	public static final RegistryObject<Item> FALL_DAMAGE_MEDAILLON = REGISTRY.register("fall_damage_medaillon", () -> new FallDamageMedaillonItem());
+	public static final RegistryObject<Item> HEALTH_BOOST_MEDAILLON = REGISTRY.register("health_boost_medaillon", () -> new HealthBoostMedaillonItem());
+	public static final RegistryObject<Item> HUNGER_MEDAILLON = REGISTRY.register("hunger_medaillon", () -> new HungerMedaillonItem());
+	public static final RegistryObject<Item> NIGHT_VISION_MEDAILLON = REGISTRY.register("night_vision_medaillon", () -> new NightVisionMedaillonItem());
+	public static final RegistryObject<Item> RESPIRATION_MEDAILLON = REGISTRY.register("respiration_medaillon", () -> new RespirationMedaillonItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
