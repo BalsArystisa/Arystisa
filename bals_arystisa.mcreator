@@ -637,8 +637,8 @@
       "registry_name": "diamond_flint",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/DiamondFlintItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/diamond_flint.json"
+          "src/main/resources/assets/bals_arystisa/models/item/diamond_flint.json",
+          "src/main/java/net/mcreator/balsarystisa/item/DiamondFlintItem.java"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -670,8 +670,8 @@
       "registry_name": "runned_portal_particle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/particles/runned_portal_particle.json",
-          "src/main/java/net/mcreator/balsarystisa/client/particle/RunnedPortalParticleParticle.java"
+          "src/main/java/net/mcreator/balsarystisa/client/particle/RunnedPortalParticleParticle.java",
+          "src/main/resources/assets/bals_arystisa/particles/runned_portal_particle.json"
         ]
       },
       "path": "~/BAL1SEUR/Dimension Arystisa"
@@ -685,8 +685,8 @@
       "registry_name": "invisible_camo_cyberware",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/invisible_camo_cyberware.json",
-          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamoCyberwareItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamoCyberwareItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/invisible_camo_cyberware.json"
         ]
       },
       "path": "~/SirRacaillou/Cyberware"
@@ -923,8 +923,8 @@
       "registry_name": "baguette_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/baguette_sword.json",
-          "src/main/java/net/mcreator/balsarystisa/item/BaguetteSwordItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteSwordItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/baguette_sword.json"
         ]
       },
       "path": "~/Jos3/Baguette"
@@ -995,8 +995,8 @@
       "registry_name": "baguette_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/baguette_axe.json",
-          "src/main/java/net/mcreator/balsarystisa/item/BaguetteAxeItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteAxeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/baguette_axe.json"
         ]
       },
       "path": "~/Jos3/Baguette"
@@ -1010,8 +1010,8 @@
       "registry_name": "baguette_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/baguette_hoe.json",
-          "src/main/java/net/mcreator/balsarystisa/item/BaguetteHoeItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteHoeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/baguette_hoe.json"
         ]
       },
       "path": "~/Jos3/Baguette"
@@ -1025,8 +1025,8 @@
       "registry_name": "baguette_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/baguette_shovel.json",
-          "src/main/java/net/mcreator/balsarystisa/item/BaguetteShovelItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/BaguetteShovelItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/baguette_shovel.json"
         ]
       },
       "path": "~/Jos3/Baguette"
@@ -1333,8 +1333,8 @@
       "registry_name": "tugstium_1_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_hoe.json",
-          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1HoeItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1HoeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_hoe.json"
         ]
       },
       "path": "~/Thekiller9088/tugstium"
@@ -1437,8 +1437,8 @@
       "registry_name": "tugstium_1_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1PickaxeItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_pickaxe.json"
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_pickaxe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1PickaxeItem.java"
         ]
       },
       "path": "~/Thekiller9088/tugstium"
@@ -1452,8 +1452,8 @@
       "registry_name": "tugstium_1_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_axe.json",
-          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1AxeItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/Tugstium_1AxeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium_1_axe.json"
         ]
       },
       "path": "~/Thekiller9088/tugstium"
@@ -1612,8 +1612,8 @@
       "registry_name": "invisible_camotiers_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/invisible_camotiers_2.json",
-          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamotiers2Item.java"
+          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamotiers2Item.java",
+          "src/main/resources/assets/bals_arystisa/models/item/invisible_camotiers_2.json"
         ]
       },
       "path": "~/SirRacaillou/Cyberware"
@@ -1810,8 +1810,8 @@
       "registry_name": "nano_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/nano_shovel.json",
-          "src/main/java/net/mcreator/balsarystisa/item/NanoShovelItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/NanoShovelItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_shovel.json"
         ]
       },
       "path": "~/BAL1SEUR/Minerais Nano"
@@ -2279,6 +2279,21 @@
       "path": "~/BAL1SEUR/Minerais Nano"
     },
     {
+      "name": "IgnisiumCraftingTableGUI",
+      "type": "gui",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_crafting_table_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/IgnisiumCraftingTableGUIMenu.java",
+          "src/main/java/net/mcreator/balsarystisa/client/gui/IgnisiumCraftingTableGUIScreen.java"
+        ]
+      },
+      "path": "~/Jos3/Ignisium/IgnisiumCraftingTable"
+    },
+    {
       "name": "NanoPlate",
       "type": "item",
       "sortid": 37,
@@ -2511,40 +2526,11 @@
       "registry_name": "match",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/MatchItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/match.json"
+          "src/main/resources/assets/bals_arystisa/models/item/match.json",
+          "src/main/java/net/mcreator/balsarystisa/item/MatchItem.java"
         ]
       },
       "path": "~/MisterPongiste"
-    },
-    {
-      "name": "IgnisiumCraftingTableGUI",
-      "type": "gui",
-      "sortid": 152,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ignisium_crafting_table_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/world/inventory/IgnisiumCraftingTableGUIMenu.java",
-          "src/main/java/net/mcreator/balsarystisa/client/gui/IgnisiumCraftingTableGUIScreen.java"
-        ]
-      },
-      "path": "~/Jos3/Ignisium/IgnisiumCraftingTable"
-    },
-    {
-      "name": "IgnisiumCraftingTableCraft",
-      "type": "recipe",
-      "sortid": 153,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ignisium_crafting_table_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/recipes/ignisium_crafting_table_craft.json"
-        ]
-      },
-      "path": "~/Jos3/Ignisium/IgnisiumCraftingTable"
     },
     {
       "name": "IgnisiumCraftingTableLorsDunClicDroitSurLeBloc",
@@ -2581,6 +2567,95 @@
         ]
       },
       "path": "~/Jos3/Ignisium/IgnisiumCraftingTable"
+    },
+    {
+      "name": "IgnisiumCraftingTableCraft",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_crafting_table_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/ignisium_crafting_table_craft.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium/IgnisiumCraftingTable"
+    },
+    {
+      "name": "HealthBoostMedaillon",
+      "type": "item",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "health_boost_medaillon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/health_boost_medaillon.json",
+          "src/main/java/net/mcreator/balsarystisa/item/HealthBoostMedaillonItem.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
+    },
+    {
+      "name": "HungerMedaillon",
+      "type": "item",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hunger_medaillon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/hunger_medaillon.json",
+          "src/main/java/net/mcreator/balsarystisa/item/HungerMedaillonItem.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
+    },
+    {
+      "name": "NightVisionMedaillon",
+      "type": "item",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_medaillon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/NightVisionMedaillonItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/night_vision_medaillon.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
+    },
+    {
+      "name": "RespirationMedaillon",
+      "type": "item",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "respiration_medaillon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/respiration_medaillon.json",
+          "src/main/java/net/mcreator/balsarystisa/item/RespirationMedaillonItem.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
+    },
+    {
+      "name": "FallDamageMedaillon",
+      "type": "item",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fall_damage_medaillon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/FallDamageMedaillonItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/fall_damage_medaillon.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
     }
   ],
   "variable_elements": [
@@ -2797,6 +2872,15 @@
             "children": [
               {
                 "name": "Nano Crafting Table",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "NanoTechnologie",
+            "children": [
+              {
+                "name": "Medaillon",
                 "children": []
               }
             ]

@@ -102,5 +102,10 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.MATCH.get());
 				tabData.accept(BalsArystisaModItems.MATCHBOX_1.get());
 				tabData.accept(BalsArystisaModItems.FIREWORKS.get());
+				tabData.accept(BalsArystisaModItems.FALL_DAMAGE_MEDAILLON.get());
+				tabData.accept(BalsArystisaModItems.HEALTH_BOOST_MEDAILLON.get());
+				tabData.accept(BalsArystisaModItems.HUNGER_MEDAILLON.get());
+				tabData.accept(BalsArystisaModItems.NIGHT_VISION_MEDAILLON.get());
+				tabData.accept(BalsArystisaModItems.RESPIRATION_MEDAILLON.get());
 			}).withSearchBar().build());
 }
