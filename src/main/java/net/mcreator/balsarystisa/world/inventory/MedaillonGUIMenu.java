@@ -20,12 +20,13 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.balsarystisa.init.BalsArystisaModMenus;
+import net.mcreator.balsarystisa.init.BalsArystisaModItems;
 
 import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
-public class IgnisiumCraftingTableGUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
+public class MedaillonGUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
 	public final Player entity;
@@ -38,11 +39,11 @@ public class IgnisiumCraftingTableGUIMenu extends AbstractContainerMenu implemen
 	private Entity boundEntity = null;
 	private BlockEntity boundBlockEntity = null;
 
-	public IgnisiumCraftingTableGUIMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(BalsArystisaModMenus.IGNISIUM_CRAFTING_TABLE_GUI.get(), id);
+	public MedaillonGUIMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
+		super(BalsArystisaModMenus.MEDAILLON_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStackHandler(10);
+		this.internal = new ItemStackHandler(5);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -77,46 +78,51 @@ public class IgnisiumCraftingTableGUIMenu extends AbstractContainerMenu implemen
 					});
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 26, 11) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 15, 24) {
 			private final int slot = 0;
-		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 44, 11) {
-			private final int slot = 1;
-		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 62, 11) {
-			private final int slot = 2;
-		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 26, 29) {
-			private final int slot = 3;
-		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 44, 29) {
-			private final int slot = 4;
-		}));
-		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 62, 29) {
-			private final int slot = 5;
-		}));
-		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 26, 47) {
-			private final int slot = 6;
-		}));
-		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 44, 47) {
-			private final int slot = 7;
-		}));
-		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 62, 47) {
-			private final int slot = 8;
-		}));
-		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 134, 29) {
-			private final int slot = 9;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return false;
+				return BalsArystisaModItems.FALL_DAMAGE_MEDAILLON.get() == stack.getItem();
+			}
+		}));
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 51, 24) {
+			private final int slot = 1;
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return BalsArystisaModItems.HEALTH_BOOST_MEDAILLON.get() == stack.getItem();
+			}
+		}));
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 87, 24) {
+			private final int slot = 2;
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return BalsArystisaModItems.HUNGER_MEDAILLON.get() == stack.getItem();
+			}
+		}));
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 123, 24) {
+			private final int slot = 3;
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return BalsArystisaModItems.NIGHT_VISION_MEDAILLON.get() == stack.getItem();
+			}
+		}));
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 159, 24) {
+			private final int slot = 4;
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return BalsArystisaModItems.RESPIRATION_MEDAILLON.get() == stack.getItem();
 			}
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
-				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
+				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 7 + 8 + sj * 18, -23 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
-			this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 0 + 142));
+			this.addSlot(new Slot(inv, si, 7 + 8 + si * 18, -23 + 142));
 	}
 
 	@Override
@@ -139,16 +145,16 @@ public class IgnisiumCraftingTableGUIMenu extends AbstractContainerMenu implemen
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 10) {
-				if (!this.moveItemStackTo(itemstack1, 10, this.slots.size(), true))
+			if (index < 5) {
+				if (!this.moveItemStackTo(itemstack1, 5, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 10, false)) {
-				if (index < 10 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 10 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 5, false)) {
+				if (index < 5 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 5 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 10, 10 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 5, 5 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;
