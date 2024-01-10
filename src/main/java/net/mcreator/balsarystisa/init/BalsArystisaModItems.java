@@ -40,6 +40,10 @@ import net.mcreator.balsarystisa.item.InvisibleCamotiers3Item;
 import net.mcreator.balsarystisa.item.InvisibleCamotiers2Item;
 import net.mcreator.balsarystisa.item.InvisibleCamoCyberwareItem;
 import net.mcreator.balsarystisa.item.IgnisiumIngotItem;
+import net.mcreator.balsarystisa.item.FireworksItem;
+import net.mcreator.balsarystisa.item.EnderEyeCyberwareTier3Item;
+import net.mcreator.balsarystisa.item.EnderEyeCyberwareTier2Item;
+import net.mcreator.balsarystisa.item.EnderEyeCyberwareTier1Item;
 import net.mcreator.balsarystisa.item.DiamondFlintItem;
 import net.mcreator.balsarystisa.item.CompactNanoIngotItem;
 import net.mcreator.balsarystisa.item.BasondubataillondexplorationItem;
@@ -123,6 +127,9 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> SUB_DERMAL_ARMOR_TIER_1 = REGISTRY.register("sub_dermal_armor_tier_1", () -> new SubDermalArmorTier1Item());
 	public static final RegistryObject<Item> SUB_DERMAL_ARMOR_TIER_2 = REGISTRY.register("sub_dermal_armor_tier_2", () -> new SubDermalArmorTier2Item());
 	public static final RegistryObject<Item> SUB_DERMAL_ARMOR_TIER_3 = REGISTRY.register("sub_dermal_armor_tier_3", () -> new SubDermalArmorTier3Item());
+	public static final RegistryObject<Item> ENDER_EYE_CYBERWARE_TIER_1 = REGISTRY.register("ender_eye_cyberware_tier_1", () -> new EnderEyeCyberwareTier1Item());
+	public static final RegistryObject<Item> ENDER_EYE_CYBERWARE_TIER_2 = REGISTRY.register("ender_eye_cyberware_tier_2", () -> new EnderEyeCyberwareTier2Item());
+	public static final RegistryObject<Item> ENDER_EYE_CYBERWARE_TIER_3 = REGISTRY.register("ender_eye_cyberware_tier_3", () -> new EnderEyeCyberwareTier3Item());
 	public static final RegistryObject<Item> SAP_BOTTLE = REGISTRY.register("sap_bottle", () -> new SapBottleItem());
 	public static final RegistryObject<Item> AMBER = REGISTRY.register("amber", () -> new AmberItem());
 	public static final RegistryObject<Item> DIAMOND_FLINT = REGISTRY.register("diamond_flint", () -> new DiamondFlintItem());
@@ -138,6 +145,7 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> MATCHBOX = REGISTRY.register("matchbox", () -> new MatchboxItem());
 	public static final RegistryObject<Item> MATCH = REGISTRY.register("match", () -> new MatchItem());
 	public static final RegistryObject<Item> MATCHBOX_1 = REGISTRY.register("matchbox_1", () -> new Matchbox1Item());
+	public static final RegistryObject<Item> FIREWORKS = REGISTRY.register("fireworks", () -> new FireworksItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

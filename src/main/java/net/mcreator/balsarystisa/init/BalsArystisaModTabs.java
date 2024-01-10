@@ -86,6 +86,9 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_1.get());
 				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_2.get());
 				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_3.get());
+				tabData.accept(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_1.get());
+				tabData.accept(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_2.get());
+				tabData.accept(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_3.get());
 				tabData.accept(BalsArystisaModItems.SAP_BOTTLE.get());
 				tabData.accept(BalsArystisaModItems.AMBER.get());
 				tabData.accept(BalsArystisaModItems.DIAMOND_FLINT.get());
@@ -101,5 +104,6 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.MATCHBOX.get());
 				tabData.accept(BalsArystisaModItems.MATCH.get());
 				tabData.accept(BalsArystisaModItems.MATCHBOX_1.get());
+				tabData.accept(BalsArystisaModItems.FIREWORKS.get());
 			}).withSearchBar().build());
 }
