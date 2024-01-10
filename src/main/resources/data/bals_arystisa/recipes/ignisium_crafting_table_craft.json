@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "bals_arystisa:ignisium_ingot"
+    },
+    "b": {
+      "item": "minecraft:copper_block"
+    },
+    "c": {
+      "item": "bals_arystisa:ignisium_block"
+    },
+    "d": {
+      "item": "minecraft:lodestone"
+    }
+  },
+  "result": {
+    "item": "bals_arystisa:ignisium_crafting_table",
+    "count": 1
+  }
+}

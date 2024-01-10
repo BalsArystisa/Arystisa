@@ -91,8 +91,11 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_2.get());
 				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_3.get());
 				tabData.accept(BalsArystisaModItems.SAP_BOTTLE.get());
+				tabData.accept(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_1.get());
 				tabData.accept(BalsArystisaModItems.AMBER.get());
+				tabData.accept(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_2.get());
 				tabData.accept(BalsArystisaModItems.DIAMOND_FLINT.get());
+				tabData.accept(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_3.get());
 				tabData.accept(BalsArystisaModItems.ARYSTISA_WORLD.get());
 				tabData.accept(BalsArystisaModItems.NANO_CRAFTING_HAMMER.get());
 				tabData.accept(BalsArystisaModItems.ARYSTING_COW_SPAWN_EGG.get());
@@ -111,14 +114,18 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.HUNGER_MEDAILLON.get());
 				tabData.accept(BalsArystisaModItems.NIGHT_VISION_MEDAILLON.get());
 				tabData.accept(BalsArystisaModItems.RESPIRATION_MEDAILLON.get());
+				tabData.accept(BalsArystisaModItems.MATCH_LIE.get());
+				tabData.accept(BalsArystisaModItems.WHITE_PHOSPHORUS_ORE.get());
+				tabData.accept(BalsArystisaModItems.BLACK_PHOSPHORUS_ORE.get());
+				tabData.accept(BalsArystisaModItems.RED_PHOSPHORUS_ORE.get());
+				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_1.get());
+				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_2.get());
+				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_3.get());
+				tabData.accept(BalsArystisaModItems.ENDER_PEARL_IMPLANT.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-
-		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-			tabData.accept(BalsArystisaModBlocks.COBALT_ORE.get().asItem());
-		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(BalsArystisaModItems.COBALT_ARMOR_HELMET.get());

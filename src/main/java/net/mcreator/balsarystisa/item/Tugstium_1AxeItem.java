@@ -18,23 +18,23 @@ public class Tugstium_1AxeItem extends AxeItem {
 	public Tugstium_1AxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 250;
+				return 2500;
 			}
 
 			public float getSpeed() {
-				return 6f;
+				return 15f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 0f;
+				return 8f;
 			}
 
 			public int getLevel() {
-				return 2;
+				return 6;
 			}
 
 			public int getEnchantmentValue() {
-				return 14;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {
