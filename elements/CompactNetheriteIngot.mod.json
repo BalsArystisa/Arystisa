@@ -3,16 +3,16 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "nightvision_medaillon",
+    "texture": "compact_netherite_ingot",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "NightVision Medaillon",
-    "rarity": "EPIC",
+    "name": "Compact Netherite Ingot",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Arystisa"
     },
-    "stackSize": 1,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -30,14 +30,11 @@
       "fixedValue": []
     },
     "glowCondition": {
-      "fixedValue": true
+      "fixedValue": false
     },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onRightClickedInAir": {
-      "name": "MedaillonImplant"
-    },
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {

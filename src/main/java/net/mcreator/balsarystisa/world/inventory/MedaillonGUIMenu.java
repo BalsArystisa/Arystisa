@@ -4,6 +4,9 @@ package net.mcreator.balsarystisa.world.inventory;
 import net.minecraftforge.items.SlotItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.IItemHandler;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -19,13 +22,14 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.balsarystisa.procedures.MedaillonGUIkeepInventoryProcedure;
 import net.mcreator.balsarystisa.init.BalsArystisaModMenus;
-import net.mcreator.balsarystisa.init.BalsArystisaModItems;
 
 import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
+@Mod.EventBusSubscriber
 public class MedaillonGUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
@@ -82,40 +86,65 @@ public class MedaillonGUIMenu extends AbstractContainerMenu implements Supplier<
 			private final int slot = 0;
 
 			@Override
+			public boolean mayPickup(Player entity) {
+				return false;
+			}
+
+			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return BalsArystisaModItems.FALL_DAMAGE_MEDAILLON.get() == stack.getItem();
+				return false;
 			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 51, 24) {
 			private final int slot = 1;
 
 			@Override
+			public boolean mayPickup(Player entity) {
+				return false;
+			}
+
+			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return BalsArystisaModItems.HEALTH_BOOST_MEDAILLON.get() == stack.getItem();
+				return false;
 			}
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 87, 24) {
 			private final int slot = 2;
 
 			@Override
+			public boolean mayPickup(Player entity) {
+				return false;
+			}
+
+			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return BalsArystisaModItems.HUNGER_MEDAILLON.get() == stack.getItem();
+				return false;
 			}
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 123, 24) {
 			private final int slot = 3;
 
 			@Override
+			public boolean mayPickup(Player entity) {
+				return false;
+			}
+
+			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return BalsArystisaModItems.NIGHT_VISION_MEDAILLON.get() == stack.getItem();
+				return false;
 			}
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 159, 24) {
 			private final int slot = 4;
 
 			@Override
+			public boolean mayPickup(Player entity) {
+				return false;
+			}
+
+			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return BalsArystisaModItems.RESPIRATION_MEDAILLON.get() == stack.getItem();
+				return false;
 			}
 		}));
 		for (int si = 0; si < 3; ++si)
@@ -252,10 +281,30 @@ public class MedaillonGUIMenu extends AbstractContainerMenu implements Supplier<
 		if (!bound && playerIn instanceof ServerPlayer serverPlayer) {
 			if (!serverPlayer.isAlive() || serverPlayer.hasDisconnected()) {
 				for (int j = 0; j < internal.getSlots(); ++j) {
+					if (j == 0)
+						continue;
+					if (j == 1)
+						continue;
+					if (j == 2)
+						continue;
+					if (j == 3)
+						continue;
+					if (j == 4)
+						continue;
 					playerIn.drop(internal.extractItem(j, internal.getStackInSlot(j).getCount(), false), false);
 				}
 			} else {
 				for (int i = 0; i < internal.getSlots(); ++i) {
+					if (i == 0)
+						continue;
+					if (i == 1)
+						continue;
+					if (i == 2)
+						continue;
+					if (i == 3)
+						continue;
+					if (i == 4)
+						continue;
 					playerIn.getInventory().placeItemBackInInventory(internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 				}
 			}
@@ -264,5 +313,17 @@ public class MedaillonGUIMenu extends AbstractContainerMenu implements Supplier<
 
 	public Map<Integer, Slot> get() {
 		return customSlots;
+	}
+
+	@SubscribeEvent
+	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
+		Player entity = event.player;
+		if (event.phase == TickEvent.Phase.END && entity.containerMenu instanceof MedaillonGUIMenu) {
+			Level world = entity.level();
+			double x = entity.getX();
+			double y = entity.getY();
+			double z = entity.getZ();
+			MedaillonGUIkeepInventoryProcedure.execute(entity);
+		}
 	}
 }

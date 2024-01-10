@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "nano_ore",
+    "texture": "nanoo_ore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -119,17 +119,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": true,
-    "restrictionBiomes": [
-      {
-        "value": "#is_overworld"
-      }
-    ],
-    "blocksToReplace": [
-      {
-        "value": "TAG:stone_ore_replaceables"
-      }
-    ],
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 11,
     "frequencyOnChunk": 7,

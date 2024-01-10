@@ -2569,7 +2569,7 @@
       "name": "HealthBoostMedaillon",
       "type": "item",
       "sortid": 153,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "health_boost_medaillon",
       "metadata": {
@@ -2584,7 +2584,7 @@
       "name": "HungerMedaillon",
       "type": "item",
       "sortid": 154,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "hunger_medaillon",
       "metadata": {
@@ -2629,7 +2629,7 @@
       "name": "FallDamageMedaillon",
       "type": "item",
       "sortid": 152,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "fall_damage_medaillon",
       "metadata": {
@@ -3142,7 +3142,7 @@
       "name": "CompactIgnisiumIngot",
       "type": "item",
       "sortid": 38,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "compact_ignisium_ingot",
       "metadata": {
@@ -3157,7 +3157,7 @@
       "name": "CompactNanoTechnologieIngot",
       "type": "item",
       "sortid": 41,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "compact_nano_technologie_ingot",
       "metadata": {
@@ -3187,7 +3187,7 @@
       "name": "CompactTugstiumIngot",
       "type": "item",
       "sortid": 39,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "compact_tugstium_ingot",
       "metadata": {
@@ -3202,7 +3202,7 @@
       "name": "NanoTechnologieIngot",
       "type": "item",
       "sortid": 37,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "nano_technologie_ingot",
       "metadata": {
@@ -3217,7 +3217,7 @@
       "name": "NanoTechnologieBlock",
       "type": "block",
       "sortid": 10,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "nano_technologie_block",
       "metadata": {
@@ -3234,7 +3234,7 @@
       "name": "NanoTechnologieArmor",
       "type": "armor",
       "sortid": 100,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "nano_technologie_armor",
       "metadata": {
@@ -3261,6 +3261,210 @@
         ]
       },
       "path": "~/MisterPongiste"
+    },
+    {
+      "name": "CompactGoldIngot",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_gold_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CompactGoldIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/compact_gold_ingot.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Compact Vanilla Ingot"
+    },
+    {
+      "name": "MedaillonGUIkeepInventory",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medaillon_gu_ikeep_inventory",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/MedaillonGUIkeepInventoryProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
+    },
+    {
+      "name": "CompactIronIngot",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_iron_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/compact_iron_ingot.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CompactIronIngotItem.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/Compact Vanilla Ingot"
+    },
+    {
+      "name": "SoundBoardGUI",
+      "type": "gui",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sound_board_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/client/gui/SoundBoardGUIScreen.java",
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/SoundBoardGUIMenu.java",
+          "src/main/java/net/mcreator/balsarystisa/network/SoundBoardGUIButtonMessage.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "MedaillonImplant",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medaillon_implant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/MedaillonImplantProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
+    },
+    {
+      "name": "CompactCopperIngot",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_copper_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CompactCopperIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/compact_copper_ingot.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Compact Vanilla Ingot"
+    },
+    {
+      "name": "CompactNetheriteIngot",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_netherite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/compact_netherite_ingot.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CompactNetheriteIngotItem.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/Compact Vanilla Ingot"
+    },
+    {
+      "name": "SoundBoardButton",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sound_board_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/SoundBoardButtonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "TestSoundboard",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_soundboard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/TestSoundboardProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
     }
   ],
   "variable_elements": [
@@ -3367,6 +3571,14 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "legendaryonesondboard",
+      "files": [
+        "chipi-chapa"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -3374,12 +3586,14 @@
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "item.bals_arystisa.baguette_axe": "Baguette Axe",
       "item.bals_arystisa.respiration_medaillon": "Respiration Medaillon",
+      "item.bals_arystisa.nano_technologie_ingot": "NanoTechnologie Ingot",
       "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.white_phosphorus_block": "White Phosphorus Block",
       "block.bals_arystisa.nano_block": "Nano Block",
       "key.bals_arystisa.selection_use": "Selection Use",
       "item.bals_arystisa.black_phosphorus_ore": "Black Phosphorus Ore",
       "item.bals_arystisa.nano_axe": "Nano Axe",
+      "block.bals_arystisa.nano_technologie_block": "NanoTechnologie Block",
       "item.bals_arystisa.blasondubataillondexploration": "Basondubataillondexploration",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
       "item.bals_arystisa.nano_armor_leggings": "Nano Leggings",
@@ -3401,6 +3615,7 @@
       "item.bals_arystisa.night_vision_medaillon": "NightVision Medaillon",
       "block.bals_arystisa.tugstiumore": "Tugstium Ore",
       "item.bals_arystisa.nano_armor_chestplate": "Nano Chestplate",
+      "subtitles.legendaryonesondboard": "",
       "block.bals_arystisa.arysting_button": "Arysting Button",
       "biome.bals_arystisa.enchant_forest": "Enchant Forest",
       "item.bals_arystisa.nano_armor_helmet": "Nano Helmet",
@@ -3416,6 +3631,7 @@
       "item.bals_arystisa.cobalt_armor_chestplate": "Cobalt Chestplate",
       "item.bals_arystisa.tugstium": "Tugstium Ingot",
       "item.bals_arystisa.baguette_pickaxe": "Baguette Pickaxe",
+      "item.bals_arystisa.nano_technologie_armor_chestplate": "NanoTechnologie Chestplate",
       "subtitles.launch_spawner_wave": "",
       "block.bals_arystisa.enchant_slab": "Enchant Slab",
       "item.bals_arystisa.hogirit_pickaxe": "Hogirit Pickaxe",
@@ -3472,13 +3688,20 @@
       "item.bals_arystisa.cobalt_ingot": "Cobalt",
       "item.bals_arystisa.nano_sword": "Nano Sword",
       "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",
+      "item.bals_arystisa.nano_technologie_plate": "NanoTechnologie Plate",
+      "item.bals_arystisa.nano_technologie_armor_leggings": "NanoTechnologie Leggings",
       "item.bals_arystisa.hogirit_armor_leggings": "Hogirit Leggings",
       "key.categories.arystisia": "Arystitsia",
+      "item.bals_arystisa.compact_ignisium_ingot": "Compact Ignisium Ingot",
       "block.bals_arystisa.nano_ore": "Nano Ore",
+      "item.bals_arystisa.compact_nano_technologie_ingot": "Compact NanoTechnologie Ingot",
       "block.bals_arystisa.ignisium_block": "Ignisium Block",
       "item.bals_arystisa.sap_bottle": "Sap Bottle",
       "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
+      "item.bals_arystisa.compact_tugstium_ingot": "Compact Tugstium Ingot",
       "item.bals_arystisa.tugstium_1_hoe": "Tugstium_1 Hoe",
+      "item.bals_arystisa.nano_technologie_armor_helmet": "NanoTechnologie Helmet",
+      "item.bals_arystisa.nano_technologie_armor_boots": "NanoTechnologie Boots",
       "item.bals_arystisa.combinedsword": "Combined sword",
       "item.bals_arystisa.invisible_camotiers_3": "Invisible Camo Cyberware",
       "item.bals_arystisa.invisible_camotiers_2": "Invisible Camo Cyberware",
@@ -3545,6 +3768,10 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "Compact Vanilla Ingot",
+            "children": []
           },
           {
             "name": "NanoTechnologie",

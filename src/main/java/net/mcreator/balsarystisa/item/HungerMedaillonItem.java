@@ -19,4 +19,11 @@ public class HungerMedaillonItem extends Item {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 	}
+
+	@Override
+	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
+		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
+		MedaillonImplantProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
+		return ar;
+	}
 }
