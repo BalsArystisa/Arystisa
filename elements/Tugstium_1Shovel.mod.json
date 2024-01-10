@@ -5,7 +5,7 @@
     "toolType": "Spade",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "tugstium_1_shovel",
+    "texture": "tugstium_shovel",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Tugstium_1 Shovel",

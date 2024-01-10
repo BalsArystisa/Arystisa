@@ -1,21 +1,9 @@
 package net.mcreator.balsarystisa.client.gui;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.Component;
-import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.GuiGraphics;
-
-import net.mcreator.balsarystisa.world.inventory.IgnisiumCraftingTableGUIMenu;
-
-import java.util.HashMap;
-
-import com.mojang.blaze3d.systems.RenderSystem;
-
 public class IgnisiumCraftingTableGUIScreen extends AbstractContainerScreen<IgnisiumCraftingTableGUIMenu> {
+
 	private final static HashMap<String, Object> guistate = IgnisiumCraftingTableGUIMenu.guistate;
+
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -36,8 +24,11 @@ public class IgnisiumCraftingTableGUIScreen extends AbstractContainerScreen<Igni
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(guiGraphics);
+
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
+
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
+
 	}
 
 	@Override
@@ -45,7 +36,11 @@ public class IgnisiumCraftingTableGUIScreen extends AbstractContainerScreen<Igni
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
+
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/ignisium_crafting_table_gui.png.png"), this.leftPos + 0, this.topPos + 0, 0, 0, 176, 166, 176, 166);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -55,6 +50,7 @@ public class IgnisiumCraftingTableGUIScreen extends AbstractContainerScreen<Igni
 			this.minecraft.player.closeContainer();
 			return true;
 		}
+
 		return super.keyPressed(key, b, c);
 	}
 
@@ -65,6 +61,7 @@ public class IgnisiumCraftingTableGUIScreen extends AbstractContainerScreen<Igni
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.drawString(this.font, Component.translatable("gui.bals_arystisa.ignisium_crafting_table_gui.label_ignisium_crafting_table"), 8, 71, -1, false);
 	}
 
 	@Override
@@ -75,5 +72,7 @@ public class IgnisiumCraftingTableGUIScreen extends AbstractContainerScreen<Igni
 	@Override
 	public void init() {
 		super.init();
+
 	}
+
 }

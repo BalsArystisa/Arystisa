@@ -18,29 +18,29 @@ public class Tugstium_1SwordItem extends SwordItem {
 	public Tugstium_1SwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 250;
+				return 2500;
 			}
 
 			public float getSpeed() {
-				return 6f;
+				return 10f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 0f;
+				return 16f;
 			}
 
 			public int getLevel() {
-				return 2;
+				return 6;
 			}
 
 			public int getEnchantmentValue() {
-				return 14;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(BalsArystisaModItems.TUGSTIUM.get()));
 			}
-		}, 3, -3f, new Item.Properties());
+		}, 3, -2.4f, new Item.Properties());
 	}
 
 	@Override
