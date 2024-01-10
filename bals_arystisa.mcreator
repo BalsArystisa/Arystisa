@@ -3199,6 +3199,39 @@
         ]
       },
       "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "NanoTechnologieArmor",
+      "type": "armor",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_technologie_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/NanoTechnologieArmorItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_armor_chestplate.json",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_armor_boots.json",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_armor_leggings.json",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_armor_helmet.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie"
+    },
+    {
+      "name": "CompactIgnisiumIngot",
+      "type": "item",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_ignisium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CompactIgnisiumIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/compact_ignisium_ingot.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
     }
   ],
   "variable_elements": [
@@ -3283,8 +3316,8 @@
       "item.bals_arystisa.baguette_axe": "Baguette Axe",
       "item.bals_arystisa.respiration_medaillon": "Respiration Medaillon",
       "item.bals_arystisa.nano_technologie_ingot": "NanoTechnologie Ingot",
-      "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.white_phosphorus_block": "White Phosphorus Block",
+      "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.nano_block": "Nano Block",
       "key.bals_arystisa.selection_use": "Selection Use",
       "item.bals_arystisa.black_phosphorus_ore": "Black Phosphorus Ore",
@@ -3326,6 +3359,7 @@
       "item.bals_arystisa.cobalt_armor_chestplate": "Cobalt Chestplate",
       "item.bals_arystisa.tugstium": "Tugstium Ingot",
       "item.bals_arystisa.baguette_pickaxe": "Baguette Pickaxe",
+      "item.bals_arystisa.nano_technologie_armor_chestplate": "NanoTechnologie Chestplate",
       "subtitles.launch_spawner_wave": "",
       "block.bals_arystisa.enchant_slab": "Enchant Slab",
       "item.bals_arystisa.hogirit_pickaxe": "Hogirit Pickaxe",
@@ -3383,14 +3417,18 @@
       "item.bals_arystisa.nano_sword": "Nano Sword",
       "item.bals_arystisa.hogirit_armor_helmet": "Hogirit Helmet",
       "item.bals_arystisa.nano_technologie_plate": "NanoTechnologie Plate",
+      "item.bals_arystisa.nano_technologie_armor_leggings": "NanoTechnologie Leggings",
       "item.bals_arystisa.hogirit_armor_leggings": "Hogirit Leggings",
       "key.categories.arystisia": "Arystitsia",
+      "item.bals_arystisa.compact_ignisium_ingot": "Compact Ignisium Ingot",
       "block.bals_arystisa.nano_ore": "Nano Ore",
       "item.bals_arystisa.compact_nano_technologie_ingot": "Compact NanoTechnologie Ingot",
       "block.bals_arystisa.ignisium_block": "Ignisium Block",
       "item.bals_arystisa.sap_bottle": "Sap Bottle",
       "item.bals_arystisa.hogirit_axe": "Hogirit Axe",
       "item.bals_arystisa.tugstium_1_hoe": "Tugstium_1 Hoe",
+      "item.bals_arystisa.nano_technologie_armor_helmet": "NanoTechnologie Helmet",
+      "item.bals_arystisa.nano_technologie_armor_boots": "NanoTechnologie Boots",
       "item.bals_arystisa.combinedsword": "Combined sword",
       "item.bals_arystisa.invisible_camotiers_3": "Invisible Camo Cyberware",
       "item.bals_arystisa.invisible_camotiers_2": "Invisible Camo Cyberware",
