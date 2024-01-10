@@ -2673,6 +2673,20 @@
       "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
     },
     {
+      "name": "MedaillonKeyBind",
+      "type": "keybind",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medaillon_key_bind",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/network/MedaillonKeyBindMessage.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
+    },
+    {
       "name": "MedaillonGUIKeyBindProced",
       "type": "procedure",
       "sortid": 158,
@@ -2704,20 +2718,6 @@
             "name": "world",
             "type": "world"
           }
-        ]
-      },
-      "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
-    },
-    {
-      "name": "MedaillonKeyBind",
-      "type": "keybind",
-      "sortid": 159,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "medaillon_key_bind",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/network/MedaillonKeyBindMessage.java"
         ]
       },
       "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
@@ -2842,6 +2842,7 @@
       "block.bals_arystisa.enchant_fence_gate": "Enchant FenceGate",
       "block.bals_arystisa.enchant_pressure_plate": "Enchant PressurePlate",
       "item.bals_arystisa.tugstium_1_shovel": "Tugstium_1 Shovel",
+      "gui.bals_arystisa.ignisium_crafting_table_gui.label_ignisium_crafting_table": "Ignisium Crafting Table",
       "item.bals_arystisa.tugstium_armor_armor_leggings": "Tugstium Leggings",
       "block.bals_arystisa.enchant_leaves": "Enchant Leaves",
       "item.bals_arystisa.cobalt_axe": "Cobalt Axe",
