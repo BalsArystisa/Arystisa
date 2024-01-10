@@ -55,10 +55,35 @@
           "name": "imagebutton_soundboardbutton",
           "image": "soundboardbutton.png",
           "hoveredImage": "",
-          "onClick": {
-            "name": "SoundBoardButton"
-          },
           "x": 57,
+          "y": 60
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_soundboard_menu",
+          "text": {
+            "fixedValue": "SoundBoard Menu:"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 110,
+          "y": 42
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_soundboardbutton1",
+          "image": "soundboardbutton.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "TestSoundboard"
+          },
+          "x": 110,
           "y": 60
         }
       }

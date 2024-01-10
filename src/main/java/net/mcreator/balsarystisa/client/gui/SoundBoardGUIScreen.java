@@ -9,22 +9,23 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.GuiGraphics;
 
-import net.mcreator.balsarystisa.world.inventory.ArystisiaGUIMenu;
-import net.mcreator.balsarystisa.network.ArystisiaGUIButtonMessage;
+import net.mcreator.balsarystisa.world.inventory.SoundBoardGUIMenu;
+import net.mcreator.balsarystisa.network.SoundBoardGUIButtonMessage;
 import net.mcreator.balsarystisa.BalsArystisaMod;
 
 import java.util.HashMap;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class ArystisiaGUIScreen extends AbstractContainerScreen<ArystisiaGUIMenu> {
-	private final static HashMap<String, Object> guistate = ArystisiaGUIMenu.guistate;
+public class SoundBoardGUIScreen extends AbstractContainerScreen<SoundBoardGUIMenu> {
+	private final static HashMap<String, Object> guistate = SoundBoardGUIMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
 	ImageButton imagebutton_soundboardbutton;
+	ImageButton imagebutton_soundboardbutton1;
 
-	public ArystisiaGUIScreen(ArystisiaGUIMenu container, Inventory inventory, Component text) {
+	public SoundBoardGUIScreen(SoundBoardGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -35,7 +36,7 @@ public class ArystisiaGUIScreen extends AbstractContainerScreen<ArystisiaGUIMenu
 		this.imageHeight = 170;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("bals_arystisa:textures/screens/arystisia_gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("bals_arystisa:textures/screens/sound_board_gui.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
@@ -72,8 +73,9 @@ public class ArystisiaGUIScreen extends AbstractContainerScreen<ArystisiaGUIMenu
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.bals_arystisa.arystisia_gui.label_arystisa"), 10, 7, -1, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.bals_arystisa.arystisia_gui.label_comming_soon"), 270, 153, -65536, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.bals_arystisa.sound_board_gui.label_arystisa"), 10, 7, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.bals_arystisa.sound_board_gui.label_comming_soon"), 270, 153, -65536, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.bals_arystisa.sound_board_gui.label_soundboard_menu"), 71, 7, -1, false);
 	}
 
 	@Override
@@ -85,12 +87,16 @@ public class ArystisiaGUIScreen extends AbstractContainerScreen<ArystisiaGUIMenu
 	public void init() {
 		super.init();
 		imagebutton_soundboardbutton = new ImageButton(this.leftPos + 18, this.topPos + 25, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_soundboardbutton.png"), 26, 52, e -> {
-			if (true) {
-				BalsArystisaMod.PACKET_HANDLER.sendToServer(new ArystisiaGUIButtonMessage(0, x, y, z));
-				ArystisiaGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
-			}
 		});
 		guistate.put("button:imagebutton_soundboardbutton", imagebutton_soundboardbutton);
 		this.addRenderableWidget(imagebutton_soundboardbutton);
+		imagebutton_soundboardbutton1 = new ImageButton(this.leftPos + 71, this.topPos + 25, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_soundboardbutton1.png"), 26, 52, e -> {
+			if (true) {
+				BalsArystisaMod.PACKET_HANDLER.sendToServer(new SoundBoardGUIButtonMessage(1, x, y, z));
+				SoundBoardGUIButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
+		});
+		guistate.put("button:imagebutton_soundboardbutton1", imagebutton_soundboardbutton1);
+		this.addRenderableWidget(imagebutton_soundboardbutton1);
 	}
 }
