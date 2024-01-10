@@ -2591,8 +2591,8 @@
       "registry_name": "health_boost_medaillon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/health_boost_medaillon.json",
-          "src/main/java/net/mcreator/balsarystisa/item/HealthBoostMedaillonItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/HealthBoostMedaillonItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/health_boost_medaillon.json"
         ]
       },
       "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
@@ -2621,8 +2621,8 @@
       "registry_name": "night_vision_medaillon",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/NightVisionMedaillonItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/night_vision_medaillon.json"
+          "src/main/resources/assets/bals_arystisa/models/item/night_vision_medaillon.json",
+          "src/main/java/net/mcreator/balsarystisa/item/NightVisionMedaillonItem.java"
         ]
       },
       "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
@@ -2636,8 +2636,8 @@
       "registry_name": "respiration_medaillon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/respiration_medaillon.json",
-          "src/main/java/net/mcreator/balsarystisa/item/RespirationMedaillonItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/RespirationMedaillonItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/respiration_medaillon.json"
         ]
       },
       "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
@@ -2651,8 +2651,8 @@
       "registry_name": "fall_damage_medaillon",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/FallDamageMedaillonItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/fall_damage_medaillon.json"
+          "src/main/resources/assets/bals_arystisa/models/item/fall_damage_medaillon.json",
+          "src/main/java/net/mcreator/balsarystisa/item/FallDamageMedaillonItem.java"
         ]
       },
       "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
@@ -2792,8 +2792,8 @@
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "item.bals_arystisa.baguette_axe": "Baguette Axe",
       "item.bals_arystisa.respiration_medaillon": "Respiration Medaillon",
-      "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.white_phosphorus_block": "White Phosphorus Block",
+      "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.nano_block": "Nano Block",
       "key.bals_arystisa.selection_use": "Selection Use",
       "item.bals_arystisa.nano_axe": "Nano Axe",
