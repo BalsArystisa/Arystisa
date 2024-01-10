@@ -107,5 +107,11 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.HUNGER_MEDAILLON.get());
 				tabData.accept(BalsArystisaModItems.NIGHT_VISION_MEDAILLON.get());
 				tabData.accept(BalsArystisaModItems.RESPIRATION_MEDAILLON.get());
+				tabData.accept(BalsArystisaModItems.MATCH_LIE.get());
+				tabData.accept(BalsArystisaModItems.WHITE_PHOSPHORUS_ORE.get());
+				tabData.accept(BalsArystisaModItems.BLACK_PHOSPHORUS_ORE.get());
+				tabData.accept(BalsArystisaModItems.RED_PHOSPHORUS_ORE.get());
+				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_1.get());
+				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_2.get());
 			}).withSearchBar().build());
 }
