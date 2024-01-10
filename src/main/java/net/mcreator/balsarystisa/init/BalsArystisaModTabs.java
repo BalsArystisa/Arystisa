@@ -94,12 +94,12 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_1.get());
 				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_2.get());
 				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_3.get());
-				tabData.accept(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_1.get());
-				tabData.accept(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_2.get());
-				tabData.accept(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_3.get());
 				tabData.accept(BalsArystisaModItems.SAP_BOTTLE.get());
+				tabData.accept(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_1.get());
 				tabData.accept(BalsArystisaModItems.AMBER.get());
+				tabData.accept(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_2.get());
 				tabData.accept(BalsArystisaModItems.DIAMOND_FLINT.get());
+				tabData.accept(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_3.get());
 				tabData.accept(BalsArystisaModItems.ARYSTISA_WORLD.get());
 				tabData.accept(BalsArystisaModItems.NANO_CRAFTING_HAMMER.get());
 				tabData.accept(BalsArystisaModItems.ARYSTING_COW_SPAWN_EGG.get());
