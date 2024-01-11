@@ -1774,10 +1774,13 @@
       "registry_name": "nano_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/bals_arystisa/forge/biome_modifier/nano_ore_biome_modifier.json",
           "src/main/java/net/mcreator/balsarystisa/block/NanoOreBlock.java",
           "src/main/resources/assets/bals_arystisa/models/item/nano_ore.json",
           "src/main/resources/assets/bals_arystisa/models/block/nano_ore.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/nano_ore.json"
+          "src/main/resources/data/bals_arystisa/worldgen/configured_feature/nano_ore.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/nano_ore.json",
+          "src/main/resources/data/bals_arystisa/worldgen/placed_feature/nano_ore.json"
         ]
       },
       "path": "~/BAL1SEUR/Minerais Nano"
@@ -3019,7 +3022,12 @@
         "files": [
           "src/main/java/net/mcreator/balsarystisa/procedures/FirstEpicButtonConditionProcedProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/BAL1SEUR/Arystisa Emotes"
     },
@@ -3219,6 +3227,42 @@
         ]
       },
       "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "OpenSoundBoardGUIproced",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_sound_board_gu_iproced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/OpenSoundBoardGUIprocedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
     }
   ],
   "variable_elements": [
@@ -3290,16 +3334,16 @@
       "block.bals_arystisa.arysting_planks": "Arysting Planks",
       "item.bals_arystisa.baguette_axe": "Baguette Axe",
       "item.bals_arystisa.respiration_medaillon": "Respiration Medaillon",
-      "block.bals_arystisa.white_phosphorus_block": "White Phosphorus Block",
       "item.bals_arystisa.amber": "Amber Gemmy",
+      "block.bals_arystisa.white_phosphorus_block": "White Phosphorus Block",
       "block.bals_arystisa.nano_block": "Nano Block",
       "key.bals_arystisa.selection_use": "Selection Use",
       "item.bals_arystisa.nano_axe": "Nano Axe",
       "item.bals_arystisa.blasondubataillondexploration": "Basondubataillondexploration",
       "item.bals_arystisa.arystisa_world": "Dimond Flint \u0026 Steel",
       "item.bals_arystisa.nano_armor_leggings": "Nano Leggings",
-      "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "item.bals_arystisa.tugstium_armor_armor_helmet": "Tugstium Helmet",
+      "item.bals_arystisa.baguette_sword": "Baguette Sword",
       "block.bals_arystisa.arysting_fence": "Arysting Fence",
       "item.bals_arystisa.baguette_shovel": "Baguette Shovel",
       "subtitles.end_spawner_wave": "",
@@ -3308,8 +3352,8 @@
       "item.bals_arystisa.hogirit_ingot": "Hogirit",
       "item.bals_arystisa.hogirit_shovel": "Hogirit Shovel",
       "block.bals_arystisa.arysting_fence_gate": "Arysting FenceGate",
-      "block.bals_arystisa.ignisium_ore": "Ignisium Ore",
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
+      "block.bals_arystisa.ignisium_ore": "Ignisium Ore",
       "item.bals_arystisa.night_vision_medaillon": "NightVision Medaillon",
       "block.bals_arystisa.tugstiumore": "Tugstium Ore",
       "item.bals_arystisa.nano_armor_chestplate": "Nano Chestplate",
