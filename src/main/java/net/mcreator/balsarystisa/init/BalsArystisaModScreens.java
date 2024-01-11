@@ -26,10 +26,10 @@ public class BalsArystisaModScreens {
 		event.enqueueWork(() -> {
 			MenuScreens.register(BalsArystisaModMenus.GUI_CYBERWARE_GENERAL.get(), GUICyberwareGeneralScreen::new);
 			MenuScreens.register(BalsArystisaModMenus.WORK_STATION_GUI.get(), WorkStationGUIScreen::new);
+			MenuScreens.register(BalsArystisaModMenus.ARYSTISIA_GUI.get(), ArystisiaGUIScreen::new);
 			MenuScreens.register(BalsArystisaModMenus.NANO_CRAFTING_TABLE_GUI.get(), NanoCraftingTableGUIScreen::new);
 			MenuScreens.register(BalsArystisaModMenus.IGNISIUM_CRAFTING_TABLE_GUI.get(), IgnisiumCraftingTableGUIScreen::new);
 			MenuScreens.register(BalsArystisaModMenus.MEDAILLON_GUI.get(), MedaillonGUIScreen::new);
-			MenuScreens.register(BalsArystisaModMenus.ARYSTISIA_GUI.get(), ArystisiaGUIScreen::new);
 			MenuScreens.register(BalsArystisaModMenus.SOUND_BOARD_GUI.get(), SoundBoardGUIScreen::new);
 		});
 	}
