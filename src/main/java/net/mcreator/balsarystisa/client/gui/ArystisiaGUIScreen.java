@@ -6,12 +6,9 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.balsarystisa.world.inventory.ArystisiaGUIMenu;
-import net.mcreator.balsarystisa.network.ArystisiaGUIButtonMessage;
-import net.mcreator.balsarystisa.BalsArystisaMod;
 
 import java.util.HashMap;
 
@@ -22,7 +19,6 @@ public class ArystisiaGUIScreen extends AbstractContainerScreen<ArystisiaGUIMenu
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	ImageButton imagebutton_soundboardbutton;
 
 	public ArystisiaGUIScreen(ArystisiaGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -84,13 +80,5 @@ public class ArystisiaGUIScreen extends AbstractContainerScreen<ArystisiaGUIMenu
 	@Override
 	public void init() {
 		super.init();
-		imagebutton_soundboardbutton = new ImageButton(this.leftPos + 18, this.topPos + 25, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_soundboardbutton.png"), 26, 52, e -> {
-			if (true) {
-				BalsArystisaMod.PACKET_HANDLER.sendToServer(new ArystisiaGUIButtonMessage(0, x, y, z));
-				ArystisiaGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
-			}
-		});
-		guistate.put("button:imagebutton_soundboardbutton", imagebutton_soundboardbutton);
-		this.addRenderableWidget(imagebutton_soundboardbutton);
 	}
 }

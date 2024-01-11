@@ -10,7 +10,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.balsarystisa.procedures.EnderEyeCyberwareUseProcedure;
+import net.mcreator.balsarystisa.procedures.InvisibleCamoUseProcedure;
 import net.mcreator.balsarystisa.BalsArystisaMod;
 
 import java.util.function.Supplier;
@@ -52,7 +52,7 @@ public class SelectionUseMessage {
 			return;
 		if (type == 0) {
 
-			EnderEyeCyberwareUseProcedure.execute(entity);
+			InvisibleCamoUseProcedure.execute(world, entity);
 		}
 	}
 
