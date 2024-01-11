@@ -58,6 +58,18 @@
           "onClick": {
             "name": "OpenSoundBoardGUIproced"
           },
+          "displayCondition": {
+            "name": "SoundboardRuleProced"
+          },
+          "x": 49,
+          "y": 60
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "no_claim.png",
+          "use1Xscale": false,
           "x": 49,
           "y": 60
         }
