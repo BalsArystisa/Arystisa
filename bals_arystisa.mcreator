@@ -874,8 +874,8 @@
       "registry_name": "tugstium",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/tugstium.json",
-          "src/main/java/net/mcreator/balsarystisa/item/TugstiumItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/TugstiumItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/tugstium.json"
         ]
       },
       "path": "~/Thekiller9088"
@@ -1857,8 +1857,8 @@
       "registry_name": "nano_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/nano_ingot.json",
-          "src/main/java/net/mcreator/balsarystisa/item/NanoIngotItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/NanoIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_ingot.json"
         ]
       },
       "path": "~/BAL1SEUR/Minerais Nano"
@@ -2760,10 +2760,10 @@
       "registry_name": "nano_technologie_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_block.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/nano_technologie_block.json",
           "src/main/java/net/mcreator/balsarystisa/block/NanoTechnologieBlockBlock.java",
-          "src/main/resources/assets/bals_arystisa/models/block/nano_technologie_block.json",
-          "src/main/resources/assets/bals_arystisa/blockstates/nano_technologie_block.json"
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_block.json",
+          "src/main/resources/assets/bals_arystisa/models/block/nano_technologie_block.json"
         ]
       },
       "path": "~/BAL1SEUR/NanoTechnologie"
@@ -3272,8 +3272,7 @@
           "src/main/java/net/mcreator/balsarystisa/item/CompactGoldIngotItem.java",
           "src/main/resources/assets/bals_arystisa/models/item/compact_gold_ingot.json"
         ]
-      },
-      "path": "~/BAL1SEUR/Compact Vanilla Ingot"
+      }
     },
     {
       "name": "CompactTugstiumIngot",
@@ -3320,8 +3319,7 @@
           "src/main/java/net/mcreator/balsarystisa/item/CompactIronIngotItem.java",
           "src/main/resources/assets/bals_arystisa/models/item/compact_iron_ingot.json"
         ]
-      },
-      "path": "~/BAL1SEUR/Compact Vanilla Ingot"
+      }
     },
     {
       "name": "CompactCopperIngot",
@@ -3335,8 +3333,7 @@
           "src/main/resources/assets/bals_arystisa/models/item/compact_copper_ingot.json",
           "src/main/java/net/mcreator/balsarystisa/item/CompactCopperIngotItem.java"
         ]
-      },
-      "path": "~/BAL1SEUR/Compact Vanilla Ingot"
+      }
     },
     {
       "name": "CompactNetheriteIngot",
@@ -3350,8 +3347,7 @@
           "src/main/resources/assets/bals_arystisa/models/item/compact_netherite_ingot.json",
           "src/main/java/net/mcreator/balsarystisa/item/CompactNetheriteIngotItem.java"
         ]
-      },
-      "path": "~/BAL1SEUR/Compact Vanilla Ingot"
+      }
     },
     {
       "name": "FifthCommonSoundboardProced",
@@ -4059,11 +4055,15 @@
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
       "item.bals_arystisa.match_lie": "Match Lie",
       "item.bals_arystisa.night_vision_medaillon": "NightVision Medaillon",
+      "gamerule.doPlayerSoundboard": "DoPlayerSoundboard",
       "block.bals_arystisa.tugstiumore": "Tugstium Ore",
       "item.bals_arystisa.nano_armor_chestplate": "Nano Chestplate",
       "block.bals_arystisa.arysting_button": "Arysting Button",
       "biome.bals_arystisa.enchant_forest": "Enchant Forest",
       "item.bals_arystisa.nano_armor_helmet": "Nano Helmet",
+      "block.bals_arystisa.ignisium_smelter": "Ignisium Smelter",
+      "gui.bals_arystisa.sound_board_gui.label_comming_soon": "Comming Soon !",
+      "gui.bals_arystisa.sound_board_gui.label_soundboard_menu": "SoundBoard Menu:",
       "key.bals_arystisa.medaillon_key_bind": "Medaillon",
       "block.bals_arystisa.enchant_planks": "Enchant Planks",
       "item.bals_arystisa.nano_shovel": "Nano Shovel",
@@ -4158,12 +4158,14 @@
       "block.bals_arystisa.hogirit_ore": "Hogirit Ore",
       "item.bals_arystisa.arysting_cow_spawn_egg": "Arysting Cow Spawn Egg",
       "item.bals_arystisa.tugstium_armor_armor_chestplate": "Tugstium Chestplate",
+      "gui.bals_arystisa.sound_board_gui.label_arystisa": "Arystisa",
       "block.bals_arystisa.enchant_log": "Enchant Log",
       "item_group.bals_arystisa.arystisa": "Arystisa",
       "item.bals_arystisa.nano_pickaxe": "Nano Pickaxe",
       "block.bals_arystisa.red_phosphorus_block": "Blocdephosphorerouge",
       "item.bals_arystisa.tugstium_1_pickaxe": "Tugstium_1 Pickaxe",
       "item.bals_arystisa.matchbox": "Matchbox",
+      "gamerule.doPlayerSoundboard.description": "Activate The Soundboard",
       "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
       "item.bals_arystisa.diamond_flint": "Diamond Flint",
       "key.bals_arystisa.open_arystisa_emotes_key_bind": "Open Arystisa Emotes",
