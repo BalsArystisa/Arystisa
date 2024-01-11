@@ -48,6 +48,19 @@
           "x": 309,
           "y": 188
         }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_soundboardbutton",
+          "image": "soundboardbutton.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "OpenSoundBoardGUIproced"
+          },
+          "x": 49,
+          "y": 60
+        }
       }
     ],
     "gridSettings": {

@@ -6,19 +6,14 @@ package net.mcreator.balsarystisa.init;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.balsarystisa.BalsArystisaMod;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class BalsArystisaModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, BalsArystisaMod.MODID);
 	public static final RegistryObject<CreativeModeTab> ARYSTISA = REGISTRY.register("arystisa",
@@ -29,10 +24,10 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.BLOCTUGSTIUM.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.NANO_BLOCK.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.IGNISIUM_ORE.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.COBALTORE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.TUGSTIUMORE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.NANO_ORE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.BLACK_PHOSPHORUS_BLOCK.get().asItem());
-				tabData.accept(BalsArystisaModBlocks.NANO_TECHNOLOGIE_BLOCK.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.RED_PHOSPHORUS_BLOCK.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.FORMER_GRAVEL.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.ARYSTING_LEAVES.get().asItem());
@@ -60,31 +55,22 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.TUGSTIUM.get());
 				tabData.accept(BalsArystisaModItems.NANO_INGOT.get());
 				tabData.accept(BalsArystisaModItems.NANO_PLATE.get());
-				tabData.accept(BalsArystisaModItems.COMPACT_COPPER_INGOT.get());
 				tabData.accept(BalsArystisaModItems.COMPACT_NANO_INGOT.get());
-				tabData.accept(BalsArystisaModItems.COMPACT_IGNISIUM_INGOT.get());
-				tabData.accept(BalsArystisaModItems.COMPACT_IRON_INGOT.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_ARMOR_ARMOR_HELMET.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_ARMOR_ARMOR_CHESTPLATE.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_ARMOR_ARMOR_LEGGINGS.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_ARMOR_ARMOR_BOOTS.get());
-				tabData.accept(BalsArystisaModItems.COMPACT_GOLD_INGOT.get());
-				tabData.accept(BalsArystisaModItems.COMPACT_TUGSTIUM_INGOT.get());
 				tabData.accept(BalsArystisaModItems.NANO_ARMOR_HELMET.get());
 				tabData.accept(BalsArystisaModItems.NANO_ARMOR_CHESTPLATE.get());
 				tabData.accept(BalsArystisaModItems.NANO_ARMOR_LEGGINGS.get());
 				tabData.accept(BalsArystisaModItems.NANO_ARMOR_BOOTS.get());
-				tabData.accept(BalsArystisaModItems.COMPACT_NETHERITE_INGOT.get());
 				tabData.accept(BalsArystisaModItems.BAGUETTE.get());
-				tabData.accept(BalsArystisaModItems.NANO_TECHNOLOGIE_PLATE.get());
 				tabData.accept(BalsArystisaModItems.BAGUETTE_SWORD.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_1_SWORD.get());
-				tabData.accept(BalsArystisaModItems.COMPACT_NANO_TECHNOLOGIE_INGOT.get());
 				tabData.accept(BalsArystisaModItems.NANO_SWORD.get());
 				tabData.accept(BalsArystisaModItems.BAGUETTE_PICKAXE.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_1_PICKAXE.get());
 				tabData.accept(BalsArystisaModItems.NANO_PICKAXE.get());
-				tabData.accept(BalsArystisaModItems.NANO_TECHNOLOGIE_INGOT.get());
 				tabData.accept(BalsArystisaModItems.BAGUETTE_AXE.get());
 				tabData.accept(BalsArystisaModItems.TUGSTIUM_1_AXE.get());
 				tabData.accept(BalsArystisaModItems.NANO_AXE.get());
@@ -101,9 +87,6 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_2.get());
 				tabData.accept(BalsArystisaModItems.SUB_DERMAL_ARMOR_TIER_3.get());
 				tabData.accept(BalsArystisaModItems.SAP_BOTTLE.get());
-				tabData.accept(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_1.get());
-				tabData.accept(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_2.get());
-				tabData.accept(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_3.get());
 				tabData.accept(BalsArystisaModItems.AMBER.get());
 				tabData.accept(BalsArystisaModItems.DIAMOND_FLINT.get());
 				tabData.accept(BalsArystisaModItems.ARYSTISA_WORLD.get());
@@ -114,50 +97,15 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.NANO_CRAFTING_TABLE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.WORK_STATION.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.IGNISIUM_CRAFTING_TABLE.get().asItem());
-				tabData.accept(BalsArystisaModItems.NANO_TECHNOLOGIE_ARMOR_HELMET.get());
-				tabData.accept(BalsArystisaModItems.NANO_TECHNOLOGIE_ARMOR_CHESTPLATE.get());
-				tabData.accept(BalsArystisaModItems.NANO_TECHNOLOGIE_ARMOR_LEGGINGS.get());
-				tabData.accept(BalsArystisaModItems.NANO_TECHNOLOGIE_ARMOR_BOOTS.get());
-				tabData.accept(BalsArystisaModBlocks.WHITE_PHOSPHORUS_BLOCK.get().asItem());
-				tabData.accept(BalsArystisaModItems.MATCHBOX.get());
-				tabData.accept(BalsArystisaModItems.MATCH.get());
-				tabData.accept(BalsArystisaModItems.MATCHBOX_1.get());
-				tabData.accept(BalsArystisaModItems.FIREWORKS.get());
 				tabData.accept(BalsArystisaModItems.FALL_DAMAGE_MEDAILLON.get());
 				tabData.accept(BalsArystisaModItems.HEALTH_BOOST_MEDAILLON.get());
 				tabData.accept(BalsArystisaModItems.HUNGER_MEDAILLON.get());
 				tabData.accept(BalsArystisaModItems.NIGHT_VISION_MEDAILLON.get());
 				tabData.accept(BalsArystisaModItems.RESPIRATION_MEDAILLON.get());
-				tabData.accept(BalsArystisaModItems.MATCH_LIE.get());
-				tabData.accept(BalsArystisaModItems.WHITE_PHOSPHORUS_ORE.get());
-				tabData.accept(BalsArystisaModItems.BLACK_PHOSPHORUS_ORE.get());
-				tabData.accept(BalsArystisaModItems.RED_PHOSPHORUS_ORE.get());
-				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_1.get());
-				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_2.get());
-				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_3.get());
-				tabData.accept(BalsArystisaModItems.ENDER_PEARL_IMPLANT.get());
+				tabData.accept(BalsArystisaModBlocks.WHITE_PHOSPHORUS_BLOCK.get().asItem());
+				tabData.accept(BalsArystisaModItems.MATCHBOX.get());
+				tabData.accept(BalsArystisaModItems.MATCH.get());
+				tabData.accept(BalsArystisaModItems.MATCHBOX_1.get());
+				tabData.accept(BalsArystisaModItems.FIREWORKS.get());
 			}).withSearchBar().build());
-
-	@SubscribeEvent
-	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-
-		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-			tabData.accept(BalsArystisaModItems.COBALT_ARMOR_HELMET.get());
-			tabData.accept(BalsArystisaModItems.COBALT_ARMOR_CHESTPLATE.get());
-			tabData.accept(BalsArystisaModItems.COBALT_ARMOR_LEGGINGS.get());
-			tabData.accept(BalsArystisaModItems.COBALT_ARMOR_BOOTS.get());
-			tabData.accept(BalsArystisaModItems.COBALT_SWORD.get());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-			tabData.accept(BalsArystisaModItems.COBALT_INGOT.get());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-			tabData.accept(BalsArystisaModItems.COBALT_PICKAXE.get());
-			tabData.accept(BalsArystisaModItems.COBALT_AXE.get());
-			tabData.accept(BalsArystisaModItems.COBALT_SHOVEL.get());
-			tabData.accept(BalsArystisaModItems.COBALT_HOE.get());
-		}
-	}
 }
