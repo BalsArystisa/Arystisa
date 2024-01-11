@@ -117,7 +117,7 @@ public class SoundBoardGUIScreen extends AbstractContainerScreen<SoundBoardGUIMe
 	@Override
 	public void init() {
 		super.init();
-		imagebutton_soundboardbutton = new ImageButton(this.leftPos + 18, this.topPos + 25, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_soundboardbutton.png"), 26, 52, e -> {
+		imagebutton_soundboardbutton = new ImageButton(this.leftPos + 10, this.topPos + 25, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_soundboardbutton.png"), 26, 52, e -> {
 		});
 		guistate.put("button:imagebutton_soundboardbutton", imagebutton_soundboardbutton);
 		this.addRenderableWidget(imagebutton_soundboardbutton);

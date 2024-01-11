@@ -84,7 +84,7 @@ public class ArystisiaGUIScreen extends AbstractContainerScreen<ArystisiaGUIMenu
 	@Override
 	public void init() {
 		super.init();
-		imagebutton_soundboardbutton = new ImageButton(this.leftPos + 17, this.topPos + 23, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_soundboardbutton.png"), 26, 52, e -> {
+		imagebutton_soundboardbutton = new ImageButton(this.leftPos + 10, this.topPos + 25, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_soundboardbutton.png"), 26, 52, e -> {
 			if (true) {
 				BalsArystisaMod.PACKET_HANDLER.sendToServer(new ArystisiaGUIButtonMessage(0, x, y, z));
 				ArystisiaGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
