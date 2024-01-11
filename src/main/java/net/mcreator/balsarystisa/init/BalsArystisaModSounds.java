@@ -18,5 +18,4 @@ public class BalsArystisaModSounds {
 	public static final RegistryObject<SoundEvent> NEXT_SPAWNER_WAVE = REGISTRY.register("next_spawner_wave", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("bals_arystisa", "next_spawner_wave")));
 	public static final RegistryObject<SoundEvent> LAUNCH_SPAWNER_WAVE = REGISTRY.register("launch_spawner_wave", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("bals_arystisa", "launch_spawner_wave")));
 	public static final RegistryObject<SoundEvent> END_SPAWNER_WAVE = REGISTRY.register("end_spawner_wave", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("bals_arystisa", "end_spawner_wave")));
-	public static final RegistryObject<SoundEvent> LEGENDARYONESONDBOARD = REGISTRY.register("legendaryonesondboard", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("bals_arystisa", "legendaryonesondboard")));
 }

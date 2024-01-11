@@ -95,6 +95,7 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> BLOCTUGSTIUM = block(BalsArystisaModBlocks.BLOCTUGSTIUM);
 	public static final RegistryObject<Item> NANO_BLOCK = block(BalsArystisaModBlocks.NANO_BLOCK);
 	public static final RegistryObject<Item> IGNISIUM_ORE = block(BalsArystisaModBlocks.IGNISIUM_ORE);
+	public static final RegistryObject<Item> COBALTORE = block(BalsArystisaModBlocks.COBALTORE);
 	public static final RegistryObject<Item> TUGSTIUMORE = block(BalsArystisaModBlocks.TUGSTIUMORE);
 	public static final RegistryObject<Item> NANO_ORE = block(BalsArystisaModBlocks.NANO_ORE);
 	public static final RegistryObject<Item> BLACK_PHOSPHORUS_BLOCK = block(BalsArystisaModBlocks.BLACK_PHOSPHORUS_BLOCK);
@@ -180,6 +181,7 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> NANO_CRAFTING_TABLE = block(BalsArystisaModBlocks.NANO_CRAFTING_TABLE);
 	public static final RegistryObject<Item> WORK_STATION = block(BalsArystisaModBlocks.WORK_STATION);
 	public static final RegistryObject<Item> IGNISIUM_CRAFTING_TABLE = block(BalsArystisaModBlocks.IGNISIUM_CRAFTING_TABLE);
+	public static final RegistryObject<Item> IGNISIUM_SMELTER = block(BalsArystisaModBlocks.IGNISIUM_SMELTER);
 	public static final RegistryObject<Item> NANO_TECHNOLOGIE_ARMOR_HELMET = REGISTRY.register("nano_technologie_armor_helmet", () -> new NanoTechnologieArmorItem.Helmet());
 	public static final RegistryObject<Item> NANO_TECHNOLOGIE_ARMOR_CHESTPLATE = REGISTRY.register("nano_technologie_armor_chestplate", () -> new NanoTechnologieArmorItem.Chestplate());
 	public static final RegistryObject<Item> NANO_TECHNOLOGIE_ARMOR_LEGGINGS = REGISTRY.register("nano_technologie_armor_leggings", () -> new NanoTechnologieArmorItem.Leggings());

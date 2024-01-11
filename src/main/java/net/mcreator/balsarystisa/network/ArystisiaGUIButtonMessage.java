@@ -12,7 +12,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.balsarystisa.world.inventory.ArystisiaGUIMenu;
-import net.mcreator.balsarystisa.procedures.SoundBoardButtonProcedure;
+import net.mcreator.balsarystisa.procedures.OpenSoundBoardGUIprocedProcedure;
 import net.mcreator.balsarystisa.BalsArystisaMod;
 
 import java.util.function.Supplier;
@@ -64,7 +64,7 @@ public class ArystisiaGUIButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			SoundBoardButtonProcedure.execute(world, x, y, z, entity);
+			OpenSoundBoardGUIprocedProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

@@ -10,6 +10,7 @@ import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.balsarystisa.world.inventory.ArystisiaGUIMenu;
+import net.mcreator.balsarystisa.procedures.SoundboardRuleProcedProcedure;
 import net.mcreator.balsarystisa.network.ArystisiaGUIButtonMessage;
 import net.mcreator.balsarystisa.BalsArystisaMod;
 
@@ -53,6 +54,8 @@ public class ArystisiaGUIScreen extends AbstractContainerScreen<ArystisiaGUIMenu
 
 		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/arystisa_emotes_first_gui.png"), this.leftPos + 0, this.topPos + 0, 0, 0, 350, 170, 350, 170);
 
+		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/no_claim.png"), this.leftPos + 10, this.topPos + 25, 0, 0, 26, 26, 26, 26);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -84,12 +87,18 @@ public class ArystisiaGUIScreen extends AbstractContainerScreen<ArystisiaGUIMenu
 	@Override
 	public void init() {
 		super.init();
-		imagebutton_soundboardbutton = new ImageButton(this.leftPos + 18, this.topPos + 25, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_soundboardbutton.png"), 26, 52, e -> {
-			if (true) {
+		imagebutton_soundboardbutton = new ImageButton(this.leftPos + 10, this.topPos + 25, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_soundboardbutton.png"), 26, 52, e -> {
+			if (SoundboardRuleProcedProcedure.execute(world)) {
 				BalsArystisaMod.PACKET_HANDLER.sendToServer(new ArystisiaGUIButtonMessage(0, x, y, z));
 				ArystisiaGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		});
+		}) {
+			@Override
+			public void render(GuiGraphics guiGraphics, int gx, int gy, float ticks) {
+				if (SoundboardRuleProcedProcedure.execute(world))
+					super.render(guiGraphics, gx, gy, ticks);
+			}
+		};
 		guistate.put("button:imagebutton_soundboardbutton", imagebutton_soundboardbutton);
 		this.addRenderableWidget(imagebutton_soundboardbutton);
 	}

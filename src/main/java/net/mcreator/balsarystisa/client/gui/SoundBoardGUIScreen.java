@@ -9,7 +9,19 @@ public class SoundBoardGUIScreen extends AbstractContainerScreen<SoundBoardGUIMe
 	private final Player entity;
 
 	ImageButton imagebutton_soundboardbutton;
-	ImageButton imagebutton_soundboardbutton1;
+	ImageButton imagebutton_commun_finie;
+	ImageButton imagebutton_commun_finie1;
+	ImageButton imagebutton_commun_finie2;
+	ImageButton imagebutton_commun_finie3;
+	ImageButton imagebutton_commun_finie4;
+	ImageButton imagebutton_commun_finie5;
+	ImageButton imagebutton_commun_finie6;
+	ImageButton imagebutton_rare_finie;
+	ImageButton imagebutton_rare_finie1;
+	ImageButton imagebutton_rare_finie2;
+	ImageButton imagebutton_rare_finie3;
+	ImageButton imagebutton_rare_finie4;
+	ImageButton imagebutton_epic_finie;
 
 	public SoundBoardGUIScreen(SoundBoardGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -43,6 +55,24 @@ public class SoundBoardGUIScreen extends AbstractContainerScreen<SoundBoardGUIMe
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/arystisa_emotes_first_gui.png"), this.leftPos + 0, this.topPos + 0, 0, 0, 350, 170, 350, 170);
+
+		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/no_claim.png"), this.leftPos + 71, this.topPos + 95, 0, 0, 26, 26, 26, 26);
+
+		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/no_claim.png"), this.leftPos + 101, this.topPos + 95, 0, 0, 26, 26, 26, 26);
+
+		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/no_claim.png"), this.leftPos + 131, this.topPos + 95, 0, 0, 26, 26, 26, 26);
+
+		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/no_claim.png"), this.leftPos + 161, this.topPos + 95, 0, 0, 26, 26, 26, 26);
+
+		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/no_claim.png"), this.leftPos + 191, this.topPos + 95, 0, 0, 26, 26, 26, 26);
+
+		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/no_claim.png"), this.leftPos + 221, this.topPos + 95, 0, 0, 26, 26, 26, 26);
+
+		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/no_claim.png"), this.leftPos + 71, this.topPos + 130, 0, 0, 26, 26, 26, 26);
+
+		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/no_claim.png"), this.leftPos + 101, this.topPos + 130, 0, 0, 26, 26, 26, 26);
+
+		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/no_claim.png"), this.leftPos + 131, this.topPos + 130, 0, 0, 26, 26, 26, 26);
 
 		RenderSystem.disableBlend();
 	}
@@ -78,21 +108,155 @@ public class SoundBoardGUIScreen extends AbstractContainerScreen<SoundBoardGUIMe
 	public void init() {
 		super.init();
 
-		imagebutton_soundboardbutton = new ImageButton(this.leftPos + 18, this.topPos + 25, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_soundboardbutton.png"), 26, 52, e -> {
+		imagebutton_soundboardbutton = new ImageButton(this.leftPos + 10, this.topPos + 25, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_soundboardbutton.png"), 26, 52, e -> {
 		});
 
 		guistate.put("button:imagebutton_soundboardbutton", imagebutton_soundboardbutton);
 		this.addRenderableWidget(imagebutton_soundboardbutton);
 
-		imagebutton_soundboardbutton1 = new ImageButton(this.leftPos + 71, this.topPos + 25, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_soundboardbutton1.png"), 26, 52, e -> {
+		imagebutton_commun_finie = new ImageButton(this.leftPos + 71, this.topPos + 25, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_commun_finie.png"), 26, 52, e -> {
 			if (true) {
 				BalsArystisaMod.PACKET_HANDLER.sendToServer(new SoundBoardGUIButtonMessage(1, x, y, z));
 				SoundBoardGUIButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		});
 
-		guistate.put("button:imagebutton_soundboardbutton1", imagebutton_soundboardbutton1);
-		this.addRenderableWidget(imagebutton_soundboardbutton1);
+		guistate.put("button:imagebutton_commun_finie", imagebutton_commun_finie);
+		this.addRenderableWidget(imagebutton_commun_finie);
+
+		imagebutton_commun_finie1 = new ImageButton(this.leftPos + 101, this.topPos + 25, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_commun_finie1.png"), 26, 52, e -> {
+			if (true) {
+				BalsArystisaMod.PACKET_HANDLER.sendToServer(new SoundBoardGUIButtonMessage(2, x, y, z));
+				SoundBoardGUIButtonMessage.handleButtonAction(entity, 2, x, y, z);
+			}
+		});
+
+		guistate.put("button:imagebutton_commun_finie1", imagebutton_commun_finie1);
+		this.addRenderableWidget(imagebutton_commun_finie1);
+
+		imagebutton_commun_finie2 = new ImageButton(this.leftPos + 131, this.topPos + 25, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_commun_finie2.png"), 26, 52, e -> {
+			if (true) {
+				BalsArystisaMod.PACKET_HANDLER.sendToServer(new SoundBoardGUIButtonMessage(3, x, y, z));
+				SoundBoardGUIButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
+		});
+
+		guistate.put("button:imagebutton_commun_finie2", imagebutton_commun_finie2);
+		this.addRenderableWidget(imagebutton_commun_finie2);
+
+		imagebutton_commun_finie3 = new ImageButton(this.leftPos + 161, this.topPos + 25, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_commun_finie3.png"), 26, 52, e -> {
+			if (true) {
+				BalsArystisaMod.PACKET_HANDLER.sendToServer(new SoundBoardGUIButtonMessage(4, x, y, z));
+				SoundBoardGUIButtonMessage.handleButtonAction(entity, 4, x, y, z);
+			}
+		});
+
+		guistate.put("button:imagebutton_commun_finie3", imagebutton_commun_finie3);
+		this.addRenderableWidget(imagebutton_commun_finie3);
+
+		imagebutton_commun_finie4 = new ImageButton(this.leftPos + 191, this.topPos + 25, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_commun_finie4.png"), 26, 52, e -> {
+			if (true) {
+				BalsArystisaMod.PACKET_HANDLER.sendToServer(new SoundBoardGUIButtonMessage(5, x, y, z));
+				SoundBoardGUIButtonMessage.handleButtonAction(entity, 5, x, y, z);
+			}
+		});
+
+		guistate.put("button:imagebutton_commun_finie4", imagebutton_commun_finie4);
+		this.addRenderableWidget(imagebutton_commun_finie4);
+
+		imagebutton_commun_finie5 = new ImageButton(this.leftPos + 221, this.topPos + 25, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_commun_finie5.png"), 26, 52, e -> {
+			if (true) {
+				BalsArystisaMod.PACKET_HANDLER.sendToServer(new SoundBoardGUIButtonMessage(6, x, y, z));
+				SoundBoardGUIButtonMessage.handleButtonAction(entity, 6, x, y, z);
+			}
+		});
+
+		guistate.put("button:imagebutton_commun_finie5", imagebutton_commun_finie5);
+		this.addRenderableWidget(imagebutton_commun_finie5);
+
+		imagebutton_commun_finie6 = new ImageButton(this.leftPos + 251, this.topPos + 25, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_commun_finie6.png"), 26, 52, e -> {
+			if (true) {
+				BalsArystisaMod.PACKET_HANDLER.sendToServer(new SoundBoardGUIButtonMessage(7, x, y, z));
+				SoundBoardGUIButtonMessage.handleButtonAction(entity, 7, x, y, z);
+			}
+		});
+
+		guistate.put("button:imagebutton_commun_finie6", imagebutton_commun_finie6);
+		this.addRenderableWidget(imagebutton_commun_finie6);
+
+		imagebutton_rare_finie = new ImageButton(this.leftPos + 71, this.topPos + 60, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_rare_finie.png"), 26, 52, e -> {
+			if (true) {
+				BalsArystisaMod.PACKET_HANDLER.sendToServer(new SoundBoardGUIButtonMessage(8, x, y, z));
+				SoundBoardGUIButtonMessage.handleButtonAction(entity, 8, x, y, z);
+			}
+		});
+
+		guistate.put("button:imagebutton_rare_finie", imagebutton_rare_finie);
+		this.addRenderableWidget(imagebutton_rare_finie);
+
+		imagebutton_rare_finie1 = new ImageButton(this.leftPos + 101, this.topPos + 60, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_rare_finie1.png"), 26, 52, e -> {
+			if (true) {
+				BalsArystisaMod.PACKET_HANDLER.sendToServer(new SoundBoardGUIButtonMessage(9, x, y, z));
+				SoundBoardGUIButtonMessage.handleButtonAction(entity, 9, x, y, z);
+			}
+		});
+
+		guistate.put("button:imagebutton_rare_finie1", imagebutton_rare_finie1);
+		this.addRenderableWidget(imagebutton_rare_finie1);
+
+		imagebutton_rare_finie2 = new ImageButton(this.leftPos + 131, this.topPos + 60, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_rare_finie2.png"), 26, 52, e -> {
+			if (true) {
+				BalsArystisaMod.PACKET_HANDLER.sendToServer(new SoundBoardGUIButtonMessage(10, x, y, z));
+				SoundBoardGUIButtonMessage.handleButtonAction(entity, 10, x, y, z);
+			}
+		});
+
+		guistate.put("button:imagebutton_rare_finie2", imagebutton_rare_finie2);
+		this.addRenderableWidget(imagebutton_rare_finie2);
+
+		imagebutton_rare_finie3 = new ImageButton(this.leftPos + 161, this.topPos + 60, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_rare_finie3.png"), 26, 52, e -> {
+			if (true) {
+				BalsArystisaMod.PACKET_HANDLER.sendToServer(new SoundBoardGUIButtonMessage(11, x, y, z));
+				SoundBoardGUIButtonMessage.handleButtonAction(entity, 11, x, y, z);
+			}
+		});
+
+		guistate.put("button:imagebutton_rare_finie3", imagebutton_rare_finie3);
+		this.addRenderableWidget(imagebutton_rare_finie3);
+
+		imagebutton_rare_finie4 = new ImageButton(this.leftPos + 191, this.topPos + 60, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_rare_finie4.png"), 26, 52, e -> {
+			if (true) {
+				BalsArystisaMod.PACKET_HANDLER.sendToServer(new SoundBoardGUIButtonMessage(12, x, y, z));
+				SoundBoardGUIButtonMessage.handleButtonAction(entity, 12, x, y, z);
+			}
+		});
+
+		guistate.put("button:imagebutton_rare_finie4", imagebutton_rare_finie4);
+		this.addRenderableWidget(imagebutton_rare_finie4);
+
+		imagebutton_epic_finie = new ImageButton(this.leftPos + 71, this.topPos + 95, 26, 26, 0, 0, 26, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_epic_finie.png"), 26, 52, e -> {
+			if (
+
+			FirstEpicButtonConditionProcedProcedure.execute(entity)
+
+			) {
+				BalsArystisaMod.PACKET_HANDLER.sendToServer(new SoundBoardGUIButtonMessage(13, x, y, z));
+				SoundBoardGUIButtonMessage.handleButtonAction(entity, 13, x, y, z);
+			}
+		}) {
+			@Override
+			public void render(GuiGraphics guiGraphics, int gx, int gy, float ticks) {
+				if (
+
+				FirstEpicButtonConditionProcedProcedure.execute(entity)
+
+				)
+					super.render(guiGraphics, gx, gy, ticks);
+			}
+		};
+
+		guistate.put("button:imagebutton_epic_finie", imagebutton_epic_finie);
+		this.addRenderableWidget(imagebutton_epic_finie);
 
 	}
 

@@ -55,7 +55,7 @@
           "name": "imagebutton_soundboardbutton",
           "image": "soundboardbutton.png",
           "hoveredImage": "",
-          "x": 57,
+          "x": 49,
           "y": 60
         }
       },
@@ -77,14 +77,254 @@
       {
         "type": "imagebutton",
         "data": {
-          "name": "imagebutton_soundboardbutton1",
-          "image": "soundboardbutton.png",
+          "name": "imagebutton_commun_finie",
+          "image": "commun_finie.png",
           "hoveredImage": "",
           "onClick": {
-            "name": "TestSoundboard"
+            "name": "FirstCommonSoundboardProced"
           },
           "x": 110,
           "y": 60
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_commun_finie1",
+          "image": "commun_finie.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "SecondCommonSoundboardProced"
+          },
+          "x": 140,
+          "y": 60
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_commun_finie2",
+          "image": "commun_finie.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ThirdCommonSoundboardProced"
+          },
+          "x": 170,
+          "y": 60
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_commun_finie3",
+          "image": "commun_finie.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "FourthCommonSoundboardProced"
+          },
+          "x": 200,
+          "y": 60
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_commun_finie4",
+          "image": "commun_finie.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "FifthCommonSoundboardProced"
+          },
+          "x": 230,
+          "y": 60
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_commun_finie5",
+          "image": "commun_finie.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "SixthCommonSoundboardProced"
+          },
+          "x": 260,
+          "y": 60
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_commun_finie6",
+          "image": "commun_finie.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "SeventhCommonSoundboardProced"
+          },
+          "x": 290,
+          "y": 60
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_rare_finie",
+          "image": "rare_finie.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "FirstRareSoundboardProced"
+          },
+          "x": 110,
+          "y": 95
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_rare_finie1",
+          "image": "rare_finie.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "SecondRareSoundboardProced"
+          },
+          "x": 140,
+          "y": 95
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_rare_finie2",
+          "image": "rare_finie.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ThirdRareSoundboardProced"
+          },
+          "x": 170,
+          "y": 95
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_rare_finie3",
+          "image": "rare_finie.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "FourthRareSoundboardProced"
+          },
+          "x": 200,
+          "y": 95
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_rare_finie4",
+          "image": "rare_finie.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "FifthRareSoundboardProced"
+          },
+          "x": 230,
+          "y": 95
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "no_claim.png",
+          "use1Xscale": false,
+          "x": 110,
+          "y": 130
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "no_claim.png",
+          "use1Xscale": false,
+          "x": 140,
+          "y": 130
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "no_claim.png",
+          "use1Xscale": false,
+          "x": 170,
+          "y": 130
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "no_claim.png",
+          "use1Xscale": false,
+          "x": 200,
+          "y": 130
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "no_claim.png",
+          "use1Xscale": false,
+          "x": 230,
+          "y": 130
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "no_claim.png",
+          "use1Xscale": false,
+          "x": 260,
+          "y": 130
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "no_claim.png",
+          "use1Xscale": false,
+          "x": 110,
+          "y": 165
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "no_claim.png",
+          "use1Xscale": false,
+          "x": 140,
+          "y": 165
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "no_claim.png",
+          "use1Xscale": false,
+          "x": 170,
+          "y": 165
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_epic_finie",
+          "image": "epic_finie.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "FirstEpicSoundboardProced"
+          },
+          "displayCondition": {
+            "name": "FirstEpicButtonConditionProced"
+          },
+          "x": 110,
+          "y": 130
         }
       }
     ],

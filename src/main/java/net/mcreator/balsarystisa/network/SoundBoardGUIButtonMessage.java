@@ -51,7 +51,55 @@ public class SoundBoardGUIButtonMessage {
 
 		if (buttonID == 1) {
 
-			TestSoundboardProcedure.execute();
+			FirstCommonSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 2) {
+
+			SecondCommonSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 3) {
+
+			ThirdCommonSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 4) {
+
+			FourthCommonSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 5) {
+
+			FifthCommonSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 6) {
+
+			SixthCommonSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 7) {
+
+			SeventhCommonSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 8) {
+
+			FirstRareSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 9) {
+
+			SecondRareSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 10) {
+
+			ThirdRareSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 11) {
+
+			FourthRareSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 12) {
+
+			FifthRareSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 13) {
+
+			FirstEpicSoundboardProcedProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

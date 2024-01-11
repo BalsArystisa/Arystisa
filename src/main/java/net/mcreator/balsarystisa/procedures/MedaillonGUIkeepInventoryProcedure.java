@@ -1,14 +1,21 @@
 package net.mcreator.balsarystisa.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.inventory.Slot;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
 
-import javax.annotation.Nullable;
+import net.mcreator.balsarystisa.network.BalsArystisaModVariables;
+import net.mcreator.balsarystisa.init.BalsArystisaModItems;
+
+import java.util.function.Supplier;
+import java.util.Map;
 
 public class MedaillonGUIkeepInventoryProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if (true == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Fall_Damage_Medaillon) {
+		if (true == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Invisible_Camo) {
 			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 				ItemStack _setstack = new ItemStack(BalsArystisaModItems.FALL_DAMAGE_MEDAILLON.get());
 				_setstack.setCount(1);
@@ -16,7 +23,7 @@ public class MedaillonGUIkeepInventoryProcedure {
 				_player.containerMenu.broadcastChanges();
 			}
 		}
-		if (true == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Health_Boost_Medaillon) {
+		if (true == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Invisible_Camo) {
 			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 				ItemStack _setstack = new ItemStack(BalsArystisaModItems.HEALTH_BOOST_MEDAILLON.get());
 				_setstack.setCount(1);
@@ -24,7 +31,7 @@ public class MedaillonGUIkeepInventoryProcedure {
 				_player.containerMenu.broadcastChanges();
 			}
 		}
-		if (true == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Hunger_Medaillon) {
+		if (true == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Invisible_Camo) {
 			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 				ItemStack _setstack = new ItemStack(BalsArystisaModItems.HUNGER_MEDAILLON.get());
 				_setstack.setCount(1);
@@ -32,7 +39,7 @@ public class MedaillonGUIkeepInventoryProcedure {
 				_player.containerMenu.broadcastChanges();
 			}
 		}
-		if (true == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Night_Vision_Medaillon) {
+		if (true == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Invisible_Camo) {
 			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 				ItemStack _setstack = new ItemStack(BalsArystisaModItems.NIGHT_VISION_MEDAILLON.get());
 				_setstack.setCount(1);
@@ -40,7 +47,7 @@ public class MedaillonGUIkeepInventoryProcedure {
 				_player.containerMenu.broadcastChanges();
 			}
 		}
-		if (true == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Respiration_Medaillon) {
+		if (true == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Invisible_Camo) {
 			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 				ItemStack _setstack = new ItemStack(BalsArystisaModItems.RESPIRATION_MEDAILLON.get());
 				_setstack.setCount(1);

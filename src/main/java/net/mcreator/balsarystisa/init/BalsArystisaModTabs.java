@@ -29,6 +29,7 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.BLOCTUGSTIUM.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.NANO_BLOCK.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.IGNISIUM_ORE.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.COBALTORE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.TUGSTIUMORE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.NANO_ORE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.BLACK_PHOSPHORUS_BLOCK.get().asItem());
@@ -114,6 +115,7 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModBlocks.NANO_CRAFTING_TABLE.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.WORK_STATION.get().asItem());
 				tabData.accept(BalsArystisaModBlocks.IGNISIUM_CRAFTING_TABLE.get().asItem());
+				tabData.accept(BalsArystisaModBlocks.IGNISIUM_SMELTER.get().asItem());
 				tabData.accept(BalsArystisaModItems.NANO_TECHNOLOGIE_ARMOR_HELMET.get());
 				tabData.accept(BalsArystisaModItems.NANO_TECHNOLOGIE_ARMOR_CHESTPLATE.get());
 				tabData.accept(BalsArystisaModItems.NANO_TECHNOLOGIE_ARMOR_LEGGINGS.get());
