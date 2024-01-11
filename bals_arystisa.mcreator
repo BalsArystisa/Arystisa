@@ -3449,6 +3449,490 @@
         ]
       },
       "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "FirstCommonSoundboardProced",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_common_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/FirstCommonSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "SecondCommonSoundboardProced",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "second_common_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/SecondCommonSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "ThirdCommonSoundboardProced",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "third_common_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/ThirdCommonSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "FourthCommonSoundboardProced",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fourth_common_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/FourthCommonSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "FifthCommonSoundboardProced",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fifth_common_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/FifthCommonSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "SixthCommonSoundboardProced",
+      "type": "procedure",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sixth_common_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/SixthCommonSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "SeventhCommonSoundboardProced",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seventh_common_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/SeventhCommonSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "FirstRareSoundboardProced",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_rare_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/FirstRareSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "SecondRareSoundboardProced",
+      "type": "procedure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "second_rare_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/SecondRareSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "ThirdRareSoundboardProced",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "third_rare_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/ThirdRareSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "FourthRareSoundboardProced",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fourth_rare_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/FourthRareSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "FifthRareSoundboardProced",
+      "type": "procedure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fifth_rare_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/FifthRareSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "FirstEpicSoundboardProced",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_epic_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/FirstEpicSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "FirstEpicButtonConditionProced",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_epic_button_condition_proced",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/FirstEpicButtonConditionProcedProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
     }
   ],
   "variable_elements": [

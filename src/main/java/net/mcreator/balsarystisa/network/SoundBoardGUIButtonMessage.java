@@ -12,7 +12,19 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.balsarystisa.world.inventory.SoundBoardGUIMenu;
-import net.mcreator.balsarystisa.procedures.TestSoundboardProcedure;
+import net.mcreator.balsarystisa.procedures.ThirdRareSoundboardProcedProcedure;
+import net.mcreator.balsarystisa.procedures.ThirdCommonSoundboardProcedProcedure;
+import net.mcreator.balsarystisa.procedures.SixthCommonSoundboardProcedProcedure;
+import net.mcreator.balsarystisa.procedures.SeventhCommonSoundboardProcedProcedure;
+import net.mcreator.balsarystisa.procedures.SecondRareSoundboardProcedProcedure;
+import net.mcreator.balsarystisa.procedures.SecondCommonSoundboardProcedProcedure;
+import net.mcreator.balsarystisa.procedures.FourthRareSoundboardProcedProcedure;
+import net.mcreator.balsarystisa.procedures.FourthCommonSoundboardProcedProcedure;
+import net.mcreator.balsarystisa.procedures.FirstRareSoundboardProcedProcedure;
+import net.mcreator.balsarystisa.procedures.FirstEpicSoundboardProcedProcedure;
+import net.mcreator.balsarystisa.procedures.FirstCommonSoundboardProcedProcedure;
+import net.mcreator.balsarystisa.procedures.FifthRareSoundboardProcedProcedure;
+import net.mcreator.balsarystisa.procedures.FifthCommonSoundboardProcedProcedure;
 import net.mcreator.balsarystisa.BalsArystisaMod;
 
 import java.util.function.Supplier;
@@ -64,7 +76,55 @@ public class SoundBoardGUIButtonMessage {
 			return;
 		if (buttonID == 1) {
 
-			TestSoundboardProcedure.execute(world, x, y, z, entity);
+			FirstCommonSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 2) {
+
+			SecondCommonSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 3) {
+
+			ThirdCommonSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 4) {
+
+			FourthCommonSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 5) {
+
+			FifthCommonSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 6) {
+
+			SixthCommonSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 7) {
+
+			SeventhCommonSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 8) {
+
+			FirstRareSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 9) {
+
+			SecondRareSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 10) {
+
+			ThirdRareSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 11) {
+
+			FourthRareSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 12) {
+
+			FifthRareSoundboardProcedProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 13) {
+
+			FirstEpicSoundboardProcedProcedure.execute(world, x, y, z, entity);
 		}
 	}
 
