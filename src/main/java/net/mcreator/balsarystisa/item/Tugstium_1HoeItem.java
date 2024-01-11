@@ -18,7 +18,7 @@ public class Tugstium_1HoeItem extends HoeItem {
 	public Tugstium_1HoeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 250;
+				return 2500;
 			}
 
 			public float getSpeed() {
@@ -30,7 +30,7 @@ public class Tugstium_1HoeItem extends HoeItem {
 			}
 
 			public int getLevel() {
-				return 2;
+				return 6;
 			}
 
 			public int getEnchantmentValue() {

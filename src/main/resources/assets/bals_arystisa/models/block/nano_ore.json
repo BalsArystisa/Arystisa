@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "bals_arystisa:block/nano_ore",
-    "particle": "bals_arystisa:block/nano_ore"
+    "all": "bals_arystisa:block/nanoo_ore",
+    "particle": "bals_arystisa:block/nanoo_ore"
   },
   "render_type": "solid"
 }

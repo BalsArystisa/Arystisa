@@ -46,6 +46,9 @@ public class IgnisiumCraftingTableGUIScreen extends AbstractContainerScreen<Igni
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		guiGraphics.blit(new ResourceLocation("bals_arystisa:textures/screens/ignisium_crafting_table_gui.png.png"), this.leftPos + 0, this.topPos + 0, 0, 0, 176, 166, 176, 166);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -65,6 +68,7 @@ public class IgnisiumCraftingTableGUIScreen extends AbstractContainerScreen<Igni
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.drawString(this.font, Component.translatable("gui.bals_arystisa.ignisium_crafting_table_gui.label_ignisium_crafting_table"), 8, 71, -1, false);
 	}
 
 	@Override
