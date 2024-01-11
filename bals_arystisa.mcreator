@@ -2569,7 +2569,7 @@
       "name": "HealthBoostMedaillon",
       "type": "item",
       "sortid": 153,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "health_boost_medaillon",
       "metadata": {
@@ -3142,7 +3142,7 @@
       "name": "CompactIgnisiumIngot",
       "type": "item",
       "sortid": 38,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "compact_ignisium_ingot",
       "metadata": {
@@ -3157,7 +3157,7 @@
       "name": "CompactNanoTechnologieIngot",
       "type": "item",
       "sortid": 41,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "compact_nano_technologie_ingot",
       "metadata": {
@@ -3217,7 +3217,7 @@
       "name": "NanoTechnologieBlock",
       "type": "block",
       "sortid": 10,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "nano_technologie_block",
       "metadata": {
@@ -3266,7 +3266,7 @@
       "name": "CompactGoldIngot",
       "type": "item",
       "sortid": 39,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "compact_gold_ingot",
       "metadata": {
@@ -3301,7 +3301,7 @@
       "name": "CompactIronIngot",
       "type": "item",
       "sortid": 38,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "compact_iron_ingot",
       "metadata": {
@@ -3316,7 +3316,7 @@
       "name": "SoundBoardGUI",
       "type": "gui",
       "sortid": 180,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "sound_board_gui",
       "metadata": {
@@ -3368,7 +3368,7 @@
       "name": "CompactCopperIngot",
       "type": "item",
       "sortid": 37,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "compact_copper_ingot",
       "metadata": {
@@ -3383,7 +3383,7 @@
       "name": "CompactNetheriteIngot",
       "type": "item",
       "sortid": 40,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "compact_netherite_ingot",
       "metadata": {
@@ -3465,6 +3465,26 @@
         ]
       },
       "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "FireRocket",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_rocket",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/FireRocketProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/MisterPongiste"
     }
   ],
   "variable_elements": [
