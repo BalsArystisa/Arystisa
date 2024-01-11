@@ -10,7 +10,7 @@ public class FirstEpicButtonConditionProcedProcedure {
 		if (entity == null)
 			return false;
 		if (entity instanceof ServerPlayer _plr0 && _plr0.level() instanceof ServerLevel
-				&& _plr0.getAdvancements().getOrStartProgress(_plr0.server.getAdvancements().getAdvancement(new ResourceLocation("minecraft:adventure/adventuring_time"))).isDone()) {
+				&& _plr0.getAdvancements().getOrStartProgress(_plr0.server.getAdvancements().getAdvancement(new ResourceLocation("minecraft:nether/return_to_sender"))).isDone()) {
 			return true;
 		}
 		return false;
