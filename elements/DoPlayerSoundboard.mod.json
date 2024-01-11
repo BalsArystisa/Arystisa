@@ -6,7 +6,7 @@
     "displayName": "DoPlayerSoundboard",
     "description": "Activate The Soundboard",
     "category": "PLAYER",
-    "defaultValueLogic": false,
+    "defaultValueLogic": true,
     "defaultValueNumber": 0
   }
 }

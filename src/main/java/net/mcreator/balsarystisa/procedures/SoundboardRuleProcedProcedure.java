@@ -26,8 +26,8 @@ public class SoundboardRuleProcedProcedure {
 
 	private static boolean execute(@Nullable Event event, LevelAccessor world) {
 		if (world.getLevelData().getGameRules().getBoolean(BalsArystisaModGameRules.DO_PLAYER_SOUNDBOARD)) {
-			return false;
+			return true;
 		}
-		return true;
+		return false;
 	}
 }
