@@ -626,7 +626,7 @@
           "src/main/java/net/mcreator/balsarystisa/item/ArystisaWorldItem.java"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR/Dimension Arystisa/Biomes Dimension"
     },
     {
       "name": "DiamondFlint",
@@ -659,7 +659,7 @@
           "src/main/java/net/mcreator/balsarystisa/world/features/treedecorators/ArystingForestLeaveDecorator.java"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR/Dimension Arystisa/Biomes Dimension"
     },
     {
       "name": "RunnedPortalParticle",
@@ -1159,7 +1159,7 @@
           "src/main/resources/data/bals_arystisa/worldgen/configured_feature/enchant_forest_tree.json"
         ]
       },
-      "path": "~/BAL1SEUR/Dimension Arystisa"
+      "path": "~/BAL1SEUR/Dimension Arystisa/Biomes Dimension"
     },
     {
       "name": "Basondubataillondexploration",
@@ -3957,6 +3957,20 @@
         ]
       },
       "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "PowderSnowyPlains",
+      "type": "biome",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "powder_snowy_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/worldgen/biome/powder_snowy_plains.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/Dimension Arystisa/Biomes Dimension"
     }
   ],
   "variable_elements": [
@@ -4097,6 +4111,7 @@
       "item.bals_arystisa.tugstium_armor_armor_leggings": "Tugstium Leggings",
       "block.bals_arystisa.enchant_leaves": "Enchant Leaves",
       "item.bals_arystisa.cobalt_axe": "Cobalt Axe",
+      "biome.bals_arystisa.powder_snowy_plains": "Powder-Snowy Plains",
       "entity.bals_arystisa.arysting_cow": "Arysting Cow",
       "item.bals_arystisa.invisible_camo_2": "Invisible Camo 2",
       "item.bals_arystisa.invisible_camo_1": "Invisible Camo 1",
@@ -4234,6 +4249,10 @@
             "children": [
               {
                 "name": "Biomes Dimension",
+                "children": []
+              },
+              {
+                "name": "The Hand Boss",
                 "children": []
               }
             ]

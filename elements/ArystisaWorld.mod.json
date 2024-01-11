@@ -8,6 +8,48 @@
       },
       {
         "value": "CUSTOM:EnchantForest"
+      },
+      {
+        "value": "CUSTOM:PowderSnowyPlains"
+      },
+      {
+        "value": "extreme_hills_with_trees"
+      },
+      {
+        "value": "cold_ocean"
+      },
+      {
+        "value": "birch_forest"
+      },
+      {
+        "value": "cherry_grove"
+      },
+      {
+        "value": "dripstone_caves"
+      },
+      {
+        "value": "river"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "warm_ocean"
+      },
+      {
+        "value": "ocean"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "grove"
+      },
+      {
+        "value": "mutated_forest"
+      },
+      {
+        "value": "badlands"
       }
     ],
     "worldGenType": "Normal world gen",

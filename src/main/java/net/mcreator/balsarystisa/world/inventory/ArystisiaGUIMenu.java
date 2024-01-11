@@ -3,6 +3,9 @@ package net.mcreator.balsarystisa.world.inventory;
 
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.IItemHandler;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.TickEvent;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.Level;
@@ -16,12 +19,14 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.balsarystisa.procedures.SoundboardRuleProcedProcedure;
 import net.mcreator.balsarystisa.init.BalsArystisaModMenus;
 
 import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
+@Mod.EventBusSubscriber
 public class ArystisiaGUIMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
@@ -70,5 +75,17 @@ public class ArystisiaGUIMenu extends AbstractContainerMenu implements Supplier<
 
 	public Map<Integer, Slot> get() {
 		return customSlots;
+	}
+
+	@SubscribeEvent
+	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
+		Player entity = event.player;
+		if (event.phase == TickEvent.Phase.END && entity.containerMenu instanceof ArystisiaGUIMenu) {
+			Level world = entity.level();
+			double x = entity.getX();
+			double y = entity.getY();
+			double z = entity.getZ();
+			SoundboardRuleProcedProcedure.execute(world);
+		}
 	}
 }
