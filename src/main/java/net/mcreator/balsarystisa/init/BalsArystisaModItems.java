@@ -140,6 +140,7 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> NANO_CRAFTING_TABLE = block(BalsArystisaModBlocks.NANO_CRAFTING_TABLE);
 	public static final RegistryObject<Item> WORK_STATION = block(BalsArystisaModBlocks.WORK_STATION);
 	public static final RegistryObject<Item> IGNISIUM_CRAFTING_TABLE = block(BalsArystisaModBlocks.IGNISIUM_CRAFTING_TABLE);
+	public static final RegistryObject<Item> IGNISIUM_SMELTER = block(BalsArystisaModBlocks.IGNISIUM_SMELTER);
 	public static final RegistryObject<Item> WHITE_PHOSPHORUS_BLOCK = block(BalsArystisaModBlocks.WHITE_PHOSPHORUS_BLOCK);
 	public static final RegistryObject<Item> MATCHBOX = REGISTRY.register("matchbox", () -> new MatchboxItem());
 	public static final RegistryObject<Item> MATCH = REGISTRY.register("match", () -> new MatchItem());
