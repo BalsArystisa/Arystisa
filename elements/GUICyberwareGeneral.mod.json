@@ -54,6 +54,26 @@
           "x": 136,
           "y": 185
         }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_left_click",
+          "image": "left_click.png",
+          "hoveredImage": "left_click_glow.png",
+          "x": 194,
+          "y": 196
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_right_click",
+          "image": "right_click.png",
+          "hoveredImage": "right_click_glow.png",
+          "x": 162,
+          "y": 196
+        }
       }
     ],
     "onTick": {
