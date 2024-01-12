@@ -1,25 +1,12 @@
 
 package net.mcreator.balsarystisa.item;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.network.chat.Component;
-
-import net.mcreator.balsarystisa.init.BalsArystisaModItems;
-
-import java.util.List;
+import java.util.function.Consumer;
+import net.minecraft.client.model.Model;
 
 public abstract class NanoArmorItem extends ArmorItem {
+
 	public NanoArmorItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
@@ -65,6 +52,7 @@ public abstract class NanoArmorItem extends ArmorItem {
 	}
 
 	public static class Helmet extends NanoArmorItem {
+
 		public Helmet() {
 			super(ArmorItem.Type.HELMET, new Item.Properties());
 		}
@@ -83,9 +71,11 @@ public abstract class NanoArmorItem extends ArmorItem {
 		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
 			return false;
 		}
+
 	}
 
 	public static class Chestplate extends NanoArmorItem {
+
 		public Chestplate() {
 			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
 		}
@@ -104,9 +94,11 @@ public abstract class NanoArmorItem extends ArmorItem {
 		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
 			return false;
 		}
+
 	}
 
 	public static class Leggings extends NanoArmorItem {
+
 		public Leggings() {
 			super(ArmorItem.Type.LEGGINGS, new Item.Properties());
 		}
@@ -125,9 +117,11 @@ public abstract class NanoArmorItem extends ArmorItem {
 		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
 			return false;
 		}
+
 	}
 
 	public static class Boots extends NanoArmorItem {
+
 		public Boots() {
 			super(ArmorItem.Type.BOOTS, new Item.Properties());
 		}
@@ -146,5 +140,7 @@ public abstract class NanoArmorItem extends ArmorItem {
 		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
 			return false;
 		}
+
 	}
+
 }

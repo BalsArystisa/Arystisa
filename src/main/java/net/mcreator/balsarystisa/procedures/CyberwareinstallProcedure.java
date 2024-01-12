@@ -21,6 +21,154 @@ public class CyberwareinstallProcedure {
 		if (entity == null)
 			return;
 		if ((entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Cubdoc == true) {
+			if (BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_1.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
+				if (world.isClientSide())
+					Minecraft.getInstance().gameRenderer.displayItemActivation(new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_1.get()));
+				if (entity instanceof Player _player) {
+					ItemStack _stktoremove = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_1.get());
+					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+				}
+				{
+					boolean _setval = true;
+					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Ender_Eye_Cyberware = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					double _setval = 1;
+					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Selection_Use = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				if (1 <= (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_tier) {
+					if (1 == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_tier) {
+						if (entity instanceof Player _player) {
+							ItemStack _setstack = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_1.get());
+							_setstack.setCount(1);
+							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+						}
+					} else if (2 == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_tier) {
+						if (entity instanceof Player _player) {
+							ItemStack _setstack = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_2.get());
+							_setstack.setCount(1);
+							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+						}
+					} else if (3 == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_tier) {
+						if (entity instanceof Player _player) {
+							ItemStack _setstack = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_3.get());
+							_setstack.setCount(1);
+							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+						}
+					}
+				}
+				{
+					double _setval = 1;
+					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Ender_Eye_Cyberware_tier = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+			} else if (BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_2.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
+				if (world.isClientSide())
+					Minecraft.getInstance().gameRenderer.displayItemActivation(new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_2.get()));
+				if (entity instanceof Player _player) {
+					ItemStack _stktoremove = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_2.get());
+					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+				}
+				{
+					boolean _setval = true;
+					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Ender_Eye_Cyberware = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					double _setval = 1;
+					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Selection_Use = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				if (1 <= (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_tier) {
+					if (1 == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_tier) {
+						if (entity instanceof Player _player) {
+							ItemStack _setstack = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_1.get());
+							_setstack.setCount(1);
+							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+						}
+					} else if (2 == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_tier) {
+						if (entity instanceof Player _player) {
+							ItemStack _setstack = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_2.get());
+							_setstack.setCount(1);
+							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+						}
+					} else if (3 == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_tier) {
+						if (entity instanceof Player _player) {
+							ItemStack _setstack = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_3.get());
+							_setstack.setCount(1);
+							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+						}
+					}
+				}
+				{
+					double _setval = 2;
+					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Ender_Eye_Cyberware_tier = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+			} else if (BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_3.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
+				if (world.isClientSide())
+					Minecraft.getInstance().gameRenderer.displayItemActivation(new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_3.get()));
+				if (entity instanceof Player _player) {
+					ItemStack _stktoremove = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_3.get());
+					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+				}
+				{
+					boolean _setval = true;
+					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Ender_Eye_Cyberware = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					double _setval = 1;
+					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Selection_Use = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				if (1 <= (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_tier) {
+					if (1 == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Invisible_Camo_Tiers) {
+						if (entity instanceof Player _player) {
+							ItemStack _setstack = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_1.get());
+							_setstack.setCount(1);
+							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+						}
+					} else if (2 == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_tier) {
+						if (entity instanceof Player _player) {
+							ItemStack _setstack = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_2.get());
+							_setstack.setCount(1);
+							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+						}
+					} else if (3 == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_tier) {
+						if (entity instanceof Player _player) {
+							ItemStack _setstack = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_3.get());
+							_setstack.setCount(1);
+							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+						}
+					}
+				}
+				{
+					double _setval = 3;
+					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Ender_Eye_Cyberware_tier = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+			}
 			if (BalsArystisaModItems.INVISIBLE_CAMO_CYBERWARE.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
 				if (world.isClientSide())
 					Minecraft.getInstance().gameRenderer.displayItemActivation(new ItemStack(BalsArystisaModItems.INVISIBLE_CAMO_CYBERWARE.get()));
@@ -32,6 +180,13 @@ public class CyberwareinstallProcedure {
 					boolean _setval = true;
 					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.Invisible_Camo = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					double _setval = 0;
+					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Selection_Use = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}
@@ -77,6 +232,13 @@ public class CyberwareinstallProcedure {
 						capability.syncPlayerVariables(entity);
 					});
 				}
+				{
+					double _setval = 0;
+					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Selection_Use = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
 				if (1 <= (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Invisible_Camo_Tiers) {
 					if (1 == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Invisible_Camo_Tiers) {
 						if (entity instanceof Player _player) {
@@ -116,6 +278,13 @@ public class CyberwareinstallProcedure {
 					boolean _setval = true;
 					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.Invisible_Camo = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				{
+					double _setval = 0;
+					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Selection_Use = _setval;
 						capability.syncPlayerVariables(entity);
 					});
 				}
@@ -346,133 +515,6 @@ public class CyberwareinstallProcedure {
 				BalsArystisaMod.queueServerWork(1, () -> {
 					SubDermalArmorProcedure.execute(entity);
 				});
-			}
-			if (BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_1.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
-				if (world.isClientSide())
-					Minecraft.getInstance().gameRenderer.displayItemActivation(new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_1.get()));
-				if (entity instanceof Player _player) {
-					ItemStack _stktoremove = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_1.get());
-					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
-				}
-				{
-					boolean _setval = true;
-					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.Ender_Eye_Cyberware = _setval;
-						capability.syncPlayerVariables(entity);
-					});
-				}
-				if (1 <= (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_Tier) {
-					if (1 == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_Tier) {
-						if (entity instanceof Player _player) {
-							ItemStack _setstack = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_1.get());
-							_setstack.setCount(1);
-							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-						}
-					} else if (2 == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_Tier) {
-						if (entity instanceof Player _player) {
-							ItemStack _setstack = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_2.get());
-							_setstack.setCount(1);
-							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-						}
-					} else if (3 == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_Tier) {
-						if (entity instanceof Player _player) {
-							ItemStack _setstack = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_3.get());
-							_setstack.setCount(1);
-							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-						}
-					}
-				}
-				{
-					double _setval = 1;
-					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.Ender_Eye_Cyberware_Tier = _setval;
-						capability.syncPlayerVariables(entity);
-					});
-				}
-			} else if (BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_2.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
-				if (world.isClientSide())
-					Minecraft.getInstance().gameRenderer.displayItemActivation(new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_2.get()));
-				if (entity instanceof Player _player) {
-					ItemStack _stktoremove = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_2.get());
-					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
-				}
-				{
-					boolean _setval = true;
-					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.Ender_Eye_Cyberware = _setval;
-						capability.syncPlayerVariables(entity);
-					});
-				}
-				if (1 <= (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_Tier) {
-					if (1 == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_Tier) {
-						if (entity instanceof Player _player) {
-							ItemStack _setstack = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_1.get());
-							_setstack.setCount(1);
-							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-						}
-					} else if (2 == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_Tier) {
-						if (entity instanceof Player _player) {
-							ItemStack _setstack = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_2.get());
-							_setstack.setCount(1);
-							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-						}
-					} else if (3 == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_Tier) {
-						if (entity instanceof Player _player) {
-							ItemStack _setstack = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_3.get());
-							_setstack.setCount(1);
-							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-						}
-					}
-				}
-				{
-					double _setval = 2;
-					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.Ender_Eye_Cyberware_Tier = _setval;
-						capability.syncPlayerVariables(entity);
-					});
-				}
-			} else if (BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_3.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
-				if (world.isClientSide())
-					Minecraft.getInstance().gameRenderer.displayItemActivation(new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_3.get()));
-				if (entity instanceof Player _player) {
-					ItemStack _stktoremove = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_3.get());
-					_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
-				}
-				{
-					boolean _setval = true;
-					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.Ender_Eye_Cyberware = _setval;
-						capability.syncPlayerVariables(entity);
-					});
-				}
-				if (1 <= (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_Tier) {
-					if (1 == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_Tier) {
-						if (entity instanceof Player _player) {
-							ItemStack _setstack = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_1.get());
-							_setstack.setCount(1);
-							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-						}
-					} else if (2 == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_Tier) {
-						if (entity instanceof Player _player) {
-							ItemStack _setstack = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_2.get());
-							_setstack.setCount(1);
-							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-						}
-					} else if (3 == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_Tier) {
-						if (entity instanceof Player _player) {
-							ItemStack _setstack = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_3.get());
-							_setstack.setCount(1);
-							ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-						}
-					}
-				}
-				{
-					double _setval = 3;
-					entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.Ender_Eye_Cyberware_Tier = _setval;
-						capability.syncPlayerVariables(entity);
-					});
-				}
 			}
 		}
 	}

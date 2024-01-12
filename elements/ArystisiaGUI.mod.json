@@ -56,13 +56,28 @@
           "image": "soundboardbutton.png",
           "hoveredImage": "",
           "onClick": {
-            "name": "SoundBoardButton"
+            "name": "OpenSoundBoardGUIproced"
           },
-          "x": 57,
+          "displayCondition": {
+            "name": "SoundboardRuleProced"
+          },
+          "x": 49,
+          "y": 60
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "no_claim.png",
+          "use1Xscale": false,
+          "x": 49,
           "y": 60
         }
       }
     ],
+    "onTick": {
+      "name": "SoundboardRuleProced"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,

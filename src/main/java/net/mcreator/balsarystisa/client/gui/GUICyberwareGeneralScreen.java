@@ -6,6 +6,7 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.balsarystisa.world.inventory.GUICyberwareGeneralMenu;
@@ -19,6 +20,8 @@ public class GUICyberwareGeneralScreen extends AbstractContainerScreen<GUICyberw
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+	ImageButton imagebutton_left_click;
+	ImageButton imagebutton_right_click;
 
 	public GUICyberwareGeneralScreen(GUICyberwareGeneralMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -78,5 +81,13 @@ public class GUICyberwareGeneralScreen extends AbstractContainerScreen<GUICyberw
 	@Override
 	public void init() {
 		super.init();
+		imagebutton_left_click = new ImageButton(this.leftPos + 140, this.topPos + 176, 8, 12, 0, 0, 12, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_left_click.png"), 8, 24, e -> {
+		});
+		guistate.put("button:imagebutton_left_click", imagebutton_left_click);
+		this.addRenderableWidget(imagebutton_left_click);
+		imagebutton_right_click = new ImageButton(this.leftPos + 108, this.topPos + 176, 8, 12, 0, 0, 12, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_right_click.png"), 8, 24, e -> {
+		});
+		guistate.put("button:imagebutton_right_click", imagebutton_right_click);
+		this.addRenderableWidget(imagebutton_right_click);
 	}
 }
