@@ -320,11 +320,47 @@
           "onClick": {
             "name": "FirstEpicSoundboardProced"
           },
-          "displayCondition": {
-            "name": "FirstEpicButtonConditionProced"
-          },
           "x": 110,
           "y": 130
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_legendary_finie",
+          "image": "legendary_finie.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "FirstLegendarySoundboardProced"
+          },
+          "x": 110,
+          "y": 165
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_legendary_finie1",
+          "image": "legendary_finie.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "SecondLegendarySoundboardProced"
+          },
+          "x": 140,
+          "y": 165
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_legendary_finie2",
+          "image": "legendary_finie.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "ThirdLegendarySoundboardProced"
+          },
+          "x": 170,
+          "y": 165
         }
       }
     ],

@@ -74,8 +74,8 @@ public class BalsArystisaModVariables {
 				clone.SubDermal_Armor = original.SubDermal_Armor;
 				clone.SubDermal_Armor_Tier = original.SubDermal_Armor_Tier;
 				clone.Ender_Eye_Cyberware = original.Ender_Eye_Cyberware;
-				clone.Ender_Eye_Cyberware_tier = original.Ender_Eye_Cyberware_tier;
 				clone.Selection_Use = original.Selection_Use;
+				clone.Ender_Eye_Cyberware_tier = original.Ender_Eye_Cyberware_tier;
 			}
 		}
 	}
@@ -118,8 +118,8 @@ public class BalsArystisaModVariables {
 		public boolean SubDermal_Armor = false;
 		public double SubDermal_Armor_Tier = 0.0;
 		public boolean Ender_Eye_Cyberware = false;
-		public double Ender_Eye_Cyberware_tier = 0;
 		public double Selection_Use = 0;
+		public double Ender_Eye_Cyberware_tier = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -135,8 +135,8 @@ public class BalsArystisaModVariables {
 			nbt.putBoolean("SubDermal_Armor", SubDermal_Armor);
 			nbt.putDouble("SubDermal_Armor_Tier", SubDermal_Armor_Tier);
 			nbt.putBoolean("Ender_Eye_Cyberware", Ender_Eye_Cyberware);
-			nbt.putDouble("Ender_Eye_Cyberware_tier", Ender_Eye_Cyberware_tier);
 			nbt.putDouble("Selection_Use", Selection_Use);
+			nbt.putDouble("Ender_Eye_Cyberware_tier", Ender_Eye_Cyberware_tier);
 			return nbt;
 		}
 
@@ -149,8 +149,8 @@ public class BalsArystisaModVariables {
 			SubDermal_Armor = nbt.getBoolean("SubDermal_Armor");
 			SubDermal_Armor_Tier = nbt.getDouble("SubDermal_Armor_Tier");
 			Ender_Eye_Cyberware = nbt.getBoolean("Ender_Eye_Cyberware");
-			Ender_Eye_Cyberware_tier = nbt.getDouble("Ender_Eye_Cyberware_tier");
 			Selection_Use = nbt.getDouble("Selection_Use");
+			Ender_Eye_Cyberware_tier = nbt.getDouble("Ender_Eye_Cyberware_tier");
 		}
 	}
 
@@ -182,8 +182,8 @@ public class BalsArystisaModVariables {
 					variables.SubDermal_Armor = message.data.SubDermal_Armor;
 					variables.SubDermal_Armor_Tier = message.data.SubDermal_Armor_Tier;
 					variables.Ender_Eye_Cyberware = message.data.Ender_Eye_Cyberware;
-					variables.Ender_Eye_Cyberware_tier = message.data.Ender_Eye_Cyberware_tier;
 					variables.Selection_Use = message.data.Selection_Use;
+					variables.Ender_Eye_Cyberware_tier = message.data.Ender_Eye_Cyberware_tier;
 				}
 			});
 			context.setPacketHandled(true);
