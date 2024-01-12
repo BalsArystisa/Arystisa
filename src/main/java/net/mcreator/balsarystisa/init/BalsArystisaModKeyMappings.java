@@ -18,7 +18,6 @@ import net.minecraft.client.KeyMapping;
 import net.mcreator.balsarystisa.network.TriggerCyberwareGUIMessage;
 import net.mcreator.balsarystisa.network.SelectionUseMessage;
 import net.mcreator.balsarystisa.network.OpenArystisaEmotesKeyBindMessage;
-import net.mcreator.balsarystisa.network.MedaillonKeyBindMessage;
 import net.mcreator.balsarystisa.network.CyberwareinstallkeyMessage;
 import net.mcreator.balsarystisa.BalsArystisaMod;
 
@@ -76,19 +75,6 @@ public class BalsArystisaModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
-	public static final KeyMapping MEDAILLON_KEY_BIND = new KeyMapping("key.bals_arystisa.medaillon_key_bind", GLFW.GLFW_KEY_F10, "key.categories.arystisa") {
-		private boolean isDownOld = false;
-
-		@Override
-		public void setDown(boolean isDown) {
-			super.setDown(isDown);
-			if (isDownOld != isDown && isDown) {
-				BalsArystisaMod.PACKET_HANDLER.sendToServer(new MedaillonKeyBindMessage(0, 0));
-				MedaillonKeyBindMessage.pressAction(Minecraft.getInstance().player, 0, 0);
-			}
-			isDownOld = isDown;
-		}
-	};
 
 	@SubscribeEvent
 	public static void registerKeyMappings(RegisterKeyMappingsEvent event) {
@@ -96,7 +82,6 @@ public class BalsArystisaModKeyMappings {
 		event.register(SELECTION_USE);
 		event.register(OPEN_ARYSTISA_EMOTES_KEY_BIND);
 		event.register(CYBERWAREINSTALLKEY);
-		event.register(MEDAILLON_KEY_BIND);
 	}
 
 	@Mod.EventBusSubscriber({Dist.CLIENT})
@@ -108,7 +93,6 @@ public class BalsArystisaModKeyMappings {
 				SELECTION_USE.consumeClick();
 				OPEN_ARYSTISA_EMOTES_KEY_BIND.consumeClick();
 				CYBERWAREINSTALLKEY.consumeClick();
-				MEDAILLON_KEY_BIND.consumeClick();
 			}
 		}
 	}

@@ -16,7 +16,6 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
-import net.mcreator.balsarystisa.entity.FuseeArtificeEntity;
 import net.mcreator.balsarystisa.entity.ArystingCowEntity;
 import net.mcreator.balsarystisa.BalsArystisaMod;
 
@@ -27,8 +26,6 @@ public class BalsArystisaModEntities {
 			EntityType.Builder.<ArystingCowEntity>of(ArystingCowEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ArystingCowEntity::new)
 
 					.sized(0.9f, 1.4f));
-	public static final RegistryObject<EntityType<FuseeArtificeEntity>> FUSEE_ARTIFICE = register("projectile_fusee_artifice",
-			EntityType.Builder.<FuseeArtificeEntity>of(FuseeArtificeEntity::new, MobCategory.MISC).setCustomClientFactory(FuseeArtificeEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
