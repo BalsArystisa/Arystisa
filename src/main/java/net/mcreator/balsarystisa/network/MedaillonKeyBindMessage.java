@@ -1,22 +1,11 @@
 
 package net.mcreator.balsarystisa.network;
 
-import net.minecraftforge.network.NetworkEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.network.FriendlyByteBuf;
-
-import net.mcreator.balsarystisa.procedures.MedaillonGUIKeyBindProcedProcedure;
 import net.mcreator.balsarystisa.BalsArystisaMod;
-
-import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MedaillonKeyBindMessage {
+
 	int type, pressedms;
 
 	public MedaillonKeyBindMessage(int type, int pressedms) {
@@ -47,17 +36,21 @@ public class MedaillonKeyBindMessage {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
+
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(entity.blockPosition()))
 			return;
+
 		if (type == 0) {
 
 			MedaillonGUIKeyBindProcedProcedure.execute(world, x, y, z, entity);
 		}
+
 	}
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
 		BalsArystisaMod.addNetworkMessage(MedaillonKeyBindMessage.class, MedaillonKeyBindMessage::buffer, MedaillonKeyBindMessage::new, MedaillonKeyBindMessage::handler);
 	}
+
 }

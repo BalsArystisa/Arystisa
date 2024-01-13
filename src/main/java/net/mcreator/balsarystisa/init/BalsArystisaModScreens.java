@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.balsarystisa.client.gui.WorkStationGUIScreen;
+import net.mcreator.balsarystisa.client.gui.SoundBoardGUIScreen;
 import net.mcreator.balsarystisa.client.gui.NanoCraftingTableGUIScreen;
 import net.mcreator.balsarystisa.client.gui.MedaillonGUIScreen;
 import net.mcreator.balsarystisa.client.gui.IgnisiumCraftingTableGUIScreen;
@@ -29,6 +30,7 @@ public class BalsArystisaModScreens {
 			MenuScreens.register(BalsArystisaModMenus.NANO_CRAFTING_TABLE_GUI.get(), NanoCraftingTableGUIScreen::new);
 			MenuScreens.register(BalsArystisaModMenus.IGNISIUM_CRAFTING_TABLE_GUI.get(), IgnisiumCraftingTableGUIScreen::new);
 			MenuScreens.register(BalsArystisaModMenus.MEDAILLON_GUI.get(), MedaillonGUIScreen::new);
+			MenuScreens.register(BalsArystisaModMenus.SOUND_BOARD_GUI.get(), SoundBoardGUIScreen::new);
 		});
 	}
 }

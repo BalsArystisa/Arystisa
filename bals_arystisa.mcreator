@@ -878,7 +878,7 @@
           "src/main/resources/assets/bals_arystisa/models/item/tugstium.json"
         ]
       },
-      "path": "~/Thekiller9088/tugstium"
+      "path": "~/Thekiller9088"
     },
     {
       "name": "Tugstiumore",
@@ -895,7 +895,7 @@
           "src/main/resources/assets/bals_arystisa/models/block/tugstiumore.json"
         ]
       },
-      "path": "~/Thekiller9088/tugstium"
+      "path": "~/Thekiller9088"
     },
     {
       "name": "ArystingCow",
@@ -1627,8 +1627,8 @@
       "registry_name": "invisible_camotiers_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/invisible_camotiers_3.json",
-          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamotiers3Item.java"
+          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamotiers3Item.java",
+          "src/main/resources/assets/bals_arystisa/models/item/invisible_camotiers_3.json"
         ]
       },
       "path": "~/SirRacaillou/Cyberware"
@@ -1825,8 +1825,8 @@
       "registry_name": "nano_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/NanoSwordItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/nano_sword.json"
+          "src/main/resources/assets/bals_arystisa/models/item/nano_sword.json",
+          "src/main/java/net/mcreator/balsarystisa/item/NanoSwordItem.java"
         ]
       },
       "path": "~/BAL1SEUR/Minerais Nano"
@@ -1840,8 +1840,8 @@
       "registry_name": "nano_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/nano_hoe.json",
-          "src/main/java/net/mcreator/balsarystisa/item/NanoHoeItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/NanoHoeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_hoe.json"
         ]
       },
       "path": "~/BAL1SEUR/Minerais Nano"
@@ -1888,8 +1888,8 @@
       "registry_name": "nano_pickaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/NanoPickaxeItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/nano_pickaxe.json"
+          "src/main/resources/assets/bals_arystisa/models/item/nano_pickaxe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/NanoPickaxeItem.java"
         ]
       },
       "path": "~/BAL1SEUR/Minerais Nano"
@@ -2175,8 +2175,8 @@
       "registry_name": "sub_dermal_armor_tier_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/sub_dermal_armor_tier_3.json",
-          "src/main/java/net/mcreator/balsarystisa/item/SubDermalArmorTier3Item.java"
+          "src/main/java/net/mcreator/balsarystisa/item/SubDermalArmorTier3Item.java",
+          "src/main/resources/assets/bals_arystisa/models/item/sub_dermal_armor_tier_3.json"
         ]
       },
       "path": "~/SirRacaillou/Cyberware"
@@ -2190,8 +2190,8 @@
       "registry_name": "sub_dermal_armor_tier_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/SubDermalArmorTier2Item.java",
-          "src/main/resources/assets/bals_arystisa/models/item/sub_dermal_armor_tier_2.json"
+          "src/main/resources/assets/bals_arystisa/models/item/sub_dermal_armor_tier_2.json",
+          "src/main/java/net/mcreator/balsarystisa/item/SubDermalArmorTier2Item.java"
         ]
       },
       "path": "~/SirRacaillou/Cyberware"
@@ -2302,8 +2302,8 @@
       "registry_name": "nano_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/nano_plate.json",
-          "src/main/java/net/mcreator/balsarystisa/item/NanoPlateItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/NanoPlateItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_plate.json"
         ]
       },
       "path": "~/BAL1SEUR/Minerais Nano"
@@ -2621,8 +2621,8 @@
       "registry_name": "night_vision_medaillon",
       "metadata": {
         "files": [
-          "src/main/resources/assets/bals_arystisa/models/item/night_vision_medaillon.json",
-          "src/main/java/net/mcreator/balsarystisa/item/NightVisionMedaillonItem.java"
+          "src/main/java/net/mcreator/balsarystisa/item/NightVisionMedaillonItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/night_vision_medaillon.json"
         ]
       },
       "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
@@ -2636,8 +2636,8 @@
       "registry_name": "respiration_medaillon",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/balsarystisa/item/RespirationMedaillonItem.java",
-          "src/main/resources/assets/bals_arystisa/models/item/respiration_medaillon.json"
+          "src/main/resources/assets/bals_arystisa/models/item/respiration_medaillon.json",
+          "src/main/java/net/mcreator/balsarystisa/item/RespirationMedaillonItem.java"
         ]
       },
       "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
@@ -2676,7 +2676,7 @@
       "name": "MedaillonKeyBind",
       "type": "keybind",
       "sortid": 159,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "medaillon_key_bind",
       "metadata": {
@@ -2735,6 +2735,1371 @@
         ]
       },
       "path": "~/Thekiller9088/tugstium"
+    },
+    {
+      "name": "CobaltSwordRecipe",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_sword_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "RedPhosphorusOre",
+      "type": "item",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_phosphorus_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/red_phosphorus_ore.json",
+          "src/main/java/net/mcreator/balsarystisa/item/RedPhosphorusOreItem.java"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "CobaltShovel",
+      "type": "tool",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltShovelItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_shovel.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltShovelRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "SecondCommonSoundboardProced",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "second_common_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/SecondCommonSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes/Common Soundboard"
+    },
+    {
+      "name": "SeventhCommonSoundboardProced",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seventh_common_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/SeventhCommonSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes/Common Soundboard"
+    },
+    {
+      "name": "WhitePhosphorusOre",
+      "type": "item",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_phosphorus_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/white_phosphorus_ore.json",
+          "src/main/java/net/mcreator/balsarystisa/item/WhitePhosphorusOreItem.java"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "CobaltOreSmelting",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_ore_smelting.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "EnderEyeCyberwareTier2",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_eye_cyberware_tier_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/ender_eye_cyberware_tier_2.json",
+          "src/main/java/net/mcreator/balsarystisa/item/EnderEyeCyberwareTier2Item.java"
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "EnderEyeCyberwareTier1",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_eye_cyberware_tier_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/EnderEyeCyberwareTier1Item.java",
+          "src/main/resources/assets/bals_arystisa/models/item/ender_eye_cyberware_tier_1.json"
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "FirstEpicButtonConditionProced",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_epic_button_condition_proced",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/FirstEpicButtonConditionProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "SoundboardRuleProced",
+      "type": "procedure",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soundboard_rule_proced",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/SoundboardRuleProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "EnderEyeCyberwareTier3",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_eye_cyberware_tier_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/EnderEyeCyberwareTier3Item.java",
+          "src/main/resources/assets/bals_arystisa/models/item/ender_eye_cyberware_tier_3.json"
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "CobaltArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "SixthCommonSoundboardProced",
+      "type": "procedure",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sixth_common_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/SixthCommonSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes/Common Soundboard"
+    },
+    {
+      "name": "CobaltAxe",
+      "type": "tool",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_axe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltAxeItem.java"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "BlackPhosphorusOre",
+      "type": "item",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_phosphorus_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/black_phosphorus_ore.json",
+          "src/main/java/net/mcreator/balsarystisa/item/BlackPhosphorusOreItem.java"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "SoundBoardGUI",
+      "type": "gui",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sound_board_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/SoundBoardGUIMenu.java",
+          "src/main/java/net/mcreator/balsarystisa/client/gui/SoundBoardGUIScreen.java",
+          "src/main/java/net/mcreator/balsarystisa/network/SoundBoardGUIButtonMessage.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "CompactNetheriteIngot",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_netherite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CompactNetheriteIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/compact_netherite_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "CobaltHoeRecipe",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "MatchLie",
+      "type": "item",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "match_lie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/match_lie.json",
+          "src/main/java/net/mcreator/balsarystisa/item/MatchLieItem.java"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "CobaltArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "FireRocket",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_rocket",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/FireRocketProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "CompactNanoTechnologieIngot",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_nano_technologie_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CompactNanoTechnologieIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/compact_nano_technologie_ingot.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie"
+    },
+    {
+      "name": "CompactGoldIngot",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_gold_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CompactGoldIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/compact_gold_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "CobaltArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "NanoTechnologieIngot",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_technologie_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/NanoTechnologieIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_ingot.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie"
+    },
+    {
+      "name": "EnderEyeCyberwareUse",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_eye_cyberware_use",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/EnderEyeCyberwareUseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware/ Procedure_Cyberware"
+    },
+    {
+      "name": "ThirdRareSoundboardProced",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "third_rare_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/ThirdRareSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes/Rare Soundboard"
+    },
+    {
+      "name": "NanoTechnologieArmor",
+      "type": "armor",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_technologie_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_armor_boots.json",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_armor_chestplate.json",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_armor_helmet.json",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_armor_leggings.json",
+          "src/main/java/net/mcreator/balsarystisa/item/NanoTechnologieArmorItem.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie"
+    },
+    {
+      "name": "CompactIronIngot",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_iron_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/compact_iron_ingot.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CompactIronIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CobaltSword",
+      "type": "tool",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_sword.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltSwordItem.java"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "FuseeArtifice",
+      "type": "projectile",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusee_artifice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/entity/FuseeArtificeEntity.java"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "SecondRareSoundboardProced",
+      "type": "procedure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "second_rare_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/SecondRareSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes/Rare Soundboard"
+    },
+    {
+      "name": "CobaltArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "FifthRareSoundboardProced",
+      "type": "procedure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fifth_rare_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/FifthRareSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes/Rare Soundboard"
+    },
+    {
+      "name": "DoPlayerSoundboard",
+      "type": "gamerule",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "do_player_soundboard",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "FirstCommonSoundboardProced",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_common_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/FirstCommonSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes/Common Soundboard"
+    },
+    {
+      "name": "OpenSoundBoardGUIproced",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_sound_board_gu_iproced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/OpenSoundBoardGUIprocedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "CobaltPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "FirstRareSoundboardProced",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_rare_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/FirstRareSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes/Rare Soundboard"
+    },
+    {
+      "name": "CompactCopperIngot",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_copper_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/compact_copper_ingot.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CompactCopperIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FirstLegendarySoundboardProced",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_legendary_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/FirstLegendarySoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes/Legendary Soundboard"
+    },
+    {
+      "name": "CobaltAxeRecipe",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_axe_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "MedaillonGUIkeepInventory",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medaillon_gu_ikeep_inventory",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/MedaillonGUIkeepInventoryProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
+    },
+    {
+      "name": "FifthCommonSoundboardProced",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fifth_common_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/FifthCommonSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes/Common Soundboard"
+    },
+    {
+      "name": "NanoTechnologiePlate",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_technologie_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_plate.json",
+          "src/main/java/net/mcreator/balsarystisa/item/NanoTechnologiePlateItem.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie"
+    },
+    {
+      "name": "CompactTugstiumIngot",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_tugstium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CompactTugstiumIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/compact_tugstium_ingot.json"
+        ]
+      },
+      "path": "~/Thekiller9088"
+    },
+    {
+      "name": "FourthRareSoundboardProced",
+      "type": "procedure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fourth_rare_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/FourthRareSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes/Rare Soundboard"
+    },
+    {
+      "name": "FirstEpicSoundboardProced",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_epic_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/FirstEpicSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes/Epic Soundboard"
+    },
+    {
+      "name": "SelectionUseProcedure",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "selection_use_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/SelectionUseProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware/ Procedure_Cyberware"
+    },
+    {
+      "name": "NanoTechnologieBlock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_technologie_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_block.json",
+          "src/main/java/net/mcreator/balsarystisa/block/NanoTechnologieBlockBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/block/nano_technologie_block.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/nano_technologie_block.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie"
+    },
+    {
+      "name": "CobaltPickaxe",
+      "type": "tool",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_pickaxe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltPickaxeItem.java"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "MedaillonImplant",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medaillon_implant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/MedaillonImplantProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
+    },
+    {
+      "name": "InvisibleCamo2",
+      "type": "item",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_camo_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/invisible_camo_2.json",
+          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamo2Item.java"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "CompactIgnisiumIngot",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_ignisium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CompactIgnisiumIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/compact_ignisium_ingot.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
+    },
+    {
+      "name": "InvisibleCamo1",
+      "type": "item",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_camo_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/invisible_camo_1.json",
+          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamo1Item.java"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "InvisibleCamo3",
+      "type": "item",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_camo_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamo3Item.java",
+          "src/main/resources/assets/bals_arystisa/models/item/invisible_camo_3.json"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "FourthCommonSoundboardProced",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fourth_common_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/FourthCommonSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes/Common Soundboard"
+    },
+    {
+      "name": "ThirdCommonSoundboardProced",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "third_common_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/ThirdCommonSoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes/Common Soundboard"
+    },
+    {
+      "name": "CobaltIngot",
+      "type": "item",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_ingot.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltIngotItem.java"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltHoe",
+      "type": "tool",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_hoe.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltHoeItem.java"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "IgnisiumSmelter",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_smelter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/ignisium_smelter.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/ignisium_smelter.json",
+          "src/main/resources/assets/bals_arystisa/models/block/ignisium_smelter.json",
+          "src/main/java/net/mcreator/balsarystisa/block/IgnisiumSmelterBlock.java"
+        ]
+      },
+      "path": "~/Jos3/Ignisium/IgnisiumSmelter"
+    },
+    {
+      "name": "EnderPearlImplant",
+      "type": "item",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_pearl_implant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/ender_pearl_implant.json",
+          "src/main/java/net/mcreator/balsarystisa/item/EnderPearlImplantItem.java"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "SecondLegendarySoundboardProced",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "second_legendary_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/SecondLegendarySoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes/Legendary Soundboard"
+    },
+    {
+      "name": "CobaltArmor",
+      "type": "armor",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_armor_leggings.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltArmorItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_armor_chestplate.json",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_armor_boots.json",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_armor_helmet.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
     }
   ],
   "variable_elements": [
@@ -2773,6 +4138,24 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "0.0"
+    },
+    {
+      "name": "Ender_Eye_Cyberware",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "Selection_Use",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "Ender_Eye_Cyberware_tier",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -2948,7 +4331,23 @@
             "name": "Arystisa Emotes",
             "children": [
               {
+                "name": "Common Soundboard",
+                "children": []
+              },
+              {
                 "name": "Animation",
+                "children": []
+              },
+              {
+                "name": "Legendary Soundboard",
+                "children": []
+              },
+              {
+                "name": "Rare Soundboard",
+                "children": []
+              },
+              {
+                "name": "Epic Soundboard",
                 "children": []
               }
             ]
@@ -2999,6 +4398,10 @@
             "children": [
               {
                 "name": "IgnisiumCraftingTable",
+                "children": []
+              },
+              {
+                "name": "IgnisiumSmelter",
                 "children": []
               }
             ]
