@@ -3433,7 +3433,7 @@
           }
         ]
       },
-      "path": "~/BAL1SEUR/Arystisa Emotes"
+      "path": "~/BAL1SEUR/Arystisa Emotes/Common Soundboard"
     },
     {
       "name": "DoPlayerSoundboard",
@@ -3482,7 +3482,7 @@
           }
         ]
       },
-      "path": "~/BAL1SEUR/Arystisa Emotes"
+      "path": "~/BAL1SEUR/Arystisa Emotes/Rare Soundboard"
     },
     {
       "name": "FirstEpicSoundboardProced",
@@ -3518,7 +3518,7 @@
           }
         ]
       },
-      "path": "~/BAL1SEUR/Arystisa Emotes"
+      "path": "~/BAL1SEUR/Arystisa Emotes/Epic Soundboard"
     },
     {
       "name": "FirstCommonSoundboardProced",
@@ -3554,7 +3554,7 @@
           }
         ]
       },
-      "path": "~/BAL1SEUR/Arystisa Emotes"
+      "path": "~/BAL1SEUR/Arystisa Emotes/Common Soundboard"
     },
     {
       "name": "SecondCommonSoundboardProced",
@@ -3590,7 +3590,7 @@
           }
         ]
       },
-      "path": "~/BAL1SEUR/Arystisa Emotes"
+      "path": "~/BAL1SEUR/Arystisa Emotes/Common Soundboard"
     },
     {
       "name": "SeventhCommonSoundboardProced",
@@ -3626,7 +3626,7 @@
           }
         ]
       },
-      "path": "~/BAL1SEUR/Arystisa Emotes"
+      "path": "~/BAL1SEUR/Arystisa Emotes/Common Soundboard"
     },
     {
       "name": "OpenSoundBoardGUIproced",
@@ -3698,7 +3698,7 @@
           }
         ]
       },
-      "path": "~/BAL1SEUR/Arystisa Emotes"
+      "path": "~/BAL1SEUR/Arystisa Emotes/Rare Soundboard"
     },
     {
       "name": "Cobaltore",
@@ -3751,7 +3751,7 @@
           }
         ]
       },
-      "path": "~/BAL1SEUR/Arystisa Emotes"
+      "path": "~/BAL1SEUR/Arystisa Emotes/Common Soundboard"
     },
     {
       "name": "FirstEpicButtonConditionProced",
@@ -3826,7 +3826,7 @@
           }
         ]
       },
-      "path": "~/BAL1SEUR/Arystisa Emotes"
+      "path": "~/BAL1SEUR/Arystisa Emotes/Common Soundboard"
     },
     {
       "name": "ThirdRareSoundboardProced",
@@ -3862,7 +3862,7 @@
           }
         ]
       },
-      "path": "~/BAL1SEUR/Arystisa Emotes"
+      "path": "~/BAL1SEUR/Arystisa Emotes/Rare Soundboard"
     },
     {
       "name": "IgnisiumSmelter",
@@ -3915,7 +3915,7 @@
           }
         ]
       },
-      "path": "~/BAL1SEUR/Arystisa Emotes"
+      "path": "~/BAL1SEUR/Arystisa Emotes/Rare Soundboard"
     },
     {
       "name": "SixthCommonSoundboardProced",
@@ -3951,7 +3951,7 @@
           }
         ]
       },
-      "path": "~/BAL1SEUR/Arystisa Emotes"
+      "path": "~/BAL1SEUR/Arystisa Emotes/Common Soundboard"
     },
     {
       "name": "FifthRareSoundboardProced",
@@ -3987,7 +3987,7 @@
           }
         ]
       },
-      "path": "~/BAL1SEUR/Arystisa Emotes"
+      "path": "~/BAL1SEUR/Arystisa Emotes/Rare Soundboard"
     },
     {
       "name": "SelectionUseProcedure",
@@ -4012,6 +4012,78 @@
         ]
       },
       "path": "~/SirRacaillou/Cyberware/ Procedure_Cyberware"
+    },
+    {
+      "name": "FirstLegendarySoundboardProced",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "first_legendary_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/FirstLegendarySoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes/Legendary Soundboard"
+    },
+    {
+      "name": "SecondLegendarySoundboardProced",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "second_legendary_soundboard_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/SecondLegendarySoundboardProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes/Legendary Soundboard"
     }
   ],
   "variable_elements": [
@@ -4280,6 +4352,22 @@
             "children": [
               {
                 "name": "Animation",
+                "children": []
+              },
+              {
+                "name": "Common Soundboard",
+                "children": []
+              },
+              {
+                "name": "Rare Soundboard",
+                "children": []
+              },
+              {
+                "name": "Epic Soundboard",
+                "children": []
+              },
+              {
+                "name": "Legendary Soundboard",
                 "children": []
               }
             ]
