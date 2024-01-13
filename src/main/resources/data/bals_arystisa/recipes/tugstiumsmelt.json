@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 4,
+  "cookingtime": 232,
+  "ingredient": {
+    "item": "bals_arystisa:tugstiumore"
+  },
+  "result": "bals_arystisa:tugstium"
+}
