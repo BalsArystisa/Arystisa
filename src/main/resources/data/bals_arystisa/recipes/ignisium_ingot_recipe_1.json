@@ -2,7 +2,7 @@
   "type": "minecraft:blasting",
   "category": "misc",
   "experience": 1.8,
-  "cookingtime": 1500,
+  "cookingtime": 900,
   "ingredient": {
     "item": "bals_arystisa:ignisium_ore"
   },

@@ -15,6 +15,7 @@ import net.mcreator.balsarystisa.client.gui.WorkStationGUIScreen;
 import net.mcreator.balsarystisa.client.gui.SoundBoardGUIScreen;
 import net.mcreator.balsarystisa.client.gui.NanoCraftingTableGUIScreen;
 import net.mcreator.balsarystisa.client.gui.MedaillonGUIScreen;
+import net.mcreator.balsarystisa.client.gui.IgnisiumSmelterGUIScreen;
 import net.mcreator.balsarystisa.client.gui.IgnisiumCraftingTableGUIScreen;
 import net.mcreator.balsarystisa.client.gui.GUICyberwareGeneralScreen;
 import net.mcreator.balsarystisa.client.gui.ArystisiaGUIScreen;
@@ -31,6 +32,7 @@ public class BalsArystisaModScreens {
 			MenuScreens.register(BalsArystisaModMenus.IGNISIUM_CRAFTING_TABLE_GUI.get(), IgnisiumCraftingTableGUIScreen::new);
 			MenuScreens.register(BalsArystisaModMenus.MEDAILLON_GUI.get(), MedaillonGUIScreen::new);
 			MenuScreens.register(BalsArystisaModMenus.SOUND_BOARD_GUI.get(), SoundBoardGUIScreen::new);
+			MenuScreens.register(BalsArystisaModMenus.IGNISIUM_SMELTER_GUI.get(), IgnisiumSmelterGUIScreen::new);
 		});
 	}
 }

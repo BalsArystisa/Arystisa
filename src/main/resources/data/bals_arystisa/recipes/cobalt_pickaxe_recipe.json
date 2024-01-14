@@ -8,14 +8,14 @@
   ],
   "key": {
     "a": {
-      "item": "bals_arystisa:deleted_mod_element"
+      "item": "bals_arystisa:cobalt_ingot"
     },
     "b": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "bals_arystisa:deleted_mod_element",
+    "item": "bals_arystisa:cobalt_pickaxe",
     "count": 1
   }
 }

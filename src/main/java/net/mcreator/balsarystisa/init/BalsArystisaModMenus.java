@@ -15,6 +15,7 @@ import net.mcreator.balsarystisa.world.inventory.WorkStationGUIMenu;
 import net.mcreator.balsarystisa.world.inventory.SoundBoardGUIMenu;
 import net.mcreator.balsarystisa.world.inventory.NanoCraftingTableGUIMenu;
 import net.mcreator.balsarystisa.world.inventory.MedaillonGUIMenu;
+import net.mcreator.balsarystisa.world.inventory.IgnisiumSmelterGUIMenu;
 import net.mcreator.balsarystisa.world.inventory.IgnisiumCraftingTableGUIMenu;
 import net.mcreator.balsarystisa.world.inventory.GUICyberwareGeneralMenu;
 import net.mcreator.balsarystisa.world.inventory.ArystisiaGUIMenu;
@@ -29,4 +30,5 @@ public class BalsArystisaModMenus {
 	public static final RegistryObject<MenuType<IgnisiumCraftingTableGUIMenu>> IGNISIUM_CRAFTING_TABLE_GUI = REGISTRY.register("ignisium_crafting_table_gui", () -> IForgeMenuType.create(IgnisiumCraftingTableGUIMenu::new));
 	public static final RegistryObject<MenuType<MedaillonGUIMenu>> MEDAILLON_GUI = REGISTRY.register("medaillon_gui", () -> IForgeMenuType.create(MedaillonGUIMenu::new));
 	public static final RegistryObject<MenuType<SoundBoardGUIMenu>> SOUND_BOARD_GUI = REGISTRY.register("sound_board_gui", () -> IForgeMenuType.create(SoundBoardGUIMenu::new));
+	public static final RegistryObject<MenuType<IgnisiumSmelterGUIMenu>> IGNISIUM_SMELTER_GUI = REGISTRY.register("ignisium_smelter_gui", () -> IForgeMenuType.create(IgnisiumSmelterGUIMenu::new));
 }
