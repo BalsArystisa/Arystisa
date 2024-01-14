@@ -214,6 +214,7 @@ public class BalsArystisaModItems {
 	public static final RegistryObject<Item> COBALT_SWORD = REGISTRY.register("cobalt_sword", () -> new CobaltSwordItem());
 	public static final RegistryObject<Item> COBALT_SHOVEL = REGISTRY.register("cobalt_shovel", () -> new CobaltShovelItem());
 	public static final RegistryObject<Item> COBALT_HOE = REGISTRY.register("cobalt_hoe", () -> new CobaltHoeItem());
+	public static final RegistryObject<Item> CURDLINGBARREL = block(BalsArystisaModBlocks.CURDLINGBARREL);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

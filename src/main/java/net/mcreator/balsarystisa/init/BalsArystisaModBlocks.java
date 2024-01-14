@@ -34,6 +34,7 @@ import net.mcreator.balsarystisa.block.EnchantLeavesBlock;
 import net.mcreator.balsarystisa.block.EnchantFenceGateBlock;
 import net.mcreator.balsarystisa.block.EnchantFenceBlock;
 import net.mcreator.balsarystisa.block.EnchantButtonBlock;
+import net.mcreator.balsarystisa.block.CurdlingbarrelBlock;
 import net.mcreator.balsarystisa.block.CobaltoreBlock;
 import net.mcreator.balsarystisa.block.BloctugstiumBlock;
 import net.mcreator.balsarystisa.block.BlackPhosphorusBlockBlock;
@@ -96,4 +97,5 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> IGNISIUM_CRAFTING_TABLE = REGISTRY.register("ignisium_crafting_table", () -> new IgnisiumCraftingTableBlock());
 	public static final RegistryObject<Block> IGNISIUM_SMELTER = REGISTRY.register("ignisium_smelter", () -> new IgnisiumSmelterBlock());
 	public static final RegistryObject<Block> WHITE_PHOSPHORUS_BLOCK = REGISTRY.register("white_phosphorus_block", () -> new WhitePhosphorusBlockBlock());
+	public static final RegistryObject<Block> CURDLINGBARREL = REGISTRY.register("curdlingbarrel", () -> new CurdlingbarrelBlock());
 }

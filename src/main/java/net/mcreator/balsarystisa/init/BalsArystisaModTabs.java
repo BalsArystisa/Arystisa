@@ -138,6 +138,7 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_2.get());
 				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_3.get());
 				tabData.accept(BalsArystisaModItems.ENDER_PEARL_IMPLANT.get());
+				tabData.accept(BalsArystisaModBlocks.CURDLINGBARREL.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
