@@ -2797,8 +2797,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/BAL1SEUR/Arystisa Emotes/Legendary Soundboard"
+      }
     },
     {
       "name": "SixthCommonSoundboardProced",
@@ -3001,8 +3000,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/BAL1SEUR/Arystisa Emotes/Legendary Soundboard"
+      }
     },
     {
       "name": "FireRocket",
@@ -3146,8 +3144,7 @@
           "src/main/java/net/mcreator/balsarystisa/block/IgnisiumSmelterBlock.java",
           "src/main/resources/assets/bals_arystisa/models/block/ignisium_smelter.json"
         ]
-      },
-      "path": "~/Jos3/Ignisium/IgnisiumSmelter"
+      }
     },
     {
       "name": "SecondRareSoundboardProced",
@@ -3218,8 +3215,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/BAL1SEUR/Arystisa Emotes/Legendary Soundboard"
+      }
     },
     {
       "name": "FifthRareSoundboardProced",
@@ -3365,8 +3361,8 @@
       "item.bals_arystisa.baguette_axe": "Baguette Axe",
       "item.bals_arystisa.respiration_medaillon": "Respiration Medaillon",
       "item.bals_arystisa.nano_technologie_ingot": "NanoTechnologie Ingot",
-      "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.white_phosphorus_block": "White Phosphorus Block",
+      "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.nano_block": "Nano Block",
       "key.bals_arystisa.selection_use": "Selection Use",
       "item.bals_arystisa.black_phosphorus_ore": "Black Phosphorus Ore",
