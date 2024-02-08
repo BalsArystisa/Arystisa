@@ -2529,20 +2529,6 @@
       "path": "~/BAL1SEUR/Arystisa Emotes"
     },
     {
-      "name": "PowderSnowyPlains",
-      "type": "biome",
-      "sortid": 204,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "powder_snowy_plains",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/bals_arystisa/worldgen/biome/powder_snowy_plains.json"
-        ]
-      },
-      "path": "~/BAL1SEUR/Dimension Arystisa/Biomes Dimension"
-    },
-    {
       "name": "FirstCommonSoundboardProced",
       "type": "procedure",
       "sortid": 183,
@@ -2968,41 +2954,6 @@
       "path": "~/SirRacaillou/Cyberware/ Procedure_Cyberware"
     },
     {
-      "name": "ThirdLegendarySoundboardProced",
-      "type": "procedure",
-      "sortid": 207,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "third_legendary_soundboard_proced",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/balsarystisa/procedures/ThirdLegendarySoundboardProcedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "FireRocket",
       "type": "procedure",
       "sortid": 183,
@@ -3269,6 +3220,947 @@
         ]
       },
       "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltSwordRecipe",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_sword_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "RedPhosphorusOre",
+      "type": "item",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_phosphorus_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/RedPhosphorusOreItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/red_phosphorus_ore.json"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "CobaltShovel",
+      "type": "tool",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_shovel.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltShovelItem.java"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltShovelRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "MedaillonKeyBind",
+      "type": "keybind",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medaillon_key_bind",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/network/MedaillonKeyBindMessage.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
+    },
+    {
+      "name": "MedaillonGUIKeyBindProced",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medaillon_gui_key_bind_proced",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/MedaillonGUIKeyBindProcedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
+    },
+    {
+      "name": "WhitePhosphorusOre",
+      "type": "item",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_phosphorus_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/WhitePhosphorusOreItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/white_phosphorus_ore.json"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "CobaltOreSmelting",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_ore_smelting.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "EnderEyeCyberwareTier2",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_eye_cyberware_tier_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/EnderEyeCyberwareTier2Item.java",
+          "src/main/resources/assets/bals_arystisa/models/item/ender_eye_cyberware_tier_2.json"
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "EnderEyeCyberwareTier1",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_eye_cyberware_tier_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/ender_eye_cyberware_tier_1.json",
+          "src/main/java/net/mcreator/balsarystisa/item/EnderEyeCyberwareTier1Item.java"
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "EnderEyeCyberwareTier3",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_eye_cyberware_tier_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/EnderEyeCyberwareTier3Item.java",
+          "src/main/resources/assets/bals_arystisa/models/item/ender_eye_cyberware_tier_3.json"
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware"
+    },
+    {
+      "name": "CobaltArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CobaltAxe",
+      "type": "tool",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltAxeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_axe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "BlackPhosphorusOre",
+      "type": "item",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_phosphorus_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/BlackPhosphorusOreItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/black_phosphorus_ore.json"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "CraftIgnisiumCraftingTable",
+      "type": "procedure",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_ignisium_crafting_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/CraftIgnisiumCraftingTableProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Jos3/Ignisium/IgnisiumCraftingTable"
+    },
+    {
+      "name": "SoundBoardGUI",
+      "type": "gui",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sound_board_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/client/gui/SoundBoardGUIScreen.java",
+          "src/main/java/net/mcreator/balsarystisa/network/SoundBoardGUIButtonMessage.java",
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/SoundBoardGUIMenu.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/Arystisa Emotes"
+    },
+    {
+      "name": "CompactNetheriteIngot",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_netherite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CompactNetheriteIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/compact_netherite_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "CobaltHoeRecipe",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "MatchLie",
+      "type": "item",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "match_lie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/MatchLieItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/match_lie.json"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "CobaltArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "CompactNanoTechnologieIngot",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_nano_technologie_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CompactNanoTechnologieIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/compact_nano_technologie_ingot.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie"
+    },
+    {
+      "name": "CompactGoldIngot",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_gold_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CompactGoldIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/compact_gold_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "CobaltArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "NanoTechnologieIngot",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_technologie_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_ingot.json",
+          "src/main/java/net/mcreator/balsarystisa/item/NanoTechnologieIngotItem.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie"
+    },
+    {
+      "name": "EnderEyeCyberwareUse",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_eye_cyberware_use",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/EnderEyeCyberwareUseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware/ Procedure_Cyberware"
+    },
+    {
+      "name": "NanoTechnologieArmor",
+      "type": "armor",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_technologie_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_armor_boots.json",
+          "src/main/java/net/mcreator/balsarystisa/item/NanoTechnologieArmorItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_armor_chestplate.json",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_armor_leggings.json",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_armor_helmet.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie"
+    },
+    {
+      "name": "CompactIronIngot",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_iron_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/compact_iron_ingot.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CompactIronIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CobaltSword",
+      "type": "tool",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltSwordItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_sword.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "FuseeArtifice",
+      "type": "projectile",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fusee_artifice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/entity/FuseeArtificeEntity.java"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "CobaltArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "HealthBoostMedaillon",
+      "type": "item",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "health_boost_medaillon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/HealthBoostMedaillonItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/health_boost_medaillon.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
+    },
+    {
+      "name": "CobaltPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "NightVisionMedaillon",
+      "type": "item",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_vision_medaillon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/night_vision_medaillon.json",
+          "src/main/java/net/mcreator/balsarystisa/item/NightVisionMedaillonItem.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
+    },
+    {
+      "name": "CompactCopperIngot",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_copper_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/compact_copper_ingot.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CompactCopperIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "IgnisiumSmelterGUI",
+      "type": "gui",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_smelter_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/IgnisiumSmelterGUIMenu.java",
+          "src/main/java/net/mcreator/balsarystisa/client/gui/IgnisiumSmelterGUIScreen.java"
+        ]
+      },
+      "path": "~/Jos3/Ignisium/IgnisiumSmelter"
+    },
+    {
+      "name": "MedaillonGUI",
+      "type": "gui",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medaillon_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/client/gui/MedaillonGUIScreen.java",
+          "src/main/java/net/mcreator/balsarystisa/world/inventory/MedaillonGUIMenu.java"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
+    },
+    {
+      "name": "CobaltAxeRecipe",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/cobalt_axe_recipe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "MedaillonGUIkeepInventory",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medaillon_gu_ikeep_inventory",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/MedaillonGUIkeepInventoryProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
+    },
+    {
+      "name": "FallDamageMedaillon",
+      "type": "item",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fall_damage_medaillon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/FallDamageMedaillonItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/fall_damage_medaillon.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
+    },
+    {
+      "name": "NanoTechnologiePlate",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_technologie_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/NanoTechnologiePlateItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_plate.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie"
+    },
+    {
+      "name": "CompactTugstiumIngot",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_tugstium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/compact_tugstium_ingot.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CompactTugstiumIngotItem.java"
+        ]
+      },
+      "path": "~/Thekiller9088"
+    },
+    {
+      "name": "HungerMedaillon",
+      "type": "item",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hunger_medaillon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/HungerMedaillonItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/hunger_medaillon.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
+    },
+    {
+      "name": "NanoTechnologieBlock",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nano_technologie_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/block/NanoTechnologieBlockBlock.java",
+          "src/main/resources/assets/bals_arystisa/models/item/nano_technologie_block.json",
+          "src/main/resources/assets/bals_arystisa/blockstates/nano_technologie_block.json",
+          "src/main/resources/assets/bals_arystisa/models/block/nano_technologie_block.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie"
+    },
+    {
+      "name": "CobaltPickaxe",
+      "type": "tool",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltPickaxeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_pickaxe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "IgnisiumCraftingTableCraft",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_crafting_table_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/ignisium_crafting_table_craft.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium/IgnisiumCraftingTable"
+    },
+    {
+      "name": "MedaillonImplant",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medaillon_implant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/MedaillonImplantProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
+    },
+    {
+      "name": "InvisibleCamo2",
+      "type": "item",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_camo_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamo2Item.java",
+          "src/main/resources/assets/bals_arystisa/models/item/invisible_camo_2.json"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "CompactIgnisiumIngot",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compact_ignisium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CompactIgnisiumIngotItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/compact_ignisium_ingot.json"
+        ]
+      },
+      "path": "~/Jos3/Ignisium"
+    },
+    {
+      "name": "InvisibleCamo1",
+      "type": "item",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_camo_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/invisible_camo_1.json",
+          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamo1Item.java"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "InvisibleCamo3",
+      "type": "item",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_camo_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/invisible_camo_3.json",
+          "src/main/java/net/mcreator/balsarystisa/item/InvisibleCamo3Item.java"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "IgnisiumCraftingTableLorsDunClicDroitSurLeBloc",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignisium_crafting_table_lors_dun_clic_droit_sur_le_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/IgnisiumCraftingTableLorsDunClicDroitSurLeBlocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Jos3/Ignisium/IgnisiumCraftingTable"
+    },
+    {
+      "name": "Tugstiumsmelt",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tugstiumsmelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bals_arystisa/recipes/tugstiumsmelt.json"
+        ]
+      },
+      "path": "~/Thekiller9088/tugstium"
+    },
+    {
+      "name": "CobaltIngot",
+      "type": "item",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_ingot.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltIngotItem.java"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "Curdlingbarrel",
+      "type": "block",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curdlingbarrel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/blockstates/curdlingbarrel.json",
+          "src/main/resources/assets/bals_arystisa/models/item/curdlingbarrel.json",
+          "src/main/resources/assets/bals_arystisa/models/block/curdlingbarrel.json",
+          "src/main/java/net/mcreator/balsarystisa/block/CurdlingbarrelBlock.java"
+        ]
+      },
+      "path": "~/Thekiller9088/cheese"
+    },
+    {
+      "name": "CobaltHoe",
+      "type": "tool",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltHoeItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_hoe.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
+    },
+    {
+      "name": "EnderPearlImplant",
+      "type": "item",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_pearl_implant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/ender_pearl_implant.json",
+          "src/main/java/net/mcreator/balsarystisa/item/EnderPearlImplantItem.java"
+        ]
+      },
+      "path": "~/MisterPongiste"
+    },
+    {
+      "name": "RespirationMedaillon",
+      "type": "item",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "respiration_medaillon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/item/RespirationMedaillonItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/respiration_medaillon.json"
+        ]
+      },
+      "path": "~/BAL1SEUR/NanoTechnologie/Medaillon"
+    },
+    {
+      "name": "CobaltArmor",
+      "type": "armor",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobalt_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_armor_helmet.json",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_armor_boots.json",
+          "src/main/java/net/mcreator/balsarystisa/item/CobaltArmorItem.java",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_armor_leggings.json",
+          "src/main/resources/assets/bals_arystisa/models/item/cobalt_armor_chestplate.json"
+        ]
+      },
+      "path": "~/Hog536/Cobalt"
     }
   ],
   "variable_elements": [
@@ -3319,6 +4211,12 @@
       "type": "number",
       "scope": "player_lifetime",
       "value": "0"
+    },
+    {
+      "name": "Ender_Eye_Cyberware",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -3342,14 +4240,6 @@
       "name": "end_spawner_wave",
       "files": [
         "ffxiv_level_up"
-      ],
-      "category": "neutral",
-      "subtitle": ""
-    },
-    {
-      "name": "chipi-chapa-soundboard",
-      "files": [
-        "chipi-chapa"
       ],
       "category": "neutral",
       "subtitle": ""
@@ -3387,11 +4277,13 @@
       "block.bals_arystisa.arysting_slab": "Arysting Slab",
       "item.bals_arystisa.match_lie": "Match Lie",
       "item.bals_arystisa.night_vision_medaillon": "NightVision Medaillon",
+      "gamerule.doPlayerSoundboard": "DoPlayerSoundboard",
       "block.bals_arystisa.tugstiumore": "Tugstium Ore",
       "item.bals_arystisa.nano_armor_chestplate": "Nano Chestplate",
       "block.bals_arystisa.arysting_button": "Arysting Button",
       "biome.bals_arystisa.enchant_forest": "Enchant Forest",
       "item.bals_arystisa.nano_armor_helmet": "Nano Helmet",
+      "block.bals_arystisa.ignisium_smelter": "Ignisium Smelter",
       "gui.bals_arystisa.sound_board_gui.label_comming_soon": "Comming Soon !",
       "gui.bals_arystisa.sound_board_gui.label_soundboard_menu": "SoundBoard Menu:",
       "key.bals_arystisa.medaillon_key_bind": "Medaillon",
@@ -3493,6 +4385,7 @@
       "block.bals_arystisa.red_phosphorus_block": "Blocdephosphorerouge",
       "item.bals_arystisa.tugstium_1_pickaxe": "Tugstium_1 Pickaxe",
       "item.bals_arystisa.matchbox": "Matchbox",
+      "gamerule.doPlayerSoundboard.description": "Activate The Soundboard",
       "block.bals_arystisa.arystis_spawner_no_activeted": "Arysti\u0027s Spawner No Functionnal",
       "item.bals_arystisa.diamond_flint": "Diamond Flint",
       "key.bals_arystisa.open_arystisa_emotes_key_bind": "Open Arystisa Emotes",
@@ -3533,7 +4426,23 @@
             "name": "Arystisa Emotes",
             "children": [
               {
+                "name": "Common Soundboard",
+                "children": []
+              },
+              {
                 "name": "Animation",
+                "children": []
+              },
+              {
+                "name": "Legendary Soundboard",
+                "children": []
+              },
+              {
+                "name": "Rare Soundboard",
+                "children": []
+              },
+              {
+                "name": "Epic Soundboard",
                 "children": []
               }
             ]
@@ -3543,6 +4452,15 @@
             "children": [
               {
                 "name": "Nano Crafting Table",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "NanoTechnologie",
+            "children": [
+              {
+                "name": "Medaillon",
                 "children": []
               }
             ]
@@ -3576,6 +4494,10 @@
               {
                 "name": "IgnisiumCraftingTable",
                 "children": []
+              },
+              {
+                "name": "IgnisiumSmelter",
+                "children": []
               }
             ]
           },
@@ -3590,6 +4512,10 @@
         "children": [
           {
             "name": "tugstium",
+            "children": []
+          },
+          {
+            "name": "cheese",
             "children": []
           }
         ]

@@ -31,7 +31,7 @@ public abstract class CobaltArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(BalsArystisaModItems.DELETED_MOD_ELEMENT.get()));
+				return Ingredient.of(new ItemStack(BalsArystisaModItems.COBALT_INGOT.get()));
 			}
 
 			@Override

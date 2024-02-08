@@ -22,13 +22,5 @@
         "stream": false
       }
     ]
-  },
-  "chipi-chapa-soundboard": {
-    "sounds": [
-      {
-        "name": "bals_arystisa:chipi-chapa",
-        "stream": false
-      }
-    ]
   }
 }

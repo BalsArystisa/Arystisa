@@ -27,7 +27,7 @@ public class CobaltHoeItem extends HoeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(BalsArystisaModItems.DELETED_MOD_ELEMENT.get()));
+				return Ingredient.of(new ItemStack(BalsArystisaModItems.COBALT_INGOT.get()));
 			}
 		}, 0, -3f, new Item.Properties());
 	}

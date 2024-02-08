@@ -8,9 +8,6 @@
       },
       {
         "value": "CUSTOM:EnchantForest"
-      },
-      {
-        "value": "CUSTOM:PowderSnowyPlains"
       }
     ],
     "worldGenType": "Normal world gen",

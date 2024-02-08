@@ -15,6 +15,7 @@ import net.mcreator.balsarystisa.block.WhitePhosphorusBlockBlock;
 import net.mcreator.balsarystisa.block.TugstiumoreBlock;
 import net.mcreator.balsarystisa.block.RunnedStoneBricksBlock;
 import net.mcreator.balsarystisa.block.RedPhosphorusBlockBlock;
+import net.mcreator.balsarystisa.block.NanoTechnologieBlockBlock;
 import net.mcreator.balsarystisa.block.NanoOreBlock;
 import net.mcreator.balsarystisa.block.NanoCraftingTableBlock;
 import net.mcreator.balsarystisa.block.NanoBlockBlock;
@@ -33,6 +34,7 @@ import net.mcreator.balsarystisa.block.EnchantLeavesBlock;
 import net.mcreator.balsarystisa.block.EnchantFenceGateBlock;
 import net.mcreator.balsarystisa.block.EnchantFenceBlock;
 import net.mcreator.balsarystisa.block.EnchantButtonBlock;
+import net.mcreator.balsarystisa.block.CurdlingbarrelBlock;
 import net.mcreator.balsarystisa.block.CobaltoreBlock;
 import net.mcreator.balsarystisa.block.BloctugstiumBlock;
 import net.mcreator.balsarystisa.block.BlackPhosphorusBlockBlock;
@@ -64,6 +66,7 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> TUGSTIUMORE = REGISTRY.register("tugstiumore", () -> new TugstiumoreBlock());
 	public static final RegistryObject<Block> NANO_ORE = REGISTRY.register("nano_ore", () -> new NanoOreBlock());
 	public static final RegistryObject<Block> BLACK_PHOSPHORUS_BLOCK = REGISTRY.register("black_phosphorus_block", () -> new BlackPhosphorusBlockBlock());
+	public static final RegistryObject<Block> NANO_TECHNOLOGIE_BLOCK = REGISTRY.register("nano_technologie_block", () -> new NanoTechnologieBlockBlock());
 	public static final RegistryObject<Block> RED_PHOSPHORUS_BLOCK = REGISTRY.register("red_phosphorus_block", () -> new RedPhosphorusBlockBlock());
 	public static final RegistryObject<Block> FORMER_GRAVEL = REGISTRY.register("former_gravel", () -> new FormerGravelBlock());
 	public static final RegistryObject<Block> ARYSTING_LEAVES = REGISTRY.register("arysting_leaves", () -> new ArystingLeavesBlock());
@@ -94,4 +97,5 @@ public class BalsArystisaModBlocks {
 	public static final RegistryObject<Block> IGNISIUM_CRAFTING_TABLE = REGISTRY.register("ignisium_crafting_table", () -> new IgnisiumCraftingTableBlock());
 	public static final RegistryObject<Block> IGNISIUM_SMELTER = REGISTRY.register("ignisium_smelter", () -> new IgnisiumSmelterBlock());
 	public static final RegistryObject<Block> WHITE_PHOSPHORUS_BLOCK = REGISTRY.register("white_phosphorus_block", () -> new WhitePhosphorusBlockBlock());
+	public static final RegistryObject<Block> CURDLINGBARREL = REGISTRY.register("curdlingbarrel", () -> new CurdlingbarrelBlock());
 }
