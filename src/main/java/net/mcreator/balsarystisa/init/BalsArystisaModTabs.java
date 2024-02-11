@@ -134,9 +134,6 @@ public class BalsArystisaModTabs {
 				tabData.accept(BalsArystisaModItems.WHITE_PHOSPHORUS_ORE.get());
 				tabData.accept(BalsArystisaModItems.BLACK_PHOSPHORUS_ORE.get());
 				tabData.accept(BalsArystisaModItems.RED_PHOSPHORUS_ORE.get());
-				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_1.get());
-				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_2.get());
-				tabData.accept(BalsArystisaModItems.INVISIBLE_CAMO_3.get());
 				tabData.accept(BalsArystisaModItems.ENDER_PEARL_IMPLANT.get());
 				tabData.accept(BalsArystisaModBlocks.CURDLINGBARREL.get().asItem());
 			}).withSearchBar().build());

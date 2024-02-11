@@ -47,7 +47,7 @@ public class GUICyberwareGeneralMenu extends AbstractContainerMenu implements Su
 		super(BalsArystisaModMenus.GUI_CYBERWARE_GENERAL.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStackHandler(3);
+		this.internal = new ItemStackHandler(4);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -82,19 +82,6 @@ public class GUICyberwareGeneralMenu extends AbstractContainerMenu implements Su
 					});
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 19, 166) {
-			private final int slot = 0;
-
-			@Override
-			public boolean mayPickup(Player entity) {
-				return false;
-			}
-
-			@Override
-			public boolean mayPlace(ItemStack stack) {
-				return false;
-			}
-		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 51, 166) {
 			private final int slot = 1;
 
@@ -108,8 +95,34 @@ public class GUICyberwareGeneralMenu extends AbstractContainerMenu implements Su
 				return false;
 			}
 		}));
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 19, 166) {
+			private final int slot = 0;
+
+			@Override
+			public boolean mayPickup(Player entity) {
+				return false;
+			}
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return false;
+			}
+		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 83, 166) {
 			private final int slot = 2;
+
+			@Override
+			public boolean mayPickup(Player entity) {
+				return false;
+			}
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return false;
+			}
+		}));
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 120, 174) {
+			private final int slot = 3;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -148,16 +161,16 @@ public class GUICyberwareGeneralMenu extends AbstractContainerMenu implements Su
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 3) {
-				if (!this.moveItemStackTo(itemstack1, 3, this.slots.size(), true))
+			if (index < 4) {
+				if (!this.moveItemStackTo(itemstack1, 4, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 3, false)) {
-				if (index < 3 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 3 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 4, false)) {
+				if (index < 4 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 4 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 3, 3 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 4, 4 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;
@@ -255,21 +268,25 @@ public class GUICyberwareGeneralMenu extends AbstractContainerMenu implements Su
 		if (!bound && playerIn instanceof ServerPlayer serverPlayer) {
 			if (!serverPlayer.isAlive() || serverPlayer.hasDisconnected()) {
 				for (int j = 0; j < internal.getSlots(); ++j) {
-					if (j == 0)
-						continue;
 					if (j == 1)
 						continue;
+					if (j == 0)
+						continue;
 					if (j == 2)
+						continue;
+					if (j == 3)
 						continue;
 					playerIn.drop(internal.extractItem(j, internal.getStackInSlot(j).getCount(), false), false);
 				}
 			} else {
 				for (int i = 0; i < internal.getSlots(); ++i) {
-					if (i == 0)
-						continue;
 					if (i == 1)
 						continue;
+					if (i == 0)
+						continue;
 					if (i == 2)
+						continue;
+					if (i == 3)
 						continue;
 					playerIn.getInventory().placeItemBackInInventory(internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 				}

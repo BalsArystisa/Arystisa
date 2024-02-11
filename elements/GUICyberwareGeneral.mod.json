@@ -13,24 +13,24 @@
       {
         "type": "outputslot",
         "data": {
-          "id": 0,
-          "disablePickup": {
-            "fixedValue": true
-          },
-          "dropItemsWhenNotBound": false,
-          "x": 72,
-          "y": 185
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
           "id": 1,
           "disablePickup": {
             "fixedValue": true
           },
           "dropItemsWhenNotBound": false,
           "x": 104,
+          "y": 185
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 72,
           "y": 185
         }
       },
@@ -56,11 +56,26 @@
         }
       },
       {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disablePickup": {
+            "fixedValue": true
+          },
+          "dropItemsWhenNotBound": false,
+          "x": 173,
+          "y": 193
+        }
+      },
+      {
         "type": "imagebutton",
         "data": {
-          "name": "imagebutton_left_click",
-          "image": "left_click.png",
-          "hoveredImage": "left_click_glow.png",
+          "name": "imagebutton_right_click_arrow",
+          "image": "right_click_arrow.png",
+          "hoveredImage": "right_click_glow_arrow.png",
+          "onClick": {
+            "name": "GuiSelectionUseRight"
+          },
           "x": 194,
           "y": 196
         }
@@ -68,9 +83,12 @@
       {
         "type": "imagebutton",
         "data": {
-          "name": "imagebutton_right_click",
-          "image": "right_click.png",
-          "hoveredImage": "right_click_glow.png",
+          "name": "imagebutton_left_click_arrow",
+          "image": "left_click_arrow.png",
+          "hoveredImage": "left_click_glow_arrow.png",
+          "onClick": {
+            "name": "GuiSelectionUseLeft"
+          },
           "x": 162,
           "y": 196
         }

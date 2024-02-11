@@ -10,6 +10,8 @@ import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.balsarystisa.world.inventory.GUICyberwareGeneralMenu;
+import net.mcreator.balsarystisa.network.GUICyberwareGeneralButtonMessage;
+import net.mcreator.balsarystisa.BalsArystisaMod;
 
 import java.util.HashMap;
 
@@ -20,8 +22,8 @@ public class GUICyberwareGeneralScreen extends AbstractContainerScreen<GUICyberw
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	ImageButton imagebutton_left_click;
-	ImageButton imagebutton_right_click;
+	ImageButton imagebutton_right_click_arrow;
+	ImageButton imagebutton_left_click_arrow;
 
 	public GUICyberwareGeneralScreen(GUICyberwareGeneralMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -81,13 +83,21 @@ public class GUICyberwareGeneralScreen extends AbstractContainerScreen<GUICyberw
 	@Override
 	public void init() {
 		super.init();
-		imagebutton_left_click = new ImageButton(this.leftPos + 140, this.topPos + 176, 8, 12, 0, 0, 12, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_left_click.png"), 8, 24, e -> {
+		imagebutton_right_click_arrow = new ImageButton(this.leftPos + 140, this.topPos + 176, 8, 12, 0, 0, 12, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_right_click_arrow.png"), 8, 24, e -> {
+			if (true) {
+				BalsArystisaMod.PACKET_HANDLER.sendToServer(new GUICyberwareGeneralButtonMessage(0, x, y, z));
+				GUICyberwareGeneralButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		});
-		guistate.put("button:imagebutton_left_click", imagebutton_left_click);
-		this.addRenderableWidget(imagebutton_left_click);
-		imagebutton_right_click = new ImageButton(this.leftPos + 108, this.topPos + 176, 8, 12, 0, 0, 12, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_right_click.png"), 8, 24, e -> {
+		guistate.put("button:imagebutton_right_click_arrow", imagebutton_right_click_arrow);
+		this.addRenderableWidget(imagebutton_right_click_arrow);
+		imagebutton_left_click_arrow = new ImageButton(this.leftPos + 108, this.topPos + 176, 8, 12, 0, 0, 12, new ResourceLocation("bals_arystisa:textures/screens/atlas/imagebutton_left_click_arrow.png"), 8, 24, e -> {
+			if (true) {
+				BalsArystisaMod.PACKET_HANDLER.sendToServer(new GUICyberwareGeneralButtonMessage(1, x, y, z));
+				GUICyberwareGeneralButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
 		});
-		guistate.put("button:imagebutton_right_click", imagebutton_right_click);
-		this.addRenderableWidget(imagebutton_right_click);
+		guistate.put("button:imagebutton_left_click_arrow", imagebutton_left_click_arrow);
+		this.addRenderableWidget(imagebutton_left_click_arrow);
 	}
 }

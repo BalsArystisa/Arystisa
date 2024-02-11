@@ -15,6 +15,7 @@ public class GUI_Cyberware_General_UIProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
+		SelectionUseGuiTriggerProcedure.execute(entity);
 		if ((entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Invisible_Camo == true) {
 			if ((entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Invisible_Camo_Tiers == 1) {
 				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
@@ -70,6 +71,35 @@ public class GUI_Cyberware_General_UIProcedure {
 		} else {
 			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 				((Slot) _slots.get(1)).set(ItemStack.EMPTY);
+				_player.containerMenu.broadcastChanges();
+			}
+		}
+		if ((entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware == true) {
+			if ((entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_tier == 1) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_1.get());
+					_setstack.setCount(1);
+					((Slot) _slots.get(2)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if ((entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_tier == 2) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_2.get());
+					_setstack.setCount(1);
+					((Slot) _slots.get(2)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			} else if ((entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Ender_Eye_Cyberware_tier == 3) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+					ItemStack _setstack = new ItemStack(BalsArystisaModItems.ENDER_EYE_CYBERWARE_TIER_3.get());
+					_setstack.setCount(1);
+					((Slot) _slots.get(2)).set(_setstack);
+					_player.containerMenu.broadcastChanges();
+				}
+			}
+		} else {
+			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				((Slot) _slots.get(2)).set(ItemStack.EMPTY);
 				_player.containerMenu.broadcastChanges();
 			}
 		}
