@@ -76,6 +76,7 @@ public class BalsArystisaModVariables {
 				clone.Selection_Use = original.Selection_Use;
 				clone.Ender_Eye_Cyberware_tier = original.Ender_Eye_Cyberware_tier;
 				clone.Ender_Eye_Cyberware = original.Ender_Eye_Cyberware;
+				clone.Ender_Eye_Cyberware_Cooldown = original.Ender_Eye_Cyberware_Cooldown;
 			}
 		}
 	}
@@ -120,6 +121,7 @@ public class BalsArystisaModVariables {
 		public double Selection_Use = 0;
 		public double Ender_Eye_Cyberware_tier = 0;
 		public boolean Ender_Eye_Cyberware = false;
+		public boolean Ender_Eye_Cyberware_Cooldown = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -137,6 +139,7 @@ public class BalsArystisaModVariables {
 			nbt.putDouble("Selection_Use", Selection_Use);
 			nbt.putDouble("Ender_Eye_Cyberware_tier", Ender_Eye_Cyberware_tier);
 			nbt.putBoolean("Ender_Eye_Cyberware", Ender_Eye_Cyberware);
+			nbt.putBoolean("Ender_Eye_Cyberware_Cooldown", Ender_Eye_Cyberware_Cooldown);
 			return nbt;
 		}
 
@@ -151,6 +154,7 @@ public class BalsArystisaModVariables {
 			Selection_Use = nbt.getDouble("Selection_Use");
 			Ender_Eye_Cyberware_tier = nbt.getDouble("Ender_Eye_Cyberware_tier");
 			Ender_Eye_Cyberware = nbt.getBoolean("Ender_Eye_Cyberware");
+			Ender_Eye_Cyberware_Cooldown = nbt.getBoolean("Ender_Eye_Cyberware_Cooldown");
 		}
 	}
 
@@ -184,6 +188,7 @@ public class BalsArystisaModVariables {
 					variables.Selection_Use = message.data.Selection_Use;
 					variables.Ender_Eye_Cyberware_tier = message.data.Ender_Eye_Cyberware_tier;
 					variables.Ender_Eye_Cyberware = message.data.Ender_Eye_Cyberware;
+					variables.Ender_Eye_Cyberware_Cooldown = message.data.Ender_Eye_Cyberware_Cooldown;
 				}
 			});
 			context.setPacketHandled(true);

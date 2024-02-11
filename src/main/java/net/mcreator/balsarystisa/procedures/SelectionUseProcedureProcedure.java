@@ -13,7 +13,7 @@ public class SelectionUseProcedureProcedure {
 			InvisibleCamoUseProcedure.execute(world, entity);
 		}
 		if (1 == (entity.getCapability(BalsArystisaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new BalsArystisaModVariables.PlayerVariables())).Selection_Use) {
-			EnderEyeCyberwareUseProcedure.execute(entity);
+			EnderEyeCyberwareUseProcedure.execute(world, entity);
 		}
 	}
 }

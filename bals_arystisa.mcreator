@@ -3627,6 +3627,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -4178,6 +4182,30 @@
         ]
       },
       "path": "~/SirRacaillou/GUI_Cyberware"
+    },
+    {
+      "name": "EnderEyeCyberwareCooldown",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_eye_cyberware_cooldown",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/balsarystisa/procedures/EnderEyeCyberwareCooldownProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/SirRacaillou/Cyberware/ Procedure_Cyberware"
     }
   ],
   "variable_elements": [
@@ -4234,6 +4262,12 @@
       "type": "logic",
       "scope": "player_lifetime",
       "value": "false"
+    },
+    {
+      "name": "Ender_Eye_Cyberware_Cooldown",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -4268,8 +4302,8 @@
       "item.bals_arystisa.baguette_axe": "Baguette Axe",
       "item.bals_arystisa.respiration_medaillon": "Respiration Medaillon",
       "item.bals_arystisa.nano_technologie_ingot": "NanoTechnologie Ingot",
-      "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.white_phosphorus_block": "White Phosphorus Block",
+      "item.bals_arystisa.amber": "Amber Gemmy",
       "block.bals_arystisa.nano_block": "Nano Block",
       "key.bals_arystisa.selection_use": "Selection Use",
       "item.bals_arystisa.black_phosphorus_ore": "Black Phosphorus Ore",
